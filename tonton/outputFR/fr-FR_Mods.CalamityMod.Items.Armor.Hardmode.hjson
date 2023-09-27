@@ -1,0 +1,568 @@
+
+  AstralBreastplate:
+  {
+    DisplayName: Plastron Astral
+    Tooltip:
+      '''
+      +80 mana maximum et +20 vie maximum
+      Détection des ennemis
+      '''
+  }
+  AstralHelm:
+  {
+    DisplayName: Casque Astral
+    Tooltip: Affiche les sources de danger
+    SetBonus:
+      '''
+      +5% de vitesse de mouvement +3 emplacements de sbires
+      +35% de dégâts et +25% de chances de coup critique
+      Quand vous effectuez un coup critique, une barrage d'étoile pleuvra
+      Cet effet ne peut se produire qu'une fois par seconde
+      '''
+  }
+  AstralLeggings:
+  {
+    DisplayName: Pantalon Astral
+    Tooltip:
+      '''
+      +10% de vitesse de mouvement
+      Détection des trésors et des minerais
+      '''
+  }
+  BrimflameBoots:
+  {
+    DisplayName: Bottes Flamesoufre
+    Tooltip:
+      '''
+      +5% de dégâts magiques
+      +5% de vitesse de mouvement
+      '''
+  }
+  BrimflameRobes:
+  {
+    DisplayName: Robes de Flammesoufre
+    Tooltip: +5% de dégâts et de chance de coup critique magique
+  }
+  BrimflameScowl:
+  {
+    DisplayName: Cagoule Flammesoufre
+    Tooltip:
+      '''
+      +5% de dégâts et de chances de coup critique magique
+      Augmente le mana maximum de 70 et réduit les coûts en mana de 10%
+      Immunité à la brûlure, les flammes de soufres et le brûlegivre
+      '''
+    SetBonus:
+      '''
+      +15% dégâts et chance de coup critique magique
+      Appuyez sur {0} pour déclencher une frénésie flammesoufre
+      Durant la frénésie, vous gagnez +40% de dégâts magiques
+      En revanche, vous perdez rapidement de la vie et vous ne régénérez plus naturellement votre mana
+      La frénésie peut être désactivée, mais déclenche un temps de recharge de 30s
+      '''
+  }
+  CirrusDress:
+  {
+    DisplayName: Robe de Cirrus
+    Tooltip:
+      '''
+      +5% de dégâts et de chances de coup critique magique
+      -20% de vitesse de mouvement et augmente la vitesse de chute maximale
+      [c/B00BA5:'Tiens, ca devrait t'aider à boire plus que d'habitude!']
+      'Tu te sens épais...'
+      '''
+  }
+  DaedalusBreastplate:
+  {
+    DisplayName: Plastron de Dédale
+    Tooltip: +3% de dégâts et de chances de coup critique
+  }
+  DaedalusHeadMagic:
+  {
+    DisplayName: Capuche de Dédale
+    Tooltip:
+      '''
+      +13% de dégâts magiques et +7% de chances de coup critique magiques
+      -10% de coût en mana et +60 mana maximum
+      '''
+    SetBonus:
+      '''
+      +5% aux dégâts magiques
+      Vous avez 10% de chances d'absorber les dégâts physiques et les projectiles quand vous êtes touché
+      Si vous absorbez une attaque, vous serez soigné de la moitié des dégâts de cette attaque
+      '''
+  }
+  DaedalusHeadMelee:
+  {
+    DisplayName: Heaume de Dédale
+    Tooltip:
+      '''
+      +15% de dégâts de mêlée
+      +10% de chances de coup critique en mêlée
+      '''
+    SetBonus:
+      '''
+      +10% de vitesse de mêlée
+      Les ennemis ont plus de chances de vous cibler
+      Vous renvoyez les projectiles aux ennemis
+      Les projectiles renvoyés vous inflige moitié moins de dégâts
+      Cet effet à un temps de recharge de 90 secondes, commun avec les autres effets similaires
+      '''
+  }
+  DaedalusHeadRanged:
+  {
+    DisplayName: Coiffe de Dédale
+    Tooltip:
+      '''
+      +13% de dégâts à distance et +7% de chances de coup critique à distance
+      Réduit la consommation de munitions de 20%
+      '''
+    SetBonus:
+      '''
+      +5% de dégâts à distance
+      Être touché vous fait emettre une explosion d'éclats cristallins
+      '''
+  }
+  DaedalusHeadRogue:
+  {
+    DisplayName: Masque de Visage de Dédale
+    Tooltip:
+      '''
+      +13% de dégâts de voleur and +7% de chances de coup critique de voleur
+      +15% de vélocité des projectiles de voleur et +5% de vitesse de mouvement
+      '''
+    SetBonus:
+      '''
+      +5% de dégâts de voleur
+      +105 furtivité maximum
+      Les projectiles de voleur jettent des éclats de cristaux sur leur trajectoire
+      '''
+  }
+  DaedalusHeadSummon:
+  {
+    DisplayName: Masque de Dédale
+    Tooltip: +5% de dégâts d'invocation
+    SetBonus:
+      '''
+      +20% de dégâts d'invocation et +2 sbires max
+      Un dédale de cristal flotte au-dessus de vous pour vous protéger
+      '''
+  }
+  DaedalusLeggings:
+  {
+    DisplayName: Jambières de Dédale
+    Tooltip:
+      '''
+      +3% de chances de coup critique
+      +10% de vitesse de mouvement
+      '''
+  }
+  FathomSwarmerBoots:
+  {
+    DisplayName: Grèves d'Essaim de Brasse
+    Tooltip:
+      '''
+      +4% de dégâts d'invocation
+      Permet de nager
+      +40% de vitesse de mouvement quand vous êtes submergé.
+      '''
+  }
+  FathomSwarmerBreastplate:
+  {
+    DisplayName: Plastron d'Essaim de Brasse
+    Tooltip:
+      '''
+      +6% de réduction de dégâts
+      +6% de dégâts d'invocation
+      Défense et régénération de vie augmentée quand vous êtes submergé
+      Réduit la perte de défense dans les Abysses
+      '''
+  }
+  FathomSwarmerVisage:
+  {
+    DisplayName: Visage d'Essaim de Brasse
+    Tooltip:
+      '''
+      +5% de dégâts d'invocation
+      Éclaire et permet de respirer sous l'eau
+      '''
+    SetBonus:
+      '''
+      +10% de dégâts d'invocation et +2 sbires max
+      Permet de grimper aux murs
+      +30% de dégâts d'invocation quand vous êtes submergé
+      Fournit une quantité modérée de lumière et d'oxygène dans les Abysses
+      '''
+  }
+  ForbiddenCirclet:
+  {
+    DisplayName: Bandeau Interdit
+    Tooltip: +10% de dégâts d'invocation et +15% de vitesse des projectiles de voleur
+    SetBonus:
+      '''
+      +40 furtivité maximum
+      Appuyez sur {0} pour appeler une ancienne tempête sur votre curseur
+      L'ancienne tempête coûte {1} mana et profite des bonus d'invocation et de voleur
+      Les attaques furtives de voleur génèrent des mangeurs à tête chercheuse quand ils touchent
+      Les attaques de voleur et d'invocation prennent en compte la statistique la plus élevée des deux
+      '''
+  }
+  HydrothermicArmor:
+  {
+    DisplayName: Armure Hydrothermique
+    Tooltip:
+      '''
+      +20 vie maximum
+      +8% de dégâts supplémentaires et +4% de chances de coup critique
+      '''
+    CommonSetBonus:
+      '''
+      Effet de la potion infernale quand vous êtes en-dessous de 50% points de vie
+      Vous emettez une explosion quand vous êtes touché
+      '''
+  }
+  HydrothermicHeadMagic:
+  {
+    DisplayName: Masque Hydrothermique
+    Tooltip:
+      '''
+      +12% dégâts magiques, +100 mana maximum, et +10% chances de coup critique magique
+      Immunise au feu et à la lave
+      '''
+    SetBonus:
+      '''
+      5% dégâts magiques et +15% de réduction du coût en mana
+      Les attaques magiques invoquent des orbes incandescentes de dégâts et de soin quand vous touchez
+      '''
+  }
+  HydrothermicHeadMelee:
+  {
+    DisplayName: Heaume Hydrothermique
+    Tooltip:
+      '''
+      +17% de dégâts en mêlée et +10% de chances de coup critique en mêlée
+      Les attaques et projectiles en mêlée infligent la brûlure
+      Immunise au feu et à la lave
+      '''
+    SetBonus:
+      '''
+      +15% de vitesse en mêlée
+      Les ennemis ont plus de chances de vous cibler
+      Les attaques et les projectiles de mêlée provoquent des éruptions de flammes chaotiques quand vous touchez
+      '''
+  }
+  HydrothermicHeadRanged:
+  {
+    DisplayName: Couvre-chef Hydrothermique
+    Tooltip:
+      '''
+      +12% de dégâts à distance et +10% de chances de coup critique à distance
+      Réduit l'utilisation des munitions de 25%
+      Immunise au feu et à la lave
+      '''
+    SetBonus:
+      '''
+      +5% de dégâts à distance
+      Vous tirez une déflagration chaotique à tête chercheuse avec vos armes à distance 3 fois par seconde
+      '''
+  }
+  HydrothermicHeadRogue:
+  {
+    DisplayName: Capuche Hydrothermique
+    Tooltip:
+      '''
+      +12% de dégâts de voleur et +10% de chances de coup critique de voleur
+      50% de chances de ne pas consommer les objets de voleur et +5% de vitesse de mouvement
+      Immunise au feu et à la lave
+      '''
+    SetBonus:
+      '''
+      +5% de dégâts de voleur
+      +110 furtivité maximum
+      Les armes de voleur relâchent une volée de flammes chaotiques a tête chercheuse autour du joueur toutes les 2,5 secondes
+      '''
+  }
+  HydrothermicHeadSummon:
+  {
+    DisplayName: Casque Hydrothermique
+    Tooltip:
+      '''
+      +5% de dégâts d'invocation et de recul des sbires
+      Immunise au feu et à la lave
+      '''
+    SetBonus:
+      '''
+      +40% de dégâts d'invocation et +2 emplacements de sbires
+      Invoque une aération hydrothermique pour vous protéger
+      '''
+  }
+  HydrothermicSubligar:
+  {
+    DisplayName: Caleçon Hydrothermique
+    Tooltip:
+      '''
+      +5% de chances de coup critique
+      +10% de vitesse de mouvement
+      '''
+  }
+  LunicCorpsBoots:
+  {
+    DisplayName: Bottes de Compagnie Lunaire
+    Tooltip:
+      '''
+      +15% de vitesse de mouvement
+      +4% de chances de coup critique à distance
+      +10% de vitesse maximum et d'accélération
+      '''
+  }
+  LunicCorpsHelmet:
+  {
+    DisplayName: Casque de Compagnie Lunaire
+    Tooltip:
+      '''
+      +12% de dégâts à distance
+      Vision nocturne et détection des ennemis
+      '''
+    SetBonus:
+      '''
+      'Finissez le combat'
+      Accorde un bouclier d'énergie qui absorbe jusqu'a 70 dégâts
+      Le bouclier se recharge en dix secondes après s'être épuisé
+      Se faire toucher pendant le temps de recharge du bouclier ramènera sa charge à 0
+      +10% de dégâts des balles
+      +10% de dégâts à distance spécialisés
+      Cela concerne tout ce qui ne tire pas de balles ou de flèches
+      +20% de vitesse de saut
+      '''
+  }
+  LunicCorpsVest:
+  {
+    DisplayName: Veste de Compagnie Lunaire
+    Tooltip:
+      '''
+      +3% de dégâts à distance
+      +11% de chances de coup critique à distance
+      '''
+  }
+  MolluskShelleggings:
+  {
+    DisplayName: Pantalon de Mollusque
+    Tooltip:
+      '''
+      +12% de dégâts et +4% de chances de coup critique
+      -7% de vitesse de mouvement
+      '''
+  }
+  MolluskShellmet:
+  {
+    DisplayName: Casque Mollusque
+    Tooltip:
+      '''
+      +5% de dégâts et +4% de chances de coup critique
+      Vous pouvez vous déplacer librement dans les liquides
+      '''
+    SetBonus:
+      '''
+      Deux crevettes vous aident au combat
+      +10% de dégâts
+      Votre vitesse verticale est ralentie
+      '''
+  }
+  MolluskShellplate:
+  {
+    DisplayName: Plastron Mollusque
+    Tooltip:
+      '''
+      +10% de dégâts et +6% de chances de coup critique
+      -15% de vitesse de mouvement
+      '''
+  }
+  PlaguebringerCarapace:
+  {
+    DisplayName: Carapace du Colporte-Peste
+    Tooltip:
+      '''
+      Immunise à la peste
+      +12% de dégâts d'invocation
+      Les abeilles amicales infligent la peste
+      '''
+  }
+  PlaguebringerPistons:
+  {
+    DisplayName: Pistons du Colporte-Peste
+    Tooltip:
+      '''
+      +13% de dégâts d'invocation et +15% de vitesse de mouvement
+      Des fleurs poussent sur l'herbe que vous foulez, avec une chance de faire pousser des plantes à teinture sur la terre
+      Vous crées des abeilles en sprintant ou en fonçant
+      '''
+  }
+  PlaguebringerVisor:
+  {
+    DisplayName: Viseur du Colporte-Peste
+    Tooltip:
+      '''
+      +15% dégâts d'invocation
+      +20 vie maximum
+      '''
+    SetBonus:
+      '''
+      Accorde une charge pestilentielle qui traverse les ennemis sans vous endommager
+      Invoque un ptit colporte-peste pour vous protéger et améliorer les sbires proches.
+      +3 sbires max
+      '''
+  }
+  PlagueReaperMask:
+  {
+    DisplayName: Masque du Faucheur de Peste
+    Tooltip: +10% de dégâts à distance et +8% de chances de coup critique à distance
+    SetBonus:
+      '''
+      +25% d'économie de munitions et +5% de temps de vol
+      Les ennemis subissent 10% de dégâts à distance supplémentaire s'ils sont touchés par la peste
+      Être touché provoque une pluie de cendre pestilentielle
+      Appuyez sur {0} pour vous aveugler pendant 5 secondes, mais augmenter sensiblement vos dégâts
+      Cet effet à 25 secondes de temps de recharge.
+      '''
+  }
+  PlagueReaperStriders:
+  {
+    DisplayName: Marcheurs du Faucheur de Peste
+    Tooltip:
+      '''
+      +3% de chances de coup critique
+      +15% de vitesse de mouvement
+      '''
+  }
+  PlagueReaperVest:
+  {
+    DisplayName: Veste du Faucheur de Peste
+    Tooltip:
+      '''
+      Réduit les dégâts que vous inflige la peste
+      +15% de dégâts à distance et +5% de chances de coup critique
+      '''
+  }
+  ReaverCuisses:
+  {
+    DisplayName: Cuissardes de Saccageur
+    Tooltip:
+      '''
+      +5% de chances de coup critique
+      +12% de vitesse de mouvement
+      '''
+  }
+  ReaverHeadExplore:
+  {
+    DisplayName: Couvre-Chef du Saccageur
+    Tooltip:
+      '''
+      +20% de vitesse de minage et de construction
+      Immunise à la lave et permet de se déplacer librement dans les liquides
+      '''
+    SetBonus:
+      '''
+      Détection des trésorsHighlights all treasure nearby
+      Augmentation de la portée de ramassage et de placement des blocs
+      Miner des blocs sous l'eau rend de l'oxygène
+      Invoque une orbe de massacreur pour vous éclairer
+      Réduit l'agressivité des ennemis, même dans les abysses
+      Accorde une petite quantité de lumière dans les abysses
+      '''
+  }
+  ReaverHeadMobility:
+  {
+    DisplayName: Visage de Saccageur
+    Tooltip: +10% de vitesse de saut et +15% de vitesse de mouvement
+    SetBonus:
+      '''
+      Immunise au dégâts de chute et permet le saut automatique
+      +10% de temps de vol et de vitesse de vol horizontale
+      Les grappins se tirent et se rétractent 10% plus vite
+      Réduit le temps de recharge des charges
+      '''
+  }
+  ReaverHeadTank:
+  {
+    DisplayName: Heaume du Saccageur
+    Tooltip:
+      '''
+      +15% de réduction de dégâts mais réduit vos dégâts de 30%
+      +50 vie maximum
+      Régénère un point de vie par seconde
+      '''
+    SetBonus:
+      '''
+      +10 défense et +3 régénération de vie
+      Les ennemis ont plus de chances de vous cibler
+      Réduit la perte de régénération de vie par les altérations d'états de 20%
+      Toutes les attaques ont une faible chance de voler de la vie et d'accelérer la régénération de vie
+      Réduit de 20% le temps de vol et la vitesse de déplacement
+      Les dégâts ennemis sont réfléchis et invoquent une pointe épineuse
+      25% d'activer la rage du saccageur quand vous êtes endommagé
+      '''
+  }
+  ReaverScaleMail:
+  {
+    DisplayName: Cotte de Mailles du Saccageur
+    Tooltip:
+      '''
+      +9% de dégâts et +4% de chances de coup critique
+      +20 vie maximum
+      '''
+  }
+  TitanHeartBoots:
+  {
+    DisplayName: Bottes du Coeur de Titan
+    Tooltip: +4% de dégâts de voleur, +10% vitesse des projectiles de voleur, et +5% de recul de voleur
+  }
+  TitanHeartMantle:
+  {
+    DisplayName: Manteau du Coeur de Titan
+    Tooltip:
+      '''
+      45% de chances de ne pas consommer les armes de voleur
+      +5% de recul de voleur mais la vitesse de tir de voleur est réduite de 15%
+      '''
+  }
+  TitanHeartMask:
+  {
+    DisplayName: Masque du Coeur de Titan
+    Tooltip:
+      '''
+      +5% de dégâts et de recul de voleur
+      Les armes de voleur infligent l'infection astrale
+      '''
+    SetBonus:
+      '''
+      +15% de dégâts de voleur et de recul
+      +100 furtivité maximum
+      Les attaques furtives infligent deux fois plus de recul et provoque une explosion astrale
+      Immunise au recul
+      '''
+  }
+  UmbraphileBoots:
+  {
+    DisplayName: Bottes Umbraphiles
+    Tooltip:
+      '''
+      +9% de dégâts de voleur et +6% de chances de coup critique de voleur
+      +20% de vitesse de mouvement
+      '''
+  }
+  UmbraphileHood:
+  {
+    DisplayName: Capuche Umbraphile
+    Tooltip: +8% de dégats de voleur et +10% de vitesse des projectiles de voleur
+    SetBonus:
+      '''
+      +110 furtivité maximum
+      Les armes de voleur ont une chance de créer une explosion quand elles touchent
+      Les attaques furtives créent toujours une explosion
+      '''
+  }
+  UmbraphileRegalia:
+  {
+    DisplayName: Regalia Umbraphile
+    Tooltip: +10% de dégâts et de chances de coup critique de voleur
+  }

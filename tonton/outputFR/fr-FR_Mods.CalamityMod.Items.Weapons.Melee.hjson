@@ -1,0 +1,1406 @@
+
+  AbsoluteZero:
+  {
+    DisplayName: Zéro Absolu
+    Tooltip:
+      '''
+      Shoots dark ice crystals
+      The blade creates frost explosions on direct hits
+      Ancient blade imbued with the Archmage of Ice's magic
+      '''
+  }
+  AbyssBlade:
+  {
+    DisplayName: Lame Abyssale
+    Tooltip:
+      '''
+      Tire des tridents a courte portée
+      Toucher les ennemis leur infligera l'écrasement des profondeurs
+      Au plus la défense des ennemis est faible, au plus ils prennent des dégâts de l'écrasement
+      '''
+  }
+  AegisBlade:
+  {
+    DisplayName: Lame d'Égide
+    Tooltip:
+      '''
+      Striking an enemy with the blade causes an earthen eruption
+      Press <right> to fire an aegis bolt
+      '''
+  }
+  Aftershock:
+  {
+    DisplayName: Réplique Sismique
+    Tooltip: Invoque des rochers depuis le ciel quand vous touchez les ennemis
+  }
+  AirSpinner:
+  {
+    DisplayName: Spinner Aérien
+    Tooltip:
+      '''
+      Tire des plumes à proximité des ennemis
+      Un yoyo très agile
+      '''
+  }
+  AmidiasTrident:
+  {
+    DisplayName: Trident d'Amidias
+    Tooltip: Tire des tourbillons à tête chercheuse
+  }
+  AnarchyBlade:
+  {
+    DisplayName: Lame d'Anarchie
+    Tooltip:
+      '''
+      The lower your life the more damage this blade does
+      Your hits will generate a large explosion
+      While below 50% life your hits have a chance to instantly kill regular enemies
+      '''
+  }
+  Aorta:
+  {
+    DisplayName: Aorte
+    Tooltip:
+      '''
+      Tire du sang qui pourchasse les ennemis quand ils sont proches
+      Un yoyo très agile
+      '''
+  }
+  AquaticDischarge:
+  {
+    DisplayName: Décharge Aquatique
+    Tooltip: Les ennemis relâchent des étincelles électriques quand ils sont touchés
+  }
+  ArkoftheCosmos:
+  {
+    DisplayName: Arche du Cosmos
+    Tooltip:
+      '''
+      [COMBO]
+      [PARRY]
+      [BLAST]
+      The physical culmination of your journey, capable of rending gods asunder
+      '''
+    ComboInfo:
+      '''
+      <left> to perform a 5-swing combo that ends by throwing the blade
+      The thrown blade will follow your cursor
+      Releasing while the blade is out will cause an exploding snap
+      '''
+    ParryInfo:
+      '''
+      <right> to snip out the scissor blades in front of you
+      Hitting an enemy with it will parry them, granting you brief invulnerability
+      You can parry projectiles to make them deal 160 less damage for a short period
+      Parrying anything will empower the next 10 swings of the sword
+      '''
+    BlastInfo:
+      '''
+      Pressing <right> while holding UP with empowered charges will provoke a Big Rip in spacetime and use all charges
+      If more than 5 charges were used, you can dash across the rip by holding UP
+      '''
+  }
+  ArkoftheElements:
+  {
+    DisplayName: Arche des Élements
+    Tooltip:
+      '''
+      [COMBO]
+      [PARRY]
+      [BLAST]
+      A heavenly pair of blades infused with the essence of Terraria, powerful enough to cut through the fabric of reality
+      '''
+    ComboInfo:
+      '''
+      <left> to perform a 5-swing combo that ends by throwing the blade
+      Releasing while the blade is out will deal extra damage and give 2 charges
+      '''
+    ParryInfo:
+      '''
+      <right> to snip out the scissor blades in front of you
+      Hitting an enemy with it will parry them, granting you brief invulnerability
+      You can parry projectiles to make them deal 100 less damage for a short period
+      Parrying will empower the next 10 swings of the sword, letting you use both blades at once
+      '''
+    BlastInfo:
+      '''
+      Pressing <right> while holding UP with empowered charges will provoke a Big Rip in spacetime and use all charges
+      If more than 5 charges were used, you can dash across the rip by holding UP
+      '''
+  }
+  AstralBlade:
+  {
+    DisplayName: Lame Astrale
+    Tooltip:
+      '''
+      Inflige plus de dégâts aux ennemis en fonction de leur vie
+      Moins les ennemis sont blessés, plus les dégâts sont augmentés
+      '''
+  }
+  AstralPike:
+  {
+    DisplayName: Pique Astrale
+    Tooltip: Invoque des essaims d'étoiles astrales en cas de coup critique
+  }
+  AstralScythe:
+  {
+    DisplayName: Faux Astrale
+    Tooltip: Tire un anneau de faux qui accélère au fur et à mesure
+  }
+  Ataraxia:
+  {
+    DisplayName: Ataraxie
+    Tooltip: Équanimité
+  }
+  Avalanche:
+  {
+    DisplayName: Avalanche
+    Tooltip: Invoque des bombes de glace qui explosent après trois secondes, avec des éclats de glace si elles touchent
+  }
+  Azathoth:
+  {
+    DisplayName: Azathoth
+    Tooltip:
+      '''
+      Fires cosmic orbs that blast nearby enemies with lasers
+      An exceptionally agile yoyo
+      'Destroy the universe in the blink of an eye'
+      '''
+  }
+  BalefulHarvester:
+  {
+    DisplayName: Récolteur Maléfique
+    Tooltip: Tire des crânes et des citrouilles enflammées qui se divisent en orbes de feu qui pourchassent les ennemis quand vous touchez
+  }
+  BallOFugu:
+  {
+    DisplayName: Balle de Fugu
+    Tooltip: Lance un poisson qui crache des épines à tête chercheuse
+  }
+  BansheeHook:
+  {
+    DisplayName: Crochet Banshee
+    Tooltip: Balance un crochet banshee qui tire des lames et explose au contact
+  }
+  Basher:
+  {
+    DisplayName: Défonceur
+    Tooltip: Inflige l'irradiation quand vous touchez
+  }
+  BladecrestOathsword:
+  {
+    DisplayName: Épée-Serment du Blason-Lame
+    Tooltip: Fires bursts of demonic blades that exponentially decelerate and explode
+  }
+  Bonebreaker:
+  {
+    DisplayName: Brise-Os
+    Tooltip: Tire des javelots qui se plantent dans les ennemis avant d'exploser en éclats
+  }
+  Brimlance:
+  {
+    DisplayName: soufrelance
+    Tooltip: Les ennemis tués par la lance explosent dans des flammes de soufre
+  }
+  Brimlash:
+  {
+    DisplayName: Fouette-Soufre
+    Tooltip: Tire une décharge de soufre qui explose en plus de décharges
+  }
+  BrimstoneSword:
+  {
+    DisplayName: Épée de soufre
+    Tooltip:
+      '''
+      Summons brimstone geysers on hit
+      Press <right> to throw the sword like a javelin that explodes on hit
+      '''
+  }
+  BrinyBaron:
+  {
+    DisplayName: Baron Salé
+    Tooltip:
+      '''
+      Striking an enemy with the blade causes a briny typhoon to appear
+      Press <right> to fire a razorwind aqua blade
+      '''
+  }
+  BrokenBiomeBlade:
+  {
+    DisplayName: Lame de Biome Brisée
+    Tooltip:
+      '''
+      [FUNC]
+      Hold down <right> while standing still on flat ground to attune the weapon to the powers of the surrounding biome
+      Pressing <right> otherwise switches between the current attunement and an extra stored one
+      Main Attunement : [ATT1]
+      Secondary Attunement: [ATT2]
+      '''
+    DefaultFunction: Does nothing... yet
+  }
+  BurntSienna:
+  {
+    DisplayName: Sienne Brulée
+    Tooltip: Les ennemis explosent en orbes de vie quand ils meurent
+  }
+  Carnage:
+  {
+    DisplayName: Carnage
+    Tooltip: Les ennemis explosent en du sang à tête chercheuse quand ils meurent
+  }
+  CatastropheClaymore:
+  {
+    DisplayName: Claymore de Catastrophe
+    Tooltip: Fires sparkles which inflict Frostbite, Hellfire, or Ichor
+  }
+  TaintedBlade:
+  {
+    DisplayName: Tainted Blade
+    Tooltip: Inflicts poison on enemy hits
+  }
+  CelestialClaymore:
+  {
+    DisplayName: Claymore Céleste
+    Tooltip: Fait apparaître des flammes d'énergie cosmique près du joueur qui génèrent de larges explosions
+  }
+  ClamCrusher:
+  {
+    DisplayName: Écraseur de Palourde
+    Tooltip:
+      '''
+      Lance une énorme palourde qui stoppe les ennemis un court moment
+      Commence a être affecté par la gravité et fait bien plus de dégâts après avoir été en l'air un moment
+      '''
+  }
+  CometQuasher:
+  {
+    DisplayName: Casseur de Comète
+    Tooltip: Invoque une nuée de météores depuis les cieux quand vous touchez
+  }
+  CosmicDischarge:
+  {
+    DisplayName: Décharge Cosmique
+    Tooltip:
+      '''
+      Frapper un ennemi avec le fouet provoque des explosions glaciales et octroie l'amélioration de gel cosmique au joueur
+      Cette amélioration augmente la régénération de vie quand vous êtes immobile et gèle les ennemis proches du joueur
+      '''
+  }
+  CosmicShiv:
+  {
+    DisplayName: Surin Cosmique
+    Tooltip:
+      '''
+      Fires a cosmic beam that homes in on enemies
+      Upon hitting an enemy, a barrage of offscreen objects home in on the enemy as well as raining stars
+      '''
+  }
+  CrescentMoon:
+  {
+    DisplayName: Lune en Croissant
+    Tooltip:
+      '''
+      Fires a whip sword that summons homing crescent moons
+      'People wanted the moon, let's bring the moon to them'
+      '''
+  }
+  DarklightGreatsword:
+  {
+    DisplayName: Espadon d'Ombrelumière
+    Tooltip: Tire des lames d'ombrelumière qui se divisent quand elles disparaîssent
+  }
+  DeathsAscension:
+  {
+    DisplayName: Ascension de la Mort
+    Tooltip:
+      '''
+      Press <right> to launch a barrage of homing scythes
+      You can feel the hands of Death himself onto yours
+      '''
+  }
+  DepthCrusher:
+  {
+    DisplayName: Écraseur des Profondeurs
+    Tooltip:
+      '''
+      Hitting enemies will inflict the crush depth debuff
+      The lower the enemies' defense, the more damage they take from this debuff
+      Press <right> to use without hammering down walls
+      '''
+  }
+  Devastation:
+  {
+    DisplayName: Dévastation
+    Tooltip: Fires galaxy blasts that explode
+  }
+  DevilsDevastation:
+  {
+    DisplayName: Dévastation du Diable
+    Tooltip:
+      '''
+      Fires a spread of demonic scythes
+      Pitchforks rise from the underworld to skewer your foes
+      Critical hits cause shadowflame explosions
+      '''
+  }
+  DevilsSunrise:
+  {
+    DisplayName: Soleil Démoniaque
+    Tooltip: Tu joues aux billes ?.
+  }
+  DiseasedPike:
+  {
+    DisplayName: Pique Malade
+    Tooltip: Tire des cherches-peste quand vous touchez
+  }
+  DraconicDestruction:
+  {
+    DisplayName: Destruction Draconique
+    Tooltip:
+      '''
+      Tire une rayon d'épée draconique qui explose en plus de rayons
+      Les rayons additionnels volent en haut et en bas pour déchirer les ennemis
+      '''
+  }
+  DragonPow:
+  {
+    DisplayName: Impact Draconique
+    Tooltip:
+      '''
+      Tire une tête de dragon qui relâche des étincelles draconiques
+      Invoque un barrage de pétales et de cascades quand vous touchez
+      '''
+  }
+  DragonRage:
+  {
+    DisplayName: Rage du Dragon
+    Tooltip:
+      '''
+      Fait virevolter un bâton qui provoque des explosions en touchant les ennemis
+      Invoque un anneau de boule de feu tout les dix coups portés
+      '''
+  }
+  Earth:
+  {
+    DisplayName: Terre
+    Tooltip:
+      '''
+      Réduit la défense des ennemis de 1 quand vous les frappez
+      Vos attaques vous soigneront énormément
+      Fait pleuvoir des météores RVB qui explosent en plus de météores après un court moment quand elles touchent les ennemis
+      Les météores de glace gèlent les ennemis
+      Les météores de feu explosent
+      Les météores verts créent des orbes de soin
+      '''
+  }
+  EarthenPike:
+  {
+    DisplayName: Pique Terrestre
+    Tooltip:
+      '''
+      Sprays fossil shards on swing
+      Crushes enemy defenses
+      '''
+  }
+  ElementalLance:
+  {
+    DisplayName: Lance des Élements
+    Tooltip:
+      '''
+      Fires a lance beam that splits multiple times as it travels
+      'Rend the cosmos asunder!'
+      '''
+  }
+  ElementalShiv:
+  {
+    DisplayName: Surin des Élements
+    Tooltip: Shoots a rainbow shiv that spawns additional shivs on hit
+  }
+  EmpyreanKnives:
+  {
+    DisplayName: Couteaux Empyréens
+    Tooltip: Lance une myriade de couteaux rebondissants qui soignent l'utilisateur
+  }
+  EntropicClaymore:
+  {
+    DisplayName: Claymore Entropique
+    Tooltip: Tire une volée de boules de plasma à tête chercheuse
+  }
+  EssenceFlayer:
+  {
+    DisplayName: Écorcheur d'Essence
+    Tooltip: Tire une faux d'essence qui génère des esprits soigneurs quand vous tuez un ennemi
+  }
+  EutrophicScimitar:
+  {
+    DisplayName: Scimitar Eutrophique
+    Tooltip: Tire deux rayons qui stoppent les ennemis
+  }
+  EvilSmasher:
+  {
+    DisplayName: Destructeur du Mal
+    Tooltip:
+      '''
+      For every enemy you kill this hammer gains stat bonuses
+      These bonuses stack until a cap is reached
+      The bonus stacks will reset if you select a different item
+      The bonus stacks will be reduced by 1 every time you get hit
+      'EViL! sMaSH eVIl! SmAsh... ER!'
+      '''
+  }
+  ExaltedOathblade:
+  {
+    DisplayName: Exalted Oathblade
+    Tooltip: Fires a spread of demonic scythes and critical hits cause shadowflame explosions
+  }
+  Excelsus:
+  {
+    DisplayName: Excelsus
+    Tooltip:
+      '''
+      Tire une étendue de lames tournoyantes
+      Invoque des fontaines de lasers quand vous touchez
+      '''
+  }
+  Exoblade:
+  {
+    DisplayName: Exolame
+    Tooltip:
+      '''
+      Press <left> to release multiple energy beams that home in on enemies and slice them on hit
+      Press <right> to dash in the direction of the cursor with the blade
+      Enemy hits from the blade during the dash result in massive damage and a rebound
+      Press <left> immediately after a rebound to perform a powerful slash that explodes on enemy hits
+      '''
+  }
+  FallenPaladinsHammer:
+  {
+    DisplayName: Triactis, le Marteau-Mage de Puissance du Vrai Paladinien
+    Tooltip:
+      '''
+      Throws a heavy, gravity-affected hammer that will return to you after striking an enemy
+      After returning three times, a homing spectral hammer is summoned with devastating impact
+      '''
+  }
+  FaultLine:
+  {
+    DisplayName: Ligne Fautive
+    Tooltip:
+      '''
+      Explose en touchant les ennemis
+      Un yoyo très agile
+      '''
+  }
+  FeralthornClaymore:
+  {
+    DisplayName: Claymore Féralépine
+    Tooltip: Invoque des épines quand vous touchez
+  }
+  FlarefrostBlade:
+  {
+    DisplayName: Lame de Givrefeu
+    Tooltip: Tire une orbe de givrefeu à tête chercheuse
+  }
+  Floodtide:
+  {
+    DisplayName: Vaguinondation
+    Tooltip: Lance des requins, parce que les requins c'est génial!
+  }
+  ForbiddenOathblade:
+  {
+    DisplayName: Lame-Serment Interdite
+    Tooltip: Tire une faux démoniaque et les coups critiques créent des explosions d'ombreflamme
+  }
+  ForsakenSaber:
+  {
+    DisplayName: Sabre Abandonné
+    Tooltip: Shoots two sand blades that alter their velocity as they travel
+  }
+  FourSeasonsGalaxia:
+  {
+    DisplayName: Galaxia
+    Tooltip:
+      '''
+      [FUNC]
+      [PASS]
+      Freed from earthly shackles and coursing with cosmic power
+      Has access to all of the attunements at all times
+      Press <right> to cycle the sword's attunement depending on the cursor's position
+      Active Attunement : [ATT]
+      Passive Blessing : [BLE]
+      '''
+  }
+  FracturedArk:
+  {
+    DisplayName: Arche fracturée
+    Tooltip:
+      '''
+      [PARRY]
+      A worn down and rusty blade once wielded against the evil of this world, ready to be of use once more
+      '''
+    ParryInfo:
+      '''
+      <right> to extend the Ark out in front of you
+      Hitting an enemy with it will parry them, granting you a small window of invulnerability
+      You can also parry projectiles and temporarily make them deal 50 less damage
+      Parrying empowers the next 10 swings of the sword, boosting damage and letting them throw projectiles
+      '''
+  }
+  GaelsGreatsword:
+  {
+    DisplayName: Espadon de Gaël
+    Tooltip:
+      '''
+      First swing fires homing skulls
+      Second swing fires a giant, powerful skull
+      Third swing has no projectiles
+      Constantly generates rage when in use
+      Swings leave behind exploding blood trails when below 50% health
+      Occasionally summons a barrage of lightning bolts when below 50% health
+      Replaces Rage Mode with an enormous barrage of skulls
+      'Hand it over, that thing. Your dark soul'
+      '''
+  }
+  GalactusBlade:
+  {
+    DisplayName: Lame Galactus
+    Tooltip:
+      '''
+      Launches a barrage of comets from the sky
+      Forged with the fury of nuclear chaos
+      '''
+  }
+  GalaxySmasher:
+  {
+    DisplayName: Écraseur de Galaxie
+    Tooltip:
+      '''
+      Throws a heavy, gravity-affected hammer that will return to you after striking an enemy
+      Consecutive hits summon more and more cosmic hammers
+      After hitting eight times, the hammer supercharges itself with galactic energies,
+      delivering an apocalyptic strike that reverberates through space and time
+      '''
+  }
+  GalileoGladius:
+  {
+    DisplayName: Gladius de Galilée
+    Tooltip:
+      '''
+      Shoots a homing crescent moon
+      Spawns planetoids on enemy hits
+      'Don't underestimate the power of small space swords'
+      '''
+  }
+  GeliticBlade:
+  {
+    DisplayName: Lame Gelitique
+    Tooltip: Tire une vague de gelée qui ralentit après avoir touché
+  }
+  GildedProboscis:
+  {
+    DisplayName: Rostre Doré
+    Tooltip: Soigne le joueur quand il touche
+  }
+  GoldplumeSpear:
+  {
+    DisplayName: Lance de Plume d'Or
+    Tooltip: Tire des plumes tombantes
+  }
+  GrandGuardian:
+  {
+    DisplayName: Grand Gardien
+    Tooltip:
+      '''
+      Réduit la défense ennemie de 1 quand vous les frappez
+      Si la défense ennemie est de 0 ou moins, vos attaques vous soigneront
+      Frapper les ennemis provoque une large explosion
+      Frapper les ennemis ayant moins de la moitié de leur points de vie vous fait relâcher des décharges arc-en-ciel
+      Les ennemis créent des orbes de soins quand ils meurent
+      '''
+  }
+  GreatswordofJudgement:
+  {
+    DisplayName: Espadon du Jugement
+    Tooltip:
+      '''
+      Fires a white orb that emits white rain on death for a time
+      A pale white sword from a forgotten land
+      You can hear faint yet comforting whispers emanating from the blade
+      'No matter where you may be you are never alone
+      I shall always be at your side, my lord'
+      '''
+  }
+  Greentide:
+  {
+    DisplayName: Vertevague
+    Tooltip: Invoque des crocs depuis les cieux quand vous touchez
+  }
+  HellfireFlamberge:
+  {
+    DisplayName: Flamberge de Feu Infernal
+    Tooltip: Tire une étendue de boules de feu volcanique
+  }
+  HellionFlowerSpear:
+  {
+    DisplayName: Lance de la Fleur de Diablesse
+    Tooltip:
+      '''
+      Tire une pique de lance florale
+      Invoque des pétales depuis le ciel quand vous infligez un critique
+      '''
+  }
+  Hellkite:
+  {
+    DisplayName: Hellkite
+    Tooltip: "[GFB]"
+    TooltipNormal:
+      '''
+      Summons flame geyser explosions on enemy hits
+      Contains the power of an ancient drake
+      '''
+    TooltipGFB: "'My Beloved <3'"
+  }
+  HolyCollider:
+  {
+    DisplayName: Collisionneur Sacré
+    Tooltip: Frapper les ennemis les fera exploser d'un feu sacré
+  }
+  IllustriousKnives:
+  {
+    DisplayName: Couteaux Illustres
+    Tooltip: Lance une myriade de couteaux qui pourchassent les ennemis et soignent l'utilisateur
+  }
+  InsidiousImpaler:
+  {
+    DisplayName: Empaleur Insidieux
+    Tooltip: Tire des harpons qui s'attachent aux ennemis et qui explosent
+  }
+  IridescentExcalibur:
+  {
+    DisplayName: Iridescent Excalibur
+    Tooltip:
+      '''
+      Freezes enemies and heals the player on hit
+      Fires rainbow beams that change their behavior based on their color
+      Press <right> for true melee
+      '''
+  }
+  Lacerator:
+  {
+    DisplayName: Lacérateur
+    Tooltip:
+      '''
+      Enemies that are hit by the yoyo will have their life drained
+      An exceptionally agile yoyo
+      [GFB]
+      '''
+    TooltipNormal: Someone thought this was a viable weapon against DoG at one point lol
+    TooltipGFB: May be a viable weapon against DoG...
+  }
+  LifefruitScythe:
+  {
+    DisplayName: Faux Chasseuse de Vie
+    Tooltip: Vous soigne quand vous touchez les ennemis et tire une faux d'énergie
+  }
+  LionHeart:
+  {
+    DisplayName: Lion Heart
+    Tooltip:
+      '''
+      Summons an energy explosion on enemy hits
+      Press <right> to summon an energy shell for a few seconds that halves all damage sources
+      This has a 45 second cooldown
+      '''
+  }
+  Lucrecia:
+  {
+    DisplayName: Lucrecia
+    Tooltip:
+      '''
+      Striking an enemy makes you immune for a short time
+      Fires a DNA chain
+      Finesse
+      '''
+  }
+  MajesticGuard:
+  {
+    DisplayName: Garde Majestique
+    Tooltip:
+      '''
+      Baisse la défense ennemie de 1 à chaque coup
+      Si la défense ennemie est à 0 ou plus bas, vos attaques vous soigneront
+      '''
+  }
+  MantisClaws:
+  {
+    DisplayName: Griffes Mantis
+    Tooltip: 
+		'''
+		Explose en touchant les ennemis
+		'C'est aussi shimple que ça'
+		'''
+  }
+  MirrorBlade:
+  {
+    DisplayName: Lame Miroir
+    Tooltip:
+      '''
+      La quantité de dégâts de contact qu'un ennemi inflige est ajoutée aux dégâts de cet arme
+      Vous devez frapper un ennemi avec cette arme pour que l'effet s'enclenche
+      '''
+  }
+  MonstrousKnives:
+  {
+    DisplayName: Couteaux Monstrueux
+    Tooltip: Jette une volée de couteaux qui peuvent soigner l'utilisateur
+  }
+  Mourningstar:
+  {
+    DisplayName: Étoile du Deuil
+    Tooltip: Lance deux fouets-lames qui explosent à l'impact
+  }
+  Murasama:
+  {
+    DisplayName: Murasama
+    Tooltip:
+      '''
+      A high-frequency blade that can cleanly slice through even the mightiest foe
+      Prove your worth by slaying Yharon, Dragon of Rebirth to unsheath this sword
+      [c/F41A31:'There will be blood!']
+      '''
+  }
+  MycelialClaws:
+  {
+    DisplayName: Mycelial Claws
+    Tooltip: Grants the Mushy buff for 6 seconds on enemy hits
+  }
+  Nadir:
+  {
+    DisplayName: Nadir
+    Tooltip:
+      '''
+      Fires void essences which flay nearby enemies with tentacles
+      Ignores immunity frames
+      'The abyss has stared back at you long enough. It now speaks, and it does not speak softly'
+      '''
+  }
+  Nebulash:
+  {
+    DisplayName: Nebulash
+    Tooltip: Tire une épée fouet qui émet une explosion de particule quand elle touche
+  }
+  NeptunesBounty:
+  {
+    DisplayName: Générosité de Neptune
+    Tooltip:
+      '''
+      Tire un trident qui fait pleuvoir des tridents sur sa trajectoire
+      Les ennemis touchés subiront l'écrasement des profondeurs
+      Au plus la défense des ennemis est faible, au plus ils subissent des dégâts de l'écrasement
+      '''
+  }
+  Oblivion:
+  {
+    DisplayName: Oblivion
+    Tooltip:
+      '''
+      Tire des lasers de soufre quand les ennemis en sont proches
+      Un yoyo très agile
+      '''
+  }
+  OldLordClaymore:
+  {
+    DisplayName: Old Lord Claymore
+    Tooltip:
+      '''
+      Holding <right> rapidly absorbs energy into the blade until it is charged
+      Press <left> while charged to fly in the direction of the cursor
+      Using the lunge resets the blade's charge to zero
+      '''
+  }
+  OmegaBiomeBlade:
+  {
+    DisplayName: Lame de Biome Omega
+    Tooltip:
+      '''
+      [FUNC]
+      [PASS]
+      Holding down <right> for 2 seconds attunes the weapon to the powers of the surrounding biome
+      Pressing <right> for a shorter period of time switches your active and passive attunements around
+      Active Attunement : [ATT1]
+      Passive Attunement: [ATT2]
+      '''
+    DefaultFunction:
+      '''
+      Does nothing... yet
+      It seems that upgrading the blade expanded the scope of the previous attunements
+      '''
+    DefaultPassive: Your secondary attunement can now provide passive bonuses
+  }
+  Omniblade:
+  {
+    DisplayName: Omnilame
+    Tooltip: Une lame ancienne forgée par le légendaire Omnir
+  }
+  Oracle:
+  {
+    DisplayName: L'Oracle
+    Tooltip:
+      '''
+      Emits an aura of red lightning which charges up when hitting enemies
+      Fires auric orbs when supercharged
+      An exceptionally agile yoyo
+      'Gaze into the past, the present, the future... and the circumstances of your inevitable demise'
+
+      '''
+  }
+  Orderbringer:
+  {
+    DisplayName: Orderbringer
+    Tooltip:
+      '''
+      Fires a rainbow blade that emits rainbow rain on death for a time
+      A pale white sword from a forgotten land
+      You can hear faint yet comforting whispers emanating from the blade
+      'No matter where you may be you are never alone
+      I shall always be at your side, my lord'
+      '''
+  }
+  Pandemic:
+  {
+    DisplayName: Pandémie
+    Tooltip:
+      '''
+      Tire des cherche-peste quand des ennemis sont proches
+      Un yoyo très agile
+      '''
+  }
+  PerfectDark:
+  {
+    DisplayName: Ténèbres Parfaites
+    Tooltip: Tire une vile boule qui se colle aux tuiles et explose
+  }
+  PhosphorescentGauntlet:
+  {
+    DisplayName: Phosphorescent Gauntlet
+    Tooltip:
+      '''
+      Releases rapid sulphurous punches
+      On use, you lunge in the direction of the mouse
+      On collision, you are knocked back
+      '''
+  }
+  PhotonRipper:
+  {
+    DisplayName: Photon Ripper
+    Tooltip:
+      '''
+      Projects a directed stream of hardlight teeth at ultra high velocity
+      This weapon and its projectiles function as a chainsaw
+      '''
+  }
+  PlagueKeeper:
+  {
+    DisplayName: Gardien de Peste
+    Tooltip: Tire un nuage d'abeilles et de peste
+  }
+  PrismaticBreaker:
+  {
+    DisplayName: Briseur Prismatique
+    Tooltip:
+      '''
+      Fire to charge for a powerful rainbow laser
+      Press <right> to instead swing the sword and fire rainbow colored waves
+      The sword is boosted by both melee and ranged damage
+      Seems to belong to a certain magical girl. Radiates with intense cosmic energy
+      '''
+  }
+  Pwnagehammer:
+  {
+    DisplayName: Marteau de Pwnage
+    Tooltip:
+      '''
+      Throws a heavy, gravity-affected hammer that creates a loud blast of hallowed energy when it hits something
+      After hitting four times, a spectral hammer will be summoned to strike the enemy
+      '''
+  }
+  Quagmire:
+  {
+    DisplayName: Quagmire
+    Tooltip:
+	'''
+		Tire des nuages de spores
+		Un yoyo très agile
+	'''
+  }
+  RedSun:
+  {
+    DisplayName: Soleil Rouge
+    Tooltip:
+      '''
+      Drops a barrage of solar flares from the sky
+      'Over paradise'
+      '''
+  }
+  RedtideSpear:
+  {
+    DisplayName: Redtide Spear
+    Tooltip:
+      '''
+      Poisons enemies on hit
+      Aiming the spear in front of you while running holds it down with increased knockback
+      Releasing the attack button after the charge makes an upwards slash, sending enemies flying into the air
+      [c/5C95A1:'The people of the sea were adept hunters, but they abhorred unnecessary violence.]
+      [c/5C95A1:Unfortunately, neighboring nations were brutish, so they fashioned their tools for war.']
+      '''
+  }
+  RemsRevenge:
+  {
+    DisplayName: Rem's Revenge
+    Tooltip:
+      '''
+      Summons blood explosions and lowers enemy defense on hit
+      Wielded by the most powerful fighter
+      '''
+  }
+  Riptide:
+  {
+    DisplayName: Raz de Marée
+    Tooltip:
+      '''
+      Sprays a spiral of aqua streams
+      '''
+  }
+  Roxcalibur:
+  {
+    DisplayName: Roxcalibur
+    Tooltip:
+      '''
+      [WOF]Press <left> to shoot several rock shards
+      Press <right> to dive downwards and bounce off enemies
+      Diving into blocks creates a shockwave
+      You couldn't get it out of the rock, so you just brought the rock instead
+      '''
+    LockedInfo: The hellish Wall of Flesh holds the key to this weapon's power
+  }
+  SausageMaker:
+  {
+    DisplayName: Poussoir à Saucisses
+    Tooltip: Arrose de sang à tête chercheuse quand vous touchez
+  }
+  ScourgeoftheCosmos:
+  {
+    DisplayName: Fléau du Cosmos
+    Tooltip: Lance un fléau du cosmos rebondissant qui émet des fléaux miniatures à tête chercheuse quand il rebondit
+  }
+  SeashineSword:
+  {
+    DisplayName: Epée de Lueur Marine
+    Tooltip: Tire un rayon d'épée aquatique
+  }
+  SeekingScorcher:
+  {
+    DisplayName: Seeking Scorcher
+    Tooltip:
+      '''
+      Throws a holy boomerang that seeks out up to four enemies before returning to the player
+      'May your enemies burn in hell for the sins they have committed'
+      '''
+  }
+  Shimmerspark:
+  {
+    DisplayName: Étincelle Scintillante
+    Tooltip:
+      '''
+      Tire des étoiles lorsque des ennemis sont proches
+      Un yoyo très agile
+      '''
+  }
+  SmokingComet:
+  {
+    DisplayName: Smoking Comet
+    Tooltip:
+      '''
+      Rains stars from the sky
+      '''
+  }
+  SolarFlare:
+  {
+    DisplayName: Déflagration Solaire
+    Tooltip:
+      '''
+      Émet de larges explosions sacrées quand vous touchez
+      Un yoyo exceptionnellement agile
+      '''
+  }
+  SolsticeClaymore:
+  {
+    DisplayName: Claymore du Solstice
+    Tooltip:
+      '''
+      Les porjectiles changent de couleur en fonction de la saison
+      Inflige Jour Perçant la journée et flétrinuit la nuit
+      '''
+  }
+  SoulEdge:
+  {
+    DisplayName: Soul Edge
+    Tooltip: Tire les âmes fantômatiques des rôdeurs décédés des abysses
+  }
+  SoulHarvester:
+  {
+    DisplayName: Récolteur d'Âmes
+    Tooltip:
+      '''
+      Tire une faux d'âme
+      Les ennemis explosent quand ils n'ont plus beaucoup de vie, propageant la peste
+      '''
+  }
+  SpineOfThanatos:
+  {
+    DisplayName: Spine of Thanatos
+    Tooltip:
+      '''
+      Releases 3 fast metallic whips outward
+      Once all three collide, a prism of light is shot outward
+      If an enemy is within the line of sight of the whips on collision, the light will fire towards it
+      '''
+  }
+  StarnightLance:
+  {
+    DisplayName: Lance de Nuit Étoilée
+    Tooltip: Shoots a frigid starnight beam
+  }
+  StellarContempt:
+  {
+    DisplayName: Mépris Stellaire
+    Tooltip:
+      '''
+      Throws a heavy, gravity-affected hammer that will return to you after striking an enemy
+      Consecutive hits call down more and more lunar flares from the sky
+      After hitting five times, the hammer supercharges with lunar energy to pulverize your target
+      '''
+  }
+  StellarStriker:
+  {
+    DisplayName: Frappeur Stellaire
+    Tooltip: Invoque une nuée de lueurs stellaires depuis le ciel quand vous frappez les ennemis
+  }
+  StormRuler:
+  {
+    DisplayName: Maître des Tempêtes
+    Tooltip:
+      '''
+      Fires beams that generate tornadoes on death
+      Tornadoes suck enemies in
+      'Only a storm can fell a greatwood'
+      '''
+  }
+  StormSaber:
+  {
+    DisplayName: Sabre Tempête
+    Tooltip:
+      '''
+      Tire deux rayons de tempête à tête chercheuse
+      Un depuis la lame et l'autre depuis le ciel
+      '''
+  }
+  StreamGouge:
+  {
+    DisplayName: Gouge Torrentielle
+    Tooltip:
+      '''
+      Tire un clone de lance d'essence
+      Ignore la période d'invulnérabilité
+      '''
+  }
+  StygianShield:
+  {
+    DisplayName: Stygian Shield
+    Tooltip:
+      '''
+      Hold <left> to charge an omni-directional dash which slams through enemies
+      <right> to throw a buckler which bounces towards a nearby foe upon collision
+      Grants knockback immunity and {0} defense while held
+      However, dashes are disabled until you stop holding this weapon for {1} seconds
+      '''
+  }
+  SubmarineShocker:
+  {
+    DisplayName: Choqueur Sous-marin
+    Tooltip: Les ennemis relâchent des étincelles électriques quand ils sont touchés
+  }
+  SulphurousGrabber:
+  {
+    DisplayName: Attrapeur Sulfureux
+    Tooltip:
+      '''
+      Relâche occasionnellement un anneau de bulle colorées
+      Le yoyo gagne en puissance après avoir touché une bulle verte
+      Un yoyo très agile
+      '''
+  }
+  Swordsplosion:
+  {
+    DisplayName: Swordsplosion
+    Tooltip:
+      '''
+      Fires multiple rainbow beam swords that rain from the sky
+      Sword swarm
+      '''
+  }
+  TeardropCleaver:
+  {
+    DisplayName: Fendoir de Larme
+    Tooltip: Fait pleurer vos ennemis
+  }
+  TenebreusTides:
+  {
+    DisplayName: Tenebreus Tides
+    Tooltip:
+      '''
+      Shoots a water spear that pierces enemies and terrain
+      Striking enemies summon liquid blades and spears to assault the struck foe
+      'Inundatio ex Laminis'
+      '''
+  }
+  TerraLance:
+  {
+    DisplayName: Terra Lance
+    Tooltip: Fires a terra energy beam
+  }
+  Terratomere:
+  {
+    DisplayName: Terratomère
+    Tooltip:
+      '''
+      Heals the player on true melee hits
+      Fires a piercing energy bolt that causes hit targets to explode and be slashed
+      'Linked to the essence of Terraria'
+      '''
+  }
+  TerrorBlade:
+  {
+    DisplayName: Lame de Terreur
+    Tooltip:
+      '''
+      Tire un rayon de terreur qui rebondit sur les tuiles
+      Émet une explosion à chaque rebond
+      '''
+  }
+  TheBurningSky:
+  {
+    DisplayName: Le Ciel Brûlant
+    Tooltip:
+      '''
+      Rains down a stream of draconic fire at the cursor
+      'Hold the blade to the sky, and witness Armageddon'
+      '''
+  }
+  TheEnforcer:
+  {
+    DisplayName: L'Exécuteur
+    Tooltip: Créé des flammes d'essence quand elle touche
+  }
+  TheGodsGambit:
+  {
+    DisplayName: La Manoeuvre de Dieu
+    Tooltip:
+      '''
+      Tire un torrent de gelée quand les ennemis sont proches
+      Un yoyo très agile
+      '''
+  }
+  TheLastMourning:
+  {
+    DisplayName: Le Dernier Deuil
+    Tooltip: Invoque des citrouilles enflammées et des têtes de mort qui se séparent en orbe de feu quand elles touchent
+  }
+  TheMicrowave:
+  {
+    DisplayName: Le Micro-Onde
+    Tooltip:
+      '''
+      Fries nearby enemies with radiation
+      Un yoyo exceptionnellement agile
+      'Cooking, Astral Infection style'
+      '''
+  }
+  TheMutilator:
+  {
+    DisplayName: Le Mutilateur
+    Tooltip:
+      '''
+      Frapper un ennemi en dessous de 20% de vie déclenchera une explosion de sang
+      Les explosions de sang font tomber des coeurs de vie
+      '''
+  }
+  TheObliterator:
+  {
+    DisplayName: L'Oblitérateur
+    Tooltip:
+      '''
+      Ruine les ennemis proches avec des lasers mortels
+      Un yoyo exceptionnellement agile
+      '''
+  }
+  TitanArm:
+  {
+    DisplayName: Bras de Titan
+    Tooltip:
+      '''
+      Sends enemies straight to the stars at the speed of light
+      Slap Hand but better
+      '''
+  }
+  TriactisTruePaladinianMageHammerofMightMelee:
+  {
+    DisplayName: Triactis, le Marteau-Mage de Puissance du Vrai Paladinien
+    Tooltip: Explose en touchant les ennemis
+  }
+  TrueArkoftheAncients:
+  {
+    DisplayName: Arche des Anciens
+    Tooltip:
+      '''
+      [PARRY]
+      A heavenly blade forged to vanquish all evil
+      '''
+    ParryInfo:
+      '''
+      <right> to extend the Ark out in front of you
+      Hitting an enemy with it will parry them, granting you brief invulnerability
+      You can also parry projectiles to make them deal 80 less damage for a short period
+      Parrying empowers the next 10 swings of the sword, letting them throw stronger projectiles
+      Pressing <right> while holding UP will release all empowered charges in a powerful burst of energy
+      '''
+  }
+  TrueBiomeBlade:
+  {
+    DisplayName: Lame de Biome
+    Tooltip:
+      '''
+      [FUNC]
+      Hold down <right> while standing still on flat ground to attune the weapon to the powers of the surrounding biome
+      Pressing <right> otherwise switches between the current attunement and an extra stored one
+      Main Attunement : [ATT1]
+      Secondary Attunement: [ATT2]
+      '''
+    DefaultFunction:
+      '''
+      Does nothing... yet
+      Repairing the blade seems to have improved its attuning capacities
+      '''
+  }
+  TrueCausticEdge:
+  {
+    DisplayName: Caustic Edge
+    Tooltip:
+      '''
+      Tire un rayon caustique rebondissant
+      Inflige le poison et le venin
+      '''
+  }
+  DefiledGreatsword:
+  {
+    DisplayName: Defiled Greatsword
+    Tooltip:
+      '''
+      Fires blazing, hyper, and sunlight blades
+      Gives the player the tyrant's fury buff on enemy hits
+      This buff increases melee damage by 30% and melee crit chance by 10%
+      '''
+  }
+  Tumbleweed:
+  {
+    DisplayName: Virevoltant
+    Tooltip: Relâche un virevoltant roulant quand vous touchez
+  }
+  TyphonsGreed:
+  {
+    DisplayName: Avarice de Typhon
+    Tooltip: Invoque des esprits d'eau quand vous l'utilisez
+  }
+  BlightedCleaver:
+  {
+    DisplayName: Blighted Cleaver
+    Tooltip:
+      '''
+      Fires homing blazing blades
+      Gives the player the tyrant's fury buff on enemy hits
+      This buff increases melee damage by 30% and melee crit chance by 10%
+      '''
+  }
+  UltimusCleaver:
+  {
+    DisplayName: Fendoir Ultimus
+    Tooltip: Lance des étincelles à tête chercheuse nocives et provoque une explosion quand il touche l'ennemi
+  }
+  UrchinFlail:
+  {
+    DisplayName: Fléau Oursin
+    Tooltip: Lance une boule oursin, qui tire des pics au contact des ennemis
+  }
+  UrchinMace:
+  {
+    DisplayName: Urchin Mace
+    Tooltip: Throws out a whirlpool when released at full charge
+  }
+  VeinBurster:
+  {
+    DisplayName: Éclate-Veine
+    Tooltip: Tire une boule de sang qui se colle aux tuiles et explose
+  }
+  Violence:
+  {
+    DisplayName: Violence
+    Tooltip: Releases a blazing fork which stays near the mouse and shreds enemies
+  }
+  Virulence:
+  {
+    DisplayName: Virulence
+    Tooltip: Tire un nuage de peste
+  }
+  VulcaniteLance:
+  {
+    DisplayName: Lance de Vulcanite
+    Tooltip: Explose en touchant les ennemis et invoque des décharges à tête chercheuse en cas de coup critique
+  }
+  WindBlade:
+  {
+    DisplayName: Lame de Vent
+    Tooltip: Tire des cyclones qui aspirent les ennemis
+  }
+  WulfrumScrewdriver:
+  {
+    DisplayName: Wulfrum Screwdriver
+    Tooltip:
+      '''
+      Can be used to rapidly and royally screw over foes
+      Striking an enemy sometimes gives you a wulfrum screw that you can throw with <right>
+      Hit a thrown screw with the screwdriver to launch it forward at high speed
+      [c/83B87E:'Who makes flatheads this large?? The hell am I supposed to use it for?!]
+      [c/83B87E:This thing could take an eye out!']
+      [c/83B87E:'...Ah.']
+      '''
+  }
+  YateveoBloom:
+  {
+    DisplayName: Éclosion de Yateveo
+    Tooltip:
+      '''
+      A synthesis of jungle flora
+      Throws a powerful rose flail
+      Press <right> to stab with a flower spear
+      '''
+  }
+  YinYo:
+  {
+    DisplayName: Yin-Yo
+    Tooltip:
+      '''
+      Tire des éclats de lumière et de ténèbres quand les ennemis en sont proches
+      Les éclats volent en avant puis en arrière
+      Un yoyo très agile
+      '''
+  }

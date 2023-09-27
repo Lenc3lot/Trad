@@ -1,0 +1,169 @@
+
+  AquaticScourgeBag:
+  {
+    DisplayName: Sac à Trésors (Fléau Aquatique)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  AstrumAureusBag:
+  {
+    DisplayName: Sac à trésor (Astrum Aureus)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  AstrumDeusBag:
+  {
+    DisplayName: Sac à Trésors
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  BrimstoneWaifuBag:
+  {
+    DisplayName: Sac à Trésors (Élémentaire de soufre)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  CalamitasCloneBag:
+  {
+    DisplayName: Sac à Trésors (Clone de Calamitas)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  CalamitasCoffer:
+  {
+    DisplayName: Coffre à Trésor (Calamitas)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  CeaselessVoidBag:
+  {
+    DisplayName: Sac à trésor (Néant Incessant)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen} "
+  }
+  CrabulonBag:
+  {
+    DisplayName: Sac à Trésors (Crabulon)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  CryogenBag:
+  {
+    DisplayName: Sac à Trésors (Cryogène)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  DesertScourgeBag:
+  {
+    DisplayName: Sac à Trésors (Fléau du Désert)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  DevourerofGodsBag:
+  {
+    DisplayName: Sac à Trésors (Le Dévoreur de Dieux)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  DraedonBag:
+  {
+    DisplayName: Boîte à Trésors (Exo mechas)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  DragonfollyBag:
+  {
+    DisplayName: Sac à trésors (La Folie Draconique)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  HiveMindBag:
+  {
+    DisplayName: Sac à Trésors (L'Esprit de Ruche)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  LeviathanBag:
+  {
+    DisplayName: Sac à Trésors (Léviathan et Anahita)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  OldDukeBag:
+  {
+    DisplayName: Sac à Trésors (Le Vieux Duc)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  PerforatorBag:
+  {
+    DisplayName: Sac à Trésors (Les Perforateurs)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  PlaguebringerGoliathBag:
+  {
+    DisplayName: Sac à Trésors (Goliath Porte-Peste)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  PolterghastBag:
+  {
+    DisplayName: Sac à Trésors (Épouvantôme)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  ProvidenceBag:
+  {
+    DisplayName: Sac à Trésors (Providence, la Déesse Profanée)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  RavagerBag:
+  {
+    DisplayName: Sac à Trésors (Ravageur)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  SignusBag:
+  {
+    DisplayName: Sac à Trésors (Signus, Emissaire du Dévoreur)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  SlimeGodBag:
+  {
+    DisplayName: Sac à Trésors (Dieu des Gelées)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  StormWeaverBag:
+  {
+    DisplayName: Sac à Trésors (Tisse-Tempête)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  YharonBag:
+  {
+    DisplayName: Sac à Trésors (Yharon)
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  AbyssalTreasure:
+  {
+    DisplayName: Trésor Abyssal
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  BleachedAnglingKit:
+  {
+    DisplayName: Kit de Pêche Délavé
+    Tooltip:
+      '''
+      A une chance de contenir divers équipements de pêche
+      {$CommonItemTooltip.RightClickToOpen}
+      '''
+  }
+  FleshyGeode:
+  {
+    DisplayName: Géode charnue
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  NecromanticGeode:
+  {
+    DisplayName: Geode Nécromantique
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  SandyAnglingKit:
+  {
+    DisplayName: Kit de Pêche Ensablé
+    Tooltip:
+      '''
+      A une chance de contenir divers équipements de pêche
+      {$CommonItemTooltip.RightClickToOpen}
+      '''
+  }
+  StarterBag:
+  {
+    DisplayName: Sac du Débutant
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  SulphuricTreasure:
+  {
+    DisplayName: Trésor Sulfurique
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }

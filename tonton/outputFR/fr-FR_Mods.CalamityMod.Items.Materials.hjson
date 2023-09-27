@@ -1,0 +1,360 @@
+
+  AerialiteBar:
+  {
+    DisplayName: Lingot d'Aérialite
+    
+  }
+  AncientBoneDust:
+  {
+    DisplayName: Poussière d'Os Ancienne
+    
+  }
+  ArmoredShell:
+  {
+    DisplayName: Carapace Blindée
+    
+  }
+  AscendantSpiritEssence:
+  {
+    DisplayName: Essence d'Esprit Ascendant
+    Tooltip: Un catalyseur du plus haut calibre formé en fusionnant de puissantes âmes
+  }
+  AshesofAnnihilation:
+  {
+    DisplayName: Cendres d'Annihilation
+    Tooltip: L'essence incandescente de la colère de la Sorcière
+  }
+  AshesofCalamity:
+  {
+    DisplayName: Cendre de Calamité
+    
+  }
+  AuricBar:
+  {
+    DisplayName: Barre Aurique
+    Tooltip: Boundless power emanates from the metal
+  }
+  BeetleJuice:
+  {
+    DisplayName: Jus de Scarabée
+    
+  }
+  BlightedGel:
+  {
+    DisplayName: Gelée Corrompue
+    
+  }
+  BloodOrb:
+  {
+    DisplayName: Orbe de Sang
+    
+  }
+  BloodSample:
+  {
+    DisplayName: Echantillon de Sang
+    
+  }
+  Bloodstone:
+  {
+    DisplayName: Pierre de Sang
+    
+  }
+  BloodstoneCore:
+  {
+    DisplayName: Coeur de Sang
+    
+  }
+  CoreofCalamity:
+  {
+    DisplayName: Noyau de Calamité
+    
+  }
+  CoreofEleum:
+  {
+    DisplayName: Noyau d'Eleum
+    
+  }
+  CoreofHavoc:
+  {
+    DisplayName: Core of Havoc
+    Tooltip: ""
+  }
+  CoreofSunlight:
+  {
+    DisplayName: Noyau de Lueur Solaire
+    
+  }
+  CorrodedFossil:
+  {
+    DisplayName: Fossile Corodé
+    Tooltip: C'est très solide!
+  }
+  CosmiliteBar:
+  {
+    DisplayName: Lingot de Cosmilite
+    Tooltip: Un morceau d'acier cosmique hautement durable et résistant
+  }
+  CryonicBar:
+  {
+    DisplayName: Lingot Cryonique
+    
+  }
+  DarkPlasma:
+  {
+    DisplayName: Plasma Sombre
+    
+  }
+  DarksunFragment:
+  {
+    DisplayName: Fragment de Sombresoleil
+    Tooltip: Un fragment d'énergie infusé d'énergies célestes opposées
+  }
+  DemonicBoneAsh:
+  {
+    DisplayName: Poussière d'Os Démoniaque
+    
+  }
+  DepthCells:
+  {
+    DisplayName: Cellules des Profondeurs
+    Tooltip: Les cellules des créatures abyssales
+  }
+  DivineGeode:
+  {
+    DisplayName: Géode Divine
+    Tooltip: Un morceau cristallisé d'énergie sacrée
+  }
+  DubiousPlating:
+  {
+    DisplayName: Plaquage Douteux
+    
+  }
+  EffulgentFeather:
+  {
+    DisplayName: Plume Rayonnante
+    Tooltip: Elle vibre d'une énergie dorée duveteuse
+  }
+  EndothermicEnergy:
+  {
+    DisplayName: Energie Endothermique
+    Tooltip: Son frisson macabre aspire la vie de ses environs
+  }
+  EnergyCore:
+  {
+    DisplayName: Noyau d'Energie
+    Tooltip: Il émet de l'énergie
+  }
+  EssenceofEleum:
+  {
+    DisplayName: Essence d'Éleum
+    Tooltip: L'essence des créatures du froid
+  }
+  EssenceofHavoc:
+  {
+    DisplayName: Essence of Havoc
+    Tooltip: The essence of desolate creatures
+  }
+  EssenceofSunlight:
+  {
+    DisplayName: Essence de Soleil
+    Tooltip: L'essence des créatures célestes, lumineuses et de tempête
+  }
+  ExoPrism:
+  {
+    DisplayName: Exo Prisme
+    Tooltip: Les énergies fractales scintillent sur sa surface
+  }
+  GalacticaSingularity:
+  {
+    DisplayName: Singularité Galactique
+    Tooltip: Un fragment du cosmos
+  }
+  GrandScale:
+  {
+    DisplayName: Grande Ecaille
+    Tooltip: Large écaille d'un prédateur apex
+  }
+  InfectedArmorPlating:
+  {
+    DisplayName: Plaquage d'Armure Infecté
+    
+  }
+  LifeAlloy:
+  {
+    DisplayName: Life Alloy
+    Tooltip: ""
+  }
+  LivingShard:
+  {
+    DisplayName: Fragment vivant
+    
+  }
+  Lumenyl:
+  {
+    DisplayName: Lumenyl
+    Tooltip: Un fragment d'énergie lumineuse
+  }
+  MeldBlob:
+  {
+    DisplayName: Amas de Fusion
+    
+  }
+  MeldConstruct:
+  {
+    DisplayName: Meld Construct
+    Tooltip: ""
+  }
+  MiracleMatter:
+  {
+    DisplayName: Miracle Matter
+    Tooltip:
+      '''
+      Its amorphous form contains untold potential
+      One is required for every Exo Weapon
+      '''
+  }
+  MolluskHusk:
+  {
+    DisplayName: Cosse de Mollusque
+    Tooltip: Les restes d'un mollusque
+  }
+  MurkyPaste:
+  {
+    DisplayName: Pâte Trouble
+    
+  }
+  MysteriousCircuitry:
+  {
+    DisplayName: Circuits mystérieux
+    
+  }
+  NightmareFuel:
+  {
+    DisplayName: Essence du Cauchemar
+    Tooltip: Peut drainer votre sanité
+  }
+  PearlShard:
+  {
+    DisplayName: Pearl Shard
+    Tooltip: ""
+  }
+  PerennialBar:
+  {
+    DisplayName: Perennial Bar
+    Tooltip: ""
+  }
+  Polterplasm:
+  {
+    DisplayName: Polterplasm
+    Tooltip: It churns and seethes with ghastly malice
+  }
+  PlagueCellCanister:
+  {
+    DisplayName: Plague Cell Canister
+    Tooltip: ""
+  }
+  PlasmaDriveCore:
+  {
+    DisplayName: Prototype Plasma Drive Core
+    Tooltip: Despite all the time it spent in storage, its furnace still burns strong
+  }
+  PurifiedGel:
+  {
+    DisplayName: Gel Purifié
+    
+  }
+  ReaperTooth:
+  {
+    DisplayName: Dent de Faucheur
+    Tooltip: Suffisamment acéré pour trancher du diamant
+  }
+  RottenMatter:
+  {
+    DisplayName: Rotten Matter
+    Tooltip: ""
+  }
+  RuinousSoul:
+  {
+    DisplayName: Âme Ruineuse
+    Tooltip: Un fragment d'un passé lointain
+  }
+  ScoriaBar:
+  {
+    DisplayName: Lingot de Scorie
+    Tooltip: La fumée semble chaude
+  }
+  SeaRemains:
+  {
+    DisplayName: Sea Remains
+    Tooltip: ""
+  }
+  ShadowspecBar:
+  {
+    DisplayName: Lingot d'Ombrespec
+    Tooltip: Un métal noir si vil, si horrible et puissant qu'il défie l'imagination.
+  }
+  SolarVeil:
+  {
+    DisplayName: Voile Solaire
+    Tooltip: La lumière du soleil ne traverse pas ce tissu
+  }
+  Stardust:
+  {
+    DisplayName: Poussière d'Étoile
+    
+  }
+  StormlionMandible:
+  {
+    DisplayName: Mandibule de Fourmillon Tempête
+    
+  }
+  SulphuricScale:
+  {
+    DisplayName: Sulphuric Scale
+    Tooltip: ""
+  }
+  SuspiciousScrap:
+  {
+    DisplayName: Suspicious Scrap
+    Tooltip: Looks like it may be part of a greater whole...
+  }
+  TitanHeart:
+  {
+    DisplayName: Coeur de Titan
+    Tooltip: Can be offered up at the Astral Beacon
+  }
+  TrapperBulb:
+  {
+    DisplayName: Bulbe de Trappeur
+    
+  }
+  TwistingNether:
+  {
+    DisplayName: Néant Tournoyant
+    
+  }
+  UelibloomBar:
+  {
+    DisplayName: Uelibloom Bar
+    Tooltip: ""
+  }
+  UnholyCore:
+  {
+    DisplayName: Coeur Profane
+    
+  }
+  UnholyEssence:
+  {
+    DisplayName: Essence Profane
+    Tooltip: L'essence des créatures profanées
+  }
+  WulfrumMetalScrap:
+  {
+    DisplayName: Wulfrum Metal Scrap
+    Tooltip: ""
+  }
+  YharonSoulFragment:
+  {
+    DisplayName: Yharon Soul Fragment
+    Tooltip: A shard of a draconic Auric Soul
+  }

@@ -1,0 +1,121 @@
+// Slime God
+ SlimeGodRun: Le Dieu des Slimes s'enfuit pour combattre un autre jour...
+// Cryogen
+ CryogenBossText: Cryogène déraille !
+ PyrogenBossText: Pyrogène déraille !
+// Calamitas Clone
+ CalamitasBossText: Tu sous-estimes mon pouvoir...
+ CalamitasBossText2: Relevez-vous, mes frères.
+ CalamitasBossText3: Impressionnant, mon enfant, très impressionnant...
+// Great Sand Shark
+ SandSharkText: Quelque chose s'agite sous les sables chauds du désert...
+ SandSharkText2: Un énorme prédateur apex s'approche...
+// Plaguebringer Goliath
+ PlagueBossText: BARRAGE NUCLÉAIRE PESTILENTIEL PRÊT, PRÉPARATION POUR LE LANCEMENT !!!
+ PlagueBossText2: MISSILES LANCÉS, ROUTINE DE CIBLAGE INITIÉE !!!
+// Astrum Deus
+ DeusAltarRejectNightText: Le dieu des étoiles rejette votre offrande. Le rituel ne peut être effectué que la nuit.
+// Providence
+ ProfanedBossText: Les flammes sacrées brûlent vos ailes...
+// Polterghast
+ GhostBossText2: Des lamentations résonnent à travers les couloirs délabrés du donjon...
+ GhostBossText3: Les prisonniers depuis longtemps décédés cherchent leur vengeance zélée...
+// Devourer of Gods
+ EdgyBossText: Ne te montre pas présomptueux !
+ EdgyBossText2: Une erreur fatale!
+ EdgyBossText3: Delicieux...
+ EdgyBossText4: Ca fait mal?
+ EdgyBossText5: Ce n'est pas terminé!
+ EdgyBossText6: UN DIEU NE CRAINT PAS LA MORT!
+ EdgyBossText7: Tu n'es pas un dieu... mais qu'importe, je me nourrirai de ton essence!
+ EdgyBossText8: Tu crois... que tu peux me détruire... MOI !?
+// Yharon
+ FlameText: L'air de réchauffe autour de vous.
+// Draedon (introduction)
+ DraedonIntroductionText1: J'ai longtemps attendu ce moment.
+ DraedonIntroductionText2: Ton existence me fascine, car je ne peux la comprendre.
+ DraedonIntroductionText3: Tu affronteras mes créations, qui ont surpassées les dieux.
+ DraedonIntroductionText4: Et tu me révèlera ta vraie nature via ce combat.
+ DraedonIntroductionText5: Maintenant, fais ton choix.
+ DraedonResummonText: Faites votre choix.
+ DraedonBossRushText: Faites votre choix. Vous avez 20 secondes.
+// Draedon (Exo Mechs mid-battle dialogue)
+ DraedonExoPhase1Text1: Les conceptions améliorées avec le temps et la connaissance sont l'essence de mon travail.
+ DraedonExoPhase1Text2: Par aucun autre moyen puis-je atteindre la perfection.
+ DraedonExoPhase2Text1: Tes performances s'inscrivent parfaitement dans mes marges d'erreur.
+ DraedonExoPhase2Text2: C'est tout à fait satisfaisant. Passons à la prochaine phase de test.
+ DraedonExoPhase3Text1: Depuis que je t'ai remarqué, j'ai analysé tes combats afin de renforcer mes machines.
+ DraedonExoPhase3Text2: Même maintenant, je surveille tes actions. Rien ne devrait échapper aux limites de mes calculs.
+ DraedonExoPhase4Text1: Intrigant, très intrigant.
+ DraedonExoPhase4Text2: Tu ne fais que progresser face aux épreuves de plus en plus difficiles.
+ DraedonExoPhase5Text1: Ta vraie nature continue de m'échapper. Ce n'est pas acceptable.
+ DraedonExoPhase5Text2: ...J'ai cherché la perfection. Quelle ironie, car cela a dû être ma première erreur.
+ DraedonExoPhase6Text1: Absurde.
+ DraedonExoPhase6Text2: Je ne laisserai plus mes calculs entraver mon observation de ce combat.
+ DraedonExoPhase6Text3: Je te montrerai la pleine fureur de ma dernière machine.
+ DraedonAresEnrageText: Quelle idiotie. Tu ne peux pas t'échapper.
+// Draedon (ending)
+ DraedonEndText1: Un facteur inconnu-- un catalyseur, voilà ce que tu es.
+ DraedonEndText2: Presque aussi déconnecté de cette terre et de son histoire que je le suis.
+ DraedonEndText3: ...Pardonne mon introspection. Je dois rassembler mes pensées après cette démonstration.
+ DraedonEndText4: Cette terre est devenue viciée et empesée du sang qui a été versé jusqu'à présent.
+ DraedonEndText5: Tu as aussi versé du sang, mais cela pourrait être suffisant pour inaugurer une nouvelle ère... De quoi sera t'elle faite ? C'est quelque chose que j'ai hâte de constater.
+ DraedonEndText6: Bien. Tu souhaites atteindre le Tyran. Je ne peux pas t'aider à cela.
+ DraedonEndText7: Ce n'est pas une question de rancune, car je ne souhaiterais rien de plus que d'observer tel conflit.
+ DraedonEndText8: Mais tu t'es toujours débrouillé. Tu finiras pas trouver un moyen.
+ DraedonEndText9: Je dois reconnaître ton triomphe, mais je dois retourner à mes machines.
+ DraedonEndKillAttemptText: ...Etait-ce nécessaire?.
+// Draedon (GFB)
+ DraedonMechdusaBeginText: ...Meurs.
+ DraedonMechdusaEndText1: Attends, quoi ? Comment?
+ DraedonMechdusaEndText2: Non
+// SCal (First Battle)
+ SCalSummonText: Ca t'amuse de vivre l'enfer?
+ SCalStartText: Tu devrais juste mourir....
+ SCalBH2Text: Il n'y a pas si longtemps que tu as à peine réussi a vaincre mon clone. Un échec retentissant, pas vrai?
+ SCalBH3Text: Tu as acquéri un grand pouvoir, mais tu ne t'en sers pour personne d'autre que toi-même.
+ SCalBrothersText: Tu veux rencontrer ma famille? Horrible, pas vrai?
+ SCalPhase2Text: Tu souffriras grandement.
+ SCalBH4Text: Il est absurde de ne serait-ce que penser a s'enfuir. Aussi longtemps que tu vivras, tu souffriras.
+ SCalSeekerRingText: Un parvenu qui a insouciamment volé et tué pour obtenir son pouvoir. Je me demande bien qui cela me rappelle...?
+ SCalBH5Text: Tu n'as aucun intérêt dans ce combat.  Personne ne t'a donné voix au chapitre dans cette affaire !
+ SCalSepulcher2Text: Une fois que tout sera fini et qu'il n'en restera qu'un, si c'est toi, qu'est-ce que tu auras gagné?!
+ SCalDesparationText1: Arrête!
+ SCalDesparationText2: Je n'ai aucun avenir si je tombe ici.
+ SCalDesparationText3: Une fois que tu m'auras vaincue, tu n'auras plus qu'une seule voie a emprunter.
+ SCalDesparationText4: Et cette voie... n'a aucun avenir.
+ SCalAcceptanceText1: Même s'il a tout abandonné, son pouvoir subsiste.
+ SCalAcceptanceText2: Je n'ai plus la force de lui en vouloir, ou de t'en vouloir...
+ SCalAcceptanceText3: Tout est entre tes mains, maintenant.
+// SCal (Rematch)
+ SCalSummonTextRematch: Si tu cherches des brûlures au quatrième degré, tu as la bonne personne.
+ SCalStartTextRematch: Quand le temps viendra, que dirais-tu de joindre mes créations?
+ SCalBH2TextRematch: Tu vas quand même devoir te démener pour vaincre.
+ SCalBH3TextRematch: Je n'ai pas eu un mannequin d'entraînement pour tester ma magie aussi intéressant depuis longtemps.
+ SCalBrothersTextRematch: Des coquilles vides de ce qu'ils étaient autrefois. Je doute qu'il leur reste ne serait-ce qu'un fragment de leurs esprits.
+ SCalPhase2TextRematch: Et c'est reparti.
+ SCalBH4TextRematch: Je me demande si tu as cauchemardé de ces choses depuis notre premier combat?
+ SCalSeekerRingTextRematch: Ton talent n'a pas faibli d'un iota.
+ SCalBH5TextRematch: Qu'est-ce qu'on s'amuse!
+ SCalSepulcher2TextRematch: Et voila la tombe rampante, une dernière fois.
+ SCalDesparationText1Rematch: Incroyable performance, je te concède la victoire.
+ SCalDesparationText2Rematch: Il ne fait aucun doute que tu affronteras des ennemis plus forts que moi.
+ SCalDesparationText3Rematch: Je te fais confiance pour ne pas commettre les mêmes erreurs que lui.
+ SCalDesparationText4Rematch: Je n'arrive pas à imaginer ce que le futur te réserve.
+// Cirrus (GFB)
+ CirrusSummonText: Es-tu prêt pour une tâche des plus sisyphéennes ?
+ CirrusBirbSwarmText: Ces cœurs sont un peu trop edgy. Et si on optait pour un essaim de birb à la place ?
+ CirrusBH2Text: T'as soif? Ca peut s'arranger!
+ CirrusBH3Text: Mate moi ce jouet que j'ai trouvé!
+ CirrusDoGText: Je t'avais dit que les vers parlants étaient réels ! Mais tu ne m'as pas cru !
+ CirrusPhase2Text: Transformation!
+ CirrusBH4Text: It's HAGE time!
+ CirrusHallowBossSpamText: J'ai plus d'amis que tu ne pourrais l'imaginer !
+ CirrusBH5Text: Hah ! Tu es bon, mais je suis meilleure !
+ CirrusSecondBirbSwarmText: Et un autre essaim, un!
+ CirrusNonchalantText: Je commence à fatiguer...
+ CirrusBruhText: Nan, je déconne! Prends mon attaque spéciale!
+ CirrusGiveUpText: Bof, comme tu veux, ça me fatigue de toute façon.
+// April Fools
+ AprilFools: Le LORDE approche...
+ AprilFoolsGFB: La Ruga approche...

@@ -1,0 +1,16 @@
+regexp dump : 
+((?=.*:))|(/\*|\)
+
+Logs : 
+
+Start parsing file : Mods.CalamityMod.Status.Progression.hjson
+---------------------------------------
+New key to add : DargonBossText
+---------------------------------------
+
+Start parsing file : Mods.CalamityMod.UI.hjson
+---------------------------------------
+New key to add : Flight
+Key : RevengeanceExpandedInfo has changed
+Key : Cooldowns has changed
+

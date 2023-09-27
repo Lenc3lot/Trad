@@ -1,0 +1,1932 @@
+
+  Abaddon:
+  {
+    DisplayName: Abaddon
+    Tooltip: Réduit les dégâts infligés par les brûlures de soufre et immunise contre la lave brûlante
+  }
+  AbyssalAmulet:
+  {
+    DisplayName: Amulette Abyssale
+    Tooltip:
+      '''
+      Les attaques infligent l'altération d'état d'écrasement
+      Immunise contre l'altération d'état écrasement
+      10% de vie supplémentaires dans les abysses
+      '''
+  }
+  AbyssalDivingGear:
+  {
+    DisplayName: Matériel de plongée abyssal
+    Tooltip:
+      '''
+      Réduit les dégâts infligés par la pression des abysses lorsque vous n'avez plus d'air
+      Annule l'effet de saignement provoqué par les abysses
+      Vous permet de nager et augmente considérablement votre temps de respiration sous l'eau
+      Emet de la lumière sous l'eau et permet de mieux se déplacer sur la glace
+      Accorde un montant de lumière modéré dans les abysses
+      Réduit considérablement la perte de respiration dans les abysses
+      '''
+  }
+  AbyssalDivingSuit:
+  {
+    DisplayName: Combinaison de plongée abyssale
+    Tooltip:
+      '''
+      Transforme le porteur en plongeur en armure
+	  Augmente la vitesse de déplacement et l'accélération maximale sous l'eau, mais vous vous déplacez lentement hors de l'eau
+	  Les plaques blindées de la tenue augmentent la réduction des dégâts de 15%
+	  Les plaques ne subiront des dégâts que si les dégâts infligés dépassent 50
+	  Après que la tenue ait subi trop de dégâts, ses plaques blindées mettront 3 minutes à se régénérer
+	  Réduit les dégâts causés par la pression des abysses lorsque vous êtes à court d'air
+	  Supprime l'effet de saignement causé par les abysses dans toutes les couches sauf le Vide
+	  Accorde la capacité de nager et prolonge considérablement la respiration sous l'eau
+	  Fournit de la lumière sous l'eau et une mobilité accrue sur la glace
+	  Fournit une quantité modérée de lumière dans les abysses
+	  Réduit considérablement la perte de souffle dans les abysses
+	  Réduit la capacité des créatures à vous détecter dans les abysses
+	  Réduit la réduction de défense causée par les abysses
+	  Accorde l'immunité aux eaux sulfureuses
+	  Vous permet de tomber plus rapidement dans les liquides
+      '''
+  }
+  AbyssalMirror:
+  {
+    DisplayName: Miroir Abyssal
+    Tooltip:
+      '''
+	  Réduit considérablement l'agression des ennemis, même dans les abysses
+	  La discrétion est générée 25% plus rapidement lorsque vous êtes immobile et 12% plus rapidement lorsque vous vous déplacez
+	  Accorde la capacité d'esquiver les attaques, libérant un nuage de lumenyl qui inflige des dégâts et étourdit les ennemis à proximité
+	  Esquiver une attaque accorde beaucoup de furtivité mais a un temps de recharge de 90 secondes
+	  Ce temps de recharge est partagé avec toutes les autres esquives et effets de renvoi
+	  'La lumière ne parvient pas jusqu'aux profondeurs de l'océan'
+      '''
+  }
+  AeroStone:
+  {
+    DisplayName: Aéropierre
+    Tooltip:
+      '''
+      Augmente le temps de vol, la vitesse de mouvement et de saut de 10%
+      Une des anciennes reliques
+      '''
+  }
+  Affliction:
+  {
+    DisplayName: Affliction
+    Tooltip:
+      '''
+      Donne à vous et à votre équipe +1 régénération de vie,
+      +10% de vie maximum, 7% de réduction des dégâts, 13 défense, et 10% de dégâts supplémentaires
+      '''
+  }
+  AlchemicalFlask:
+  {
+    DisplayName: Flasque alchémique
+    Tooltip:
+      '''
+      Toutes les attaques infligent la peste
+      Les projectiles génèrent des chercheurs de peste lorsque qu'ils touchent un ennemi
+      '''
+  }
+  AlluringBait:
+  {
+    DisplayName: Appât attrayant
+    Tooltip:
+      '''
+      +30 puissance de pêche
+      Augmente considérablement les chances d'attraper des poissons servant de matériau
+      Le nombre de poissons servant de matériau attrapés est augmenté
+      '''
+  }
+  AmalgamatedBrain:
+  {
+    DisplayName: Cerveau Amalgamé
+    Tooltip:
+      '''
+      +10% de dégâts
+      Des ombres pleuvent quand vous êtes touché
+      Permet d'esquiver les attaques
+      L'esquive a un temps de recharge de 90 secondes partagé avec les autres esquives et effets de reflet
+      Augmente temporairement les chances de coup critique et les dégâts d'invocation après une esquive
+      Vous infligerez la confusion aux ennemis proches si vous êtes touché
+      '''
+  }
+  AmbrosialAmpoule:
+  {
+    DisplayName: Ampoule d'Ambrosie
+    Tooltip:
+      '''
+      Vous émettez de la lumière
+      +7% de réduction des dégâts et régénération de vie augmentée
+      Immunité au gel, au froid et au brûlegivre
+      '''
+  }
+  AmidiasPendant:
+  {
+    DisplayName: Pendentif d'Amidias
+    Tooltip: Fait périodiquement pleuvoir des éclats de prisme qui peuvent brièvement stopper les ennemis
+  }
+  AmidiasSpark:
+  {
+    DisplayName: Etincelle d'Amidias
+    Tooltip: Prendre des dégâts provoque une décharge d'étincelles
+  }
+  AncientFossil:
+  {
+    DisplayName: Fossile Ancien
+    Tooltip: Augmente la vitesse de minage de 10%
+  }
+  AnechoicPlating:
+  {
+    DisplayName: Plaques Anéchoiques
+    Tooltip:
+      '''
+      Réduit la capacité des ennemis des abysses de vous détecter
+      Réduit la baisse de défense causée par les abysses
+      '''
+  }
+  AngelicAlliance:
+  {
+    DisplayName: Alliance Angélique
+    Tooltip:
+      '''
+      En appelle aux forces du ciel pour renforcer vos attaques et vos sbires
+      Courage, Illumination, Félicité. Unis dans le Jugement
+      +2 sbires max, +15% de dégâts d'invocation, et +8% de dégâts aux autres classes
+      La régénération de vie est augmentée quand vous sautez
+      Appuyez sur [KEY] pour vous accorder la bénédiction divine pendant 15 secondes
+      Pendant que vous êtes sous l'effet de cette bénédiction, pour chaque sbire présent, une archange sera invoqué pour vous aider en combat
+      Chaque ange invoqué vous soignera instantanément pour 2 points de vie
+      Toutes les attaques de sbires inflige le Feu Banisseur, et vous gagnez +4 régénération de vie
+      Cet effet a un temps de recharge de 60 secondes
+      '''
+  }
+  AngelTreads:
+  {
+    DisplayName: Traçeurs d'Ange
+    Tooltip:
+      '''
+      +36% d'accélération en course
+      Augmentation du temps de vol
+      Meilleure mobilité sur la glace
+      Permet de marcher sur les liquides
+      Immunité à l'altération En Feu!
+      Immunité temporaire à la lave
+      'Vitesse Extrême!'
+      '''
+  }
+  AquaticEmblem:
+  {
+    DisplayName: Emblème Aquatique
+    Tooltip:
+      '''
+      La plupart des ennemis aquatiques deviennent amicaux et vous permet de respirer sous l'eau
+      Être sous l'eau augmente petit à petit votre défense mais réduit vos mouvements
+      Cet effet disparaît progressivement une fois hors de l'eau
+      Au maximum, la défense est augmentée de 50 et le mouvement réduit de 10%
+      Donne un peu de lumière dans les abysses
+      Réduit modérément la perte de respiration dans les abysses
+      '''
+  }
+  AquaticHeart:
+  {
+    DisplayName: Coeur Aquatique
+    Tooltip:
+      '''
+      Transforme le porteur en un élémentaire d'eau émettant de la lumière
+	  Les effets suivants ne sont actifs qu'après la défaite de Squeletron :
+	  Eh bien, maintenant vous pouvez nager !
+	  Plonger sous l'eau confère la Bénédiction de l'Océan, qui augmente la vitesse maximale et l'accélération de 15 %
+	  Réduit considérablement la perte d'oxygène et fournit une petite quantité de lumière dans les abysses
+	  Les ennemis subissent l'État Glacial lorsqu'ils vous touchent
+	  Vous avez une couche de glace autour de vous qui absorbe 20 % des dégâts mais se brise après un coup
+	  Après 30 secondes, le bouclier de glace se régénérera
+      '''
+  }
+  ArchaicPowder:
+  {
+    DisplayName: Poudre Archaïque
+    Tooltip:
+      '''
+      Augmente la vitesse de minage de 15 %
+	  +5 % de réduction des dégâts et +10 de défense quand vous êtes sous terre
+      '''
+  }
+  AsgardianAegis:
+  {
+    DisplayName: Egide Asgardienne
+    Tooltip:
+      '''
+	  Immunité au recul
+	  Immunité à la plupart des altérations d'états
+	  +40 de vie maximale et régénération de vie accrue
+	  Accorde une ruée cosmique infernale qui peut foncer à travers les ennemis sans subir de dégâts
+	  Peut être utilisée pour foncer sur les ennemis
+	  +20 défense lorsque vous êtes immergé
+      '''
+  }
+  AsgardsValor:
+  {
+    DisplayName: Valeur d'Asgard
+    Tooltip:
+      '''
+      Immunité au recul
+	  Immunité à la plupart des altérations d'états
+      +16 défense lorsque vous êtes immergé
+      +20 de vie maximale
+	  Accorde une ruée de flammes sacrées qui peut foncer à travers les ennemis sans subir de dégâts
+      '''
+  }
+  BadgeofBravery:
+  {
+    DisplayName: Badge de Bravoure
+    Tooltip:
+      '''
+      +10% de dégâts et de chances de coup critique en mêlée
+      +5 pénétration d'armure en mêlée
+      '''
+  }
+  BlazingCore:
+  {
+    DisplayName: Noyau Brûlant
+    Tooltip:
+      '''
+	  Le cœur brûlant de la Déesse Profanée
+	  Appuyer sur [KEY] activera la Garde Élysiéenne, vous enveloppant dans un cristal profané lumineux
+	  Être touché peu de temps après l'enveloppement brisera le cristal
+	  Après s'être brisé, des vagues d'étoiles sacrées se propagent en spirale et les dégâts que vous auriez subis sont réduits à 1
+	  L'effet de réduction entre ensuite en temps de recharge
+	  Si vous êtes touché durant ce temps de recharge, des étoiles guérisseuses sont parsemées parmi les vagues d'étoiles
+	  Les dégâts ne sont pas réduits durant le temps de recharge
+	  Émet une quantité modérée de lumière dans les abysses
+      '''
+  }
+  BloodflareCore:
+  {
+    DisplayName: Noyau de Brûlesang
+    Tooltip:
+      '''
+      Vous perdez jusqu'a la moitié de votre défense lorsque vous êtes touché
+      Le défense perdue se régénère au fur et à mesure
+      Vous gagnez un point de vie pour chaque point de défense régénéré
+      '''
+  }
+  BloodPact:
+  {
+    DisplayName: Pacte de Sang
+    Tooltip:
+      '''
+      Double vos points de vie max
+      Les coups que vous subissez seront critiques 25% du temps
+      Après un coup critique, vous gangner diverses améliorations durant 10 secondes
+      Les potions de soins utilisées durant cette période soignent 50% de vie supplémentaire
+      '''
+  }
+  BloodstainedGlove:
+  {
+    DisplayName: Gant Maculé de Sang
+    Tooltip: Les attaques furtives ont +5 pénétration d'armure et soignent 2 points de vie
+  }
+  BloodyWormScarf:
+  {
+    DisplayName: Echarpe de Ver Sanglant
+    Tooltip:
+      '''
+      +7% de réduction de dégâts
+      +10% de dégâts en mêlée
+      '''
+  }
+  BloodyWormTooth:
+  {
+    DisplayName: Dent de Ver Sanglante
+    Tooltip: +10% de dégâts en mêlée
+  }
+  BloomStone:
+  {
+    DisplayName: Pierre d'Éclosion
+    Tooltip:
+      '''
+      Vous régénérez rapidement de la vie lorsque vous êtes au sol
+	  Cet effet fonctionne mieux pendant la journée
+	  Des fleurs poussent si vous êtes debout sur de l'herbe
+	  Des plantes de teinture aléatoires poussent sur de la terre sans herbe
+	  Une des anciennes reliques
+      '''
+  }
+  BlunderBooster:
+  {
+    DisplayName: Améliorateur de Gaffe
+    Tooltip:
+      '''
+      Augmente les dégâts de voleur de 12 % et la vélocité des projectiles de voleur de 15 %
+	  La furtivité se génère 10 % plus rapidement
+	  Invoque une aura d'éclairs rouges autour du joueur et électrifie les ennemis à proximité
+	  Appuyez sur [KEY] pour consommer 25 % de votre furtivité maximale afin d'effectuer un bond rapide vers le haut/diagonal qui laisse une traînée d'éclairs
+	  Cet effet a un temps de recharge d'une seconde
+      '''
+  }
+  Calamity:
+  {
+    DisplayName: Calamité
+    Tooltip:
+      '''
+      Enflamme votre curseur avec les flammes de la sorcière, invoquant une sigle brûlant autour
+      Les ennemis qui touchent le sigle prennent d'immenses dégâts et subissent la malédiction de vulnérabilité
+      Equipez dans un emplacement de vanité change la couleur du curseur sans infliger de dégâts
+      '''
+  }
+  ChaosStone:
+  {
+    DisplayName: Pierre du Chaos
+    Tooltip:
+      '''
+      Le Mana affaibli causé par la consommation de potions de mana est remplacée par la Brûlure de mana
+	  La Brûlure de mana inflige des dégâts sur la durée en fonction de l'intensité de l'altération
+	  Cette altération n'affecte pas vos dégâts magiques
+	  Une des anciennes reliques
+      '''
+  }
+  CoinofDeceit:
+  {
+    DisplayName: Pièce de Tromperie
+    Tooltip:
+      '''
+      Les attaques furtives ne consomment que 85% de votre furtivité
+      6% des coups critiques pour les dégâts de voleur
+      '''
+  }
+  CoreOfTheBloodGod:
+  {
+    DisplayName: Noyau du Dieu du Sang
+    Tooltip:
+      '''
+      +8% de dégâts et de réduction des dégâts supplémentaires
+      Augmente vos points de vie maximum de 10%
+      Les potions de soins rendent 15% de vie supplémentaires
+      Réduit les dégâts de contact de moitié
+      Quand vous prenez des dégâts de contact, cet effet à un temps de recharge de 20s
+      '''
+  }
+  CorrosiveSpine:
+  {
+    DisplayName: Colonne Vertébrale Corrosive
+    Tooltip:
+      '''
+      +5% de vitesse de mouvement
+      Toutes les armes de voleur empoisonnent et créent des nuages irradiés quand ils touchent
+      Vous relâchez une tonne de nuage quand vous êtes touché
+      '''
+  }
+  CorruptFlask:
+  {
+    DisplayName: Flasque corrompue
+    Tooltip: 7% de réduction des dégâts et +3 défense quand vous êtes dans la corruption
+  }
+  CounterScarf:
+  {
+    DisplayName: Echarpe de Contre
+    Tooltip:
+      '''
+      Les attaques de vraie mêlée font 10% de dégâts supplémentaires
+      Donne la possibilité de foncer, foncer dans une attaque vous permettra de l'esquiver
+      Après une esquive réussie, vous devez attendre 30s avant de pouvoir esquiver de nouveau
+      '''
+  }
+  CrawCarapace:
+  {
+    DisplayName: Carapace de Jabot
+    Tooltip:
+      '''
+      +5% de dégâts
+      Les ennemis subissent l'écrasement d'armure quand ils vous touchent
+      '''
+  }
+  Baroclaw: {
+	 DisplayName: Baroclaw
+	 Tooltip:
+	  '''
+	  +8% de dégâts
+      Les ennemis beaucoup de dégâts et subissent l'écrasement d'armure durant une longue période quand ils vous touchent
+	  ''' 
+  }
+  CrimsonFlask:
+  {
+    DisplayName: Flasque Carmin
+    Tooltip: 7% de réduction des dégâts et +3 défense quand vous êtes dans le carmin
+  }
+  CrownJewel:
+  {
+    DisplayName: Joyau de la Couronne
+    Tooltip:
+      '''
+      Augmente la régénération de vie même lorsque vous subissez des dégâts sur la durée
+      +8 défense lorsque vous subissez des dégâts sur la durée
+      '''
+  }
+  CryoStone:
+  {
+    DisplayName: Pierre Cryo
+    Tooltip:
+      '''
+      Une des anciennes reliques
+      Augmente les dégâts des altérations de glace de 50%
+      Crée un bouclier de glace rotatif autour de vous qui endommage et ralentit les ennemis au contact
+      '''
+  }
+  DaawnlightSpiritOrigin:
+  {
+    DisplayName: Origine de l'Esprit d'Aubelumière
+    Tooltip:
+      '''
+      Tous les ennemis et boss à proximité sont marqués de cibles
+	  Les attaques à distance qui touchent une cible infligent toujours des coups critiques et infligent des dégâts massifs
+	  Lorsqu'une cible est touchée, elle disparaît et une nouvelle apparaît ailleurs
+	  Les explosions ou les gros projectiles ne peuvent pas toucher les cibles
+	  Les tirs ricochés des pièces lancées cibleront les cibles, mais avec un multiplicateur de coup critique plus bas
+	  Convertit tous les bonus de chance de coup critique en bonus de dégâts supplémentaires
+	  Toutes les armes à distance infligeront encore plus de dégâts si elles sont lentes
+	  Invoque un esprit héroïque d'un autre monde si la visibilité de l'accessoire est activée
+	  L'esprit héroïque est également invoqué lorsque cet accessoire est placé dans les emplacements de vanité
+	  'Un brin d'un cosmos perdu reste, attendant son maître'
+      '''
+  }
+  DarkSunRing:
+  {
+    DisplayName: Anneau du Sombresoleil
+    Tooltip:
+      '''
+      +12% aux dégâts
+      +1 régénération de vie et +2 sbires max
+      Augmente le recul des sbires
+      Pendant la journée, +4 de régénération de vie
+	  Pendant la nuit, +20 de défense
+	  Pendant une éclipse, +2 de régénération de vie et +10 de défense
+      'Contient le pouvoir du Sombresoleil'
+      '''
+  }
+  DeadshotBrooch:
+  {
+    DisplayName: Broche de l'Abattu
+    Tooltip:
+      '''
+      +10% de dégâts à distance, +5% de chances de coup critique à distance et -20% de consommation de munitions
+      Augmente grandement la vélocité des projectiles des armes à distance
+      '''
+  }
+  DeepDiver:
+  {
+    DisplayName: Plongeur profond
+    Tooltip:
+      '''
+      +15 défense et +15% de dégâts et de vitesse de déplacement supplémentaires lorsque vous êtes sous l'eau
+      Lorsque vous êtes sous l'eau, vous pouvez foncer sur de grandes distances
+      '''
+  }
+  DeificAmulet:
+  {
+    DisplayName: Amulette de Divinité
+    Tooltip:
+      '''
+      Fait tomber des étoiles et augmente la période d'invincibilité lorsque vous êtes touché
+      Accorde de la régénération de vie et réduit le temps de recharge des potions de soins
+      '''
+  }
+  DepthCharm:
+  {
+    DisplayName: Charme des Profondeurs
+    Tooltip:
+      '''
+      Réduit les dégâts causés par la pression des abysses lorsque vous suffoquez
+      Annule l'effet de saignement provoqué par les couches supérieures des abysses
+      '''
+  }
+  DimensionalSoulArtifact:
+  {
+    DisplayName: Artéfact de l'Âme Dimensionnelle
+    Tooltip:
+      '''
+      Pouvoir
+      Augmente tous les dégâts de 25%, mais à quel prix ?
+      Augmente tous les dégâts subis de 15%
+      '''
+  }
+  DraedonsHeart:
+  {
+    DisplayName: Coeur de Draedon
+    Tooltip:
+      '''
+      {0}% reduced contact damage from enemies
+      Reduces defense damage taken by {1}%
+      [NANODESC]
+      With full Nanomachines, press [KEY] to heal {2} health over {3} {^3:second;seconds}
+      While healing, you take [DR]% less damage
+      'Nanomachines, son'
+      '''
+    NanomachinesAdd:
+      '''
+      Adds the Nanomachines meter
+      Nanomachines accumulate over time while fighting bosses
+      Taking damage stops the accumulation for {0} {^0:second;seconds}
+      '''
+    NanomachinesReplace:
+      '''
+      Replaces Adrenaline with the Nanomachines meter
+      Unlike Adrenaline, you lose no Nanomachines when you take damage, but they stop accumulating for {0} {^0:second;seconds}
+      '''
+  }
+  DragonScales:
+  {
+    DisplayName: Écailles de Dragon
+    Tooltip:
+      '''
+      Rogue projectiles create slow fireballs as they travel
+      Stealth strikes create infernados on death
+      +10% max run speed and acceleration
+      Grants immunity to Dragonfire
+      'Only a living dragon holds true treasure'
+      '''
+  }
+  DynamoStemCells:
+  {
+    DisplayName: Transformateur de Cellules Souches
+    Tooltip:
+      '''
+      +10% de vitesse de mouvement
+      Les armes à distance ont une chance de tirer des petits essaimeurs
+      Immunise au feu draconique et à l'électrisation
+      '''
+  }
+  EclipseMirror:
+  {
+    DisplayName: Miroir d'Éclipse
+    Tooltip:
+      '''
+      +10 maximum stealth
+      6% increased rogue damage, and 6% increased rogue crit chance
+      Vastly reduces enemy aggression, even in the abyss
+      Stealth generates 25% faster when standing still
+      Mobile stealth generation accelerates while not attacking
+      Stealth strikes only expend 50% of your max stealth
+      Grants the ability to evade attacks in a blast of darksun light, which inflicts extreme damage in a wide area
+      Evading an attack grants full stealth but has a 90 second cooldown
+      This cooldown is shared with all other dodges and reflects
+      'Its reflection shows naught but darkness'
+      '''
+  }
+  EldritchSoulArtifact:
+  {
+    DisplayName: Artefact d'Âme d'Eldritch
+    Tooltip:
+      '''
+      Boosts melee speed by 10%, ranged velocity by 25%, rogue stealth regen by 15%, max minions by 1 and reduces mana cost by 25%
+      Grants immunity to Whispering Death
+      Knowledge
+      '''
+  }
+  ElectriciansGlove:
+  {
+    DisplayName: Gants d'Electricien
+    Tooltip:
+      '''
+      Stealth strikes summon sparks on enemy hits
+      Stealth strikes also have +8 armor penetration, deal 8% more damage, and heal for 2 HP
+      '''
+  }
+  ElementalGauntlet:
+  {
+    DisplayName: Gant des Eléments
+    Tooltip:
+      '''
+      Melee attacks and projectiles inflict Hellfire
+      15% increased melee speed, damage, and 5% increased melee critical strike chance
+      20% increased true melee damage
+      Increased melee knockback
+      Enables auto swing for melee weapons
+      Increases the size of melee weapons
+      '''
+  }
+  ElementalQuiver:
+  {
+    DisplayName: Carquois des Eléments
+    Tooltip:
+      '''
+      +15% de dégâts à distance, +5% de critique à distance, et -20% de consommation de munitions
+      +5 défense, +2 régénération de vie et +15% de vitesse de minage
+      Augmente beaucoup la vitesse des flèches et donne 20% de chances de ne pas consommer de flèches
+      '''
+  }
+  ElysianAegis:
+  {
+    DisplayName: Egide Elysienne
+    Tooltip:
+      '''
+      Grants immunity to knockback and the Burning, On Fire!, and Holy Flames debuffs
+      +30 max life
+      Grants an enhanced holy flame dash which can slam through enemies without taking damage
+      Can be used to ram enemies
+      Blessed by the Profaned Flame
+      '''
+  }
+  EnchantedPearl:
+  {
+    DisplayName: Perle Enchantée
+    Tooltip:
+      '''
+      Augmente la puissance de pêche
+      Augmente les chances de pêcher des caisses
+      '''
+  }
+  EtherealExtorter:
+  {
+    DisplayName: Extorqueur Ethéré
+    Tooltip:
+      '''
+      Rogue projectiles explode into homing souls on death
+      8% increased rogue damage and +10 maximum stealth
+      '''
+  }
+  EtherealTalisman:
+  {
+    DisplayName: Talisman Ethéré
+    Tooltip:
+      '''
+      +15% de dégâts magiques, +5% de chances de coup critiques magiques et -10% des coûts en mana
+      +150 de mana maximum
+      Augmente la portée de collecte des étoiles de mana
+      Vous utilisez automatiquement les potions de mana si la visibilité est activée
+      '''
+  }
+  EvasionScarf:
+  {
+    DisplayName: Echarpe d'Evasion
+    Tooltip:
+      '''
+      Les attaques de vraie mêlée font 15% de dégâts supplémentaires
+      Donne la possibilité de foncer, foncer dans une attaque vous permettra de l'esquiver
+      Après une esquive réussie, vous devez attendre 30s avant de pouvoir esquiver de nouveau
+      '''
+  }
+  EyeoftheStorm:
+  {
+    DisplayName: Oeil de la tempête
+    Tooltip: Summons a Cloud Elemental to fight for you
+  }
+  FeatherCrown:
+  {
+    DisplayName: Couronne de Plumes
+    Tooltip:
+      '''
+      +15 de vitesse des projectiles de voleur
+      Les attaques furtives réussies font pleuvoir des plumes du ciel
+      '''
+  }
+  FilthyGlove:
+  {
+    DisplayName: Gant Crasseux
+    Tooltip: Stealth strikes have +8 armor penetration and deal 8% more damage
+  }
+  FlameLickedShell:
+  {
+    DisplayName: Carapace léchée par la flamme
+    Tooltip:
+      '''
+      35% decreased movement speed
+      Enemies take damage when they hit you
+      You move faster and lose 18 defense for 3 seconds if you take damage
+      Grants immunity to lava and Armor Crunch
+      '''
+  }
+  FleshTotem:
+  {
+    DisplayName: Totem de Chair
+    Tooltip:
+      '''
+      Diminue de moitié les dégâts de contact
+      Cet effet à un temps de recharge de 20s
+      '''
+  }
+  FrostBarrier:
+  {
+    DisplayName: Barrière Givrée
+    Tooltip:
+      '''
+      Vous gelez les ennemis autour de vous quand vous êtes touché
+      Immunité au refroidissement
+      '''
+  }
+  FrostFlare:
+  {
+    DisplayName: Flamme Givrée
+    Tooltip:
+      '''
+      All attacks and projectiles inflict frostbite
+      Immunity to frostburn, chilled and frozen
+      Being above 75% life grants 10% increased damage
+      Being below 25% life grants 20 defense and 15% increased max movement speed and acceleration
+      Grants resistance against cold attacks
+      '''
+  }
+  FungalClump:
+  {
+    DisplayName: Amas Fongique
+    Tooltip:
+      '''
+      Invoque un amas fongique qui combat pour vous
+      L'amas s'accroche aux ennemis et vole leur vie pour vous
+      '''
+  }
+  FungalSymbiote:
+  {
+    DisplayName: Symbiote Fongique
+    Tooltip:
+      '''
+      You grow mushrooms on the grass beneath you
+      Consuming mushrooms provides the Mushy buff, increasing defense by 6 and life regen by 2
+      All mushroom-based weapons deal 10% more damage and emit non-damaging mushrooms
+      '''
+  }
+  Gehenna:
+  {
+    DisplayName: Géhenne
+    Tooltip: Fait pleuvoir des boules de feu de soufre du ciel occasionnellement
+  }
+  GiantPearl:
+  {
+    DisplayName: Perle Géante
+    Tooltip:
+      '''
+      Vous donne une aura de lumière
+      Les ennemis dans l'aura sont ralentis
+      Ne fonctionne pas quand un boss est présent
+      Donne une petite quantité de lumière dans les abysses
+      '''
+  }
+  GiantShell:
+  {
+    DisplayName: Carapace Géante
+    Tooltip:
+      '''
+      -10% de vitesse lorsque vous foncez
+      Subir des dégâts retirera cet effet et réduit la défense pendant 5 secondes
+      '''
+  }
+  GiantTortoiseShell:
+  {
+    DisplayName: Carapace de Tortue Géante
+    Tooltip:
+      '''
+	  +5% de réduction de dégâts
+      -15% de vitesse lorsque vous foncez
+      Subir des dégâts retirera cet effet et réduit la défense et la réduction des dégâts pendant 5 secondes
+      '''
+  }
+  GladiatorsLocket:
+  {
+    DisplayName: Pendentif du Gladiateur
+    Tooltip:
+      '''
+      Enemies drop a healing orb on kill
+      Gain an increase to your damage and movement speed the lower your health is, up to 20%
+      '''
+  }
+  GloveOfPrecision:
+  {
+    DisplayName: Gants de Précision
+    Tooltip: Decreases rogue attack speed by 15% but increases damage by 13%, crit by 15% and velocity by 25%
+  }
+  GloveOfRecklessness:
+  {
+    DisplayName: Gants d'Imprudence
+    Tooltip:
+      '''
+      Increases rogue attack speed by 15% but decreases damage by 13%
+      15% increased stealth regeneration
+      Adds inaccuracy to rogue weapons
+      '''
+  }
+  GodlySoulArtifact:
+  {
+    DisplayName: Auric Soul Artifact
+    Tooltip:
+      '''
+      For each Fiery Draconid you have summoned, you gain 1 minion slot
+      Loyalty
+      '''
+  }
+  GrandGelatin:
+  {
+    DisplayName: Gelée Grandiose
+    Tooltip:
+      '''
+      +10% de vitesse de mouvement et de saut
+      Using a healing potion will spawn a cleansing aura
+	  Walking into the aura removes all debuffs and defense damage one time
+	  The aura provides increased life regen for all players inside for 8 seconds
+      '''
+  }
+  GravistarSabaton:
+  {
+    DisplayName: Gravitoile Sabaton
+    Tooltip:
+      '''
+      20% increased jump speed
+	  Grants immunity to fall damage
+	  Hold DOWN to increase your maximum fall speed
+	  Hold [KEY] for 1 second while midair to charge up a superspeed slam
+	  While slamming, you ram through enemies and don't take contact damage
+	  Once you reach the ground, you create an explosion at your feet 
+	  The explosion scales in both damage and size the longer you slam for
+	  Temporary 40% increased jump speed after slamming into the ground
+      '''
+  }
+  HallowedRune:
+  {
+    DisplayName: Rune Sacrée
+    Tooltip:
+      '''
+      Quand vos sbires endommagent un ennemi, vous gagnez une amélioration aléatoire
+      Ne se cumule pas avec les accessoires la composant
+      Ces améliorations augmenteront votre défense, vos dégâts d'invocation ou votre régénération de vie durant un moment
+      Si vous avec l'amélioration de dégâts, les ennemis touchés par vos sbires seront parfois frappés par les étoiles
+      '''
+  }
+  HarpyRing:
+  {
+    DisplayName: Anneau de Harpie
+    Tooltip:
+      '''
+      +10% de vitesse de mouvement
+      Augmente votre temps de vol maximum de 20%
+      '''
+  }
+  HeartofDarkness:
+  {
+    DisplayName: Coeur des Ténèbres
+    Tooltip:
+      '''
+      La rage ne diminue pas en dehors des combats
+      Vous gagnez de la rage naturellement
+      Revengeance
+      '''
+  }
+  HeartoftheElements:
+  {
+    DisplayName: Coeur des Éléments
+    Tooltip:
+      '''
+      Summons all elementals to protect you
+      'The heart of the world'
+      '''
+  }
+  HideofAstrumDeus:
+  {
+    DisplayName: Peau d'Astrum Deus
+    Tooltip:
+      '''
+      Subir des dégâts ou frapper en véritable mêlée fait tomber une gigantesque quantité d'étoiles astrales du ciel
+      Sbir des dégâts augmente les dégâts de vraie mêlée de 50% pendant un moment
+      La durée de l'amélioration dépend des dégâts subis, plus les dégâts sont élevés, plus l'amélioration est longue
+      Immunité à l'infection astrale, au feu maudit, au feu et au brûlegivre
+      Les ennemis subissent des dégâts quand ils vous touchent et contractent l'infection astrale
+      '''
+  }
+  HoneyDew:
+  {
+    DisplayName: Rosée de Miel
+    Tooltip:
+      '''
+      Réduit les dégâts subis de 5%, +9 défense et régénération de vie augmentée quand vous êtes dans la jungle
+      Immunité au poison et au venin
+      Régénération de vie apparentée au miel mais sans pénalité de vitesse
+      La plupart des abeilles/frelons et leur projectiles ne vous font plus que 75% des dégâts
+      '''
+  }
+  HowlsHeart:
+  {
+    DisplayName: Coeur d'Howl
+    Tooltip:
+      '''
+      Invoque Howl pour vous protéger, Calcifer pour éclairér votre voie, et Tête-de-Navet pour vous suivre
+      Placer cette accessoire dans un emplacement de vanité invoquera le trio sans leurs fonctions utilitaires
+      '''
+  }
+  InkBomb:
+  {
+    DisplayName: Bombe d'Encre
+    Tooltip:
+      '''
+      Envoie plusieurs bombes d'encre quand vous êtes touché qui explosent dans un nuage d'encre qui inflige la confusion
+      Vous gagnez beaucoup de furtivité quand vous êtes touché
+      Cet effet à un temps de recharge de 20s
+      '''
+  }
+  IronBoots:
+  {
+    DisplayName: Bottes de Fer
+    Tooltip: Vous permet de chuter plus vite dans les liquides
+  }
+  JellyChargedBattery:
+  {
+    DisplayName: Batterie de Gelée
+    Tooltip:
+      '''
+      +1 max minions and 7% summon damage
+      Minion attacks spawn orbs of energy and inflict Electrified
+      '''
+  }
+  Laudanum:
+  {
+    DisplayName: Laudanum
+    Tooltip:
+      '''
+      Converts certain debuffs into buffs and extends their durations
+      Debuffs affected: Darkness, Blackout, Confused, Slow, Weak,
+      Broken Armor, Armor Crunch, Chilled, Ichor, and Obstructed
+      Revengeance drop
+      '''
+  }
+  LeviathanAmbergris:
+  {
+    DisplayName: Ambre Gris de Leviathan
+    Tooltip:
+      '''
+      Vous déversez de l'eau de mer empoisonnée quand vous vous déplacez
+      +30% de vitesse de mouvement, +10% à tous les dégâts et +10 défense quand vous êtes immergé
+      Si vous subissez des dégâts alors que vous êtes immergé, vous émettez une aura qui inflige des dégâts durant un court moment
+      Être en dehors d'un liquide augmente tous les dégâts et réduit les dégâts subis de 5%
+      '''
+  }
+  LifeJelly:
+  {
+    DisplayName: Gelée de Vie
+    Tooltip:
+      '''
+      Using a healing potion will spawn a lingering aura 
+	  The aura provides increased life regen for all players inside for 5 seconds
+      '''
+  }
+  LivingDew:
+  {
+    DisplayName: Rosée Vivante
+    Tooltip:
+      '''
+      5% de réduction des dégâts, +5 défense, et régénération de vie augmentée dans la jungle
+      Immunité au poison
+      '''
+  }
+  LumenousAmulet:
+  {
+    DisplayName: Amulette Lumineuse
+    Tooltip:
+      '''
+      Les attaques infligent l'écrasement
+      Immunise contre l'altération d'état écrasement
+      +25% de vie supplémentaire dans les abysses
+      Accorde une quantité de lumière modérée dans les abysses
+      '''
+  }
+  LuxorsGift:
+  {
+    DisplayName: Cadeau de Luxor
+    Tooltip:
+      '''
+      Les armes tirent des projectiles qui dépendent du type de dégâts qu'elle inflige
+      Ne fonctionne pas avec toutes les armes
+      '''
+  }
+  CleansingJelly: {
+	 DisplayName: Cleansing Jelly
+	 Tooltip:
+		'''
+		Using a healing potion will spawn a cleansing aura 
+		Walking into the aura removes all debuffs and defense damage one time
+		''' 
+  }
+  ManaPolarizer:
+  {
+    DisplayName: Polarisateur de Mana
+    Tooltip:
+      '''
+      Augmente le mana maximum de 50 et les dégâts magiques de 6%
+      La régénération de vie est réduite de 3 si vous avez plus de la moitié de votre mana
+      Accorde le soin spectral, la quantité de vie rendue dépend de votre mana
+      Le soin ne fonctionne que si vous tenez une arme magique
+      Au plus vous avez de mana, au plus le soin est élevé
+      '''
+  }
+  MarniteRepulsionShield:
+  {
+    DisplayName: Marnite Repulsion Shield
+    Tooltip:
+      '''
+      Enemies behind you are struck by high-knockback hardlight quills
+      [c/FFF191:Backstabbers Beware!]
+      '''
+  }
+  MirageMirror:
+  {
+    DisplayName: Mirage Mirror
+    Tooltip:
+      '''
+      Reduces enemy aggression outside of the abyss
+      Stealth generates 25% faster when standing still and 12% faster while moving
+      'Bend light around you'
+      '''
+  }
+  MoonstoneCrown:
+  {
+    DisplayName: Couronne de Pierre Lunaire
+    Tooltip:
+      '''
+      +15% de vitesse de projectile de voleur
+      Les attaques furtives créent des éruptions lunaires quand elles touchent les ennemis
+      De temps en temps, les projectiles de voleurs créent des sigles lunaires
+      '''
+  }
+  MutatedTruffle:
+  {
+    DisplayName: Truffe Mutée
+    Tooltip:
+      '''
+      Invoque un Vieux Duc miniature pour combattre à vos côtés
+      Quand vous avez moins de la moitié de votre vie, il devient bien plus rapide
+      '''
+  }
+  Nanotech:
+  {
+    DisplayName: Nanotech
+    Tooltip:
+      '''
+      Rogue projectiles create nanoblades as they travel
+      Stealth strikes summon nanobeams and sparks on enemy hits
+      Stealth strikes have +15 armor penetration, deal 5% more damage, and heal for 2 HP
+      15% increased rogue damage and 15% increased rogue velocity
+      Landing a stealth strike grants a 12% crit bonus to non-stealth strikes
+      This crit bonus decays over 5 seconds
+      '''
+  }
+  NebulousCore:
+  {
+    DisplayName: Noyau Nébuleux
+    Tooltip:
+      '''
+      +10% de dégâts
+      Invoque des étoiles nébuleuses flottantes pour vous protéger
+      Vous survivrez à une attaque mortelle
+      Si cet effet s'active, vous regagnez 100 points de vie
+      Cet effet à un temps de recharge de 90s
+      '''
+  }
+  NecklaceofVexation:
+  {
+    DisplayName: Collier de Vexation
+    Tooltip:
+      '''
+      20% increased damage when under 50% life
+      All attacks inflict acid venom while wearing Reaver armor
+      Revenge
+      '''
+  }
+  NuclearFuelRod:
+  {
+    DisplayName: Nuclear Fuel Rod
+    Tooltip:
+      '''
+      Minions release an irradiated aura on enemy hits
+      +1 max minion
+      Grants immunity to Irradiated
+      '''
+  }
+  Nucleogenesis:
+  {
+    DisplayName: Nucleogénèse
+    Tooltip:
+      '''
+      Increases max minions by 4, does not stack with downgrades
+      Grants immunity to Shadowflame and Irradiated
+      15% increased summon damage
+      Increased minion knockback
+      Minions inflict a variety of debuffs
+      Minions spawn damaging sparks on enemy hits
+      '''
+  }
+  OccultSkullCrown:
+  {
+    DisplayName: Occult Skull Crown
+    Tooltip:
+      '''
+      You constantly gain rage over time and rage does not fade away when out of combat
+      Converts certain debuffs into buffs and extends their durations
+      Debuffs affected: Darkness, Blackout, Confused, Slow, Weak,
+      Broken Armor, Armor Crunch, Chilled, Ichor and Obstructed
+      Adrenaline charges 20% faster
+      Increases your max movement speed and acceleration by 5%
+      'Only a fool would ever wear this...'
+      Revengeance item
+      '''
+  }
+  OceanCrest:
+  {
+    DisplayName: Blason de l'Océan
+    Tooltip: La plupart des ennemis océaniques deviennent amicaux et permet de respirer sous l'eau
+  }
+  OldDie:
+  {
+    DisplayName: Vieux Dé
+    Tooltip:
+      '''
+      Increases luck by 20%
+      'Lucky for you, the curse doesn't affect you. Mostly'
+      '''
+  }
+  OldDukeScales:
+  {
+    DisplayName: Écailles du Vieux Duc
+    Tooltip:
+      '''
+      10% increased damage reduction
+      10% increased max movement speed and acceleration
+	  25% increased dash velocity and length
+	  Gives you a stamina indicator on the cooldown rack
+	  Using any dash will consume 20% of your stamina
+	  Stamina will gradually recover to 100% after not dashing for 1 second
+	  Stamina recovers faster when you are stationary
+	  If your stamina reaches 0%, you become exhausted
+	  [c/CE0E18:While exhausted, this item's damage reduction and movement bonuses are negated]
+	  [c/CE0E18:Being exhausted reduces movement speed by 30% and dash velocity by 50%]
+	  This debuff lasts until your stamina reaches 100% again
+      '''
+  }
+  OrnateShield:
+  {
+    DisplayName: Bouclier Orné
+    Tooltip:
+      '''
+      8% increased damage reduction and +20 health while wearing the Daedalus armor
+      Grants a frost dash which can slam through enemies without taking damage
+      '''
+  }
+  PearlofEnthrallment:
+  {
+    DisplayName: Perle de Subjugation
+    Tooltip:
+      '''
+      Invoque un élémentaire d'eau pour combattre à vos côtés
+      L'élémentaire reste au dessus de vous, tire des lances aquatiques, du brouillard de givre, et des clés de sol sur les ennemis
+      '''
+  }
+  PermafrostsConcoction:
+  {
+    DisplayName: Préparation de Permafrost
+    Tooltip:
+      '''
+      Increases maximum mana by 50 and reduces mana cost by 15%
+      Increases life regen as life decreases
+      Increases life regen when afflicted with any fire debuff
+      You will survive fatal damage and revive with 30% life on a 3 minute cooldown
+      You are encased in an ice barrier for 3 seconds when revived
+      '''
+  }
+  PhantomicArtifact:
+  {
+    DisplayName: Phantomic Artifact
+    Tooltip:
+      '''
+      Whenever your minions hit an enemy you will gain a random phantomic buff, does not stack with downgrades
+      These buffs will either boost your defense, summon damage, or life regen for a while
+      If you have the offensive boost, enemies hit by minions will sometimes be hit by phantomic knives
+      If you have the regenerative boost, a phantomic heart will occasionally materialise granting massive health regen
+      If you have the defensive boost, a phantomic bulwark will absorb 20% of the next projectile's damage that hits the bulwark, shattering it
+      '''
+  }
+  PlaguedFuelPack:
+  {
+    DisplayName: Cellule de Carburant Pestiférée
+    Tooltip:
+      '''
+      8% increased rogue damage and 15% increased rogue projectile velocity
+      Stealth generates 10% faster
+      Press [KEY] to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds
+      This effect has a 1 second cooldown before it can be used again
+      '''
+  }
+  PlagueHive:
+  {
+    DisplayName: Ruche de Peste
+    Tooltip:
+      '''
+      Relâche des abeilles qui infligent lorsque vous êtes endommagé
+      Toutes vos attaques infligent la peste
+      Les projectiles créent des cherche-peste lorsqu'ils touchent
+      '''
+  }
+  ProfanedSoulArtifact:
+  {
+    DisplayName: Profaned Soul Artifact
+    Tooltip:
+      '''
+      Summons a healer guardian, which heals for a certain amount of health every few seconds
+      Summons a defensive guardian, which boosts your movement speed and damage resistance
+      Summons an offensive guardian, which boosts your minion slots
+      If you get hit, most of their effects will disappear for 5 seconds
+      Purity
+      '''
+  }
+  ProfanedSoulCrystal:
+  {
+    DisplayName: Cristal d'Âme Profanée
+    Tooltip:
+      '''
+      Transforms you into an emissary of the profaned goddess
+      [STATUS]
+      '''
+    ExoMechsLock: "[c/F05A5A:The soul within this crystal has been defiled by overwhelming energy waves from dangerous mechanations]"
+    CalamitasLock: "[c/F05A5A:The soul within this crystal has been defiled by the powerful magic of a supreme witch]"
+    Reject: Merchants will reject a defiled soul such as this.
+    FullTooltip:
+      '''
+      Requires 10 minion slots to use in order to grant the following effects
+      All non-summon weapons are converted into powerful summon variations
+      Falling below 50% life will empower these attacks
+      [c/F05A5A:Transforms Melee attacks into a barrage of spears]
+      [c/3A83E4:Transforms Magic attacks into a powerful splitting fireball for {0} mana per cast]
+      [c/85E092:Transforms Ranged attacks into a flurry of fireballs and meteors]
+      [c/E94571:Transforms Rogue attacks into a deadly crystalline spiral]
+      Summons and empowers the profaned babs to fight alongside you
+      Provides buffs depending on the time of day
+      Thinking back, it was a boring life
+      [c/FFBF49:And so we burn it all in the name of purity]
+      '''
+  }
+  QuiverofNihility:
+  {
+    DisplayName: Quiver of Nihility
+    Tooltip:
+      '''
+      5% increased ranged critical strike chance
+      Summons a ring of four void fields to orbit you
+      Arrows that pass through these fields gain a 100% damage boost and double the speed
+      'Filled with a substance darker than the night sky'
+      '''
+  }
+  RadiantOoze:
+  {
+    DisplayName: Limon Radieux
+    Tooltip: Vous émettez de la lumière et régénérez votre vie plus rapidement la nuit
+  }
+  RaidersTalisman:
+  {
+    DisplayName: Talisman du Pilleur
+    Tooltip:
+      '''
+      Landing a stealth strike grants a 12% crit bonus to non-stealth strikes
+      This crit bonus decays over 5 seconds
+      '''
+  }
+  RampartofDeities:
+  {
+    DisplayName: Rempart des Divinités
+    Tooltip:
+      '''
+      Causes stars to fall and gives increased immune time when damaged
+      Provides life regeneration and reduces the cooldown of healing potions
+      Absorbs 15% of damage done to players on your team
+      This effect is only active above 25% life
+      Grants immunity to knockback
+      Puts a shell around the owner when below 50% life that reduces damage taken
+      '''
+  }
+  ReaperToothNecklace:
+  {
+    DisplayName: Collier de Dents de Faucheur
+    Tooltip:
+      '''
+      15% increased damage
+      Increases armor penetration by 15
+      'A grisly trophy from the ultimate predator'
+      '''
+  }
+  Regenator:
+  {
+    DisplayName: Régénérateur
+    Tooltip:
+      '''
+      Greatly improves life regeneration
+      However, your health cannot exceed 50% of its maximum
+      '''
+  }
+  RogueEmblem:
+  {
+    DisplayName: Emblème de voleur
+    Tooltip: +15% de dégâts de voleur
+  }
+  RoseStone:
+  {
+    DisplayName: Pierre Rose
+    Tooltip:
+      '''
+      Summons a Brimstone Elemental to fight for you
+      Une des anciennes reliques
+      '''
+  }
+  RottenBrain:
+  {
+    DisplayName: Cerveau Décomposé
+    Tooltip:
+      '''
+      +10% de dégâts quand vous avez moins de 75% de votre vie
+      5% de réduction de vitesse de mouvement quand vous êtes en dessous de la moitié de votre vie
+      Des ombres pleuvent quand vous êtes touché
+      '''
+  }
+  RottenDogtooth:
+  {
+    DisplayName: Rotten Dogtooth
+    Tooltip: Makes Stealth strikes inflict Armor Crunch and deal 8% more damage
+  }
+  RoverDrive:
+  {
+    DisplayName: Disque Vagabond
+    Tooltip:
+      '''
+      Activates a protective matrix that can absorb 40 damage and grants 10 defense
+      However, the systems are fickle and the shield will need 10 seconds to recharge when broken
+      Getting hit during the shield recharge period will restart the recharging process
+      Can also be scrapped at an extractinator
+      '''
+  }
+  RuinMedallion:
+  {
+    DisplayName: Ruin Medallion
+    Tooltip:
+      '''
+      Stealth strikes only expend 75% of your max stealth
+      6% increased rogue damage, and 6% increased rogue crit chance
+      '''
+  }
+  RustyMedallion:
+  {
+    DisplayName: Médaillon Rouillé
+    Tooltip:
+      '''
+      Causes most ranged weapons to release acid droplets from the sky
+      Grants immunity to Irradiated
+      '''
+  }
+  SandCloak:
+  {
+    DisplayName: Sand Cloak
+    Tooltip:
+      '''
+      5% increased movement speed
+      Press [KEY] to consume 10% of your maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen
+      This effect has a 30 second cooldown before it can be used again
+      '''
+  }
+  SandSharkToothNecklace:
+  {
+    DisplayName: Sand Shark Tooth Necklace
+    Tooltip:
+      '''
+      Increases armor penetration by 10
+      6% increased damage
+      '''
+  }
+  ScuttlersJewel:
+  {
+    DisplayName: Scuttler's Jewel
+    Tooltip:
+      '''
+      Stealth strike projectiles spawn a jewel spike when destroyed
+      Can also be broken down at an extractinator
+      '''
+  }
+  ShatteredCommunity:
+  {
+    DisplayName: Shattered Community
+    Tooltip:
+      '''
+      'Ruined by unknowable hatred, it still contains (most of) the power of The Community...'
+      Increases damage by 10% and critical strike chance by 5%
+      Increases max health by 10%, damage reduction by 5%, defense by 10 and life regen by 2
+      Increases movement speed by 10% and flight time by 20%
+      [RAGEDESC]
+      Taking damage gives rage, this effect is not hindered by your defensive stats
+      While Rage Mode is active, taking damage gives only half as much rage
+      Deal damage with Rage Mode to further empower your wrath
+      Current level: [LEVEL] (+[LEVEL]% Rage Mode damage)
+      Progress to next level: [PROGRESS]%
+      Total Rage Mode damage: [DAMAGE]
+      '''
+    RageAdd:
+      '''
+      Adds the Rage meter, which generates over time
+      Rage generates faster when in proximity of enemies
+      When Rage is maxed, press {0} for a temporary damage boost
+      '''
+    RageModified: You generate rage over time and rage does not fade out of combat
+  }
+  ShieldoftheHighRuler:
+  {
+    DisplayName: Shield of the High Ruler
+    Tooltip:
+      '''
+      Grants immunity to knockback
+      Immune to most debuffs
+      +10 max life
+      Grants an improved Shield of Cthulhu dash
+      Bonking an enemy reduces the delay before you can dash again by 50%
+      If you are facing a projectile when it hits you it will deal 15% less damage
+      'For the fate of the kingdom'
+      '''
+  }
+  ShieldoftheOcean:
+  {
+    DisplayName: Bouclier de l'Océan
+    Tooltip:
+      '''
+      +5 défense lorsque vous êtes immergé
+      Augmente la vitesse de déplacement et la régénération de vie si vous portez l'armure victide
+      '''
+  }
+  SigilofCalamitas:
+  {
+    DisplayName: Sigle de Calamitas
+    Tooltip:
+      '''
+      +15% de dégâts magiques et coûts en mana réduits de 10%
+      Augmente la portée de collecte des étoiles de mana
+      +100 mana maximum
+      '''
+  }
+  SilencingSheath:
+  {
+    DisplayName: Silencing Sheath
+    Tooltip: +10 maximum stealth
+  }
+  SpectralVeil:
+  {
+    DisplayName: Spectral Veil
+    Tooltip:
+      '''
+      Press [KEY] to consume 25% of your maximum stealth to perform a mid-range teleport and render you momentarily invulnerable
+      If you dodge something while invulnerable, you instantly gain full stealth
+      Teleportation is disabled while Chaos State is active
+      Stealth generates 15% faster
+      'The inside of the cloak is full of teeth...'
+      '''
+  }
+  SpelunkersAmulet:
+  {
+    DisplayName: Amulette du Spéléologue
+    Tooltip: Spelunker effect and 10% increased mining speed
+  }
+  SpiritGlyph:
+  {
+    DisplayName: Glyphe Spirituel
+    Tooltip:
+      '''
+      Quand vos sbires touchent un ennemi, vous obtenez une amélioration aléatoire
+      Ces améliorations augmenteront vos dégâts d'invocation, votre défense ou votre régénération de vie durant un moment
+      '''
+  }
+  StarbusterCore:
+  {
+    DisplayName: Noyau du Brise-Etoile
+    Tooltip:
+      '''
+      Les invocations provoquent une explosion astrales lorsqu'ils touchent
+      +1 sbire max
+      '''
+  }
+  StarTaintedGenerator:
+  {
+    DisplayName: Générateur Infecté par les Astres
+    Tooltip:
+      '''
+      +2 max minions, does not stack with downgrades
+      7% increased summon damage
+      Minion attacks spawn astral explosions and inflict several debuffs
+      Grants immunity to Irradiated
+      '''
+  }
+  StatisBlessing:
+  {
+    DisplayName: Bénédiction de Statis
+    Tooltip:
+      '''
+      Increased max minions by 2 and 10% increased summon damage
+      Increased minion knockback
+      Minions inflict holy flames on hit
+      '''
+  }
+  StatisCurse:
+  {
+    DisplayName: Malédiction de Statis
+    Tooltip:
+      '''
+      Increases max minions by 3, does not stack with downgrades
+      10% increased summon damage
+      Increased minion knockback
+      Minions inflict holy flames and shadowflames on hit
+      Grants immunity to Shadowflame
+      '''
+  }
+  StatisNinjaBelt:
+  {
+    DisplayName: Ceinture de Ninja de Statis
+    Tooltip:
+      '''
+      +8% de vitesse de saut et permet le saut automatique
+      Augmente la distance de chute maximale de 35 blocs
+      Vous pouvez monter les murs, foncer et esquiver les attaques
+      L'esquive à un temps de recharge de 90s
+      Ce temps de recharge est partagé avec tous les autres effets de renvoi et d'esquive
+      '''
+  }
+  StatisVoidSash:
+  {
+    DisplayName: Courroie du Néant de Statis
+    Tooltip:
+      '''
+      +12% de vitesse de saut et permet le saut automatique
+      Immunise contre la chute
+      Vous pouvez monter les murs, foncer et esquiver les attaques
+      L'esquive a un temps de recharge de 90s
+      Ce temps de recharge est partagé avec tous les autres effets de reflets et d'esquive
+      Foncer laisse des faux à tête chercheuse dans votre sillage
+      '''
+  }
+  StatMeter:
+  {
+    DisplayName: Fenètre de Statistiques
+    FoolsName: Pasta Strainer
+    Tooltip:
+      '''
+      Displays almost all player stats
+      Offensive/utility stats displayed vary with held item
+      [REV]
+      [ITEMS]
+      [GENERIC]
+      [ABYSS]
+      '''
+    RevStats:
+      '''
+      Rage Damage Boost: {0}% | Rage Mode Duration: {1} seconds
+      Adrenaline Damage Boost: {2}% | Adrenaline DR Boost: {3}%
+      '''
+    ClassNameOverride:
+    {
+      Default: true damage
+      Generic: classless damage
+      NoSpeed: " (no speed)"
+      SummonMeleeSpeed: " (whip)"
+    }
+    DamageStats:
+      '''
+      Class: {0}
+      Damage: {1}
+      Armor Penetration: {2}
+      '''
+    DamageBase: "[{0} base] +"
+    DamageNormal: "{0}%"
+    DamageMult: " x{0}"
+    DamageFlat: " {0} flat"
+    Crit: " | Crit Chance: {0}%"
+    AttackSpeed: Attack Speed: {0}%
+    WhipMeleeInheritance: " [{0}% from melee]"
+    RangedStats: Ammo Consumption Chance: {0}
+    MagicStats: Mana Usage: {0}% | Mana Regen: {1}
+    SummonStats: Minion Slots: {0} | Sentry Slots: {1}
+    WhipStats: Whip Range: {0}%
+    RogueStats:
+      '''
+      Max Stealth: {0} | Standing Regen: {1} / sec | Moving Regen: {2} / sec
+      Rogue Velocity Boost: {3}%
+      '''
+    RogueConsumption: " | Rogue Weapon Consumption Chance: {0}%"
+    ToolRange: Tool Range Bonus: ({0}, {1})
+    MiningSpeed: " | Mining Speed: {0}%"
+    PlacementRange: Placement Range Bonus: ({0}, {1})
+    TileSpeed: " | Block Placement Speed: {0}%"
+    WallSpeed: " | Wall Placement Speed: {0}%"
+    GenericStats:
+      '''
+      Defense: {0} | DR: {1}% | Life Regen: {2}
+      Move Speed: {3}% | Jump Boost: {4}%
+      '''
+    FlightTime: " | Wing Flight Time: {0} seconds"
+    MiscStats: Aggro: {0} | Luck: {1}%
+    AbyssStats:
+      '''
+      Abyss Light Strength: {0}
+      Breath Lost Per Tick: {1} | Breath Loss Rate: {2}
+      Life Lost Per Tick at Zero Breath: {3}
+      Defense Lost From Pressure: {4}
+      '''
+    AbyssStatsHidden: Abyss stats are only displayed while in the Abyss
+  }
+  StressPills:
+  {
+    DisplayName: Pillules Anti-Stress
+    Tooltip:
+      '''
+      +4 défense et +5% de vitesse de mouvement et d'accélération
+      Recevoir un coup ne vous fait perdre que la moitié de votre adrénaline au lieu de la totalité
+      Revengeance
+      '''
+  }
+  SupremeBaitTackleBoxFishingStation:
+  {
+    DisplayName: Supreme Bait Tackle Box Fishing Station
+    Tooltip:
+      '''
+      Increases fishing skill by 80
+      Fishing line will never break and decreases chance of bait consumption
+      Increases chance to catch crates
+      Allows fishing in lava
+      Sonar potion effect
+      The ultimate fishing accessory
+      '''
+  }
+  TheAbsorber:
+  {
+    DisplayName: L'Absorbeur
+    Tooltip:
+      '''
+      +10% de vitesse de mouvement et de saut
+      Enemies take immense damage when they touch you and are afflicted with a debuff that reduces damage reduction significantly
+	  Using a healing potion will spawn a cleansing aura
+	  Walking into the aura removes all debuffs and defense damage one time
+	  The aura provides greatly increased life regen, damage, and damage reduction for all players inside for 15 seconds
+	  5% of the damage from enemy attacks is absorbed and converted into healing
+	  '''
+  }
+  TheAmalgam:
+  {
+    DisplayName: L'Amalgame
+    Tooltip:
+      '''
+      Extends the duration of potion buffs by 100% and potion buffs remain active even after you die
+      15% increased damage
+      Shade rains down when you are hit
+      Grants the ability to dodge attacks
+      The dodge has a 90 second cooldown which is shared with all other dodges and reflects
+      Temporarily increases critical strike chance and summon damage after a dodge
+      Nearby enemies receive a variety of sickness-related debuffs when you are hit
+      '''
+  }
+  TheBee:
+  {
+    DisplayName: L'Abeille
+    Tooltip:
+      '''
+      Quand vous avez toute votre vie, vos dégâts augmentent en fonction de votre réduction de dégâts
+      Les dégâts que vous subissez lorsque vous avez toute votre vie sont réduits de moitié
+      Cet effet a 10s de temps de recharge
+      '''
+  }
+  TheCamper:
+  {
+    DisplayName: Le Campeur
+    Tooltip:
+      '''
+      You deal 90% less damage unless stationary
+      Standing still grants buff(s) dependent on what weapon you're holding
+      Standing still provides a damaging aura around you
+      While moving, you regenerate health as if standing still
+      Provides a small amount of light in the Abyss
+      'In rest may we find victory'
+      '''
+  }
+  TheCommunity:
+  {
+    DisplayName: La Communauté
+    Tooltip:
+      '''
+      [STATS]
+      'The heart of (most of) the Terraria community'
+      [c/B00BA5:Thank you to all of my supporters who made this mod a reality!]
+      '''
+    StatsList:
+      '''
+      Increases damage by {0}% and critical strike chance by {1}%
+      Increases max health by {2}%, damage reduction by {3}%, and defense by {4}
+      Increases life regen by {5} while under damage over time effects
+      Increases movement speed by {6}% and flight time by {7}%
+      Become more powerful as you defeat bosses ({8}% Power)
+      '''
+  }
+  TheEvolution:
+  {
+    DisplayName: L'Évolution
+    Tooltip:
+      '''
+      You reflect projectiles when they hit you
+      Reflected projectiles deal no damage to you
+      This reflect has a 90 second cooldown which is shared with all other dodges and reflects
+      If this effect triggers you get a health regeneration boost for 5 seconds
+      If the same enemy projectile type hits you again you will resist its damage by 15%
+      '''
+  }
+  TheFirstShadowflame:
+  {
+    DisplayName: La Première Flamme d'Ombre
+    Tooltip:
+      '''
+      Increases max minions by 1 and minions inflict the Shadowflame debuff on enemies
+      Grants immunity to Shadowflame
+      '''
+  }
+  TheSponge:
+  {
+    DisplayName: L'Éponge
+    Tooltip:
+      '''
+      NE FONCTIONNE PLUS
+      '''
+  }
+  TheTransformer:
+  {
+    DisplayName: Le Transformateur
+    Tooltip:
+      '''
+      Multiplies all electricity-based debuff damage by 1.5
+      Taking damage releases a blast of sparks
+      Immunity to Electrified and you resist all electrical projectile and enemy damage
+      Enemy bullets do half damage to you and are reflected back at the enemy for 800% their original damage
+      '''
+  }
+  ToxicHeart:
+  {
+    DisplayName: Coeur Toxique
+    Tooltip:
+      '''
+      Summons a plague aura around you that damages nearby enemies
+      Makes you immune to the Plague debuff
+      Multiplies all sickness-based debuff damage by 1.5
+      '''
+  }
+  TrinketofChi:
+  {
+    DisplayName: Bibelot de Chi
+    Tooltip:
+      '''
+      Provides 10% damage reduction after not being hit for 15 seconds, this is removed when you are hit
+      Provides 2 life regen for you and everyone on your team
+      '''
+  }
+  UnstableGraniteCore:
+  {
+    DisplayName: Noyau de Granite Instable
+    Tooltip:
+      '''
+      Periodically gain an unstable energy field that repeatedly zaps nearby enemies with arcing energy
+      The arcing energy ignores a substantial amount of enemy defense
+      '''
+  }
+  VampiricTalisman:
+  {
+    DisplayName: Talisman Vampirique
+    Tooltip:
+      '''
+      Les projectiles de voleur volent de la vie quand ils critiquent
+      +12% de dégâts de voleur
+      '''
+  }
+  AbandonedWulfrumHelmet:
+  {
+    DisplayName: Casque de Wulfrum abandonné
+    Tooltip:
+      '''
+      A worn and rusty helmet resembling older models of wulfrum armor
+      Transforms the holder into a wulfrum robot
+      Can also be worn in the helmet slot as a regular helm
+      [c/83B87E:'This rather flimsy armor was commonly worn by scavengers and looters.]
+      [c/83B87E:Its versatility and common nature led it to be used as currency in trades.']
+      '''
+  }
+  Popo:
+  {
+    DisplayName: Echarpe et Chapeau Magique
+    Tooltip:
+      '''
+      Transforms the holder into a snowman
+      'Don't let the demons steal your nose'
+      '''
+  }
+  VeneratedLocket:
+  {
+    DisplayName: Pendentif Vénéré
+    Tooltip:
+      '''
+      +10% de dégâts de voleur
+      Utilisez une arme de voleur invoque une copie du projectile qui tombe du ciel
+      Les attaques furtives créent un éventail circulaire de couteaux en cosmilite à tête chercheuse
+      Tu ne seras jamais seul, peu importe où tu te rends
+      '''
+  }
+  VitalJelly:
+  {
+    DisplayName: Gelée Vitale
+    Tooltip: +10% de vitesse de déplacement et de saut
+  }
+  VoidofCalamity:
+  {
+    DisplayName: Void of Calamity
+    Tooltip:
+      '''
+      12% increase to all damage
+      Brimstone fire rains down after getting hit
+      '''
+  }
+  VoidofExtinction:
+  {
+    DisplayName: Néant de l'Extinction
+    Tooltip:
+      '''
+      Drops brimstone fireballs from the sky occasionally
+      12% increase to all damage
+      All attacks inflict Brimstone Flames
+      Brimstone fire rains down after getting hit
+      Grants immunity to lava, Burning, On Fire!, Brimstone Flames and Searing Lava
+      '''
+  }
+  VoltaicJelly:
+  {
+    DisplayName: Gelée Voltaïque
+    Tooltip:
+      '''
+      +1 sbire max
+      Les attaques des sbires infligent électrisé
+      '''
+  }
+  WarbanneroftheSun:
+  {
+    DisplayName: Bannière de guerre du soleil
+    Tooltip:
+      '''
+      Augmente les dégâts, la vitesse de corps à corps et les dégâts de vraie mêlée en fonction de votre proximité avec les ennemis
+      L'augmentation maximum est de 20%
+      '''
+  }
+  WifeinaBottle:
+  {
+    DisplayName: Elémentaire en Bouteille
+    Tooltip: Invoque un élémentaire de sable pour combattre à vos côtés
+  }
+  WifeinaBottlewithBoobs:
+  {
+    DisplayName: Elémentaire Précieux en Bouteille
+    Tooltip:
+      '''
+      Invoque un élémentaire de sable pour vous soigner
+      ;D
+      '''
+  }
+  WulfrumAcrobaticsPack:
+  {
+    DisplayName: Wulfrum Acrobatics Pack
+    Tooltip:
+      '''
+      Transforms equipped hooks into a wulfrum slingshot
+      The slingshot allows for advanced rope-swinging physics
+      Automatically grapples nearby walls if a lethal fall is detected
+      This safety feature won't activate if DOWN is held
+      8% increased movement speed
+      '''
+  }
+  WulfrumBattery:
+  {
+    DisplayName: Wulfrum Battery
+    Tooltip:
+      '''
+      Empowers your summons with wulfrum energy, letting them emit light around them
+      7% increased summon damage
+      50% chance to get an extra scrap when killing wulfrum robots
+      Can also be scrapped at an extractinator
+      '''
+  }
+  YharimsGift:
+  {
+    DisplayName: Cadeau de Yharim
+    Tooltip:
+      '''
+      Flaming meteors rain down after getting hit
+      Exploding dragon dust is left behind as you move
+      Damage and movement speed increased by 15%
+      The power to kill a god pulses from within this artifact
+      '''
+  }
+  YharimsInsignia:
+  {
+    DisplayName: Insigne de Yharim
+    Tooltip:
+      '''
+      10% increased damage when under 50% life
+      15% increased melee and true melee damage
+      All melee attacks inflict Holy Flames
+      Increased melee knockback
+      '''
+  }

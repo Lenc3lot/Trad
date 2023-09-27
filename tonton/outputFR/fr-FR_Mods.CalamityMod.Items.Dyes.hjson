@@ -1,0 +1,171 @@
+
+  AerialiteDye:
+  {
+    DisplayName: Teinture d'Aerialite
+    
+  }
+  AstralBlueDye:
+  {
+    DisplayName: Teinture Astrale Bleue
+    
+  }
+  AstralDye:
+  {
+    DisplayName: Teinture de Chair Astrale
+    
+  }
+  AstralOrangeDye:
+  {
+    DisplayName: Teinture Astrale Orange
+    
+  }
+  AstralSwirlDye:
+  {
+    DisplayName: Teinture de Tourbillon Astral
+    
+  }
+  AuricDye:
+  {
+    DisplayName: Teinture Aurique
+    
+  }
+  BloodflareDye:
+  {
+    DisplayName: Teinture de Brûlesang
+    
+  }
+  BlueCosmicFlameDye:
+  {
+    DisplayName: Teinture de Feu Cosmique Bleu
+    
+  }
+  BlueStatigelDye:
+  {
+    DisplayName: Teinture de Gel Statique Bleue
+    
+  }
+  BrimflameDye:
+  {
+    DisplayName: Teinture de Flammesoufre
+    
+  }
+  CalamitousDye:
+  {
+    DisplayName: Teinture Calamiteuse
+    
+  }
+  CeaselessDye:
+  {
+    DisplayName: Teinture Incessante
+    
+  }
+  CosmiliteDye:
+  {
+    DisplayName: Teinture de Cosmilite
+    
+  }
+  CryonicDye:
+  {
+    DisplayName: Teinture Cryonique
+    
+  }
+  DefiledFlameDye:
+  {
+    DisplayName: Teinture de Flamme Corrompue
+    
+  }
+  DragonSoulDye:
+  {
+    DisplayName: Teinture d'Âme Draconique
+    
+  }
+  ElementalDye:
+  {
+    DisplayName: Teinture des Éléments
+    
+  }
+  EndothermicDye:
+  {
+    DisplayName: Teinture Endothermique
+    
+  }
+  ExoDye:
+  {
+    DisplayName: Exo Colorant
+    
+  }
+  AdrenalineHairDye:
+  {
+    DisplayName: Coloration d'Adrénaline
+    
+  }
+  RageHairDye:
+  {
+    DisplayName: Coloration de Rage
+    
+  }
+  StealthHairDye:
+  {
+    DisplayName: Coloration de Furtivité
+    
+  }
+  WingTimeHairDye:
+  {
+    DisplayName: Coloration de Temps de Vol
+    
+  }
+  NightmareDye:
+  {
+    DisplayName: Teinture Cauchemardesque
+    
+  }
+  PolterplasmDye:
+  {
+    DisplayName: Polterplasm Dye
+    Tooltip: ""
+  }
+  PinkCosmicFlameDye:
+  {
+    DisplayName: Pink Cosmic Flame Dye
+    Tooltip: ""
+  }
+  PinkStatigelDye:
+  {
+    DisplayName: Pink Statigel Dye
+    Tooltip: ""
+  }
+  ProfanedFlameDye:
+  {
+    DisplayName: Teinture de flamme profanée
+    
+  }
+  ProfanedMoonlightDye:
+  {
+    DisplayName: Teinture de Lueur Sélène Profanée
+    
+  }
+  ReaverDye:
+  {
+    DisplayName: Teinture du Saccageur
+    
+  }
+  ShadowspecDye:
+  {
+    DisplayName: Teinture Ombrespec
+    
+  }
+  SlimeGodDye:
+  {
+    DisplayName: Slime God Dye
+    Tooltip: ""
+  }
+  StratusDye:
+  {
+    DisplayName: Teinture de Strate
+    
+  }
+  SwirlingCosmicFlameDye:
+  {
+    DisplayName: Swirling Cosmic Flame Dye
+    Tooltip: ""
+  }

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "laktak/hjson": "^2.2"
+    }
+}

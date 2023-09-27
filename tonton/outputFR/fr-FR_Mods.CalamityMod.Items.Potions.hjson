@@ -1,0 +1,387 @@
+
+  AnechoicCoating:
+  {
+    DisplayName: Revêtement Anechoïque
+    Tooltip: Réduit la faculté des créatures à vous détecter dans les abysses
+  }
+  AstralInjection:
+  {
+    DisplayName: Injection Astrale
+    Tooltip: Inflige mana affaibli et des dégâts quand utilisé, mais vous régénérez du mana extrêmement rapidement même si vous bougez ou si vous utilisez des sorts
+  }
+  AureusCell:
+  {
+    DisplayName: Cellule d'Aureus
+    Tooltip: Accorde une régénération de mana et des pouvoirs magiques accrus
+  }
+  Baguette:
+  {
+    DisplayName: Baguette
+    Tooltip:
+      '''
+      {$CommonItemTooltip.MinorStats}
+      Augmente les effets du vin rouge
+      [c/FCE391:'je suis Monté']
+      '''
+  }
+  BlasphemousDonut:
+  {
+    DisplayName: Beignet Blasphématoire
+    Tooltip:
+      '''
+      {$CommonItemTooltip.MediumStats}
+      'Ne t'inquiète pas, tout beigne'
+      '''
+  }
+  BoundingPotion:
+  {
+    DisplayName: Potion Rebondissante
+    Tooltip: +5% de vitesse de saut, +25 tuiles de résistance aux dégâts de chute, et hauteur des sauts augmentés
+  }
+  CalciumPotion:
+  {
+    DisplayName: Potion de Calcium
+    Tooltip: Immunise contre les dégâts de chûte
+  }
+  CeaselessHungerPotion:
+  {
+    DisplayName: Potion de Faim Incessante
+    Tooltip: Vous fait attirer tous les objets du monde
+  }
+  DeliciousMeat:
+  {
+    DisplayName: Viande Délicieuse
+    Tooltip:
+      '''
+      Petite amélioration à toutes les statistiques
+      'Tellement bon'
+      '''
+  }
+  Fabsoup:
+  {
+    DisplayName: Marmite de Douleur
+    Tooltip:
+      '''
+      {$CommonItemTooltip.MajorStats}
+      'hrngh, de la soupe'
+      '''
+  }
+  FlaskOfBrimstone:
+  {
+    DisplayName: Flacon de soufre
+    Tooltip: Les attaques de mêlée, de voleur et les fouets infligent les flammesoufres
+  }
+  FlaskOfCrumbling:
+  {
+    DisplayName: Flask of Crumbling
+    Tooltip: Les attaques de mêlée, de voleur et les fouets infligent le bris d'armure
+  }
+  FlaskOfHolyFlames:
+  {
+    DisplayName: Flask of Holy Flames
+    Tooltip: Les attaques de mêlée, de voleur et les fouets infligent les flammes sacrées
+  }
+  GravityNormalizerPotion:
+  {
+    DisplayName: Potion Normalisatrice de Gravité
+    Tooltip: Annule la faible gravité de l'espace et immunise a l'altération d'état Distortion
+  }
+  HadalStew:
+  {
+    DisplayName: Ragoût Hadal
+    Tooltip:
+      '''
+      Ne donne que [S] secondes de potion affaiblie
+      {$CommonItemTooltip.MediumStats}
+      {$CommonItemTooltip.MinuteDuration}
+      '''
+  }
+  OmegaHealingPotion:
+  {
+    DisplayName: Potion de Soin Omega
+    
+  }
+  PhotosynthesisPotion:
+  {
+    DisplayName: Potion de Photosynthèse
+    Tooltip:
+      '''
+      Vous récupérez de la vie rapidement quand vous êtes immobile, cet effet est cinq fois plus puissant la journée
+      Les coeurs de vie rendent plus de vie
+      '''
+  }
+  PotionofOmniscience:
+  {
+    DisplayName: Potion d'Omniscience
+    Tooltip:
+      '''
+      Montre les créatures, les projectiles ennemis,
+      les pièges et les trésors
+      '''
+  }
+  ShadowPotion:
+  {
+    DisplayName: Potion d'ombre
+    Tooltip:
+      '''
+      Transforme le joueur en ombre aux yeux luisants
+      Les armes de voleur créent des projectiles quand elles touchent
+      +8% de génération de furtivité
+      L'effet visuel peut-être désactivé dans la configuration
+      '''
+  }
+  SoaringPotion:
+  {
+    DisplayName: Potion d'Envol
+    Tooltip:
+      '''
+      +10% de temps et de vitesse horizontale de vol
+      Vous récupérez une partie de votre temps de vol après une frappe de vraie mêlée
+      La quantité de temps récupérée dépend de vos statistiques de mêlée et de la vitesse de votre arme
+      '''
+  }
+  SulphurskinPotion:
+  {
+    DisplayName: Potion de Peau Sulfurique
+    Tooltip: Réduit les effets des eaux sulfuriques
+  }
+  SupremeHealingPotion:
+  {
+    DisplayName: Potion de Soin Suprême
+    
+  }
+  SupremeManaPotion:
+  {
+    DisplayName: Potion de Mana Suprême
+    
+  }
+  TeslaPotion:
+  {
+    DisplayName: Potion Tesla
+    Tooltip:
+      '''
+      Invoque une aura d'électricité qui électrifie et ralentit les ennemis
+      Les dégâts sont réduits sur les boss
+      Réduit la durée de l'électrisation
+      '''
+  }
+  ZenPotion:
+  {
+    DisplayName: Potion Zen
+    Tooltip: Reduit considérablement l'apparition des ennemis
+  }
+  ZergPotion:
+  {
+    DisplayName: Potion Zerg
+    Tooltip: Augmente énormément le taux d'apparition des ennemis
+  }
+  BloodyMary:
+  {
+    DisplayName: Bloody Mary
+    Tooltip:
+      '''
+      +10% de dégâts et de vitesse de mouvement pendant une lune sanglante
+      Réduit la régénération de vie de 4 et la défense de 4%
+      [c/B00BA5:'Super épicé... et sanglant!']
+      '''
+  }
+  CaribbeanRum:
+  {
+    DisplayName: Rhum des Caraïbes
+    Tooltip:
+      '''
+      Augmente la régénération de vie de 2, la vitesse de mouvement de 10% et le temps de vol de 20%
+      Vous fait flotter et réduit la défense de 10%
+      [c/B00BA5:'Mais pourquoi y a plus de rhum?']
+      '''
+  }
+  CinnamonRoll:
+  {
+    DisplayName: Cinnamon Roll
+    Tooltip:
+      '''
+      Augmente la régénération du mana et multiplie les dégâts des altérations de dégâts liées au feu par 1.5
+      Réduit la défense de 10%
+      [c/B00BA5:'Un excellent whisky à la canelle avec une pointe de soda crémeux.']
+      '''
+  }
+  Everclear:
+  {
+    DisplayName: Everclear
+    Tooltip:
+      '''
+      +25% de dégâts
+      Réduit la régénération de vie de 10 et la défense de 30%
+      [c/B00BA5:'C'est la plus puissante bibine que j'ai, fait gaffe avec ce truc.']
+      '''
+  }
+  EvergreenGin:
+  {
+    DisplayName: Gin Evergreen
+    Tooltip:
+      '''
+      Multiplie les dégâts des altérations de dégâts liées a l'eau et à la maladie par 1.25
+      Réduit la régénération de vie de 1
+      [c/B00BA5:'Ca a le goût d'un sapin de Noël, si t'arrives à t'imaginer quel goût ça a.']
+      '''
+  }
+  FabsolsVodka:
+  {
+    DisplayName: Vodka de Fabsol
+    Tooltip:
+      '''
+      +8% aux dégâts, mais réduit la défense de 10%
+      Augmente la période d'invulnérabilité après vous être fait toucher
+      Cette liqueur magique est hautement prisée par ceux qui ont un palais raffiné
+      '''
+  }
+  Fireball:
+  {
+    DisplayName: Boule de Feu
+    Tooltip:
+      '''
+      Multiplie les dégâts des altérations de dégâts liées au feu par 1.25
+      Réduit la régénération de vie de 1
+      [c/B00BA5:'Un excellent whisky à la canelle.']
+      '''
+  }
+  GrapeBeer:
+  {
+    DisplayName: Bière au Raisin
+    Tooltip:
+      '''
+      Réduit la défense de 3% pendant 15 secondes
+      [c/B00BA5:'Cette merde est horrible, mais t'aimeras peut-être.']
+      '''
+  }
+  Margarita:
+  {
+    DisplayName: Margarita
+    Tooltip:
+      '''
+      Réduit de moitié la durée de la plupart des altérations d'état
+      Réduit la défense de 6% et la régénération de vie de 1
+      Dure 3 minutes
+      [c/B00BA5:'Une de mes meilleures créations, profite pendant que ça fait effet.']
+      '''
+  }
+  Moonshine:
+  {
+    DisplayName: Moonshine
+    Tooltip:
+      '''
+      Augmente la défense de 10 et la réduction de dégâts de 3%
+      Réduit la régénération de vie de 1
+      [c/B00BA5:'Ce truc est plutôt fort, mais je suis sur que tu peux encaisser.']
+      '''
+  }
+  MoscowMule:
+  {
+    DisplayName: Mule de Moscou
+    Tooltip:
+      '''
+      Augmente les dégâts de 9%, le recul de 50% et les chances de coup critique de 3%
+      Réduit la régénération de vie de 4
+      [c/B00BA5:'On m'a dit une fois que les pintes en cuivre pouvait m'empoisonner, et j'ai répondu, 'Écoute andouille, je suis en train de m'empoisonner de toute façon!'']
+      '''
+  }
+  OddMushroom:
+  {
+    DisplayName: Champignon Étrange
+    Tooltip:
+      '''
+      Vous fait voir de nombreuses fausses copies vibrantes de toutes les entités proches
+      [c/C4232C:Ces effets visuels peuvent être inconfortables ou dangereux pour certaines personnes]
+      'Trippant'
+      '''
+  }
+  RedWine:
+  {
+    DisplayName: Vin Rouge
+    Tooltip:
+      '''
+      Réduit la régénération de vie de 1 pendant 15 secondes
+      [c/B00BA5:'Trop sec pour moi.']
+      '''
+  }
+  Rum:
+  {
+    DisplayName: Rhum
+    Tooltip:
+      '''
+      Augmente la régénération de vie de 2 et la vitesse de mouvement de 10%
+      Réduit la défense de 5%
+      [c/B00BA5:'Sucré et fort, juste comme je l'aime.']
+      '''
+  }
+  Screwdriver:
+  {
+    DisplayName: Vodka Orange
+    Tooltip:
+      '''
+      Multiplie les dégâts des projectiles transparents par 1.05
+      Réduit la régénération de vie de 1
+      [c/B00BA5:'Non mais ça va bien dans ta tête?']
+      '''
+  }
+  StarBeamRye:
+  {
+    DisplayName: Rye de Rayon Stellaire
+    Tooltip:
+      '''
+      Augmente le mana maximum de 50, les dégâts magiques de 8%,
+      et réduit le coût en mana de 10%
+      Réduit la défense de 6% et la régénération de vie de 2
+      [c/B00BA5:'J'ai fait ça a partir de trucs trouvés près de du site du météore astral. T'inquiètes, ça craint rien, fais moi confiance...']
+      '''
+  }
+  Tequila:
+  {
+    DisplayName: Tequila
+    Tooltip:
+      '''
+      Augmente le recul de 10%, les chances de coup critique de 4% et la défense de 5 la journée
+      Réduit la régénération de vie de 1
+      [c/B00BA5:'Super pour les cocktails en journée.']
+      '''
+  }
+  TequilaSunrise:
+  {
+    DisplayName: Tequila Sunrise
+    Tooltip:
+      '''
+      Augmente le recul de 20%, les chances de critique de 8% et la défense de 10 la journée
+      Réduit la régénération de vie de 2
+      [c/B00BA5:'Le meilleur cocktail de journée que j'ai jamais bû.']
+      '''
+  }
+  Vodka:
+  {
+    DisplayName: Vodka
+    Tooltip:
+      '''
+      Augmente les dégâts de 6% et les chances de critique de 2%
+      Réduit la régénération de vie de 1 et la défense de 5%
+      [c/B00BA5:'L'alcool N°1 pour créer des cocktails.']
+      '''
+  }
+  Whiskey:
+  {
+    DisplayName: Whisky
+    Tooltip:
+      '''
+      Augmente les dégâts de 4%, le recul de 20% et les chances de coup critique de 2%
+      Réduit la défense de 5%
+      [c/B00BA5:'La sensation de brûlure le rend meilleur.']
+      '''
+  }
+  WhiteWine:
+  {
+    DisplayName: Vin Blanc
+    Tooltip:
+      '''
+      Augmente les dégâts magiques de 8%
+      Réduit la défense de 6% et la régénération de vie de 1
+      [c/B00BA5:'Une fois, j'ai bû un baril entier de ce truc une nuit, j'arrivais pas à me souvenir qui j'étais le lendemain.']
+      '''
+  }

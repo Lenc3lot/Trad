@@ -1,0 +1,309 @@
+
+  CaughtInAstral: "'Caught in the Astral Infection'"
+  CaughtInBrimstoneCrag: "'Caught in the Brimstone Crag'"
+  CaughtInSunkenSea: "'Caught in the Sunken Sea'"
+  AldebaranAlewife:
+  {
+    DisplayName: Brasseuse Aldebaran
+    Tooltip: Une entité stellaire corrompue en forme de poisson
+  }
+  ArcturusAstroidean:
+  {
+    DisplayName: Arcturus Astéroïdien
+    Tooltip: Augmente la puissance de pêche dans l'infection astrale ou la mer sulfurique
+  }
+  AstralCrate:
+  {
+    DisplayName: Caisse Astrale
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  AstrophageItem:
+  {
+    DisplayName: Astrophage
+    Tooltip: Invoque un astrophage pour vous suivre
+  }
+  ProcyonidPrawn:
+  {
+    DisplayName: Crevette Procyonide
+    
+  }
+  TwinklingPollox:
+  {
+    DisplayName: Pollox Clignotant
+    Tooltip: Les écailles brillent comme des cristaux
+  }
+  UrsaSergeant:
+  {
+    DisplayName: Sergent Ursa
+    Tooltip:
+      '''
+      Decreased movement speed by 15%
+      Immune to Astral Infection and Feral Bite
+      Increased regeneration at lower health
+      '''
+  }
+  Bloodfin:
+  {
+    DisplayName: Nagesang
+    Tooltip:
+      '''
+      Grants a buff that boosts life regen for 10 seconds
+      The life regen boost is stronger if below 75% health
+      10 second duration
+      'The wonders of angiogenesis'
+      '''
+  }
+  Brimlish:
+  {
+    DisplayName: Soufresson
+    QuestDescription: When you defeated the Brimstone Elemental, her children fell in the lava as a result of the aftermath. Rumors say they mutated a fish, and I'd love if you fetched one for my new lava-filled fish tank.
+  }
+  BrimstoneCrate:
+  {
+    DisplayName: Caisse de soufre
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  CharredLasher:
+  {
+    DisplayName: Fouetteur Calciné
+    Tooltip: Ce poisson insaisissable est une marchandise prisée
+  }
+  CoastalDemonfish:
+  {
+    DisplayName: Poisson-Démon Côtier
+    Tooltip: Ses cornes posent une malédiction sur ceux qui les touchent
+  }
+  CragBullhead:
+  {
+    DisplayName: Barbotte des Vestiges
+    Tooltip: Ses écailles sont brûlantes
+  }
+  DragoonDrizzlefish:
+  {
+    DisplayName: Dragon Poisson-Bruine
+    Tooltip:
+      '''
+      Fires an inaccurate spread of fireballs
+      The brimstone sac appears to contain fuel
+      'Revenge is a dish best served flaming hot'
+      '''
+  }
+  Havocfish:
+  {
+    DisplayName: Havocfish
+    Tooltip: Press <right> to extract essence
+  }
+  Shadowfish:
+  {
+    DisplayName: Poisson d'Ombre
+    Tooltip: Les ténèbres se répandent
+  }
+  Slurpfish:
+  {
+    DisplayName: Bleuvageon
+    QuestDescription: Y'know, it'd be an absolute calamity if I sent you to the ancient ruins in the depths of hell to catch a fish. And I plan to do just that. Now scram! The fish isn't going to catch itself.
+  }
+  EutrophicSandfish:
+  {
+    DisplayName: Poisson-sable Eutrophique
+    QuestDescription: You ever get to see what would happen if a lizard that lived in the desert scurried too deep underground? I did, and they sure are cool! But it's way too slippery for me to get my hands on it now. You go and get it so I can keep it as a pet!
+  }
+  GreenwaveLoach:
+  {
+    DisplayName: Loche Vertevague
+    Tooltip: Une espèce en danger qui est hautement prisée sur le marché
+  }
+  PrismaticGuppy:
+  {
+    DisplayName: Guppy Prismatique
+    Tooltip: Ca serait de la folie de le mettre dans un aquarium
+  }
+  RustedJingleBell:
+  {
+    DisplayName: Grelot Rouillé
+    Tooltip:
+      '''
+      Invoque une bébé cloche fantôme pour vous éclairer
+      Donne une quantité modérée de lumière sous l'eau
+      '''
+  }
+  SerpentsBite:
+  {
+    DisplayName: Morsure du Serpent
+    Tooltip:
+      '''
+      Reach: 28.125
+      Launch Velocity: 18
+      Reelback Velocity: 14
+      Pull Velocity: 12
+      '''
+  }
+  Serpentuna:
+  {
+    DisplayName: Serpenthon
+    QuestDescription: Sea serpents are pretty but not as pretty as the look on someone's face when they find one in their chair. I need you to fetch me the props for my next big scare, and the deadline is tomorrow.
+  }
+  SparklingEmpress:
+  {
+    DisplayName: Impératrice Étincellante
+    Tooltip:
+      '''
+      Invoque un laser concentré pour annihiler vos ennemis
+      Les ennemis vaincus explosent en éclats de prisme
+      '''
+  }
+  SunkenCrate:
+  {
+    DisplayName: Caisse Immergée
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  SunkenSailfish:
+  {
+    DisplayName: Poisson-Voile Coulé
+    Tooltip: Fonce à 60 noeuds/heure
+  }
+  SurfClam:
+  {
+    DisplayName: Palourde de Surf
+    QuestDescription: Did you know that clams are a delicacy? Rumor has it that a big colony lives beneath the Desert. Just talking about them makes me hungry. I need you to fetch one for me, so I can practice my culinary skills and curb my hunger.
+  }
+  EnchantedStarfish:
+  {
+    DisplayName: Étoile de Mer Enchantée
+    Tooltip: Augmente de façon permanente le mana maximum de 20
+  }
+  FishofEleum:
+  {
+    DisplayName: Poisson d'Éleum
+    Tooltip: Press <right> to extract essence
+  }
+  FishofFlight:
+  {
+    DisplayName: Poisson de Vol
+    Tooltip: Press <right> to extract souls
+  }
+  FishofLight:
+  {
+    DisplayName: Poisson de Lumière
+    Tooltip: Press <right> to extract souls
+  }
+  FishofNight:
+  {
+    DisplayName: Poisson de la Nuit
+    Tooltip: Press <right> to extract souls
+  }
+  GlimmeringGemfish:
+  {
+    DisplayName: Poisson-Gemme Scintillant
+    Tooltip: Press <right> to extract gems
+  }
+  Gorecodile:
+  {
+    DisplayName: Gorecodile
+    Tooltip: Press <right> to extract blood orbs
+  }
+  Spadefish:
+  {
+    DisplayName: Poisson-Pelle
+    Tooltip:
+      '''
+      'How can a fish be used to dig through the ground?
+      Some questions are best left unanswered...'
+      '''
+  }
+  StuffedFish:
+  {
+    DisplayName: Poisson Fourré
+    Tooltip: Press <right> to extract herbs and seeds
+  }
+  SulphurousCrate:
+  {
+    DisplayName: Sulphurous Crate
+    Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+  }
+  SunbeamFish:
+  {
+    DisplayName: Poisson de Rayon Solaire
+    Tooltip: Press <right> to extract essence
+  }
+  EarlyBloomRod:
+  {
+    DisplayName: Canne de l'Éclosion Précose
+    Tooltip:
+      '''
+      Fires six lines at once. Line never snaps
+      'The early bird catches the fish'
+      '''
+  }
+  FeralDoubleRod:
+  {
+    DisplayName: Double Canne Férale
+    Tooltip:
+      '''
+      Fires two lines at once
+      Just as you have tamed the jungle monster, you can now tame the fish in the sea
+      '''
+  }
+  HeronRod:
+  {
+    DisplayName: Canne de Héron
+    Tooltip:
+      '''
+      Increased fishing power in space
+      'A silent head and beak lanced down and plucked it out by the head,
+      and the beak swallowed the little fish while its tail waved frantically.'
+      '''
+  }
+  NavyFishingRod:
+  {
+    DisplayName: Canne Marine
+    Tooltip:
+      '''
+      While held, slowly electrifies nearby enemies
+      'The sea is a city.
+      Just below are highways, boulevards, streets and roundabouts bustling with submarine traffic.'
+      '''
+  }
+  RiftReeler:
+  {
+    DisplayName: Moulinet de Faille
+    Tooltip:
+      '''
+      Fires three to five lines at once
+      Can fish in lava
+      'The battlefield is a scene of constant chaos.
+      The winner will be the one who controls that chaos, both the pole and the fish.'
+      '''
+  }
+  SlurperPole:
+  {
+    DisplayName: Canne d'Aspireur
+    Tooltip:
+      '''
+      Can fish in lava
+      'It is the burning lava of the soul that has a furnace within--a very volcano of grief and sorrow.'
+      '''
+  }
+  TheDevourerofCods:
+  {
+    DisplayName: Le Dévoreur de Lieus
+    Tooltip:
+      '''
+      Fires ten lines at once. Line never snaps and can fish from lava
+      'The devourer was once just an Eater of Shoals'
+      '''
+  }
+  VerstaltiteFishingRod:
+  {
+    DisplayName: Canne Verstaltile
+    Tooltip:
+      '''
+      Puissance de pêche augmentée dans la toundra
+      Les qualités de l'ancien alliage prismatique sont parfaites pour attirer les poissons.
+      '''
+  }
+  WulfrumRod:
+  {
+    DisplayName: Wulfrum Fishing Pole
+    Tooltip: "'This barely works, but it's better than nothing...'"
+  }

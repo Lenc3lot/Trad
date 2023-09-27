@@ -1,0 +1,409 @@
+CalamityConfig: {
+	 DisplayName: Configuration Principale
+
+	Headers: {
+		 ExpertMaster: Modifications en mode Expert et Maître
+		 Gameplay: Modifications de Gameplay
+		 Graphics: Modifications Graphiques
+		 Revengeance: Modifications en mode Revengeance
+		 UI: Modifications de l'Interface
+		 BaseBoosts: Augmentation des statistiques de base
+	}
+
+	AdrenalineMeterPosX: {
+		 Label: "[i:LaserRuler] Position horizontale de la jauge d'Adrénaline"
+		 Tooltip:
+			'''
+			La position horizontale de la jauge d'Adrénaline, mesurée en pourcentage de votre largeur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	AdrenalineMeterPosY: {
+		 Label: "[i:LaserRuler] Position verticale de la jauge d'Adrénaline"
+		 Tooltip:
+			'''
+			La position verticale de la jauge d'Adrénaline, mesurée en pourcentage de votre hauteur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	Afterimages: {
+		 Label: "[i:SteampunkGoggles] Images rémanentes"
+		 Tooltip:
+			'''
+			Active les images rémanentes pour les PNJ, projectiles, etc... venant de Calamity.
+			Désactiver pour améliorer les performances.
+			''' 
+	}
+
+	BossesStopWeather: {
+		 Label: "[i:CalamityMod/TorrentialTear] Désactiver la météo lors des boss"
+		 Tooltip:
+			'''
+			Quand activé, de nombreux boss de fin de jeu désactiveront les météos spéciales.
+			Désactiver pour améliorer les performances lors des combats de boss.
+			''' 
+	}
+
+	BossHealthBarExtraInfo: {
+		 Label: "[i:CalamityMod/EncryptedSchematicPlanetoid] Infos supplémentaires sur la jauge de vie des boss"
+		 Tooltip:
+			'''
+			Ajoute des informations supplémentaires sur la jauge de vie des boss de Calamity.
+			Cela affiche la vie précise des boss ou le nombre de segments restants.
+			''' 
+	}
+
+	BossHealthBoost: {
+		 Label: "[i:LifeCrystal] Augmentation en pourcentage de la vie des boss"
+		 Tooltip:
+			'''
+			Augmente la vie de tous les boss par le pourcentage configuré.
+			Se cumule avec l'augmentation induite lorsque vous jouez en multijoueur.
+			N'affecte pas les boss déjà présents.
+			''' 
+	}
+
+	BossZen: {
+		 Label: "[i:CalamityMod/ZenPotion] Les boss réduisent drastiquement l'apparition des autres ennemis"
+		 Tooltip:
+			'''
+			Avoir un boss en vie réduit fortement l'apparition des autres ennemis.
+			Cela empêche également la pluie de slime.
+			''' 
+	}
+
+	ChargeMeter: {
+		 Label: "[i:CalamityMod/DraedonPowerCell] Afficher la jauge de charge"
+		 Tooltip:
+			'''
+			Active la jauge de charge, qui affiche la charge actuelle de l'arme tenue par le joueur.
+			La jauge ne s'affiche pas si l'arme tenue n'a pas de charge.
+			''' 
+	}
+
+	ChargeMeterPosX: {
+		 Label: "[i:LaserRuler] Position horizontale de la jauge de charge"
+		 Tooltip:
+			'''
+			La position horizontale de la jauge de charge, mesurée en pourcentage de votre largeur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	ChargeMeterPosY: {
+		 Label: "[i:LaserRuler] Position verticale de la jauge de charge"
+		 Tooltip:
+			'''
+			La position verticale de la jauge de charge, mesurée en pourcentage de votre hauteur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	ChilledWaterRework: {
+		 Label: "[i:ArcticDivingGear] Refonte de l'eau glacée"
+		 Tooltip: Si actif, l'eau glacée drainera rapidement l'oxygène au lieu d'infliger l'altération d'état gelé.
+	}
+
+	CooldownDisplay: {
+		 Label: "[i:CalamityMod/NebulousCore] Mode d'affichage des temps de recharge"
+		 Tooltip:
+			'''
+			Ajoute l'affichage des temps de recharge important en dessous des améliorations et des altérations.
+			Régler à 1 pour le mode compact et à 0 pour le cacher complètement.
+			''' 
+	}
+
+	DebuffDisplay: {
+		 Label: "[i:FlaskofIchor] Afficher les altérations d'état des ennemis"
+		 Tooltip: Ajoute un affichage des altérations d'états sur les boss et les miniboss.
+	}
+
+	EarlyHardmodeProgressionRework: {
+		 Label: "[i:Pwnhammer] Refonte de la progression du début du hardmode"
+		 Tooltip:
+			'''
+			Les autels démoniaques ne font plus apparaître de minerais et des blocs corrompus quand détruits.
+			Le mur de chair fait apparaître du cobalt et du palladium quand tué la première fois.
+			Le premier boss mécanique que vous combattez a 20% de PV et de dégâts en moins et fait apparaître du mithril et de l'orichalque quand tué la première fois.
+			Le deuxième boss méchanique à 10% de PV et de dégâts en moins et fait apparaître de l'adamantite et du titane quand tué la première fois.
+			Le troisième boss mécanique fait apparaître du minerai sacré quand tué la première fois.
+			''' 
+	}
+
+	FasterBaseSpeed: {
+		 Label: "[i:HermesBoots] Augmentation de la vitesse de mouvement"
+		 Tooltip:
+			'''
+			Augmente la vitesse de mouvement de base du joueur de 50%.
+			Cette modification ne s'applique pas si le mod Overhaul est activé.
+			L'équilibrage de Calamity est pensé avec cette option activée.
+			''' 
+	}
+
+	FasterFallHotkey: {
+		 Label: "[i:CalamityMod/BallAndChain] Activer la chute rapide"
+		 Tooltip:
+			'''
+			Quand activé, vous pouvez maintenir la touche BAS en l'air pour chuter plus vite.
+			N'augmente pas la vitesse maximale de chute, uniquement l'accélération.
+			L'équilibrage de Calamity est pensé avec cette option activée.
+			''' 
+	}
+
+	FasterJumpSpeed: {
+		 Label: "[i:FrogLeg] Activer le saut rapide"
+		 Tooltip:
+			'''
+			Augmente légèrement la vitesse de saut du joueur.
+			L'équilibrage de Calamity est pensé avec cette option activée.
+			''' 
+	}
+
+	FasterTilePlacement: {
+		 Label: "[i:ArchitectGizmoPack] Augmentation de la vitesse de contruction"
+		 Tooltip:
+			'''
+			Augmente considérablement la vitesse de construction du joueur.
+			Se cumule avec les accessoires augmentant la vitesse de construction.
+			''' 
+	}
+
+	ForceTownSafety: {
+		 Label: "[i:Sunflower] Forcer la surêté des villes"
+		 Tooltip:
+			'''
+			Empêche les ennemis d'apparaître près des villes, même en mode Expert et Maître.
+			Peut avoir des effets indésirables comme rendre les bestioles difficiles à trouver.
+			''' 
+	}
+	
+	FlightBar: {
+		 Label: "[i:CalamityMod/DrewsWings] Afficher la barre de vol"
+		 Tooltip: Affiche la jauge de vol, qui affiche la capacité d'envol du joueur
+	}
+
+	FlightBarPosX: {
+		 Label: "[i:LaserRuler] Position horizontale de la jauge de vol"
+		 Tooltip:
+			'''
+			La position horizontale de la jauge de vol, mesurée en pourcentage de votre largeur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	FlightBarPosY: {
+		 Label: "[i:LaserRuler] Position horizontale de la jauge de vol"
+		 Tooltip:
+			'''
+			La position verticale de la jauge de vol, mesurée en pourcentage de votre hauteur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	HigherJumpHeight: {
+		 Label: "[i:ShinyRedBalloon] Augmentation la hauteur des sauts"
+		 Tooltip:
+			'''
+			Augmente la hauteur de base du saut de 10% pour permettre de sauter 7 tuiles.
+			L'équilibrage de Calamity est pensé avec cette option activée.
+			''' 
+	}
+
+	MeterPosLock: {
+		 Label: "[i:GemLockTopaz] Verrouiller la position des jauges"
+		 Tooltip:
+			'''
+			Empêche de bouger les jauges de Calamity avec la souris.
+			''' 
+	}
+
+	NerfExpertDebuffs: {
+		 Label: "[i:AnkhCharm] Annuler la prolongation de la durée des altérations d'état"
+		 Tooltip:
+			'''
+			Empêche la durée des altérations d'états du joueur d'être doublée/triplée en mode expert/maître .
+			L'équilibrage de Calamity est pensé avec cette option activée.
+			''' 
+	}
+
+	ParticleLimit: {
+		 Label: "[i:FragmentStardust] Limite maximum des particules"
+		 Tooltip:
+			'''
+			Règle le nombre maximum de particules actives.
+			Les particules ne concernent pas la poussière et les effets gores.
+			Réduire pour augmenter les performances.
+			''' 
+	}
+
+	RageMeterPosX: {
+		 Label: "[i:LaserRuler] Position horizontale de la jauge de rage"
+		 Tooltip:
+			'''
+			La position horizontale de la jauge de rage, mesurée en pourcentage de votre largeur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	RageMeterPosY: {
+		 Label: "[i:LaserRuler] Position verticale de la jauge de rage"
+		 Tooltip:
+			'''
+			La position verticale de la jauge de rage, mesurée en pourcentage de votre hauteur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	RemoveReforgeRNG: {
+		 Label: "[i:TinHammer] Supprimer l'aléatoire de la reforge"
+		 Tooltip:
+			'''
+			Supprime la composante aléatoire des reforges du Gobelin.
+			Désactiver si en conflit avec d'autres mods.
+			''' 
+	}
+
+	RipperMeterShake: {
+		 Label: "[i:CalamityMod/RedLightningContainer] Tremblement des jauges d'adrénaline et de rage"
+		 Tooltip:
+			'''
+			HL'amplitude du tremblement des jauges de rage et d'adrénaline quand elles sont utilisées.
+			Régler à 0 pour désactiver le tremblement.
+			''' 
+	}
+
+	Screenshake: {
+		 Label: "[i:CalamityMod/WavePounder] Tremblement de l'écran"
+		 Tooltip: Active ou désactive tous les tremblements d'écran.
+	}
+
+	ShopNewAlert: {
+		 Label: "[i:GoldChest] Alerte en cas de nouvel inventaire des magasins"
+		 Tooltip: Adds an icon that appears over Town NPCs when they have new items in their shops.
+	}
+
+	SpeedrunTimer: {
+		 Label: "[i:Stopwatch] Afficher le chronomètre"
+		 Tooltip:
+			'''
+			Enables an in-game speedrun timer which shows in-game time down to the millisecond.
+			A second line displays the time of your most recent boss kill.
+			The time is tracked per player and only counts time while loaded into a world.
+			''' 
+	}
+
+	SpeedrunTimerPosX: {
+		 Label: "[i:LaserRuler] Position X du chronomètre"
+		 Tooltip:
+			'''
+			The X position of the Speedrun Timer, measured as a % of your screen width.
+			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
+			''' 
+	}
+
+	SpeedrunTimerPosY: {
+		 Label: "[i:LaserRuler] Position Y du chronomètre"
+		 Tooltip:
+			'''
+			The Y position of the Speedrun Timer, measured as a % of your screen height.
+			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
+			''' 
+	}
+
+	StealthInvisibility: {
+		 Label: "[i:CalamityMod/StealthHairDye] Invisibilité en mode furtif"
+		 Tooltip:
+			'''
+			Enables players gradually turning invisible as their Rogue Stealth increases.
+			This effect is visually similar to Shroomite armor's stealth.
+			''' 
+	}
+
+	StealthMeter: {
+		 Label: "[i:CalamityMod/EclipseMirror] Afficher la jauge de furtivité"
+		 Tooltip:
+			'''
+			Enables the Stealth Meter UI, which shows the player's current stealth level.
+			The Stealth Meter is always hidden if not wearing Rogue armor.
+			''' 
+	}
+
+	StealthMeterPosX: {
+		 Label: "[i:LaserRuler] Position horizontale de la jauge de furtivité"
+		 Tooltip:
+			'''
+			La position horizontale de la jauge de furtivité, mesurée en pourcentage de votre largeur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	StealthMeterPosY: {
+		 Label: "[i:LaserRuler] Position verticale de la jauge de furtivité"
+		 Tooltip:
+			'''
+			La position verticale de la jauge de furtivité, mesurée en pourcentage de votre hauteur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	SulphuricWaterMeterPosX: {
+		 Label: "[i:LaserRuler] Position horizontale de la jauge de poison sulfurique"
+		 Tooltip:
+			'''
+			La position horizontale de la jauge de poison sulfurique, mesurée en pourcentage de votre largeur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	SulphuricWaterMeterPosY: {
+		 Label: "[i:LaserRuler] Position verticale de la jauge de poison sulfurique"
+		 Tooltip:
+			'''
+			La position verticale de la jauge de poison sulfurique, mesurée en pourcentage de votre hauteur d'écran.
+			La jauge peut-être déplacée si vous n'avez pas verouillé les jauges.
+			''' 
+	}
+
+	PotionSelling: {
+		 Label: "[i:SpelunkerPotion] Les villageois vendent des potions"
+		 Tooltip:
+			'''
+			Permet au villageois de vendre des potions.
+			Certaines potions ne sont vendues qu'après avoir vaincu certains boss.
+			''' 
+	}
+
+	TownNPCSpawnRateMultiplier: {
+		 Label: "[i:GuideVoodooDoll] Vitesse d'apparition des PNJ de ville"
+		 Tooltip:
+			'''
+			Multiplie la probabilité que les villageois apparaîssent et réapparaîssent.
+			Cela réduit l'attente si vos villageois meurent dans un évènement ou un combat de boss."
+			''' 
+	}
+
+	TownNPCsSpawnAtNight: {
+		 Label: "[i:ClothierVoodooDoll] Apparition des PNJ de ville la nuit"
+		 Tooltip:
+			'''
+			Permet l'apparition des villageois la nuit quand activé.
+			Cela inclus le vieil homme du donjon.
+			''' 
+	}
+
+	VanillaCooldownDisplay: {
+		 Label: "[i:HealingPotion] Afficher les temps de recharge du jeu de base"
+		 Tooltip:
+			'''
+			Ajoute les altérations liées aux potions de soins et l'état chaotique à l'affichage des temps de recharge de Calamity.
+			Ca ne les retire pas de l'affichage standard, mais peut aider à la visibilité.
+			''' 
+	}
+
+	WikiStatusMessage: {
+		 Label: "[i:Book] Message du Wiki"
+		 Tooltip: Active au désactive le message qui affiche l'adresse du Wiki de Calamity au démarrage.
+	}
+}

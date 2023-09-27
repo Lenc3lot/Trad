@@ -1,0 +1,237 @@
+
+  AcesApronOfAffection:
+  {
+    DisplayName: Tablier de l'Affection de Ace
+    Tooltip: "'Parfait pour enlacer des gens!'"
+  }
+  AnahitaMask:
+  {
+    DisplayName: Masque d'Anahita
+    
+  }
+  AncientGodSlayerChestplate:
+  {
+    DisplayName: Plastron de l'Ancien Déicide
+    
+  }
+  AncientGodSlayerHelm:
+  {
+    DisplayName: Heaume de l'Ancien Déicide
+    
+  }
+  AncientGodSlayerLeggings:
+  {
+    DisplayName: Ancien Pantalon du Déicide
+    
+  }
+  ApolloMask:
+  {
+    DisplayName: Masque d'Apollo
+    
+  }
+  AquaticScourgeMask:
+  {
+    DisplayName: Masque de Fléau Aquatique
+    
+  }
+  AresMask:
+  {
+    DisplayName: Masque d'Arès
+    
+  }
+  ArtemisMask:
+  {
+    DisplayName: Masque d'Artemis
+    
+  }
+  AshenHorns:
+  {
+    DisplayName: Cornes Cendrées
+    
+  }
+  AstrumAureusMask:
+  {
+    DisplayName: Masque d'Astrum Aureus
+    
+  }
+  AstrumDeusMask:
+  {
+    DisplayName: Masque d'Astrum Deus
+    
+  }
+  BrimstoneWaifuMask:
+  {
+    DisplayName: Masque d'Élementaire de Soufre
+    
+  }
+  BumblefuckMask:
+  {
+    DisplayName: Masque de la Dracofolie
+    
+  }
+  CalamitasCloneMask:
+  {
+    DisplayName: Masque du Clone de Calamitas
+  }
+  CeaselessVoidMask:
+  {
+    DisplayName: Masque du Néant Incessant
+    
+  }
+  CrabulonMask:
+  {
+    DisplayName: Masque de Crabulon
+    
+  }
+  CryogenMask:
+  {
+    DisplayName: Masque de Cryogène
+    
+  }
+  DesertScourgeMask:
+  {
+    DisplayName: Masque du Fléau du Désert
+    
+  }
+  DevourerofGodsMask:
+  {
+    DisplayName: Masque du Dévoreur de Dieux
+    
+  }
+  DraedonMask:
+  {
+    DisplayName: Masque de Draedon
+    
+  }
+  GodSlayerHornedHelm:
+  {
+    DisplayName: Heaume Cornu du Déicide
+  }
+  GodSlayerVisage:
+  {
+    DisplayName: Visage Déicide
+  }
+  HiveMindMask:
+  {
+    DisplayName: Masque de l'Esprit de Ruche
+    
+  }
+  HoodOfCalamity:
+  {
+    DisplayName: Capuche de la Calamité
+  }
+  LeviathanMask:
+  {
+    DisplayName: Masque du Leviathan
+    
+  }
+  OldDukeMask:
+  {
+    DisplayName: Masque du Vieux Dic
+    
+  }
+  OldHunterHat:
+  {
+    DisplayName: Vieux Chapeau de Chasseur
+    Tooltip: "'Atours façonnés pour ressembler aux chasseurs d'une terre lointaine'"
+  }
+  OldHunterPants:
+  {
+    DisplayName: Vieux Pantalon de Chasseur
+    Tooltip: "'Atours façonnés pour ressembler aux chasseurs d'une terre lointaine'"
+  }
+  OldHunterShirt:
+  {
+    DisplayName: Vieux Haut de Chasseur
+    Tooltip: "'Atours façonnés pour ressembler aux chasseurs d'une terre lointaine'"
+  }
+  PerforatorMask:
+  {
+    DisplayName: Masque du Perforateur
+    
+  }
+  PlaguebringerGoliathMask:
+  {
+    DisplayName: Masque du Goliath Colporte-Peste
+    
+  }
+  PolterghastMask:
+  {
+    DisplayName: Masque de l'Épouvantôme
+    
+  }
+  ProfanedGuardianMask:
+  {
+    DisplayName: Masque du Gardien Profané
+    
+  }
+  ProvidenceMask:
+  {
+    DisplayName: Masque de Providence
+    
+  }
+  RavagerMask:
+  {
+    DisplayName: Masque du Ravageur
+    
+  }
+  RobesOfCalamity:
+  {
+    DisplayName: Robes de la Calamité
+  }
+  SCalBoots:
+  {
+    DisplayName: Bottes Calamiteuses
+    
+  }
+  SCalMask:
+  {
+    DisplayName: Capuche Calamiteuse
+    
+  }
+  SCalRobes:
+  {
+    DisplayName: Robe Calamiteuse
+    
+  }
+  SignusMask:
+  {
+    DisplayName: Masque de Signus
+    
+  }
+  SilvaHelm:
+  {
+    DisplayName: Heaume Silva
+  }
+  SilvaHornedHelm:
+  {
+    DisplayName: Casque Cornu Silva
+  }
+  SilvaMask:
+  {
+    DisplayName: Masque Silva
+  }
+  SlimeGodMask:
+  {
+    DisplayName: Masque du Dieu des Gelées
+    
+  }
+  SlimeGodMask2:
+  {
+    DisplayName: Masque du Dieu des Gelées
+    
+  }
+  StormWeaverMask:
+  {
+    DisplayName: Masque du Tisse-Tempête
+    
+  }
+  ThanatosMask:
+  {
+    DisplayName: Masque de Thanatos
+  }
+  YharonMask:
+  {
+    DisplayName: Masque de Yharon
+    
+  }

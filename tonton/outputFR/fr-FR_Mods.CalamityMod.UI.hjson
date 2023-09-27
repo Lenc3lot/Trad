@@ -1,0 +1,266 @@
+ SmallWorldWarning: "[c/FF0000:LES PETITS MONDES NE SONT PAS GERES PAR CALAMITY]"
+// Main UI Elements
+ Adrenaline: Adrénaline
+ Nanomachines: Nanomachines
+ Rage: Rage
+ Flight: "{0} de vol restant"
+ Charge: Charge Actuelle
+ DefenseDamage: Dégâts de Défense
+ SulphurousWater: Empoisonnement Sulfurique
+ Stealth: Furtivité
+ StealthShiftText: Maintenez SHIFT Gauche pour plus d'informations sur la furtivité
+ StealthInfoText:
+	'''
+	L'accumulation de furtivité pour la classe voleur se fait lorsque vous n'attaquez pas et est plu lente lorsque vous vous déplacez
+	Une fois que vous avez atteint la furtivité maximale, vous pourrez effectuer une Attaque Furtive
+	La furtivité pour la classe voleur ne diminue que lorsque vous attaquez, elle ne diminue pas lorsque vous vous déplacez
+	Plus votre furtivité est élevée, plus vos dégâts et vos chances de coup critique sont élevés
+	Avoir plus de régénération de furtivité réduit légèrement le bonus de dégâts de la furtivité
+	Ceci est compensé par le fait que vous pouvez utiliser les Attaques Furtives beaucoup plus souvent
+	'''
+// Difficulty UI
+ DifficultyStatusText: "{0} est {1}."
+ ModeAppend: " Mode"
+ Active: Actif
+ NotActive: Inactif
+ DifficultyShiftText: "[c/737373:Maintenez SHIFT Gauche pour plus d'informations]"
+ CurrentlySelected: Actuellement sélectionné : {0}
+ DifficultyClickText: "[c/919191:Cliquez pour choisir une difficulté]"
+ ExpertDifficultyLock: "[c/919191:Les modes de difficulté élevés ne peuvent être activés qu'en mode Expert ou plus élevé]"
+ ChangingTheRules: "[c/919191:Vous ne pouvez pas changer maintenant!]"
+ NoDifficulty: Aucune
+ NoDifficultyInfo: L'expérience classique de Terraria, sans les changements de Calamity.
+ Revengeance: Revengeance
+ RevengeanceShortInfo: "[c/F54254:L'expérience calibrée pour Calamity!]"
+ RevengeanceExpandedInfo:
+	'''
+	[c/B55362:Active le mécanisme d'] [c/85FFE9:Adrénaline]. [c/B55362:Vous gagnez de l'Adrénaline en combattant les boss. Se faire toucher ramène l'Adrénaline à 0]
+	[c/B55362: Lorsque l'Adrénaline est maximale, appuyez sur] {1} [c/B55362:pour un grand bonus de dégâts]
+	[c/B55362:Active le mécanisme de ] [c/FF8B54:Rage]. [c/B55362:Vous gagnez de la Rage à proximité des ennemis ou en utilisant certains objets]
+	[c/B55362: Lorsque la Rage est maximale, appuyez sur] {0} [c/B55362:pour un bonus temporaire aux dégâts]
+	[c/B55362:La plupart des ennemis ont des statistiques plus élevées et des IA plus agressives]
+	[c/B55362:Les boss ont de nouvelles mécaniques d'IA, de nouvelles phases et laisseront tomber des récompenses de Mode Maître. Les ennemis apparaissent plus fréquemment]
+	[c/F7342A:Ce mode est plus difficile que le mode Expert. Assurez-vous d'être prêt pour un défi]
+	''' 
+ RevengeanceActivate: Revengeance est activé.
+ RevengeanceDeactivate: Revengeance est désactivé.
+ Death: Mort
+ DeathShortInfo: "[c/C82DF7:Un défi pour les plus expérimentés, ou pour ceux qui veulent aller aù-dela de la difficulté Revengeance]"
+ DeathExpandedInfo:
+	'''
+	[c/B834E0:Tous les ennemis seront une menace bien plus importante avec des IA hautement agressives et des dégâts accrus]
+	[c/B834E0:Les boss ont des changements d'IA substantiellement plus difficiles. Les ennemis sont encore plus nombreux et peuvent facilement vous submerger]
+	[c/B834E0:Les altérations d'état sont particulièrement létales et les Abysses sont beaucoup plus dangereuses]
+	[c/E945FF:La vigilance et la ténacité sont cruciales pour la survie]
+	''' 
+ DeathActivate: Le mode Mort est activé; Amusez-vous bien.
+ DeathDeactivate: Le mode Mort est désactivé; Pas assez drôle pour vous?
+// Calamity Health Bar
+ ExoTwinsNameNormal: XS-01 Artemis et XS-03 Apollo
+ ExoTwinsNameHekate: Oeils de XB-∞ Hekate
+ ExtensionDisplay: ({0} gauche: {1})
+
+ExtensionName: {
+	 Segments: Segments
+	 Creepers: Suiveurs
+	 Hands: Mains
+	 Arms: Bras
+	 Guns: Armes
+	 Cannons: Cannons
+	 DarkEnergy: Energie Sombre
+	 BodyParts: Parties du corps
+}
+
+// Cooldowns
+Cooldowns: {
+	 AquaticHeartIceShield: Recharge du Bouclier de Glace
+	 BloodflareFrenzy: Recharge de la Frénésie de Sang
+	 BloodflareRangedSet: Recharge de l'Âme de Sang Enflammé
+	 BrimflameFrenzy: Recharge de Frénésie de Flammes Soufrés
+	 ChaosState: Recharge de Téléportation
+	 CounterScarf: Recharge de l'Écharpe
+	 DivineBless: Recharge de la Bénédiction Divine
+	 DivingPlatesBreaking: Durabilité des Plaques de la Combinaison de Plongée Abyssale
+	 DivingPlatesBroken: Plaques Brisées de la Combinaison de Plongée Abyssale
+	 ElysianGuard: Recharge de la Garde Élysienne
+	 EvasionScarf: Recharge de l'Écharpe
+	 FleshTotem: Recharge de Réduction des Dégâts de Contact
+	 GlobalDodge: Recharge d'Esquive
+	 GodSlayerDash: Recharge de Ruée du Tueur de Dieux
+	 InkBomb: Recharge de Bombe d'Encre
+	 LifeSteal: Recharge du Vol de Vie
+	 LionHeartShield: Recharge de la Carapace d'Énergie
+	 MasterChefShieldDurability: Durabilité du Bouclier d'Énergie
+	 MasterChefShieldRecharge: Recharge du Bouclier d'Énergie
+	 NebulousCore: Recharge du Noyau Nébuleux
+	 OldDukeScalesFatigue: Endurance
+	 OmegaBlueActive: Folie Abyssale
+	 OmegaBlueCooldown: Recharge de la Folie Abyssale
+	 PermafrostConcoction: Recharge de Concoction de Permafrost
+	 PlagueBlackout: Recharge du Blackout de la Peste
+	 PotionSickness: Recharge de Potion
+	 PrismaticLaser: Recharge du Barrage de Laser Prismatique
+	 ProfanedSoulArtifact: Épuisement de l'Artéfact de l'Âme Profanée
+	 RelicOfResilience: Recharge du Relique de Résilience
+	 RogueBooster: Recharge du Booster de Voleur
+	 SandCloak: Recharge du Manteau de Sable
+	 SandsmokeBombActive: Durée de la Bombe de Fumée de Sable
+	 SandsmokeBombCooldown: Recharge de la Bombe de Fumée de Sable
+	 SilvaRevive: Recharge de la Résurrection de Silva
+	 TarragonCloak: Recharge du Manteau d'Estragon
+	 TarragonImmunity: Recharge de l'Immunité d'Estragon
+	 UniverseSplitter: Recharge du Fendeur d'Univers
+	 WulfrumBastionActive: Durabilité de l'Armure Énergétique
+	 WulfrumBastionCooldown: Recharge du Bastion Wulfrum
+	 WulfrumRoverDriveDurability: Durabilité de la Matrice de Protection
+	 WulfrumRoverDriveRecharge: Recharge de la Matrice de Protection
+}
+
+// Draedon UI
+ Contact: Contacter
+ Summon: Invoquer
+ Evoke: Evoquer
+ Communicate: Communiquer
+ Cost: "Coût: "
+ ConfirmationText: Êtes-vous sur?
+ UpgradesRequired: Decryptage impossible: Améliorations requises.
+ ThanatosIcon: Thanatos, une terreur serpentiforme avec une armure impénétrable et d'innombrables tourelles laser.
+ AresIcon: Arès, une monstruosité diabolique et imposante avec quatre Exo-superarmes.
+ ArtemisApolloIcon: Artémis and Apollo, une paire d'automates extrêmement persistants avec des réserves d'énergie instables.
+
+// Hologram Texts
+Hologram: {
+	 Text1: À tout le personnel travaillant dans les laboratoires. Veuillez porter votre badge d'identification gravé dans l'acier en tout temps. C'est la méthode la plus simple pour identifier votre corps en cas d'accidents.
+	 Text2: Expérimenter c'est échouer. Échouer c'est apprendre. Apprendre c'est avancer.
+	 Text3: Les dangers apparents pendant la recherche ne servent qu'à enrichir l'expérience de recherche.
+	 Text4: Les prototypes d'armes de type laser sont extrêmement mortels et ne doivent pas être utilisés dans les salles de présentation.
+	 Text5: Les émissions de plasma à haute énergie ont des effets néfastes sur la chair et le métal. N'essayez pas de manipuler le plasma évacué.
+	 Text6: Les décharges électriques provenant d'équipements militaires sont destinées à être mortelles. Si vous survivez à une telle décharge, c'est un indicateur clair que le dispositif ne fonctionne pas correctement. Veuillez signaler tout cas de ce genre.
+	 Text7: Tous les employés sont par la présente informés qu'ils seront tenus responsables de tout dommage collatéral causé par des tirs d'armes Gauss, même pendant les exercices de test sanctionnés.
+	 Text8: Les émetteurs de champ de sécurité vaporiseront tout équipement et personnel non autorisé. Veuillez laisser vos effets personnels dans les casiers désignés en dehors du site. Cela signifie également : n'amenez pas de membres de la famille qui ne sont pas engagés en tant que personnel.
+	 Text9: Si quelqu'un parvient à pénétrer dans les installations de test restreintes, veuillez au moins enregistrer toutes brûlures, lacérations, contusions, fractures... ...traumatismes, décharges et autres. Merci.
+	 Text10: Le réseau électrique a été... ...gravement compromis. Abandonnez la recherche et dirigez-vous vers les sorties de secours situées à... ...et évacuez rapidement.
+	 Text11: Avertissez immédiatement le Département de la Sécurité en cas d'agression par une faune locale.
+	 PostCultistText: Les capteurs ont détecté une brèche significative dans le continuum espace-temps.
+	 EasterEgg: S'il vous plaît, aidez-moi. Je suis coincé dans cette machine holographique.
+}
+
+// Enchantments
+Exhumed: {
+	 DisplayName: Exhumé
+	 Description: Transforme cet objet en un objet significativement plus fort.
+}
+
+Indignant: {
+	 DisplayName: Indigné
+	 Description: Convoque des démons qui vous blessent mais qui laissent tomber des objets de guérison à leur mort ou lors de leur utilisation.
+}
+
+Aflame: {
+	 DisplayName: Enflammé
+	 Description: Enflamme les ennemis avec le pouvoir de la sorcière suprême mais cause des dégâts sur la durée lorsque vous tenez cet objet.
+}
+
+Oblatory: {
+	 DisplayName: Oblatoire
+	 Description: Réduit le coût en mana et augmente grandement les dégâts mais cet objet consomme parfois votre vie.
+}
+
+Resentful: {
+	 DisplayName: Ressentiment
+	 Description: Augmente les dégâts des projectiles en fonction de la distance. Plus la cible est loin, plus les dégâts sont importants, et vice-versa.
+}
+
+Bloodthirsty: {
+	 DisplayName: Assoiffé de Sang
+	 Description: Augmente les dégâts des projectiles en fonction de la distance. Plus la cible est près, plus les dégâts sont importants, et vice-versa.
+}
+
+Ephemeral: {
+	 DisplayName: Ephémère
+	 Description:
+		'''
+		Les dégâts se réduisent a force d'utiliser cet objet.
+		Ils se rechargent naturellement quand vous ne l'utilisez pas. Il commence avec plus de dégâts qu'en temps normal.
+		''' 
+}
+
+Hellbound: {
+	 DisplayName: Lié aux enfers
+	 Description:
+		'''
+		Les sbires sont crées avec un minuteur de 40 secondes.
+		Une fois terminé, ils explosent violemment. 
+		Once it runs out, they explode violently. Les sbires infligent plus de dégâts au fur et à mesure qu'ils vivent et explosent également lorsqu'ils sont inactifs.
+		''' 
+}
+
+Tainted: {
+	 DisplayName: Souillé
+	 Description: Retire les projectiles de cette arme. En échange, deux bras squelettiques sont relachés et tailladent la position de la souris.
+}
+
+Traitorous: {
+	 DisplayName: Traître
+	 Description: Utiliser cet objet en dessous de 25% de votre mana consomme immédiatement votre mana restant et relâche un monstre qui vous blesse vous et vos ennemis.
+}
+
+Withering: {
+	 DisplayName: Flétrissant
+	 Description:
+		'''
+		Lorsque vous êtes blessé, vous guérissez un pourcentage des dégâts subis en fonction de la quantité de dégâts cumulés que vous avez infligés auparavant, jusqu'à 100%.
+		Après cela, vous obtenez un bonus de dégâts en tenant cet objet, mais vous subissez également des dégâts exponentiels au fil du temps.
+		''' 
+}
+
+Persecuted: {
+	 DisplayName: Persécuté
+	 Description:
+		'''
+		Quand vous êtes attaqué, ou au fur et à mesure, des portails démoniaques apparaîssent près de vous.
+		S'ils sont suffisamment endommagés, ils deviennent amicaux ; sinon, ils vous attaquent. Ils se mettent en colère si un portail est endommagé.
+		''' 
+}
+
+Lecherous: {
+	 DisplayName: Lubrique
+	 Description: Fait apparaître un monstre de soufre résistant qui reste entre vous et votre souris et perturbe vos armes traqueuses. Il lâche plusieurs cœurs à sa mort.
+}
+
+ Disenchant: Désenchanter
+// Worldgen Tasks
+ EvilIslandCorrupt: Ajout d'une île flottante putride
+ EvilIslandCrimson: Ajout d'une île flottante grotesqie
+ BetterDungeon: Construction d'un meilleur donjon
+ BetterJungleTemple: Construction d'un plus gros temple de la jungle
+ JungleTempleAltar: Placement de l'autel Lihzahrd
+ GiantBeehive: Construction d'une ruche géante
+ MechanicShed: Construction de la cabane de la mécanicienne
+ VernalPass: Benédiction d'un bosquet en floraison
+ SunkenSea: Inondation partielle d'un désert
+ GemAdjustment: Melange sensiblement la profondeur des gemmes
+ DungeonArchive: Enterrement de littérature occulte
+ SulphurSea: Pollution d'un des océans
+ BrimstoneCrags: Incinération d'Azafure
+ HiddenShrines: Dissimulation des temples cachés
+ CrimsonShrine: Abattage d'un dieu rancunier
+ CorruptShrine: Désécration d'une tombe divine
+ DesertShrine: Emprunt d'un artéfact à Osiris
+ GraniteShrine: Cristallisation d'une géode bleue foncée
+ IceShrine: Cache l'igloo d'un dresseur
+ MarbleShrine: Récupération d'une pièce du Parthénon
+ MushroomShrine: Plantation d'un champignon riche en hyphe
+ SurfaceShrine: Assemblage d'une cachette ninja.
+ Aerialite: Cache de l'or wyverien à la vue de tous
+ DraedonLabs: Rouille et Poussière
+ HellLab: Forge avec les feu de l'enfer
+ SunkenLab: Etudie la biologie marine
+ IceLab: Prototypage du super refroidissement quantique
+ PlagueLab: Developpement d'armement odieux
+ CavernLab: Exploitation des minerais
+ DraedonWorkshop: Abandon des projets d'ingéniérie
+ DraedonFacility: Autres projets de recherches mineurs
+ Abyss: Débarassage des restes de Silva
+ SulphurSea2: Irradiation d'une des océans
+ Roxcalibur: Je veux rock

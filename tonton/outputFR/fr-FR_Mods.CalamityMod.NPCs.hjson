@@ -1,0 +1,890 @@
+
+  Bloatfish.DisplayName: Poisson Bouffi
+  BobbitWormHead.DisplayName: Ver Bobbit
+  BoxJellyfish.DisplayName: Méduse-Boîte
+  ChaoticPuffer.DisplayName: Poisson-globe Chaotique
+  ColossalSquid.DisplayName: Calamar Colossal
+  TinySquid: Petit Calamar
+  Cuttlefish.DisplayName: Seiche
+  DevilFish.DisplayName: Poisson-Diable
+  DevilFishAlt.DisplayName: Poisson-Diable
+  EidolonWyrmHead.DisplayName: Wyrm Eidolon
+  GiantSquid.DisplayName: Calamar Géant
+  GulperEelHead.DisplayName: Anguille Engloutisseuse
+  Laserfish.DisplayName: Poisson-Laser
+  LuminousCorvina.DisplayName: Corvina Lumineuse
+  MirageJelly.DisplayName: Gelée Mirage
+  MorayEel.DisplayName: Murène
+  OarfishHead.DisplayName: Poisson-Ruban
+  ReaperShark.DisplayName: Requin Faucheur
+  ToxicMinnow.DisplayName: Fretin Toxique
+  Viperfish.DisplayName: Poisson-Vipère
+  AcidEel.DisplayName: Anguille Acide
+  BabyFlakCrab.DisplayName: Bébé Crabe Flak
+  BloodwormNormal.DisplayName: Ver de Sang
+  CragmawMire:
+  {
+    DisplayName: Machoire Rochefange
+    BossChecklistIntegration:
+    {
+      SpawnInfo:
+        '''
+        Apparaît durant les pluies acides après avoir vaincu le Fléau Aquatique.
+        Lancez une pluie acide en utilisant une [i:CalamityMod/CausticTear]
+        '''
+      DespawnMessage: "[c/F0E68C:La Machoire Rochefange s'enterre dans le sable.]"
+    }
+  }
+  FlakCrab.DisplayName: Crabe Flak
+  GammaSlime.DisplayName: Gelée Gamma
+  IrradiatedSlime.DisplayName: Gelée Irradiée
+  Mauler:
+  {
+    DisplayName: Mutilateur
+    BossChecklistIntegration:
+    {
+      SpawnInfo:
+        '''
+        Apparaît durant les pluies acides après avoir vaincu l'Épouvantôme.
+        Lancez une pluie acide en utilisant une [i:CalamityMod/CausticTear]
+        '''
+      DespawnMessage: "[c/F0E68C:Le requin brutal cherche un autre endroit pour assouvir son aggressivité.]"
+    }
+  }
+  NuclearTerror:
+  {
+    DisplayName: Terreur Nucléaire
+    BossChecklistIntegration:
+    {
+      SpawnInfo:
+        '''
+        Apparaît durant les pluies acides après avoir vaincu l'Épouvantôme.
+        Lancez une pluie acide en utilisant une [i:CalamityMod/CausticTear]
+        '''
+      DespawnMessage: "[c/F0E68C:L'abbération radioactive disparaît dans une lumière maladive.]"
+    }
+  }
+  NuclearToad.DisplayName: Crapaud Nucléaire
+  Orthocera.DisplayName: Orthocère
+  Radiator.DisplayName: Radiateur
+  Skyfin.DisplayName: Nageoire Céleste
+  SulphurousSkater.DisplayName: Patineur Sulfureux
+  Trilobite.DisplayName: Trilobite
+  AquaticScourgeHead:
+  {
+    DisplayName: Fléau Aquatique
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Utilisez de la [i:CalamityMod/Seafood] dans la Mer Sulfureuse ou attendez qu'il apparaîsse dans la Mer Sulfureuse
+      DespawnMessage: "[c/F0E68C:Le Fléau empoisonné retourne nager dans les eaux tranquilles de l'océan.]"
+      EntryName: Fléau Aquatique
+    }
+  }
+  Aries.DisplayName: Aries
+  AstralachneaGround.DisplayName: Astralaraignée
+  AstralProbe.DisplayName: Sonde Astrale
+  AstralSeekerSpit.DisplayName: Crachat de Chercheur
+  AstralSlime.DisplayName: Gelée Astrale
+  Atlas.DisplayName: Atlas
+  FusionFeeder.DisplayName: Dévoreur de Fusion
+  Hadarian.DisplayName: Hadarien
+  HiveEnemy.DisplayName: Ruche
+  Hiveling.DisplayName: Pestelin
+  Mantis.DisplayName: Mante
+  Nova.DisplayName: Nova
+  SightseerCollider.DisplayName: Colisionneur Cherchevue
+  SightseerSpitter.DisplayName: Cracheur Cherchevue
+  StellarCulex.DisplayName: Culex Stellaire
+  Twinkler.DisplayName: Scintilleur
+  AstrumAureus:
+  {
+    DisplayName: Astrum Aureus
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Utilisez un [i:CalamityMod/AstralChunk] la nuit dans le biome Astral
+      DespawnMessage: "[c/FFD700:Aureus a neutralisé toutes les menaces. Reprise de la mission de reconnaissance.]"
+    }
+  }
+  AureusSpawn.DisplayName: Rejeton d'Aureus
+  AstrumDeusHead:
+  {
+    DisplayName: Astrum Deus
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Donnez un [i:CalamityMod/TitanHeart] ou un [i:CalamityMod/Starcore] en offrande à un [i:CalamityMod/AstralBeaconItem]
+      DespawnMessage: "[c/FFD700:The infected deity retreats to the heavens.]"
+      EntryName: Astrum Deus
+    }
+  }
+  Brimling.DisplayName: Soufrelin
+  BrimstoneElemental:
+  {
+    DisplayName: Élémentaire de Soufre
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Utilisez une [i:CalamityMod/CharredIdol] dans les vestiges soufrés
+      DespawnMessage: "[c/DC143C:L'élémentaire continue de maintenir sa sombre vigilance sur Azafure…]"
+    }
+  }
+  Bumblebirb: Bumblebirb
+  Bumblefuck:
+  {
+    DisplayName: La Folie Draconique
+    BossChecklistIntegration:
+    {
+      EntryName: Folie Draconique
+      SpawnInfo: Utilisez des [i:CalamityMod/ExoticPheromones] dans la Jungle
+      DespawnMessage: "[c/FFD700:La Folie retourne à son nid reclus.]"
+    }
+  }
+  Bumblefuck2.DisplayName: Essaimeur Draconique
+  CalamitasClone:
+  {
+    DisplayName: Clone de Calamitas
+    BossChecklistIntegration:
+    {
+      EntryName: Le Clone de Calamitas
+      SpawnInfo: Utilisez un [i:CalamityMod/EyeofDesolation] la nuit
+      DespawnMessage: "[c/FFA500:Le clone crâche un peu de sang de déception et disparaît.]"
+    }
+  }
+  Cataclysm.DisplayName: Construction Cataclysmique
+  Catastrophe.DisplayName: Construction Catastrophique
+  SoulSeeker.DisplayName: Cherche-Âme
+  CeaselessVoid:
+  {
+    DisplayName: Néant Incessant
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Utilisez une [i:CalamityMod/RuneofKos] dans le donjon
+      DespawnMessage: "[c/4B0082:L'ancienne faille spaciale disparaît on ne sait où.]"
+      EntryName: Néant Incessant
+    }
+  }
+  DarkEnergy.DisplayName: Énergie Noire
+  CrabShroom.DisplayName: Champicrabe
+  Crabulon:
+  {
+    DisplayName: Crabulon
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Utilisez un [i:CalamityMod/DecapoditaSprout] dans un biome champignon
+      DespawnMessage: "[c/6495ED:Le monstrueux crabe mycélien s'en va…]"
+    }
+  }
+  CalamityEye.DisplayName: Oeil de Calamité
+  RenegadeWarlock.DisplayName: Démoniste rénégât
+  DespairStone.DisplayName: Pierre de Désespoir
+  HeatSpirit.DisplayName: Esprit de Chaleur
+  InfernalCongealment.DisplayName: Congélation Infernale
+  Scryllar.DisplayName: Scryllar
+  ScryllarRage.DisplayName: Scryllar
+  SoulSlurper.DisplayName: Aspire-Âme
+  Cryogen:
+  {
+    DisplayName: Cryogène
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Utilisez une [i:CalamityMod/CryoKey] dans la toundra
+      DespawnMessage: "[c/00FFFF:Cryogène disparaît parmi les vents mordants du blizzard.]"
+    }
+  }
+  Pyrogen: Pyrogène
+  CryogenShield.DisplayName: Bouclier de Cryogène
+  PyrogenShield: Bouclier de Pyrogène
+  DesertNuisanceHead.DisplayName: Nuisance du Désert
+  DesertScourgeHead:
+  {
+    DisplayName: Fléau du Désert
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Utilisez un [i:CalamityMod/DesertMedallion] dans le désert
+      DespawnMessage: "[c/EEE8AA:Le fléau du désert replonge dans le sable.]"
+      EntryName: Fléau du Désert
+    }
+  }
+  CosmicGuardianHead.DisplayName: Gardien Cosmique
+  DevourerofGodsHead:
+  {
+    DisplayName: Le Dévoreur de Dieux
+    BossChecklistIntegration:
+    {
+      EntryName: Dévoreur de Dieux
+      SpawnInfo: Utilisez un [i:CalamityMod/CosmicWorm]
+      DespawnMessage: "[c/00FFFF:Le Dévoreur de Dieux retourne hautainement dans les profondeurs de la Distortion.]"
+    }
+  }
+  Androomba.DisplayName: Androomba
+  Nanodroid.DisplayName: Nanodroïde
+  RepairUnitCritter.DisplayName: Unité de Réparation
+  Apollo:
+  {
+    DisplayName: XS-03 Apollo
+    HekateName: Oeil Corrosif XB-∞ Hekate
+    BossChecklistIntegration:
+    {
+      EntryName: Exo Méchas
+      SpawnInfo: En utilisant un ordinateur de pointe
+      DespawnMessage: "[c/7FFFD4:Un imperfection, au final… c'est bien dommage.]"
+    }
+  }
+  AresBody:
+  {
+    DisplayName: XF-09 Ares
+    HekateName: XB-∞ Hekate
+  }
+  AresGaussNuke:
+  {
+    DisplayName: Atomiseur Gauss XF-09 Ares
+    HekateName: Atomiseur Gauss XB-∞ Hekate
+  }
+  AresLaserCannon:
+  {
+    DisplayName: Canon Laser XF-09 Ares
+    HekateName: Canon Laser XB-∞ Hekate
+  }
+  AresPlasmaFlamethrower:
+  {
+    DisplayName: Canon à Plasma XF-09 Ares
+    HekateName: Canon à Plasma XB-∞ Hekate
+  }
+  AresTeslaCannon:
+  {
+    DisplayName: Canon Tesla XF-09 Ares
+    HekateName: Canon Tesla XB-∞ Hekate
+  }
+  Artemis:
+  {
+    DisplayName: XS-01 Artemis
+    HekateName: Oeil Brûlant XB-∞ Hekate
+  }
+  Draedon.DisplayName: Draedon
+  ThanatosHead:
+  {
+    DisplayName: XM-05 Thanatos
+    HekateName: Colonne XB-∞ Hekate
+  }
+  GreatSandShark:
+  {
+    DisplayName: Grand Requin des Sables
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Tuez 10 requins des sables après avoir vaincu Plantera ou utilisez un [i:CalamityMod/SandstormsCore] dans le désert.
+      DespawnMessage: "[c/DAA520:Le prédateur apex des sables disparaît parmi les dunes.]"
+    }
+  }
+  DankCreeper.DisplayName: Rôdeur Humide
+  DarkHeart.DisplayName: Coeur des Ténèbres
+  HiveBlob.DisplayName: Goutte de Ruche
+  HiveMind:
+  {
+    DisplayName: Esprit de Ruche
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Tuez une Tumeur de Rûche dans la Corruption ou utilisez un [i:CalamityMod/Teratoma] dans la Corruption
+      DespawnMessage: "[c/9400D3:L'esprit de rûche s'éclipse pour méditer ailleurs.]"
+    }
+  }
+  HiveTumor.DisplayName: Tumeur de Rûche
+  Anahita.DisplayName: Anahita
+  AnahitasIceShield.DisplayName: Bouclier de Glace
+  AquaticAberration.DisplayName: Abérration Aquatique
+  Leviathan:
+  {
+    DisplayName: Le Leviathan
+    BossChecklistIntegration:
+    {
+      EntryName: Leviathan
+      SpawnInfo: Tuez une entité mystérieuse dans l'Océan
+      DespawnMessage: "[c/7FFFD4:Les parias aquatiques s'en retourne à leur compagnie solitaire.]"
+    }
+  }
+  LeviathanStart.DisplayName: ???
+  AeroSlime.DisplayName: Gelée Aérienne
+  ArmoredDiggerHead.DisplayName: Creuseur Blindé
+  MechanizedSerpent: Serpent Mécanisé
+  AuroraSpirit.DisplayName: Esprit d'Aurore
+  BloomSlime.DisplayName: Gelée de Floraison
+  Bohldohr.DisplayName: Bohldohr
+  Cnidrion.DisplayName: Cnidrion
+  CrawlerAmber.DisplayName: Rampant d'Ambre
+  CrawlerAmethyst.DisplayName: Rampant d'Améthyste
+  CrawlerCrystal.DisplayName: Rampant de Cristal
+  CrawlerDiamond.DisplayName: Rampant de Diamant
+  CrawlerEmerald.DisplayName: Rampant d'Émeraude
+  CrawlerRuby.DisplayName: Rampant de Rubis
+  CrawlerSapphire.DisplayName: Rampant de Saphir
+  CrawlerTopaz.DisplayName: Rampant de Topaze
+  CrimulanBlightSlime.DisplayName: Gelée Carminée Trouble
+  Cryon.DisplayName: Cryon
+  CryoSlime.DisplayName: Gelée Cryo
+  EbonianBlightSlime.DisplayName: Gelée de Fléau d'Ébène
+  Eidolist.DisplayName: Eidoliste
+  FearlessGoldfishWarrior.DisplayName: Guerrier Poisson Doré Sans Peur
+  Frogfish.DisplayName: Poisson-Grenouille
+  Horse.DisplayName: Élémentaire de Terre
+  IceClasper.DisplayName: Claspeur de Glace
+  ImpiousImmolator.DisplayName: Immolateur Impie
+  KingSlimeJewel.DisplayName: Joyau de la Couronne
+  MantisShrimp.DisplayName: Mante Crevette
+  OverloadedSoldier.DisplayName: Soldat Surchargé
+  PerennialSlime.DisplayName: Gelée Vivace
+  PhantomSpirit.DisplayName: Esprit Fantôme
+  Piggy.DisplayName: Peggy
+  PlanterasFreeTentacle.DisplayName: Tentacule de Plantera
+  ProfanedEnergyBody.DisplayName: Énergie Profanée
+  Rimehound.DisplayName: Chien de Givre
+  Rotdog.DisplayName: Chien de Pourriture
+  ScornEater.DisplayName: Dévoreur de Mépris
+  SeaUrchin.DisplayName: Oursin de Mer
+  ShockstormShuttle.DisplayName: Navette de Tempête de Choc
+  Stormlion.DisplayName: Fourmi-Tonnerre
+  Sunskater.DisplayName: Glisse-Soleil
+  SuperDummyNPC.DisplayName: Super Mannequin
+  ThiccWaifu.DisplayName: Élémentaire de Nuage
+  WildBumblefuck.DisplayName: Essaimeur Draconique
+  WulfrumAmplifier.DisplayName: Amplificateur Wulfrum
+  WulfrumDrone.DisplayName: Drone Wulfrum
+  WulfrumGyrator.DisplayName: Gyrateur Wulfrum
+  WulfrumHovercraft.DisplayName: Aéroglisseur Wulfrum
+  WulfrumRover.DisplayName: Vadrouilleur Wulfrum
+  OldDuke:
+  {
+    DisplayName: Le Vieux Duc
+    BossChecklistIntegration:
+    {
+      EntryName: Vieux Duc
+      SpawnInfo: Terminez l'évènement de pluie acide après avoir vaincu l'Épouvantôme ou péchez en utilisant un [i:CalamityMod/BloodwormItem] dans la Mer Sulfureuse
+      DespawnMessage: "[c/F0E68C:Le vieux duc se retire profondément dans l'averse caustique.]"
+    }
+  }
+  BoomerDuke: Le Duc Boomer
+  OldDukeToothBall.DisplayName: Balle Dentée
+  SulphurousSharkron.DisplayName: Draquin Sulfureux
+  CalamitasEnchantDemon.DisplayName: Démon
+  DemonPortal.DisplayName: Portail Mystérieux
+  ExhumedHeart.DisplayName: Coeur de Soufre Exhumé
+  LecherousOrb.DisplayName: Orbe Lascive
+  THELORDE.DisplayName: LE LORDE
+  PerforatorCyst.DisplayName: Kyste de Perforateur
+  PerforatorHeadLarge.DisplayName: Le Perforateur
+  PerforatorLarge: Le Grand Perforateur
+  PerforatorHeadMedium.DisplayName: Le Perforateur
+  PerforatorMedium: Le Perforateur Moyen
+  PerforatorHeadSmall.DisplayName: Le Perforateur
+  PerforatorSmall: Le Petit Perforateur
+  PerforatorHive:
+  {
+    DisplayName: La Ruche du Perforateur
+    BossChecklistIntegration:
+    {
+      EntryName: Les Perforateurs
+      SpawnInfo: Tuez un Kyste dans le carmin ou utilisez de la [i:CalamityMod/BloodyWormFood] dans le carmin
+      DespawnMessage: "[c/DC143C:Les perforateurs partent en quête de plus d'hôtes pour s'en gorger.]"
+    }
+  }
+  PlaguebringerGoliath:
+  {
+    DisplayName: Le Goliath Colporte-Peste
+    BossChecklistIntegration:
+    {
+      EntryName: Goliath Colporte-Peste
+      SpawnInfo: Utilisez une [i:CalamityMod/Abombination] dans la Jungle
+      DespawnMessage: "[c/00FF00:SPÉCIMENS EUTHANASIÉS. ARRÊT DE LA ROUTINE DE COMBAT.]"
+    }
+  }
+  PlagueHomingMissile.DisplayName: Missile de Peste à Tête Chercheuse
+  PlagueMine.DisplayName: Mine de Peste
+  Melter.DisplayName: Fondeur
+  PestilentSlime.DisplayName: Gelée Pestilentielle
+  PlaguebringerMiniboss.DisplayName: Colporte-Peste
+  PlagueCharger.DisplayName: Chargeur de Peste
+  Plagueshell.DisplayName: Carapeste
+  Viruling.DisplayName: Virulant
+  PhantomFuckYou.DisplayName: Fantôme
+  Polterghast:
+  {
+    DisplayName: Épouvantôme
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Tuez 30 esprits fantômatiques ou utilisez une [i:CalamityMod/NecroplasmicBeacon] dans le donjon.
+      DespawnMessage: "[c/B0E0E6:Le fantasme volatile se disperse dans une plainte résonante.]"
+      EntryName: Épouvantôme
+    }
+  }
+  Necroghast: Nécrôme
+  Necroplasm: Necroplasme
+  Polterplasm: Épouvanplasme
+  PolterghastHook.DisplayName: Crochet d'Épouvantôme
+  PolterPhantom.DisplayName: Épouvantôme
+  PrimordialWyrmHead.DisplayName: Wyrm Primordiale
+  Jared: Jared
+  ProfanedGuardianCommander:
+  {
+    DisplayName: Gardien Commandant
+    BossChecklistIntegration:
+    {
+      EntryName: Gardiens Profanés
+      SpawnInfo: Utilisez un [i:CalamityMod/ProfanedShard] dans le sacré ou l'enfer
+      DespawnMessage: "[c/FFA500:Les Gardeins sont rappelés au côté de leur Déesse.]"
+    }
+  }
+  ProfanedGuardianDefender.DisplayName: Gardien Défenseur
+  ProfanedGuardianHealer.DisplayName: Gardien Soigneur
+  ProfanedRocks.DisplayName: Rochers Profanés
+  Providence:
+  {
+    DisplayName: Providence, la Déesse Profanée
+    BossChecklistIntegration:
+    {
+      EntryName: Providence
+      SpawnInfo: Utilisez un [i:CalamityMod/ProfanedCore] dans le sacré ou l'enfer
+      DespawnMessage: "[c/FFA500:La Déesse Profanée se voile dans des flammes purificatrices, ne laissant que des cendres derrière elle…]"
+    }
+  }
+  ProvSpawnDefense.DisplayName: Defenseur de Providence
+  ProvSpawnHealer.DisplayName: Soigneur de Providence
+  ProvSpawnOffense.DisplayName: Attaquant de Providence
+  FlamePillar.DisplayName: Pilier de Flamme
+  RavagerBody:
+  {
+    DisplayName: Ravageur
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Utilisez un [i:CalamityMod/DeathWhistle]
+      DespawnMessage: "[c/B22222:Le Ravageur reprend son carnage horrifique et sans but.]"
+      EntryName: Ravageur
+    }
+  }
+  RockPillar.DisplayName: Pillier de Roche
+  CosmicLantern.DisplayName: Lanterne Cosmique
+  CosmicMine.DisplayName: Mine Cosmique
+  Signus:
+  {
+    DisplayName: Signus, Émissaire du Dévoreur
+    BossChecklistIntegration:
+    {
+      EntryName: Signus
+      SpawnInfo: Utilisez une [i:CalamityMod/RuneofKos] dans les enfers
+      DespawnMessage: "[c/BA55D3:Signus cesse inexpliquablement d'exister.]"
+    }
+  }
+  CorruptSlimeSpawn.DisplayName: Rejeton de Gelée Corrompue
+  CrimsonSlimeSpawn.DisplayName: Rejeton de Gelée Carmin
+  CrimulanPaladin.DisplayName: Paladin Carmin
+  EbonianPaladin.DisplayName: Paladin d'Ébène
+  SlimeGodCore:
+  {
+    DisplayName: Le Dieu des Gelées
+    BossChecklistIntegration:
+    {
+      EntryName: Le Dieu des Gelées
+      SpawnInfo: Utilisez une [i:CalamityMod/OverloadedSludge]
+      DespawnMessage: "[c/BA5533:Le dieu crasseux et gélatineux bondit au loin, sa vengeance accomplie.]"
+    }
+  }
+  SplitCrimulanPaladin.DisplayName: Paladin Carmin
+  SplitEbonianPaladin.DisplayName: Paladin d'Ébène
+  StormWeaverHead:
+  {
+    DisplayName: Tisse-Tempête
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Utilisez une [i:CalamityMod/RuneofKos] dans l'espace
+      DespawnMessage: "[c/EE82EE:Le Tisse-Tempête se cache à nouveau dans les cumulonimbus incus.]"
+      EntryName: Tisse-Tempête
+    }
+  }
+  AnthozoanCrab.DisplayName: Crabe Anthozoaire
+  AquaticUrchin.DisplayName: Oursin Aquatique
+  BelchingCoral.DisplayName: Corail Cracheur
+  Gnasher.DisplayName: Grinceur
+  MicrobialCluster.DisplayName: Amas Microbien
+  Sulflounder.DisplayName: Sulflet
+  Toxicatfish.DisplayName: Poison-Chat
+  Trasher.DisplayName: Déchiqueteur
+  BabyGhostBell.DisplayName: Bébé Cloche Fantôme
+  BlindedAngler.DisplayName: Baudroie Aveuglée
+  Clam.DisplayName: Palourde
+  EutrophicRay.DisplayName: Raie Eutrophique
+  GhostBell.DisplayName: Cloche Fantôme
+  GiantClam:
+  {
+    DisplayName: Palourde Géante
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Peut apparaître naturellement dans la mer coulée
+      DespawnMessage: "[c/7FFFD4:La palourde géante retourne dans sa grotte.]"
+    }
+  }
+  Clamitas: Clamitas
+  SupremeClamitas: Supreme Clamitas
+  PrismBack.DisplayName: Dos-Prisme
+  SeaFloaty.DisplayName: Flotteur des Mers
+  SeaMinnow.DisplayName: Vairon de Mer
+  SeaSerpent1.DisplayName: Serpent de Mer
+  BrimstoneHeart.DisplayName: Coeur de soufreflamme
+  SepulcherHead.DisplayName: Sépulcre
+  SoulSeekerSupreme.DisplayName: Cherche-âme
+  SupremeCalamitas:
+  {
+    DisplayName: Sorcière Suprême, Calamitas
+    BossChecklistIntegration:
+    {
+      SpawnInfo: Donner des [i:CalamityMod/AshesofCalamity] ou une [i:CalamityMod/CeremonialUrn] en offrande à un [i:CalamityMod/AltarOfTheAccursedItem]
+      DespawnMessage: "[c/FFA500:Ne gaspille pas mon temps, je te prie.]"
+    }
+  }
+  SupremeCirrus: Cirrus, Alchimiste Suprême
+  SupremeCataclysm.DisplayName: Cataclysme
+  SupremeCatastrophe.DisplayName: Catastrophe
+  Yharon:
+  {
+    DisplayName: Yharon, Dragon de la renaissance
+    BossChecklistIntegration:
+    {
+      EntryName: Yharon
+      SpawnInfo: Use a [i:CalamityMod/YharonEgg]
+      DespawnMessage: "[c/FFA500:Yharon s'envole vers les cieux, sa tâche remplie.]"
+    }
+  }
+  YharonPhase2: Yharon, Phénix Resplendissant
+  AndroombaFriendly.DisplayName: Pote Androomba
+  DILF:
+  {
+    DisplayName: Archimage
+    Census.SpawnCondition: Vaincre Cryogène
+    Name.Permafrost: Permafrost
+    Chat:
+    {
+      Homeless1: Je n'ai pas vu un ciel comme celui-là depuis des décennies. Qui es-tu, pour marcher si effrontément contre ce Tyran ?
+      Homeless2: J'apprécie enormément que tu m'aies libéré du piège de mon chateau gelé... Ca fait vraiment, vraiment longtemps...
+      Normal1: Si vous avez une requête, faites-la vite. Je suis en train de tisser un sort, qui nécessite une grande concentration.
+      Normal2: Tu as les dispositions d'un mage talentueux. Dis-moi, que penses-tu de la magie de glace ?
+      Normal3: Les fleurs et autres choses du genre ne tiennent pas la comparaison avec la beauté de la glace façonnée avec soin.
+      Day1: Le soleil frappe durement mes créations ici. Si vous me permettiez de provoquer un blizzard de temps en temps...
+      Day2: Je dois l'admettre... je ne suis pas habitué à ce climat. Il faut trop chaud à mon goût...
+      Night1: La tombée de la nuit est parfaite pour pratiquer la magie. Nous, les mages, nous appuyons souvent sur les corps célestes et leurs fragments pour renforcer notre mana.
+      Night2: La nécromancie n'a jamais été un domaine qui m'intéressait. Pourquoi utiliser les cadavres en décomposition des gens, alors que l'on pourrait former des serviteurs de glace bien plus élégants ?
+      Party: Parfois... J'ai l'impression que pendant ces événements, je ne suis bon qu'à faire des glaçons et des granités.
+      BloodMoon1: Si votre sang venait à geler complètement, cela serait très fatal.
+      BloodMoon2: Les morts-vivants qui errent cette nuit sont toujours des monstres faits de sang et d'entrailles, mais ils semblent... plus frais.
+      MoonLordDefeated1: C'est impressionnant de voir que tu es arrivé si loin. Je te souhaite bonne chance dans tes futures entreprises.
+      MoonLordDefeated2: Toi, qui as vaincu tant d'êtres, même des divinités, je me demande s'il me reste quelque chose à t'offrir.
+    }
+    TownNPCMood:
+    {
+      Content: Le temps est frais aujourd'hui.
+      NoHome: Sans un endroit pour me reposer, mes études ne peuvent pas avancer. Pourriez-vous me trouver un lieu de résidence ? Je n'aime plus créer mes demeures avec de la magie de glace.
+      LoveSpace: Trop de monde peut perturber le flux de mana. Je préfère largement la tranquillité d'ici.
+      FarFromHome: Mon sens de l'orientation est... médiocre. J'ai du mal à l'admettre, mais j'ai tendance à ne pas sortir trop souvent.
+      DislikeCrowded: Mes sorts sont minutieux et je ne peux pas les interrompre. J'aimerais avoir plus d'espace pour les pratiquer.
+      HateCrowded: Je crains que l'un de vos associés ne se soit pris dans ma magie. Hélas, il y en a trop ici pour atténuer ce risque.
+      LikeBiome: La température ici me permet d'économiser ma magie, car mes créations peuvent maintenir leur forme sans fondre.
+      DislikeBiome: Le soleil ici est trop hostile pour ma glace ! S'il vous plaît, permettez-moi de loger ailleurs immédiatement !
+      HateBiome: Les forces obscures sont puissantes ici. Ce n'est pas idéal.
+      LikeNPC: "{NPCName} est bien instruit, et un mage tout à fait respectable"
+      DislikeNPC: Je n'apprécie pas l'ignorance flagrante de {NPCName} envers la magie. Il remplit bien son office, mais il est assez ignorant..
+      LikeNPC_Princess: "{NPCName} a quelques sorts très originaux. C'est impressionnant, pour son âge"
+      Princess_LovesNPC: J'aime bien {NPCName}.
+    }
+  }
+  FAP:
+  {
+    DisplayName: Princesse Ivre
+    Census.SpawnCondition: Avoir {$Mods.CalamityMod.Items.Potions.FabsolsVodka.DisplayName} [i:CalamityMod/FabsolsVodka] dans votre inventaire en hardmode
+    Name.Cirrus: Cirrus
+    Chat:
+    {
+      BossAlive: Pourquoi me parles-tu là ? Ne devrais-tu pas être en train de galérer et de mourir pour mon petit plaisir ?
+      Homeless1: Je peux sentir ma vodka à des KILOMETRES!
+      Homeless2: T'as des chambres disponibles ? Préférablement éclairée à la bougie et avec un bon gros stock de bibine.
+      BloodMoon1: Je vais nous faire des Bloody Marys pour nous détendre, avec du céleri et tout. T'en veux un?
+      BloodMoon2: Si t'as la flemme de fabriquer des potions normalement, essaie les orbes de sang. Le sang c'est du carburant, abruti.
+      BloodMoon3: J'essaie de pas être chiante ce soir, mais c'est dur quand je suis la seule à ne pas l'ouvrir.
+      BloodMoonSlap: Désolé, mais là c'est pas le moment.
+      Normal1: JE DETESTE WALMART! ...enfin bref, tu veux quoi cette fois?
+      Normal2: Bois quelque chose qui te tranformes en licorne magique volante, comme ça tu pourras être comme moi.
+      Normal3: Des prix tellement bon que je vais me [$$!$] ! ...Désolé, j'ai eu une micro attaque!
+      Normal4: Quelqu'un t'as déjà dis qu'avoir de gros arguments provoque des maux de dos ? Bah, ils avaient raison.
+      Archmage: "{0} peut boire un coup avec moi quand il veut! ...Ou peut-être pas en fait, je suis pas sur qu'il tienne le coup."
+      BrimstoneWitch: La maltraitance que {0} est quelque chose que je ne peux pas comprendre. Je lui offrirai bien une verre, mais je pense qu'elle ne l'apprécierai pas.
+      Tavernkeep1: Ma bibine sera toujours meilleur que celle de {0}, et personne ne me persuadera du contraire.
+      Tavernkeep2: Dis à {0} d'arrêter de m'appeler. Il n'y aura rien.
+      Tavernkeep3: J'ai du rappeler au chauve que mes yeux sont en haut tellement de fois que j'ai arrêté de compter.
+      Stylist1: Depuis que {0} a emménagé, je ne bois plus autant... c'est étrange comme sentiment, mais pas malvenu.
+      Stylist2: Tu pourras pas m'empêcher d'essayer d'emménager avec {0}.
+      Stylist3: J'adore quand les mains de {0} sont toutes collantes avec tout ce... cette cire.
+      Day1: Je suis littéralement tellement bourrée que j'en suis agréable, qu'est-ce que tu veux?
+      Day2: Je ris soit parce que je suis bourrée, soit parce que je suis folle. Probablement les deux.
+      Day3: Que je suis ivre, je suis tellement plus heureuse... jusqu'a ce que les vers parlants commence à se pointer.
+      Day4: Je devrais recoder tout le mod, complètement bourrée, et l'envoyer aux testeurs.
+      DayStylist1: "{0} m'a appris à accepter mon passé. Ca été compliqué, mais je pense que je suis bien partie maintenant."
+      DayStylist2: Je pense aller courir un peu avec {0} aujourd'hui. Il fait beau aujourd'hui, c'est idéal.
+      DayDrunk1: Je bois pour oublier certains... trucs. Tu veux savoir quoi? Eh ben, le but c'est de les oublier, non?
+      DayDrunk2: Quelle journée incroyable! Je vais peut-être me mettre bien jusqu'a en tomber malade à nouveau.
+      Night1: Une nuit parfaite pour quelques bougies, du vin rouge et de la relaxation.
+      Night2: Allez, un petit jeu à boire... bois un coup à chaque fois que t'as du regarder le wiki. Non attends, tu vas mourir.
+      Night3: Oui, tout le monde sait que le ver mécanique est bugué. Bon, plus maintenant, mais quand même.
+      Night4: T'es perdu où quoi? Je suis pas du genre solitaire, mais je préfère être seule la nuit.
+      Night5: T'es sur d'avoir 18 ans? ...Bon OK, très bien, mais dis à personne où t'as acheté ça.
+      NightStylist: Je vais regarder des films avec {0} ce soir. Tu peux venir si tu veux, mais t'emmene les biscuits apéritifs.
+      Party: Y a toujours de la bibine dans les fêtes ou je vais... en fait, y a toujours de la BIBINE peu importe ou JE vais!
+      AcidRain: Je fonds! Arrête moi cette météo infernale tout de suite avec qu'elle ne ruine mes cheveux!
+      Martians: Tu devrais probablement t'occuper de ces eyy ptdrs avant tout, mais qu'importe.
+      CryogenDefeated: Mon dieu, j'ai hâte de me faire le givre à nouveau! ...Pour les glaçons, evidemment.
+      LeviathanDefeated: Comment as-tu pu tuer une créature aussi magnifique!? ...La bleue hein, pas le concombre obèse.
+      MoonLordDefeated: Tu t'es déjà demandé pourquoi le seigneur lunaire a autant de tentacules? Euh... en fait, non, oublie ça.
+      PolterghastDefeated: Autrefois, j'ai vu un fantôme près de la vieille voie ferrée dans mon pays, se débattant sauvagement avec les nénuphars... quel époque effrayante.
+      DoGDefeated: J'ai entendu dire que c'est genial quand le célèbre devoreur des dieux dans l'espace de battement-machoire, avec le diapason, fait un clignement cru sur un rocher Harakiri. J'ai besoin de ciseaux! 61!
+      HasChibii: C'est quoi ce bordel? On dirait un truc que je porterais si j'avais 5 ans.
+      HasAnahitaTrans: Jolies écailles... c'est moi ou y fait chaud ici?
+      HasVodka: T'aime ma vodka? Je la fait avec de la poussière de fée, de la transpiration de grotte cristalisée et tout un autre tas de merdes magiques.
+      HasAlicorn1: Alors comme ça... t'as trouvé ma bouteille spéciale. J'espère que tu vas t'amuser, parce que moi oui.
+      HasAlicorn2: Assure-toi de ne pas me monter trop souvent, je fatigue. Et en plus, je peux pas t'arnaqu- te proposer d'excellentes affaires trouvables nul part ailleurs si t'es sur moi 24h/7j.
+      HasAlicorn3: Avant que tu ne me demandes, non, je n'ai PAS de coeur sur mes fesses quand je suis sous forme humaine. Ne juge pas mes goûts en termes de transformation!
+    }
+    DeathCountButton: Nb de morts + Donneurs
+    DeathCount: Vous êtes mort {0} fois.
+    Death10000: Félicitations! Tu es maintenant officiellement le pire looser de l'histoire de Terraria! Qui est le deuxième? Mais qu'est-ce que j'en sais, moi!
+    Death5000: Je sais pas trop quoi te dire, là. T'es mauvais et tu devrais te sentir mal de l'être? T'es déjà au courant, je pense.
+    Death2500: Que Dieu te bénisse. Je pourais esquiver mieux que toi même si j'étais complètement bourrée.
+    Death1000: On dit que la durée de vie moyenne d'un Terrarien est de 2 minutes ou moins. ...Bon, j'invente, mais je sens que tu contriburais a ce chiffre.
+    Death500: Ton aptitude a mourir à la moindre attaque me fascine.
+    Death250: J'admire ta tenacité. Continue, tes ennemis sont en train d'exploser leurs scores!
+    Death100: Tu devrais baisser la difficulté. Ca t'a vexé ? Tant mieux.
+    DonorShoutout: Hé {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23} et {24}! Vous êtes plûtot cool!
+    TownNPCMood:
+    {
+      Content: C'est l'heure de l'apéro quelque part.
+      NoHome: J'ai besoin d'une chambre où pieuter! Mes boissons doivent être correctement refroidies avec d'être servies!
+      LoveSpace: Enfin, un peu de paix et de tranquilité. Ca a tendance à m'irriter quand y a trop de monde.
+      FarFromHome: J'ai l'habitude de fuguer, mais là c'est un peu ridicule.
+      DislikeCrowded: Si y a encore une personne qui me fait le coup du ‘C'est l'happy hour sur un autre fuseau' pour avoir une réduction, je vais péter un cable!
+      HateCrowded: Peu importe la quantité que je bois, je ne peux pas noyer le bruit que tous ces gens font!
+      LoveBiome: D'autres licornes? J'aurais jamais crû que ça arriverait un jour! Cet endroit est génial!
+      LikeBiome: Une bonne brise bien fraîche pour rafraîchir les idées de certains, très efficace pour les clients bien éméchés!
+      DislikeBiome: L'air sec et la chaleur ne sont ni bons pour mes cheveux, ni bon pour mes bouteilles.
+      HateBiome: Tu penses que je peux arranger ce merdier avec un arc-en-ciel magique de l'amitié? C'est pas comme ça que ça marche, abruti! Sors moi de là, maintenant!
+      LoveNPC_Stylist: "{NPCName} fait des miracles avec mes cheveux... et plus d'autres trucs, héhé."
+      LoveNPC_BestiaryGirl: "{NPCName} est tellement douce et moelleuse! Elle m'a aussi dit que ma forme d'Alicorn est 'super tendance'."
+      LikeNPC_Truffle: "{NPCName} me donne faim... Je me demande à quel point il me ferait triper..."
+      LikeNPC_PartyGirl: "{NPCName} ferait une excellente barmaid. Elle sait vraiment comment mettre l'ambiance!"
+      DislikeNPC_DD2Bartender: "{NPCName} est tellement chauve."
+      DislikeNPC_TaxCollector: "{NPCName} ferait mieux de se tenir à distance... ca lui évitera de se reveiller un bon matin avec une lettre piégée."
+      HateNPC_GoblinTinkerer: "{NPCName} était tellement nul que j'ai du me FORCER à refaire son système de reforge. Pourquoi tu l'as fait habiter à côté de moi? Ca t'amuse de me voir revivre le stress qu'il m'a causé!?"
+      HateNPC_Angler: "{NPCName} n'arrête jamais de jacqueter avec ses quêtes de pêche sans intêret. Dégage le moi de là avant que je l'écrase!"
+      LikeNPC_Princess: Tu penses que je n'apprécierai pas {NPCName} parce qu'on est trop différentes? Bien au contraire, on a beaucoup de choses à se dire, autour d'un verre sans alcool, bien sûr.
+      Princess_LovesNPC: J'aime bien {NPCName}.
+      HateNPC: Je déteste {NPCName}.
+      DislikeNPC: Je n'aime pas {NPCName}.
+      LikeNPC: J'aime bien {NPCName}.
+      LoveNPC: J'adore {NPCName}.
+    }
+  }
+  SEAHOE:
+  {
+    DisplayName: Roi des mers
+    Census.SpawnCondition: Vaincre une Palourde Géante après avoir vaincu le Fléau du Désert
+    Name.Amidias: Amidias
+    Chat:
+    {
+      Homeless1: À quel point le monde est-il encore tombé en ruine ? Même l'empire du Tyran...
+      Homeless2: Je ne m'attends pas à un royaume de votre part, mais j'apprécierais un havre de paix.
+      Day1: Mon foyer a peut-être été détruit et mon peuple perdu... Mais je vous aiderai pour honorer leur mémoire.
+      Day2: Comme c'est étrange, que votre peuple confie les soins de ceux qui ne sont pas encore nés aux femelles. Chez nous, les mâles portent les œufs jusqu'à leur éclosion.
+      Day3: Comment puis-je survivre sur terre ? Ah, c'est un secret. Non, en réalité... je peux respirer l'air comme toi !
+      Day4: Ah, si seulement tu avais pu voir la beauté d'un royaume submergé. La façon dont la lumière se réfractait et brillait sur nos maisons de corail...
+      Night1: Il y a d'horribles créatures qui rôdent au-delà de la lumière de nos foyers. Tu devrais faire attention.
+      Night2: Mes yeux ne sont pas bien adaptés aux lumières vives après tant d'années d'obscurité. La tranquillité de la nuit est la bienvenue.
+      Night3: Oh, moi ? Je ne dors pas, c'est une partie de ma nature.
+      Angler1: Retrouvons nous à la maison de {0} cette nuit. On le jettera aux Déchiqueteurs.
+      Angler2: Je ne sais pas comment {0} n'a pas été grillé et dévoré, au vu du temps passé dans les mers sulfureuses. Peut-être que ça lui est monté à la tête.
+      BrimstoneWitch: Je dois l'admettre, mais la présence de la Sorcière me dérange. Mais beaucoup de temps s'est écoulé, et elle a trop souffert.
+      DrunkPrincess: La rumeur dit que {0} boit pour oublier son passé trouble.
+      PartyGirl: "{0} m'a demandé si mon nez pouvait servir de vuvuzela. C'est quoi un vuvuzela ??"
+      BloodMoon1: Depuis les temps anciens, les gens disent que les dieux provoquent les événements célestes. Lequel donc est responsable de ceux-ci ?
+      BloodMoon2: Je n'ai jamais apprécié ces nuits. Tant de violence.
+      Hardmode1: Ta présence est maintenant connue de grandes entités. Il est improbable qu'elles soient autant amicales que moi.
+      Hardmode2: Hmm... Le voile est tombé, et le monde commence à montrer son vrai visage. J'espère que tu suivras un juste chemin, même si je ne suis pas que cela soit possible.
+      MoonLordDefeated1: Ces jours-ci, le ciel nocture semble... un peu moins oppressif qu'avant.
+      MoonLordDefeated2: Je pensais que certains de ces êtres n'existaient que dans les légendes. De les voir dans toute leur grandeur... quel privilège macabre.
+      DoGDefeated: De voir le serpent du Tyran libéré de son emprise. Cela m'a fait froid dans le dos.
+    }
+    Help:
+    {
+      YharonDefeated1: L'Aurique est presque impossible à travailler sans être en phase avec un Dragon, ou utiliser une âme de Dragon arrachée pour simuler une emphase. Cependant, si tu arrives à le travailler, des objets incroyablements puissantes peuvent être crées; si puissants que leur utilisation étaient jugé hérétique par les Dieux.
+      YharonDefeated2: L'hérétique doré, Yharim, possède une force qui surpasse peut-être celle de tous les Dieux. Quand tu l'affronteras, soit prêt pour la plus grande bataille de ta vie.
+      YharonDefeated3: Draedon n'est pas un combattant; C'est un scientifique et un inventeur. Il y a peu de chances qu'il t'affronte directement, et utilisera probablement ses créations pour t'affronter. Soit prêt à tous ce que pourrons t'opposer ces machines blasphématoires.
+      DoGDefeated1: L'armure du Devoreur a été spécialement concue par Draedon. Extremmement flexible et durable malgré sa taille massive, c'est une de ses créations les plus impressionnantes. Je tremble à l'idée des choses impies qu'il serait capable de créer, si ses recherches n'ont pas été interrompues.
+      DoGDefeated2: A l'aide de l'acier cosmique, tu peux transformer tes armes en versions bien plus puissantes.
+      DoGDefeated3: Le dévoreur des dieux est une vrai mystère. Certains disent qu'il ne vient même pas de ce monde. Ce qu'on sait, c'est qu'il est capable de dévorer l'essence même d'un Dieu, ne laissant rien sur son passage. Inutile de se demander pourquoi Yharim l'a engagé.
+      PolterghastDefeated1: Les Abysses contiennent des nombreux secrets se révélant avec le temps. Les explorer de nouveau pourrait être une bonne idée.
+      PolterghastDefeated2: Ah... Je sens un puissant changement dans le climat. Tu devras t'aventurer dans les mers sulfureuses durant la pluie à nouveau pour l'expérimenter.
+      ProvidenceDefeated1: La Rune de Kos possède une partie significative de la magie de Providence, et elle facilement différenciable de toutes les autres. L'utiliser dans certains lieux pourrait... avoir des conséquences indésirables.
+      ProvidenceDefeated2: Je me demande ce qui est arrivé à Braelor et Statis. Je n'ai que peu de nouvelles de l'un où de l'autre. En mon temps, ils étaient d'illustres héros révérés par les adeptes des Dieux. Sont-il morts, emprisonnés, ou sont-il en exil?
+      MoonLordDefeated1: Tes aventures semblent se diriger vers la Jungle. La Folie Draconique et l'essaim de ses rejetons devraient être éliminés avec d'être hors de tout contrôle.
+      MoonLordDefeated2: Des créatures profanées rôdent désormais dans le sacré et en enfer. Si tu en détruit suffisamment et rassemble leur essences, tu devrais arriver à t'attirer l'attention des Gardiens Profanés.
+      MoonLordDefeated3: Les Gardiens Profanés sont au service de Providence, un des seuls dieux que même moi, méprise. Les Gardiens tentent d'éliminer les menaces envers leur déesse, et il y a des chances que tu sois sur leur liste.
+      MoonLordDefeated4: Providence peut surement être attirée par la relique que ses Gardiens ont laissés derrière eux. Pourquoi Yharim ne l'a pas défiée... Je me le demande. Est-il devenu si négligeant?
+      MoonLordDefeated5: Providence était une menace pour Yharim et son armée. Elle apparaissait de nulle part, déchainait son carnage, et disparaissait avant qu'elle puisse être significativement endommagée. Peut-être fera t'elle preuve d'un excès de confiance si elle affronte un guerrier seul.
+      GolemDefeated1: Les hommes à l'entrée du donjon accomplissent un rituel pour contenir le Seigneur Lunaire dans sa prison. Si tu veux attirer l'attention de Yharim, tu devras peut-être le vaincre.
+      GolemDefeated2: Les Abysses sont devenues bien plus actives. Tu seras peut-être en mesure d'extraire les gravats volcaniques qu'elle contient.
+      GolemDefeated3: La nature de cette peste dans la jungle me dérange; Ce n'est certainement pas une infection normale. Les créatures affectées ont l'air normales, mais quand on y regarde de près, on remarque les lumières et les parties métalliques. Quoi que cela puisse être, ce n'est pas naturel.
+      Hardmode1: Je te recommande de stocker certains de tes vieux objets. On ne sait jamais, tu pourrais avoir la possibilité de les améliorer à l'avenir.
+      Hardmode2: Si tu amènes une idole dans les vestiges soufrés, tu pourras peut-être voir ce qui s'y cache dans les ténèbres.
+      Hardmode3: Azafure, la cité fondée dans les vestiges soufrés, a été l'une des premières a soutenir Yharim dans sa guerre. Ce n'est plus que des ruines maintenant... Que s'est-il passé là-bas?
+      Hardmode4: Si tu as rassemblé les âmes qui alimentaient ces automates, retourne dans la Jungle. Tu y trouveras un puissant ennemi à défaire, qui libéra la pleine ferveur de la Jungle une fois vaincu. Ne le sous-estime pas!
+      Hardmode5: Sois prudent quand tu auras vaincu Plantera et le Golem. Tu pourrais accidentellement libérer une nouvelle menace dans la Jungle qu'il faudra juguler.
+      Hardmode6: Sois prudent en explorant le temple de la jungle. Tu devrais éviter de déranger l'idole des Lihzahrd, le Golem. Son pouvoir est destructeur.
+      Hardmode7: As-tu déjà entendu parler de l'Archimage, Permafrost? Autrefois un conseiller de Yharim, il a disparu un jour, et Calamitas abandonna la cause de Yharim peu après. De ce que j'en sais, Permafrost étaient comme un père pour elle. Peut-être que si elle est responsable de sa disparition, il est encore en vie...
+      PreHardmode1: Il y a des rumeurs à propos de minerais latents. Vaincre certains boss annulera la magie ancienne qui entrave ces matériaux.
+      PreHardmode2: As-tu entendu parler de la cité dans les vestiges soufrés? Elle se trouve dans les enfers, et fût construite en dessous des abysses. C'était autrefois la plus ancienne et la plus grande cité du monde, bien qu'il ne semble y rester que du danger maintenant. Il serait sage de ne pas s'y aventurer.
+      PreHardmode3: Ah oui, les abysses. Cette tranchée est pleine de puissantes créatures qui peuvent te dévorer en un instant. J'explorerais le donjon avant de m'y aventurer.
+      PreHardmode4: Les mers sulfureuses sont dangeureuses. Les eaux toxiques brûlerons ta peau, mais si tu peux les braver, tu pourras atteindre les abysses, où de puissantes armes et dangers t'attendent.
+      PreHardmode5: La mer sulfureuse fût créee il y a plus d'un millénaire, mais son état n'est vraiment devenu intolérable que durant ces dernières décennies. C'est la faute de ce fichu robot, Draedon, jetant ordures et expériences ratées sans cesse. Son état est au plus bas, à cause de lui.
+      PreHardmode6: Sois attentif à ce que tu attaques dans le {0}. Tu pourrais dévoiler une menace plus grande que ce que tu avais anticipé.
+      PreHardmode7: Parsemé au sein des terres, se trouvent des autels dédiés aux dieux. Il contiennent de puissants équipements qui pourrait t'aider durant tes aventures.
+      PreHardmode8: Je suppose que tu as entendu parler de Statis, le ninja légendaire? Lui et son clan vénéraient le Dieu des Slimes, qui à peut-être survécu à la guerre grace à son intellect et de sa propension à fuir et se cacher.
+      PreHardmode9: Le {0} est un développement relativement récent dans ce monde, et sa formation à marqué le début de la guerre perfide de Yharim. Bien que l'origine de sa croissance fût scellée, rien n'a jamais été fait pour contenir le mal ayant déjà été fait.
+      PreHardmode10: De part le monde se trouvent diverses structures abandonnées par Draedon. Des défenses archaïques y subsistent peut-être, mais les ressources qu'elles contiennent valent peut-être le détour.
+    }
+    TownNPCMood:
+    {
+      Content: Je suis satisfait.
+      NoHome: Merci pour ton aide, mais j'ai bien peur de ne plus avoir de domicile.
+      LoveSpace: Ah, le silence de la solitude est quelque chose que j'apprécie beaucoup.
+      FarFromHome: Mes écailles vont sécher sans abri. Je suis trop loin de chez moi.
+      DislikeCrowded: On vit un peu les uns sur les autres, par ici, non?
+      HateCrowded: J'ai toujours détesté rappeler mon statut, mais que j'étais roi, j'ai été habitué à avoir moins de gens aux alentours.
+      LikeBiome: Si proche de l'océan. C'est doux-amer, mais je ne peux pas m'empêcher d'apprécier l'endroit.
+      DislikeBiome: Le soleil est trop fort pour moi. Je n'aime pas le climat aride qui règne ici.
+      HateBiome: Ce n'est pas un endroit pour vivre. Partons dès maintenant.
+      LikeNPC: La façon dont {NPCName} se comporte est un peu rèche pour moi, mais son amour de l'océan est quelque chose que j'apprécie beaucoup!
+      DislikeNPC: J'ai assez connu de carnage dans ma vie, merci! Les tendances destructrives de {NPCName} sont quelques peu inconvenantes.
+      HateNPC: "{NPCName} n'est qu'un enfant, mais son comportement envers la vie marine est inacceptable! Absolument inacceptable!"
+      LikeNPC_Princess: Cet enfant, {NPCName}. C'est une âme innocente. Espérons que les horreurs de la guerre ne l'atteignent jamais.
+      Princess_LovesNPC: J'aime bien {NPCName}.
+    }
+  }
+  THIEF:
+  {
+    DisplayName: Bandit
+    Census.SpawnCondition: Avoir une {$ItemName.PlatinumCoin} [i:PlatinumCoin] dans votre inventaire après avoir vaincu Squeletron
+    Name:
+    {
+      Laura: Laura
+      Mie: Mie
+      Bonnie: Bonnie
+      Sarah: Sarah
+      Diane: Diane
+      Kate: Kate
+      Penelope: Penelope
+      Marisa: Marisa
+      Maribel: Maribel
+      Valerie: Valerie
+      Jessica: Jessica
+      Rowan: Rowan
+      Jessie: Jessie
+      Jade: Jade
+      Hearn: Hearn
+      Amber: Amber
+      Anne: Anne
+      Indiana: Indiana
+    }
+    Chat:
+    {
+      BloodMoon1: Hey, fait gaffe où tu traines ou tu vas finir en cible d'entraînement pour mes fléchettes.
+      BloodMoon2: Je parie que tu ferais une excellente pelote à épingles, j'ai pas raison?
+      BloodMoon3: Les zombies sont mauvais en esquive. Peut-être que tu seras un peu mieux.
+      BloodMoon4: Hey, fait gaffe. J'ai piégé l'endroit. Un pas de travers et tu vas te retrouver avec un couteau entre les deux yeux.
+      Normal1: Tout peut servir d'arme si on le lance assez fort.
+      Normal2: C'est ton bras de lancer, ça? Va falloir que tu t'entraînes plus.
+      Normal3: Écoute moi. Tout est dans le poignet, le poignet de te dis! Oh, oublie ça.
+      Normal4: Eh tu sais comment ça marche; Voler aux riches, pour donner aux pauvres, mais bon je me sers un peu au passage.
+      Normal5: Des serpents! Pourquoi est-ce qu'il fallait que ce soit des serpents!
+      Normal6: C'est vachement bien d'avoir tout ce que tu veux, tu sais ?. Certaines personnes n'ont jamais eu ce luxe.
+      Normal7: C'est pas du vol! C'est un emprunt à vie!
+      Night1: Hmmm, les étoiles brillent trop ce soir. Ca va être plus dur de se faufiler.
+      Night2: Tu penses que ces étoiles qui tombent de temps en temps peuvent faire de bonnes armes de lancer?
+      BrimstoneWitch: Hé, hé, hé, y a vraiment {0} qui a emménagé avec nous? Mais pourquoi???
+      DrunkPrincess: J'ai appris qu'il ne fallait jamais voler la bibine de {0}. Elle peut pas me blaîrer maintenant, du coup je retourne me planquer.
+      Merchant: Ne le dis pas à {0}, mais j'ai pris certaines de ses affaires et les ai remplacé par des statues d'ange.
+      NurseArmsDealer: Ne dis pas à {0} que je suis responsable des blessures de {1}.
+      NamedLaura: Le truc sympa avec les cartes, c'est que je peux suivre tout ce qui est tombé.
+      NamedPenelope: Imagine la vitesse a laquelle tu pourrais lancer si tu avais plus de mains.
+      NamedValerie: Je prends aussi la bouffe en plus de l'argent.
+      NamedRowan: Normalement, les animaux sont pour moi des cibles ou de la bouffe, mais je fais une exception avec les dragons.
+      Jungle: Je préfèrerai pas rester ici. Cet endroit a de mauvaises vibrations, t'sais? Ca me rappelle de mauvais souvenirs.
+      Party: Où est mon chapeau? Ben je l'ai volé, bien sûr.
+      Hardmode1: Toutes sortes d'armes peuvent être trouvées et ramassées. Trouve en, et je partagerai avec toi une partie de ma collection!
+      Hardmode2: Y a tellement d'épaves sur ces terres avec des pièces de valeur dessus. A se demander qui a les moyens de les gaspiller de la sorte.
+      Hardmode3: Les cryptes, les tombes, les donjons, c'est que des grottes aux trésors pour moi. Les morts sont morts, qu'est-ce qu'ils en ont à faire?
+      MoonLordDefeated1: Si tu trouves un truc cool, pense à te ramener et à me le montrer. Promis, je garderai mes mains dans mes poches.
+      MoonLordDefeated2: Y a tellement de nouveaux trucs à voler que je sais pas par où commencer!
+      MoonLordDefeated3: Si je finis par énerver une divinité ou un truc du genre, ça te gènerais de me couvrir ?
+      HasBoneGlove: Oh ça serait pas la première fois que j'utilise des restes humains comme arme.
+      HasValediction: Oh la vache, t'as arraché ça à un requin!? Ca, c'est de l'armement!
+    }
+    RefundButton: Remboursement
+    Refund1: Tu veux entendre un petit secret? Vu que {0} te prends autant d'argent, je me suis un peu servi dans sa bourse en passant. J'ai besoin que tu gardes le secret, alors tiens.
+    Refund2: Hey, si le gouvernement prélève des taxes, pourquoi moi j'ai pas le droit? Comment ça, ça n'a rien à voir ?
+    NoRefund: Désolé, j'suis à sec. Peut-être qui si tu reforges deux trois trucs et que tu reviens plus tard...
+    TownNPCMood:
+    {
+      Content: Ca se passe bien!
+      NoHome: T'as un endroit ou me cracher? Dormir par terre, ça me ruine le dos.
+      LoveSpace: Quand y moins de monde, y a moins de chance de se faire pincer.
+      FarFromHome: J'ai besoin de rentrer à ma planque secrète! Et si quelqu'un l'avait trouvé pendant que j'y suis pas!?
+      DislikeCrowded: J'aime pas ça, trop de témoins potentiels.
+      HateCrowded: Y a tellement de monde que j'ai l'impression que c'est MOI qui va me faire voler.
+      LikeBiome: Je sais qu'il y a pas mal de marchands riches qui traversent le désert. Ca en fait un excellent endroit pour chiper leur cargaison.
+      DislikeBiome: Trop chaud, trop humide. Je me sens molle dans ces conditions, ça va pas.
+      HateBiome: Personne ne vit ici, et on ne se demande pas pourquoi! Cet endroit est un dépotoir!
+      LikeNPC: "{NPCName} n'a pas que des boules à pointes dans ses poches, il a aussi une tonne de pognon! Et il est trop étourdi pour se rendre compte que je lui fauche en plus! J'adore ça!"
+      DislikeNPC: Mais quelle sainte-nitouche, cette {NPCName}! Je la déteste par principe! …Et parce qu'elle a rien à voler.
+      LikeNPC_Princess: J'arrive pas à m'imaginer voler {NPCName}, elle est trop mignonne!
+      Princess_LovesNPC: J'aime bien {NPCName}.
+    }
+  }
+  WITCH:
+  {
+    DisplayName: Sorcière de Soufre
+    Census.SpawnCondition: Vaincre la Sorcière Suprême, Calamitas
+    Name.Calamitas: Calamitas
+    Chat:
+    {
+      EasterEgg: Mrrp est cringe.
+      Homeless1: Je suis en train de réfléchir a regagner mon ancienne grotte.
+      Homeless2: Je ne peux pas vraiment retourner au vieux repaire de Yharim maintenant, tu as un endroit où dormir?
+      Normal1: J'ai pas de quoi payer un loyer, mais si tu as des proches mort et que tu veux... comment ça, non?
+      Normal2: Un de ces jours, je pense me lancer dans un jardin avec des fleurs de la vieille capitale des enfers. J'adore l'odeur du soufre le matin.
+      Normal3: Je pense que je suis bien installée, merci beaucoup.
+      Normal4: Beaucoup de lunes se sont couchées depuis que j'ai rencontré le Tyran, et je ne me libère que maintenant. J'aurais aimé être plus forte...
+      Normal5: Si tu as des malédictions à retirer... il va falloir que tu cherches ailleurs.
+      BloodMoon1: Quel teinte de rouge inhabituelle. Rien a voir avec mes soufreflammes.
+      BloodMoon2: Je ne peux travailler pendant ces nuits. Les étoiles semblent recroquevillées de peur.
+      Night1: C'est morts-vivants sont horribles, je ne peux pas les voir. Qui peut se contenter d'un travail d'amateur aussi baclé?
+      Night2: Je ne pense pas m'avancer en disant que l'astrologie ne fait aucun sens... mais c'était autrefois un de mes passes-temps.
+      DrunkPrincess: Je me demande si {0} à froid au vu de sa robe plus qu'osée. Elle devrait peut-être se couvrir un peu plus.
+      SeaKing: Je ne peux pas comprendre le Roi des Mers. Il n'a pas l'air de me vouloir morte. Je n'arrive pas à comprendre ce niveau de compassion.
+      Party: Si une autre personne me demande de dancer, je met le feu à son chapeau.
+    }
+    EnchantButton: Enchanter
+    TownNPCMood:
+    {
+      Content: Je n'ai pas à me plaindre, je t'assure.
+      NoHome: N'importe où serait meilleur qu'une grotte sans lit ni lumière.
+      LoveSpace: Moins y a de bruit, mieux c'est. C'est génial.
+      FarFromHome: Après m'être habitué a vivre avec des gens à nouveau, j'en viens à m'en languir.
+      DislikeCrowded: Je n'apprécie vraiment pas comment certain de ces gens sont si familiers avec moi.
+      HateCrowded: Avoir autant de monde autour de moi me stresse jusqu'a la migraine.
+      LikeBiome: Je n'ai jamais l'occasion de vivre dans un endroit comme ça auparavant. Les arbres et le chant des oiseaux… J'aime beaucoup ça.
+      DislikeBiome: C'est un blague? Je ne peux pas supporter de rester ici plus longtemps, j'ai déjà essayeé de me repentir.
+      HateBiome: Les esprits sont sans repos ici. Je le sens vraiment mal.
+      LikeNPC: "{NPCName} est une personne qui a fait la terrible expérience d'être maudit. Il s'en est bien accommodé pendant tout ce temps, franchement c'est impressionnant."
+      DislikeNPC: Quel boucan! Tout ce que fait {NPCName} , c'est du bruit jour et nuit! Je ne peux pas la supporter!
+      LikeNPC_Princess: "{NPCName} est une enfant donc la compagnie est étrangement plaisante."
+      Princess_LovesNPC: J'aime bien {NPCName}.
+    }
+  }

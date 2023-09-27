@@ -1,0 +1,318 @@
+
+  AerospecBreastplate:
+  {
+    DisplayName: Plastron Aérospec
+    Tooltip: +3% de chances de coup critique
+    CommonSetBonus:
+      '''
+      Prendre plus de 25 dégâts en un coup fera tomber une étendue de plumes à tête chercheuse
+      Vous permet de tomber plus rapidement et immunise aux dégâts de chute
+      '''
+  }
+  AerospecHat:
+  {
+    DisplayName: Chapeau Aérospec
+    Tooltip: +8% de dégâts magiques et +20 mana maximum
+    SetBonus: +5% de vitesse de mouvement et de chances de coup critique magique
+  }
+  AerospecHeadgear:
+  {
+    DisplayName: Couvre-chef Aérospec
+    Tooltip: +8% de dégâts de voleur et +5% de vitesse de mouvement
+    SetBonus:
+      '''
+      +5% de vitesse de mouvement et de chances de coup critique de voleur
+      +80 furtivité maximum
+      '''
+  }
+  AerospecHelm:
+  {
+    DisplayName: Casque Aérospec
+    Tooltip: +8% de dégâts de mêlée
+    SetBonus:
+      '''
+      +5% de vitesse de mouvement et de chances de coup critique de mêlée
+      Les ennemis ont plus de chances de vous attaquer
+      '''
+  }
+  AerospecHelmet:
+  {
+    DisplayName: Casque Aérospec
+    Tooltip: +5% de vitesse de mouvement et de dégâts d'invocation
+    SetBonus:
+      '''
+      +11% de dégâts d'invocation and +1 sbire maximum
+      Invoque une valkyrie pour vous protéger
+      '''
+  }
+  AerospecHood:
+  {
+    DisplayName: Capuche Aérospec
+    Tooltip: +8% de dégâts à distance
+    SetBonus: +5% de vitesse de mouvement et de chances de coup critique à distance
+  }
+  AerospecLeggings:
+  {
+    DisplayName: Pantalon Aérospec
+    Tooltip: +12% de vitesse de mouvement
+  }
+  DesertProwlerHat:
+  {
+    DisplayName: Chapeau du Rôdeur des Sables
+    Tooltip: +4% de chances de coup critique et 20% de chances de ne pas consommer de munitions
+    SetBonus: Les attaques à distance infligent {0} de dégâts en plus
+    AbilityBrief: Bombe de fumée des sables - Appuyez deux fois sur BAS pour vous dissimuler dans un petit nuage de sable
+    AbilityDescription:
+      '''
+      Quand le nuage de sable est actif, votre mobilité augmente mais votre défense diminue fortement
+      Utiliser une arme à distance annule votre dissimulation, mais garanti un super coup critique pour {0}% de dégâts
+      Le super coup critique s'applique tant que le coup ne dépasse pas {1} dégâts
+      Tuer avec cette capacité réduit le temps de recharge à {2} secondes
+      '''
+  }
+  DesertProwlerPants:
+  {
+    DisplayName: Pantalon du Rôdeur du Désert
+    Tooltip: +10% de vitesse de mouvement et immunité au vent du désert
+  }
+  DesertProwlerShirt:
+  {
+    DisplayName: Tenue du Rôdeur des Sables
+    Tooltip: +5% de chances de coup critique à distance
+  }
+  MarniteArchitectHeadgear:
+  {
+    DisplayName: Couvre-Chef de l'Architecte Marnite
+    Tooltip: Augmente la portée de placement des blocs et des outils de 5
+    AbilityBrief: Ascenseur Marnite - Vous pouvez invoquer un ascenseur à vos pieds pour atteindre les endroits élevés
+    AbilityDescription:
+      '''
+      Vous invoquez l'ascenseur en pressant la touche de monte [c/D4C870:si aucune monture n'est équipée]
+      Utilisez HAUT et BAS pour changer la hauteur de l'ascenseur
+      '''
+  }
+  MarniteArchitectToga:
+  {
+    DisplayName: Toge de l'Architecte Marnite
+    Tooltip: Augmente la vitesse de construction de 50%
+  }
+  SnowRuffianChestplate:
+  {
+    DisplayName: Plastron du Voyou des Neiges
+    Tooltip: +3% de chances de coup critique de voleur
+  }
+  SnowRuffianGreaves:
+  {
+    DisplayName: Grèves du Bandit des Neiges
+    Tooltip: +5% de vitesse de mouvement
+  }
+  SnowRuffianMask:
+  {
+    DisplayName: Masque du Voyou des Neiges
+    Tooltip: +2% de dégâts de voleur
+    SetBonus:
+      '''
+      +5% de dégâts de voleur
+      +50 furtivité maximum
+      Vous pouvez planer pour annuler les dégâts de chute
+      '''
+  }
+  StatigelArmor:
+  {
+    DisplayName: Armure Statigel
+    Tooltip: +5% de chances de coup critique
+    CommonSetBonus:
+      '''
+      Quand vous prenez plus de 100 dégâts en un coup, vous êtes immunisé aux dégâts durant une période prolongée
+      Accorde un saut supplémentaire et une meilleure hauteur de saut
+      +12% de vitesse de saut
+      '''
+  }
+  StatigelGreaves:
+  {
+    DisplayName: Grèves Statigel
+    Tooltip: +5% de dégâts et de vitesse de mouvement
+  }
+  StatigelHeadMagic:
+  {
+    DisplayName: Chapeau Statigel
+    Tooltip:
+      '''
+      +10% de dégâts magiques et de réduction du coût en mana
+      +7% de chances de coup critique magique et +30 mana maximum
+      '''
+  }
+  StatigelHeadMelee:
+  {
+    DisplayName: Heaume Statigel
+    Tooltip:
+      '''
+      +10% de dégâts et de vitesse de mêlée
+      +7% de chances de coup critique de mêlée
+      '''
+    SetBonus: Les ennemis ont plus de chances de vous attaquer
+  }
+  StatigelHeadRanged:
+  {
+    DisplayName: Couvre-chef Statigel
+    Tooltip:
+      '''
+      +10% de dégâts à distance
+      +7% de chances de coup critique à distance
+      '''
+  }
+  StatigelHeadRogue:
+  {
+    DisplayName: Masque Statigel
+    Tooltip:
+      '''
+      +10% de dégâts de voleur et 34% de chances de ne pas consommer les armes de voleur
+      +7% de chances de coup critique de voleur et +5% de vitesse de mouvement
+      '''
+    SetBonus: +90 furtivité maximum
+  }
+  StatigelHeadSummon:
+  {
+    DisplayName: Capuche Statigel
+    Tooltip: Augmente le recul des sbires
+    SetBonus:
+      '''
+      +18% de dégâts d'invocation and +1 sbire maximum
+      Invoque un dieu slime miniature pour combattre pour vous, son type dépendant du mal qui ronge votre monde
+      '''
+  }
+  SulphurousBreastplate:
+  {
+    DisplayName: Plastron Sulfureux
+    Tooltip: +8% des dégâts de voleur et +5% chances de coup critique
+  }
+  SulphurousHelmet:
+  {
+    DisplayName: Casque Sulfureux
+    Tooltip:
+      '''
+      +4% de dégâts de voleur
+      +2% de chances de coup critique de voleur
+      Permet de respirer sous l'eau
+      '''
+    SetBonus:
+      '''
+      +70 furtivité maximum
+      Attaquer et être attaqué empoisonne les ennemis
+      Accorde un saut suplémentaire qui invoque une bulle sulfurique
+      Améliore le mobilité sous l'eau et réduit la gravité des eaux sulfuriques
+      '''
+  }
+  SulphurousLeggings:
+  {
+    DisplayName: Pantalon Sulfureux
+    Tooltip:
+      '''
+      +10% de vitesse de mouvement
+      +35% de vitesse de mouvement quand vous êtes immergé
+      '''
+  }
+  VictideBreastplate:
+  {
+    DisplayName: Plastron Victide
+    Tooltip:
+      '''
+      +5% de réduction de dégâts et de chances de coup critique
+      +5 défense et +10% de réduction de dégâts quand vous êtes immergé
+      '''
+    CommonSetBonus:
+      '''
+      Vous avez 10% de chances de jeter un coquillage qui revient vers vous
+      Ce coquillage inflige des dégâts neutres et ne profite des bonus d'aucune classe
+      Améliore la mobilité sous l'eau et réduit légèrement la perte d'oxygène dans les abysses
+      '''
+  }
+  VictideGreaves:
+  {
+    DisplayName: Pantalon Victide
+    Tooltip:
+      '''
+      +8% de vitesse de mouvement
+      +30% de vitesse de mouvement quand vous êtes immergé
+      '''
+  }
+  VictideHeadMagic:
+  {
+    DisplayName: Masque Victide
+    Tooltip: +5% de dégâts magiques
+	SetBonus: +3 régénération de vie et +10% de dégâts magiques quand vous êtes immergé
+  }
+  VictideHeadMelee:
+  {
+    DisplayName: Heaume Victide
+    Tooltip: +5% de dégâts de mêlée
+    SetBonus: 
+	'''
+		Les ennemis ont plus de chances de vous attaquer
+		+3 régénération de vie et +10% de dégâts de mêlée quand vous êtes immergé
+	'''
+  }
+  VictideHeadRanged:
+  {
+    DisplayName: Visage Victide
+    Tooltip: +5% de dégâts à distance
+	SetBonus: +3 régénération de vie et +10% de dégâts à distance quand vous êtes immergé
+  }
+  VictideHeadRogue:
+  {
+    DisplayName: Couvre-chef Victide
+    Tooltip: +5% dégâts de voleur
+    SetBonus: 
+	'''
+		+60 furtivité maximum
+		+3 régénération de vie et +10% de dégâts de voleur quand vous êtes immergé
+	'''
+  }
+  VictideHeadSummon:
+  {
+    DisplayName: Couvre-chef Wulfrum
+    Tooltip: +10% de dégâts d'invocation
+    SetBonus:
+      '''
+      +1 sbire maximum
+      Invoque une limace de mer pour vous protéger
+	  +3 régénération de vie et +10% de dégâts d'invocation quand vous êtes immergé
+      '''
+  }
+  WulfrumFusionCannon:
+  {
+    DisplayName: Panel de Fusion Wulfrum Expérimental
+    Tooltip:
+      '''
+      Tire des décharges rapides de grenaille à moyenne portée
+      Ignore 10 défense
+      [c/878787:'Qui a besoin de fouets quand on peut simplement devenir l'invocation soi-même?']
+      '''
+  }
+  WulfrumHat:
+  {
+    DisplayName: Chapeau et Lunettes Wulfrum
+    Tooltip:
+      '''
+      +10% de dégâts d'invocation
+      Livré avec des extensions de mèches
+      '''
+    SetBonus: +1 sbire maximum
+    AbilityBrief: Bastion Wulfrum - Appuyez deux fois sur BAS sans être sur une monture pour équiper l'armure de puissance Wulfrum
+    AbilityDescription:
+      '''
+      Tant que l'armure est active, vous ne pouvez utiliser que le canon à fusion intégré, mais vos statistiques défensives sont améliorés
+      Appeler l'armure consomme une unité de {0}, et l'armure perdra de sa durabilité plus vite si elle est touchée
+      '''
+    ShiftToExpand: Maintenez SHIFT GAUCHE pour voir les caractéristiques du canon à fusion
+  }
+  WulfrumJacket:
+  {
+    DisplayName: Veste Wulfrum
+    Tooltip: +5% de réduction de dégâts
+  }
+  WulfrumOveralls:
+  {
+    DisplayName: Bleus Wulfrum
+    Tooltip: +5% de vitesse de mouvement
+  }

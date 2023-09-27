@@ -1,0 +1,207 @@
+
+  AureateBooster:
+  {
+    DisplayName: Booster Aureate
+    Tooltip:
+      '''
+      Vitesse Horizontale: 8.00
+      Multiplicateur d'Accélération: 1.5
+      Bonne vitesse verticale
+      Temps de vol: 120
+      'Mach speed avec style!'
+      '''
+  }
+  DrewsWings:
+  {
+    DisplayName: Ailes de Drew
+    Tooltip:
+      '''
+      Vitesse Horizontale: 12.00
+      Multiplicateur d'Accélération: 3.0
+      Excellente vitesse verticale
+      Temps de vol: 361
+      'Absolument Fabuleux'
+      '''
+  }
+  ElysianWings:
+  {
+    DisplayName: Ailes Elysiennes
+    Tooltip:
+      '''
+      Vitesse Horizontale: 9.50
+      Multiplicateur d'Accélération: 2.7
+      Très bonne vitesse verticale
+      Temps de vol: 240
+      Immunité temporaire à la lave et +10% de vitesse de mouvement
+      Béni par la flamme profanée
+      '''
+  }
+  ExodusWings:
+  {
+    DisplayName: Ailes d'Exode
+    Tooltip:
+      '''
+      Vitesse Horizontale: 9.00
+      Multiplicateur d'Accélération: 2.5
+      Très bonne vitesse verticale
+      Temps de vol: 180
+      +5% de dégâts et de chances de critique de voleur si vous portez l'armure Empyréene
+      Pulse d'un battement de coeur alien
+      '''
+  }
+  HadalMantle:
+  {
+    DisplayName: Manteau Hadal
+    Tooltip:
+      '''
+      Vitesse Horizontale: 7.75
+      Multiplicateur d'Accélération: 1.5
+      Vitesse verticale normale
+      Temps de vol: 180
+      +5% de dégâts si vous portez l'armure Hydrothermique
+      Alimenté par la fureur des profondeurs
+      '''
+  }
+  HadarianWings:
+  {
+    DisplayName: Hadarian Wings
+    Tooltip:
+      '''
+      Vitesse Horizontale: 9.00
+      Multiplicateur d'Accélération: 1.75
+      Bonne vitesse verticale
+      Temps de vol: 90
+      {$CommonItemTooltip.PressDownToHover}
+      Alimenté par l'infection astrale
+      '''
+  }
+  MOAB:
+  {
+    DisplayName: MDTB
+    Tooltip:
+      '''
+      Compte comme des ailes
+      Vitesse Horizontale: 6.50
+      Multiplicateur d'Accélération: 1.0
+      Bonne vitesse verticale
+      Temps de vol: 75
+      +10%  de vitesse de saut et permet le saut automatique
+	  Accorde les doubles sauts de nuage, blizzard et de sable
+      'Mère De Tout les Ballons'
+      '''
+  }
+  SilvaWings:
+  {
+    DisplayName: Ailes Silva
+    Tooltip:
+      '''
+      Vitesse Horizontale: 11.00
+      Multiplicateur d'Accélération: 2.8
+      Excellente vitesse verticale
+      Temps de vol: 270
+	  Le Silva vous ressuscite avec la moitié de votre vie quand vous portez l'armure Silva
+      'La plus pure des natures'
+      '''
+  }
+  SkylineWings:
+  {
+    DisplayName: Ailes d'Horizon
+    Tooltip:
+      '''
+      Vitesse Horizontale: 6.25
+      Multiplicateur d'accélération: 1
+      Vitesse verticale normale
+      Temps de vol: 80
+      +10% de vitesse de saut quand vous portez l'armure Aérospec
+      '''
+  }
+  SoulofCryogen:
+  {
+    DisplayName: Âme de Cryogène
+    Tooltip:
+      '''
+      Compte comme des ailes
+      Vitesse Horizontale: 6.25
+      Multiplicateur d'Accélération: 1.0
+      Vitesse verticale normale
+      Temps de vol: 120
+      +7% aux dégâts
+      Les attaques et les projectiles de mêlée inflige le brûledegivre
+      Des stalactites pleuvent lorsque vous volez.
+      '''
+  }
+  StarlightWings:
+  {
+    DisplayName: Ailes de Lueur d'Etoile
+    Tooltip:
+      '''
+      Vitesse Horizontale: 7.50
+      Multiplicateur d'Accélération: 1.0
+      Vitesse verticale normale
+      Temps de vol: 150
+      +5% aux dégâts et aux chances de critique quand vous portez l'armure de Dédale
+      Ailes du Rossignol
+      '''
+  }
+  TarragonWings:
+  {
+    DisplayName: Ailes d'Estragon
+    Tooltip:
+      '''
+      Vitesse Horizontale: 9.50
+      Multiplicateur d'Accélération: 2.5
+      Très bonne vitesse verticale
+      Temps de vol: 250
+      +15 defense et +2 régénération de vie quand vous portez l'armure d'Estragon
+      'Né de la Jungle'
+      '''
+  }
+  TracersCelestial:
+  {
+    DisplayName: Traceurs Célestes
+    Tooltip:
+      '''
+      Compte comme des ailes
+      Vitesse Horizontale: 9.00
+      Multiplicateur d'Accélération: 2.5
+      Bonne vitesse verticale
+      Temps de vol: 140
+      +24% d'accélération et meilleure mobilité sur la glace
+	  Permet de marcher sur l'eau, le miel et la lave
+      Immunise au feu et à la lave
+      'Vitesse Incroyable!'
+      '''
+  }
+  TracersElysian:
+  {
+    DisplayName: Traceurs Élysiens
+    Tooltip:
+      '''
+      Compte comme des ailes
+      Vitesse Horizontale: 10.50
+      Multiplicateur d'Accélération: 2.75
+      Très bonne vitesse verticale
+      Temps de vol: 180
+      +36% d'accélération et meilleure mobilité sur la glace
+      Permet de marcher sur l'eau, le miel et la lave
+      Immunise au feu et à la lave
+      'Vitesse Incroyable!'
+      '''
+  }
+  TracersSeraph:
+  {
+    DisplayName: Seraph Tracers
+    Tooltip:
+      '''
+      Compte comme des ailes
+      Vitesse Horizontale: 12.00
+      Multiplicateur d'Accélération: 3.0
+      Excellente vitesse verticale
+      Temps de vol: 250
+      +50% d'accélération et meilleure mobilité sur la glace
+      Permet de marcher sur l'eau, le miel et la lave
+      Immunise au feu, à la lave et aux effets des blocs nocifs
+	  Prendre plus de 200 dégâts vous immunisera aux dégâts sur une période plus longue
+      'Pour augmenter la vitesse TOUJOURS PLUS HAUT!'
+      '''
+  }

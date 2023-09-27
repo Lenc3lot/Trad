@@ -1,0 +1,49 @@
+
+  Fossil: Fossile
+  Column: Colonne
+  Ribs: Cotes
+  Stalagmite: Stalagmite
+  Stalactite: Stalactite
+  PirateCrate: Caisse Abandonnée
+  Basin: Bassin
+  PipeOrgan: Orgue
+  Sconce: Brasero
+  Console: Console
+  ContainmentBox: Boîte de Confinement
+  Display: Affichage
+  ElectricPanel: Panneau Électrique
+  ReinforcedCrate: Caisse Renforcée
+  Screen: Écran
+  Server: Serveur
+  Terminal: Terminal
+  SteamGeyser.MapEntry: Geyser
+  AbyssVent.MapEntry: Aération
+  ThermalVent.MapEntry: Évent Thermique
+  SpineSapling.MapEntry: Plantule de Colonne vertébrale
+  SpineTree.MapEntry: Colonne Vertébrale Géante
+  InactivePowerCellFactory.MapEntry: Usine de Cellules d'Énergie Inactive
+  OnyxExcavatorTile.MapEntry: Excavateur Onyx
+  CodebreakerTile.MapEntry: Le Décrypteur
+  AerialiteOre.MapEntry: Aérialite
+  AerialiteOreDisenchanted.MapEntry: Aérialite Désenchantée
+  AstralOre.MapEntry: Minerai Astral
+  AuricOre.MapEntry: Minerai Aurique
+  CryonicOre.MapEntry: Minerai Cryonique
+  ExodiumOre.MapEntry: Minerai d'Exodium
+  HallowedOre.MapEntry: Minerai Sacré
+  InfernalSuevite.MapEntry: Suie Infernale
+  PerennialOre.MapEntry: Minerai Vivace
+  ScoriaOre.MapEntry: Minerai de Scorie
+  UelibloomOre.MapEntry: Minerai d'Ueliclosion
+  ArenaTile.MapEntry: Arène
+  AshenChest:
+  {
+    MapEntry0: Coffre cendré
+    MapEntry1: Coffre cendré Fermé
+  }
+  AstralChestLocked:
+  {
+    MapEntry0: Coffre cendré
+    MapEntry1: Coffre cendré Fermé
+  }
+  PlaguedPlateBed.MapEntry: "'Lit'"

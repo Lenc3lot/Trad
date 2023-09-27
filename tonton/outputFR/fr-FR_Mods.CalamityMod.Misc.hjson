@@ -1,0 +1,60 @@
+// Recipe Groups
+RecipeGroup: {
+	 HardmodeAnvil: N'importe quelle enclume du Hardmode
+	 HarmodeForge: N'importe quelle forge du Hardmode
+	 AnyLargeGem: N'importe quelle grosse gemme
+	 AnyFood: N'importe quelle nourriture
+	 AnyEvilBar: N'importe quelle barre maléfique
+	 AnyEvilPowder: N'importe quelle poudre maléfique
+	 Boss2Material: Écaille d'Ombre ou Échantillon de Tissu
+	 CursedFlameIchor: Flamme Maudite ou Ichor
+	 AnyEvilWater: N'importe quelle eau maléfique
+	 AnyEvilFlask: N'importe quelle flasque maléfique
+	 AnyEvilBlock: N'importe quel bloc maléfique
+	 AnyGoodBlock: N'importe quel bloc sacré
+	 LunarPickaxe: N'importe quelle pioche lunaire
+	 LunarHamaxe: N'importe quelle martache lunaire
+	 AnyQuiver: N'importe quel Carquois
+	 AnyWings: N'importe quelle paire d'Ailes
+}
+
+// Status
+ WikiStatus1: "[i:Book][c/EE4939:Le Wiki Fandom n'est plus maintenu par Calamity.] [i:Book]"
+ WikiStatus2: "[i:Book][c/EE4939:Allez voir le Wiki officiel de Calamity à l'adresse ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [i:Book]"
+// Recipe Conditions
+ Tier1ArsenalRecipeCondition: Consultez un schéma non chiffré du laboratoire près de la Mer Coulée
+ Tier2ArsenalRecipeCondition: Décryptez un schéma du laboratoire situé dans le grand planétoïde dans le ciel
+ Tier3ArsenalRecipeCondition: Décryptez un schéma du laboratoire situé dans la Jungle souterraine
+ Tier4ArsenalRecipeCondition: Décryptez un schéma du laboratoire situé près des extrémités des enfers
+ Tier5ArsenalRecipeCondition: Décryptez un schéma du laboratoire situé dans les cavernes gelées
+ SunkenSeaSchematicRecipeCondition: Placez au moins une fois un schéma du laboratoire près de la Mer Coulée dans votre inventaire
+ PlanetoidSchematicRecipeCondition: Placez au moins une fois un schéma du laboratoire dans le grand planétoïde dans votre inventaire
+ JungleSchematicRecipeCondition: Placez au moins une fois un schéma du laboratoire dans la Jungle souterraine dans votre inventaire
+ UnderworldSchematicRecipeCondition: Placez au moins une fois un schéma du laboratoire dans les enfers dans votre inventaire
+ IceSchematicRecipeCondition: Placez au moins une fois un schéma du laboratoire dans les cavernes gelées dans votre inventaire.
+// Other CombatText uses and Item Messages
+ ShiftToExpand: Maintenez Shift Gauche pour une description détaillée
+ LearnedSchematic: Vous avez appris de nouvelles recettes
+ CragmawVibeCheck: Vibe check.
+ AutocannonHot: AILLE! C'EST CHAUD!
+ NoComputer: Pas d'ordinateur de décryptage installé.
+ ArkParry: Parade!
+ ClockworkTick: Tic
+ ClockworkTock: Tac
+ SevensJackpot: Jackpot!!!
+ SevensBust: Bust!
+ SevensDoubles: Doubles!
+ SevensTriples: Triples!
+ StylishHammerHit: Stylé!
+ ThirdSageBlessingText: Vous avez été béni par Le Troisième Sage!
+ ThirdSageBlessingText2: Le Troisième Sage a retiré sa bénédiction...
+ GenericConsumedText: "[c/8A8A8A:Vous avez déjà consommé cet objet]"
+ BloodOrangeText: Vous avez déjà mangé une Orange Sanguine. En manger plus ne serait pas bon pour vous.
+ MiracleFruitText: Vous avez déjà mangé un Fruit Miraculeux. En manger un autre vous rendrait malade.
+ ElderberryText: Vous avez déjà mangé une Baie Ancienne. Il est probablement plus sage de vous en tenir à cela.
+ DragonfruitText: Vous avez déjà mangé un Fruit Draconique. Votre estomac ne peut pas en supporter plus.
+ CometShardText: Vous avez déjà utilisé un Fragment de Comète. En utiliser plus vous donnerait la nausée.
+ EtherealCoreText: Vous avez déjà utilisé un Noyau Éthéré. Il vaut mieux ne pas en utiliser plus que vous n'en êtes capable.
+ PhantomHeartText: Vous avez déjà utilisé un Cœur Fantômatique. C'est probablement une bonne chose que vous ne puissiez pas en utiliser un autre.
+ SulphurSwitchLeft: La Mer Sulfureuse se trouve désormais du côté gauche du monde.
+ SulphurSwitchRight: La Mer Sulfureuse se trouve désormais du côté droit du monde.

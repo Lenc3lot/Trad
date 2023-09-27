@@ -1,0 +1,707 @@
+
+  ShortTooltip:
+    '''
+    [c/E3AF40:Des murmures venus d'en haut dancent dans vos oreilles...]
+    [c/BEBEBE:Appuyez sur "Shift Gauche" pour les écouter attentivement]
+    '''
+  LoreAbyss:
+  {
+    DisplayName: Les Abysses
+    Lore:
+      '''
+      Bien qu'il existe de nombreuses crevasses inintéressantes dans les profondeurs de la mer, celle-ci est une merveille géologique unique.
+      Elle est située de manière troublante près du rivage. Étonnamment, même des éons de tectonique n'ont pas pu la sceller ou l'écraser.
+      L'Abysse isolée est le domicile discutablement tranquille de la naïade Anahita et de quelques créatures marines recluses.
+      Ici, j'ai disposé des restes naissants de Silva, la Déesse de la Vie elle-même. Évidemment, elle parmi tous les Dieux a refusé de véritablement mourir.
+      Mon souhait était qu'elle soit oubliée, mais sa ténacité est remarquable.
+      Diffusée, son influence a inondé ce puits de pression écrasante avec une abondance de flore et de faune.
+      Ses grandes racines continuent de fouetter et de déchirer la pierre incroyablement dense, en croissant sans contrôle.
+      Bientôt, elle le recréera à son image. Je ne peux penser à aucun sort pire pour ce domaine maudit et abyssal.
+      '''
+  }
+  LoreAquaticScourge:
+  {
+    DisplayName: Fléau Aquatique
+    Lore:
+      '''
+      Un autre ancien grand serpent de mer, bien adapté à son environnement hostile.
+      Contrairement à l'autre Fléau, qui était à moitié affamé et pourchassait la moindre once de nourriture, il vivait confortablement.
+      Les microorganismes évoluent rapidement, il a donc pu maintenir ses habitudes de nourriture par filtration pendant que la mer se putréfiait.
+      Quel contraste frappant avec le reste de l'écosystème. Presque toutes les autres créatures dans la Mer de Soufre sont hostiles.
+      Dommage que son dernier bastion de tranquillité soit tombé.
+      '''
+  }
+  LoreArchmage:
+  {
+    DisplayName: L'Archimage
+    Lore:
+      '''
+      Il vit encore... ?! Je le pensais tué par Calamitas. Il semble qu'elle ait emprisonné l'Archimage pour l'épargner.
+      Je supposais que cette masse glacée était une de ses anciennes créations, devenue folle sans son maître pour la guider.
+      Permafrost était un ancien allié à moi, portant le prestigieux titre d'Archimage et d'une grande renommée.
+      Sa sagesse a guidé mes conquêtes originales, ou plutôt, les a rendues en grande partie possibles.
+      À mesure que ma croisade évoluait et que mes ambitions grandissaient, il a exprimé un désaccord véhément.
+      Là où il voyait autrefois la justice, il y avait maintenant la tyrannie. Il est parti, et la Sorcière peu après.
+      '''
+  }
+  LoreAstralInfection:
+  {
+    DisplayName: Infection Astrale
+    Lore:
+      '''
+      Cette distorsion onirique est l'équivalent stellaire de la pourriture banale que vous voyez dans vos terres.
+      Je ne prétends pas comprendre le processus en détail, mais même les étoiles peuvent mourir. Sans contrôle, leurs cadavres enflent et se putréfient.
+      Habituellement, une certaine forme d'ordre est maintenue. Ce n'est pas très différent du cycle de la vie.
+      Des êtres cosmiques patrouillent le vide abyssal et se nourrissent des charognes, laissant derrière eux des os propres.
+      L'infection elle-même est une perturbation venant de l'espace lointain. Elle a son propre esprit et projette sa volonté sur la vie et la terre.
+      Ceux dont l'esprit peut saisir la véritable forme de l'univers sont en grande partie immunisés.
+      Ils ne peuvent être illuminés par une supposée vérité supérieure, encore moins prêchée par une pustule.
+      '''
+  }
+  LoreAstrumAureus:
+  {
+    DisplayName: Astrum Aureus
+    Lore:
+      '''
+      Pragmatique comme à son habitude, Draedon a déployé cette machine pour localiser et analyser la source de l'Infection Astrale.
+      Bien qu'en principe conçu pour la reconnaissance, le modèle Aureus est lourdement armé et peut gravir n'importe quel terrain.
+      Il a bien rempli sa fonction, du moins jusqu'à ce qu'il soit assimilé par l'Infection.
+      Les esprits conscients ont suffisamment de volonté pour résister indéfiniment à l'appel de l'Infection.
+      Cependant, même le meilleur silicium n'est pas hors de sa portée. Après tout, Draedon préfère que ses créations le servent.
+      Avec cette expérience terminée, il vous examinera certainement ensuite. Prenez garde.
+      '''
+  }
+  LoreAstrumDeus:
+  {
+    DisplayName: Astrum Deus
+    Lore:
+      '''
+      Sur notre monde, cet être est vénéré comme le Dieu du ciel nocturne. On dit qu'il, tour à tour, dévore les étoiles mourantes et en fait naître de nouvelles.
+      Contrairement aux nombreux dieux que vous et moi connaissons, il est innocent. Une distinction importante, car il était tout aussi malade qu'eux.
+      L'infection qui a souillé son corps vient d'au-delà de Terraria. Ni moi ni Draedon ne le comprenont complètement.
+      Sa volonté étant subjuguée, il a lancé un morceau de matière astrale infectée sur notre monde, puis est venu le protéger.
+      Heureusement, un être aussi grandiose qui marche parmi les étoiles n'est probablement pas vraiment mort.
+      Bien que la terre ait payé un terrible prix, le prix d'une condamnation injuste est encore plus élevé.
+      '''
+  }
+  LoreAwakening:
+  {
+    DisplayName: Éveil
+    Lore:
+      '''
+      Les tombes des Dragons s'agitent. Mes yeux se lèvent pour voir la poussière ancienne danser depuis les hauteurs des rebords.
+      Ces grandes ailes... combien de temps s'est écoulé depuis que j'étais un héros digne de leur nom ?
+      On dirait que des siècles ont passé, et pourtant je n'ai fait que cligner des yeux.
+      Regardez mes œuvres, telles qu'elles sont... Ruinées. Personne n'oserait me chercher ; suivre mes pas.
+      Rien ne les attend dans ce monde cruel.
+      '''
+  }
+  LoreAzafure:
+  {
+    DisplayName: Azafure
+    Lore:
+      '''
+      Souvent appelée la Première Cité, son histoire tumultueuse remonte à l'Ère Draconique.
+      Un joyau étrange de la civilisation, la chaleur intense de l'enfer lui a donné un potentiel illimité en termes de défense et d'industrie.
+      La renommée des maîtres-forgerons était telle que lorsque je les ai convaincus de rejoindre ma cause, je n'ai plus jamais manqué d'armes.
+      Cela me fait mal de le dire, même avec du recul, mais leur art a pavé la chute de toute la cité.
+      Pour la Sorcière et moi, l'air ici sera à jamais chargé de regret. Il n'y a rien à faire.
+      '''
+  }
+  LoreBloodMoon:
+  {
+    DisplayName: Lune Sanglante
+    Lore:
+      '''
+      Cette malveillance n'est pas l'œuvre d'un dieu quelconque. Les lunes de sang tracent leurs origines à l'aube de l'histoire.
+      C'est un événement tout aussi sinistre que banal. Tout le monde est habitué aux hordes de morts-vivants qui traînent.
+      Les sociétés organisées ne sont pas menacées le moins du monde. Elles accueillent même favorablement l'occasion de former de nouveaux soldats inexpérimentés.
+      Ceux qui ont le feu dans les veines peuvent partir seuls, pour se délecter du carnage.
+      C'est ainsi que je me souviens des nuits sans sommeil de mes jeunes années... Enfoui jusqu'aux genoux dans les cadavres.
+      '''
+  }
+  LoreBrainofCthulhu:
+  {
+    DisplayName: Le Cerveau de Chthulu
+    Lore:
+      '''
+      Il est vrai que les abominations indicibles sont devenues monnaie courante, en grande partie par ma faute.
+      Bien qu'elles aient toujours été le produit de la folie des dieux, les mêmes dieux les fauchaient tout autant.
+      Ma décimation du faussement divin a laissé de nombreuses anciennes horreurs non contenues, avec de nouvelles naissants chaque année.
+      Maintenant, elles vous servent de tremplin.
+      '''
+  }
+  LoreBrimstoneElemental:
+  {
+    DisplayName: Élémentaire de Soufre
+    Lore:
+      '''
+      Un être singulier. Jusqu'à récemment, elle était restée endormie pendant des siècles, se faisant passer pour la matriarche silencieuse de la cité.
+      Alors que son économie prospérait, des traces de soufre se propageaient dans le monde entier.
+      On n'a jamais vraiment su pourquoi son sommeil à pris fin. Elle a commencé par remuer. Les gens étaient prudemment optimistes.
+      Quand elle s'est réveillée, c'était horrible. Son enfer s'est déversé dans les rues. Personne n'était en sécurité.
+      Le destin avait un sens de l'humour cruel ce jour-là, car Calamitas était là pour l'égaler.
+      Peut-être que les deux étaient d'une manière ou d'une autre en harmonie. Ils se sont battus jusqu'àu point mort, le feu contre le feu.
+      Aucun des deux n'a été victorieux, et malgré ses intentions, la ville a été réduite en cendres par ses flammes.
+      '''
+  }
+  LoreCalamitas:
+  {
+    DisplayName: Calamitas
+    Lore:
+      '''
+      Nul n'a subi les affres du malheur comme la Sorcière du Soufre, Calamitas.
+      Quand je l'ai vue pour la première fois, c'était encore une jeune fille. Prosternée dans ma cour, vêtue de haillons calcinés, tremblante.
+      Je ne pouvais pas saisir la brute et incommensurable puissance des magies déchues qui la parcouraient.
+      Elle pouvait à peine la contrôler elle-même. Permafrost l'a immédiatement senti. Avec un visage douloureux, il m'a conseillé de veiller sur elle.
+	  La Sorcière est passé sous son aile, et peu après, à mon service. Elle était enflammée du désir d'engloutir les Dieux dans sa colère perverse.
+      En effet, les fidèles tremblaient déjà en sa présence. Son nom, Calamitas, était le surnom qu'ils lui donnaient, prononcé à voix basse dans la peur.
+      Dans mes campagnes, je comptais sur sa capacité pure à l'annihilation comme mon atout maître.
+      Aucun homme, aucune armée, aucune ville et aucun Dieu ne pouvait résister à sa fureur débridée.
+      Finalement, le péché horrible de la jeune fille était trop lourd à porter. Elle a quitté mon côté avec son mentor.
+      Le poids de ses actes la hante encore aujourd'hui. Elle me méprise, et je ne peux pas lui en vouloir.
+      S'il vous plaît, si vous le voulez bien, montrez-lui du respect là où je ne l'ai pas fait.
+      '''
+  }
+  LoreCalamitasClone:
+  {
+    DisplayName: Clone de Calamitas
+    Lore:
+      '''
+      J'avais vu ce monstre errer dans la nuit par le passé, et n'y ai pas prêté attention.
+      Avec sa technologie, c'était certainement l'une des créations de Draedon.
+      Mais, penser qu'il abritait un clone de la Sorcière... Détestable.
+      Calamitas ne voudrait sûrement rien avoir à faire avec un tel projet.
+      Je ne sais pas comment il manie sa magie de soufre. Peut-être qu'un jour l'un de nous pourra trouver des réponses.
+      '''
+  }
+  LoreCeaselessVoid:
+  {
+    DisplayName: Néant Incessant
+    Lore:
+      '''
+      Un portail contenu, précédemment inerte, scellé dans le Donjon. La secte locale en gardait jalousement le secret.
+      À la vue du Dévoreur des Dieux, leur chef m'a précipitamment conduit dans sa chambre pour me révéler son existence.
+      Le portail menait chez le Dévoreur. C'était identique au sien, seulement ancien et parfaitement stable.
+      Le serpent prétendait que c'était sa création. Son assurance était une erreur qu'il rectifia plus tard.
+      Mais cette faille était indiscutablement bien plus ancienne que lui. Elle remontait à l'Âge d'Or des Dragons.
+      Son mensonge était veule et forcé. Quelque chose de bien plus puissant que le Dévoreur était à l'œuvre.
+      Sa persistance sinistre me rongeait l'esprit. Il ne menaçait pas seulement moi. Il menaçait tout le monde. Tout.
+      Même face à des mensonges flagrants et à un danger terrifiant, j'ai simplement tourné les talons et n'y suis pas retourné.
+      '''
+  }
+  LoreCorruption:
+  {
+    DisplayName: La Corruption
+    Lore:
+      '''
+      Ne pas se débarrasser correctement de l'essence d'un Dieu tué est une erreur fatale. Ce désert en est la preuve.
+      Ayant tué mes premiers Dieux, j'ai fermé les yeux alors que l'essence corrompue jaillissait de leurs corps déchirés et s'enfonçait dans les entrailles de Terraria.
+      La simple existence de cet endroit putride prouve que les anciens Dieux étaient au-delà de toute rédemption.
+      '''
+  }
+  LoreCrabulon:
+  {
+    DisplayName: Crabulon
+    Lore:
+      '''
+      Un crabe et ses champignons. L'un cherchait un hôte; l'autre, un nouvel habitat.
+      Ces champignons possèdent une quantité perturbante de ténacité. Rien qui se couche pour mourir dans leur domaine n'est laissé en paix.
+      C'est ce genre de contrôle morbide et forcé sur les innocents qui m'a poussé sur mon chemin.
+      '''
+  }
+  LoreCrimson:
+  {
+    DisplayName: Le Carmin
+    Lore:
+      '''
+      L'air vicié, la faune morbide, le terrain dégoûtant... Ici repose la première erreur de ma croisade.
+      L'essence d'un Dieu ne disparaît pas naturellement lorsque le corps meurt. Elle doit être correctement éliminée ou détruite entièrement.
+      L'essence d'un Dieu pieux ne pourrait jamais suppurer un bourbier aussi atroce que celui-ci.
+      '''
+  }
+  LoreCynosure:
+  {
+    DisplayName: Apogée
+    Lore:
+      '''
+      Vous vous tenez maintenant au seuil de l'infinité. Le pouvoir que vous avez accumulé est extraordinaire.
+      Valeur et tromperie, vérité et mensonge, loyauté et trahison... vous êtes au-delà ces notions.
+      Tout ce qui a croisé votre chemin, vous l'avez déchiré. La terre elle-même se plie à votre volonté.
+      Ne voyez-vous pas comment l'herbe se sépare là où vous marchez, comment les étoiles s'illuminent là où vous regardez ?
+      Terraria elle-même s'incline devant vous, que cela soit par peur ou par respect.
+      C'est la force que détenaient les Dragons. Le pouvoir primordial qu'ils commandaient.
+      Peu de choses nous séparent maintenant. Si vous ne cherchiez pas le combat avec moi, je doute que vous seriez allé si loin.
+      Lorsque vous serez prêt, cherchez la tombe de la Lumière, au sommet du repaire draconique.
+      J'attends votre défi.
+      '''
+  }
+  LoreDesertScourge:
+  {
+    DisplayName: Fléau du Désert
+    Lore:
+      '''
+      Autrefois, c'était un serpent de mer majestueux qui ne menaçait que les micro-organismes qu'il consommait.
+      Après qu'Ilmeris ait été incinérée, il est devenu familier avec la chasse. Pour survivre, il a rapidement appris à chercher des proies plus grandes.
+      Malheureusement pour le Fléau, il semble qu'il était lui-même une proie au final. Après tout, il y a toujours un plus gros poisson dans la mer.
+      '''
+  }
+  LoreDestroyer:
+  {
+    DisplayName: Le Destructeur
+    Lore:
+      '''
+      Les Chevaliers Cherche-Dieux de ma compagnie étaient de loin mes meilleurs soldats.
+	  Ils défendaient ma cause, et je les honorais en retour.
+      Je leur ai octroyé des armures massives et des armes colossales, pour que leur Puissance jamais ne vacille.
+      Certains jours, je prenais le temps de m'entraîner à leurs côtés, les inspirant à de nouveaux sommets de fureur vertueuse.
+      Draedon l'eût bien compris, et leur accorda ces formes massives, garnies d'armes et d'armures interverrouillées forgées dans un métal béni.
+      Bien qu'en vérité, il s'agissait d'équipements miniers réutilisés, leur présence seule sur le champ de bataille était immense.
+      '''
+  }
+  LoreDevourerofGods:
+  {
+    DisplayName: Le Dévoreur de Dieux
+    Lore:
+      '''
+      Le tristement célèbre glouton cosmique, en chair et en os. Son titre imposant lui a été accordé par lui-même, mais la vérité a fait qu'il a collé.
+      C'est un adversaire redoutable, capable d'engloutir les dieux tout entiers et d'intégralement abosrber leur essence.
+      J'ai ordonné à Draedon de doter sa forme gigantesque d'une armure, afin qu'il puisse affronter même de grands dieux en combat singulier en toute sécurité.
+      A l'instar de sa nature, sa langue était celle d'un serpent. Il me manipulait sans cesse, me poussant à commettre des actes affreux.
+      Je l'ai recruté par désespoir. Ma guerre avait duré des décennies et j'aurais tout fait pour qu'elle prenne fin.
+      C'est à ce moment-là que ma négligence a vu le jour. Ma descente a commencé dès l'instant où recruter ce vaurien a traversé mon esprit.
+      Son absence de loyauté était claire comme le jour, même à l'époque. Cependant, je soupçonne que cela va au-delà de ça.
+      Les capacités extraterrestres et les tactiques dominatrices du Dévoreur suggèrent que son allégeance était ailleurs.
+      N'est-il qu'un simple soldat, d'une malveillance bien plus grande...?
+      '''
+  }
+  LoreDragonfolly:
+  {
+    DisplayName: Folie Draconique
+    Lore:
+      '''
+      À la fin de l'Ère Draconique, il existe des archives faisant état des espèces de dragons "impurs".
+      Les wyvernes, les basilics, les drachons et autres sont documentés, bien que personne ne soit certain de leur origine exacte.
+      Encore aujourd'hui, les érudits débattent de la véritable appellation et des lignées de ces créatures.
+      Noms mis à part, il est clair que les premières branches sont suffisamment pures pour conserver la grande force de leurs ancêtres.
+      Naturellement, cela les a conduits à être ciblés par des mandats divins cruels, et la plupart ont été pourchassés jusqu'à l'extinction.
+      On sait que les Dracossons, les Folies et les Wyrm Abyssaux ont survécu aux chasses épuratrices de l'Ère des Dieux.
+      Il est à noter qu'ils sont tous désormais reclus ou extrêmement violents. Il est tragique de voir qu'ils ont évolué ainsi.
+      '''
+  }
+  LoreDukeFishron:
+  {
+    DisplayName: Duc Dracosson
+    Lore:
+      '''
+      Aussi extravagant que cela puisse paraître, cette espèce est la plus puissante des mers.
+      Ce sont des chasseurs implacables et ils peuvent facilement passer beaucoup de temps hors de l'eau.
+      Les légendes racontent que les Dracossons revendiquent un héritage des vrais Dragons, remontant à d'innombrables années.
+      Bien qu'il existe de nombreuses histoires de créatures de descendance draconienne, ce cas est avéré.
+      Qu'il s'agisse d'un héritage génétique ou non, les Dracossons ne possèdent pas de sang de Dragon ni d'âmes Aurique. Je le saurais le cas échéant.
+      '''
+  }
+  LoreEaterofWorlds:
+  {
+    DisplayName: Le Dévoreur de Mondes
+    Lore:
+      '''
+      Tout être puissant fera naître fable et légende, à la fois de sa grandeur et de sa terreur. Ce ver monstrueux n'a pas fait exception.
+      Cette petite créature, dévorant une planète ? Ridicule. Cependant, le ridicule se propage rapidement même avec une once de vérité derrière.
+      Inutile de chercher des exemples bien longtemps. Nous sommes tous entourés de superstitions et d'assomptions déchaînées.
+      Moi-même, j'ai été soumis à une litanie de vantardises et d'accusations sans fondement en mon temps.
+      '''
+  }
+  LoreEmpressofLight:
+  {
+    DisplayName: Impératrice de Lumière
+    Lore:
+      '''
+      Bien que son titre soit hautain, elle est davantage une émissaire des pouvoirs au-delà et des forces de la nature.
+      En plein jour, elle peut canaliser la Lumière Primordiale elle-même, ce qui la rend presque intouchable.
+	  Heureusement, munie de la seule lumière des étoiles, elle tombe comme tout autre despote sans grace.
+      Sa propension à aspirer la force d'autres grands êtres est particulièrement déplorable.
+      Cela la rendait écoeuramment obéissante. Dépendante, mais volontairement, car ils lui permettaient d'assouvir sa soif primitive.
+      J'avais envisagé de la tuer moi-même pour sa trahison, mais elle était une cible notoirement évasive.
+      '''
+  }
+  LoreExoMechs:
+  {
+    DisplayName: L'Exo Trio Mécanique
+    Lore:
+      '''
+      Quelle terrifiante merveille d'ingénierie. La spécialité de Draedon a toujours été les machines de guerre, mais celles-ci sont immaculées.
+      Son affirmation audacieuse selon laquelle aucun Dieu ne peut égaler son oeuvre est toutefois incorrecte. Il n'a pas connaissance du Tout-Puissant Traître.
+      Quoi qu'il en soit, à partir d'acier et d'intelligence seule, il a forgé des machines de destruction qui rivalisent avec Calamitas.
+      Il me procure peu de réconfort de remarquer qu'elle, au moins, possède un cœur à proprement parler.
+      Draedon est un incomparable monstre amoral. Il est complètement dépourvu d'humanité et de compassion.
+      Avec une technologie aussi incroyablement avancée, il se tient au bord de l'apothéose.
+      Il peut fabriquer de tels cauchemars synthétiques redoutables à volonté. Ses ressources doivent être quasi illimitées.
+      S'il venait à perdre son sang-froid, s'il en a un, tout espoir de vie seraient étouffés en un instant, étouffés par un torrent de silicium.
+      Cependant, peut-être pouvez-vous tirer parti de son savoir-faire inimaginable, et obtenir des informations auprès de lui.
+      '''
+  }
+  LoreEyeofCthulhu:
+  {
+    DisplayName: L'oeil de Cthulhu
+    Lore:
+      '''
+      Dans les âges passés, des héros se sont fait un nom en affrontant de tels monstres.
+      Maintenant, ils se répandent sans contrôle, naissant des influences viles laissées sans surveillance. Ils se confondent bien avec l'injustice horrifique de leurs prédécesseurs.
+      Tuer l'un d'entre eux ne fait que préparer le terrain pour une douzaine d'autres. Cela ne vous concerne sûrement pas non plus.
+      '''
+  }
+  LoreGolem:
+  {
+    DisplayName: Golem
+    Lore:
+      '''
+      Quelle chose triste et pitoyable. Vraiment, une moquerie à tous égards.
+      Les Lihzahrds ont été abandonnés par leur divinité il y a bien longtemps. Ils se sont lancés dans la création de cette idole comme substitut.
+      Le résultat est une fusion des concepts et des thèmes de nombreux dieux, avec la chaleur du soleil en particulier.
+      C'est bien loin d'un dieu mécanique... et tant mieux. L'alternative est trop glaçante à envisager.
+      Bien que je pense qu'il mérite à peine d'être mentionné, les Lihzahrds le vénèrent sans faille.
+      Je ne vois aucune raison d'intervenir dans ces affaires qui me sont inférieures, à moi et mon peuple.
+      '''
+  }
+  LoreHiveMind:
+  {
+    DisplayName: L'Esprit de Ruche
+    Lore:
+      '''
+      Un semblant de l'esprit d'un dieu peut survivre à la mort, comme les sursauts d'un insecte écrasé.
+      Ce qui reste tente de se réunir, de se rassembler dans le culte, pour que son pouvoir puisse être restauré. Que c'est pitoyable.
+      Heureusement pour nous, la futilité de cet effort est sans pareil. La biomasse obéit, mais rien n'est accompli.
+      Une grande partie du pouvoir divin ne découle pas de la foi. Un dieu est forgé de sa propre force ; les adeptes peuvent choisir de le vénérer.
+      '''
+  }
+  LoreKingSlime:
+  {
+    DisplayName: Roi des Slimes
+    Lore:
+      '''
+      Avec le temps, ces créatures gélatineuses s'absorbent mutuellement et grandissent lentement en taille et en force.
+      Il n'y a guère besoin de s'inquiéter de cela. Naturellement, les slimes sont presque dépourvues d'intelligence et s'accumulent seulement par hasard.
+      Bien qu'il semble qu'elles soient capables d'absorber des connaissances, même sous une forme rudimentaire.
+      '''
+  }
+  LoreLeviathanAnahita:
+  {
+    DisplayName: Le Leviathan et Anahita
+    Lore:
+      '''
+      Bien qu'elle revendique tous les océans du monde comme son domaine, elle est, en réalité, une recluse des profondeurs.
+      ELes Élémentaires posent une grave menace pour tous ceux qui les entourent. Les autres Élémentaires ne font pas exception.
+      Anahita a été chassée de chez elle des Abysses par la végétation envahissante de Silva.
+      Les témoignages varient quant à la majestueuse créature à ses côtés. Certains affirment qu'Anahita a elle-même invoqué le Léviathan.
+      Quoi qu'il en soit, ils sont inséparables même dans la mort.
+      Quelle loyauté inébranlable ! Cela me rappelle Yharon.
+      '''
+  }
+  LoreMechs:
+  {
+    DisplayName: Le Trio Mécanique
+    Lore:
+      '''
+      Ces bêtes maladroites en acier étaient les expériences de Draedon, mon ancien collègue et prodigieux ingénieur.
+      Son intention était d'alimenter une machine de guerre en énergie d'âme, lui permettant de combattre avec but et zèle.
+      Les créations furent un succès, à tel point que les âmes continuèrent à exprimer leur propre libre arbitre.
+      Draedon n'était pas satisfait. Mais ces soldats étaient les miens, et leur loyauté fut forgée à nouveau dans le fer.
+      Je les ai libéré de ma charge, et pourtant les voici, parcourant la terre à la recherche d'indices du divin.
+      Malheureusement pour vous, cela vous met dans leur colimateur. Offrez-leur un combat digne de leur mort.
+      '''
+  }
+  LoreOldDuke:
+  {
+    DisplayName: Le Vieux Duc
+    Lore:
+      '''
+      C'était probablement l'un des plus anciens êtres vivants ordinaires sur la surface de la planète.
+      Les premiers Dracossons ont été repérés au milieu de l'Ère Draconique. Quel prestige exotique...!
+      Les Dracossons étaient l'une des premières ramifications des Dragons Auriques de pure lignée.
+      Ils sont si anciens et vénérés que de nombreux historiens sont convaincus qu'ils sont les monstres à l'origine du folklore marin.
+      La ruse de ce Duc en particulier est évidente ; il a échappé à des siècles de chasse, et jusqu'à présent avait survécu à un empoisonnement des plus complets.
+      Au-delà de toutes les autres, cette créature était une fable vivante. On doit se demander ce qui traverse l'esprit d'une légende qui s'efface.
+      '''
+  }
+  LorePerforators:
+  {
+    DisplayName: Les Perforateurs et leur Ruche
+    Lore:
+      '''
+      Ces créatures étaient uniques, car elles maîtrisaient le pouvoir des dieux abattus aussi purement que possible, leurs veines coulant d'ichor répandu.
+      Tout ce qui existe dans le Carmin est en réalité la divinité éventrée, son sang désormais luisant de sa traîtrise perverse, à la vue de tous.
+      La fange dégage l'odeur de siècles de manipulation vile et de domination sans scrupules des malheureux.
+      Son jugement est depuis longtemps passé, et son extinction l'attend patiemment.
+      '''
+  }
+  LorePlaguebringerGoliath:
+  {
+    DisplayName: Goliath Porte-Peste
+    Lore:
+      '''
+      Une reine innocente, forcée de supporter une existence agonisante. C'est rien de moins qu'un crime contre la nature.
+      Sans me consulter, Draedon a cherché à armer les abeilles de la Jungle déjà bien organisées.
+      Lorsqu'il a révélé son projet terminé, j'étais furieux. Asservir les abeilles était méprisable.
+      Draedon s'est peu soucié de ma colère et est retourné à ses autres travaux sans incident supplémentaire.
+      À partir de ce moment-là, j'ai cessé de faire des demandes à Draedon. Il m'avait montré sa vraie nature.
+      Dans ces derniers jours, j'étais loin d'être vertueux. Mais je n'enchaînerais pas une créature pour combattre en mon nom.
+      Cela ne ferait de moi rien de mieux que les ordures divines que je poursuivais.
+      '''
+  }
+  LorePlantera:
+  {
+    DisplayName: Plantera
+    Lore:
+      '''
+      Cette aberration florale est un autre exemple du pouvoir volatile des âmes exploitées.
+      En poussant leur maîtrise de l'agriculture à de nouveaux sommets, les colons de la Jungle ont créé un germe spécial.
+      Grâce à une bénédiction rituelle de la terre, il a été nourri par des légions d'âmes.
+      Les anciens du village espéraient inaugurer un nouvel âge de prospérité botanique.
+      En effet, la plante était impressionnante. Mais elle était sauvage et indomptée, avec une volonté propre.
+      NMaintenant que vous l'avez tuée, encore plus d'énergies spirituelles désordonnées se répandent dans les terres.
+      L'ignorance du village était honteuse en elle-même, mais cela est encore pire.
+      '''
+  }
+  LorePolterghast:
+  {
+    DisplayName: Épouvantôme
+    Lore:
+      '''
+      Plus ma guerre se prolongeait, plus je sombrais dans la négligence. Ce spectre est le symbole de mon échec.
+      Je me cachais derrière mes excuses, les appelant devoirs. Combattre les dieux. M'entraîner. Régner.
+      J'avais le temps et les ressources. J'étais simplement paralysé par l'apathie.
+	  Les centaines de prisonniers que je gardais dans les cachots du donjon que j'ai conquis ont péri aux côtés de leurs geôliers.
+      Dans ces murs maudits, nul ne peut trouver le repos, et leurs âmes se sont amalgamées en un monstre informe.
+      Bouillant de rage, se complaisant dans la tristesse, hurlant de folie. L'amalgame était incontrôlable.
+      TLa secte du dragon était furieuse, leur chef exigeait que je mette fin à cette hantise moi-même.
+      Je ne répondis pas. J'étais depuis longtemps devenu sourd au monde extérieur de ma croisade. Ne finissez pas comme moi.
+      '''
+  }
+  LorePrelude:
+  {
+    DisplayName: Prélude
+    Lore:
+      '''
+      Dans des temps reculés, aujourd'hui appelée l'Ère Draconique, les majestueux Dragons protégeaient Terraria de toutes les menaces.
+      Leur puissance légendaire fut mise à l'épreuve ultime par un monstre aberrant venu d'au-delà des étoiles.
+      Combattant de toutes leurs forces, les Dragons purent blesser et affaiblir la créature, mais pas la détruire.
+      Sans options, ils déchirèrent le monstre pour n'en faire que l'ombre de sa forme originelle, et le scellèrent.
+      Ce qui en reste réside désormais emprisonné dans la Lune, aussi loin que les Dragons pouvaient l'exiler.
+      Une grande partie de la race des dragons fut perdue en tant que victimes de cette lutte, et ils ne s'en remirent jamais.
+      Zeratros lui-même fut gravement blessé. Il semblait que sa puissance, ainsi que sa vie, serait perdue à jamais.
+      Un mortel, assermenté au service des Dragons, se leva avec détermination pour sauver leur roi vertueux.
+      '''
+  }
+  LoreProfanedGuardians:
+  {
+    DisplayName: Les Gardiens Profanés
+    Lore:
+      '''
+      Les Gardiens sont des créations assez simples, des extensions du pouvoir de la Déesse Profanée.
+      Ils sont dotés d'une autonomie partielle pour traquer les menaces et sont rarement vus en dehors des temples sanctifiés en son nom.
+      Elle a tenté d'étendre son domaine, et il n'est pas surprenant qu'elle vous considère comme sa plus grande menace.
+      Après tout, c'est vous qui avez mis fin à l'horreur venue des étoiles qui a catalysé la chute des Dragons.
+      Attirez-la hors de sa cachette. N'ayez aucune pitié, car la Déesse Profanée n'en montre aucune elle-même.
+      '''
+  }
+  LoreProvidence:
+  {
+    DisplayName: Providence, la Déesse Profanée
+    Lore:
+      '''
+      Un jour glorieux.
+      Les actes valeureux de cette envergure sont immortalisés dans la légende. En cette époque, seuls ceux de la Sorcière, Braelor et moi-même sont comparables.
+      Providence était peut-être l'une des divinités les plus malveillantes, acharnée à la purification par l'effacement.
+      Ses adorateurs n'accordent que peu de valeur dans la vie. La douleur n'est pas un prix qu'ils estiment justifié de payer.
+      La Déesse Profanée promis à ses adeptes qu'elle mettrait fin à l'inégalité en réduisant tout en cendres.
+      Ceux qui lui étaient dévoués étaient faibles d'esprit, et pourtant elle régnait en tant que l'une des divinités les plus puissantes.
+      Peut-être était-ce leur nature facilement influençable, qui lui permettait de puiser autant de pouvoir en eux...
+      '''
+  }
+  LoreQueenBee:
+  {
+    DisplayName: La Reine des Abeilles
+    Lore:
+      '''
+      Bien que d'une taille impressionnante, ces créatures sont dociles tant qu'on ne les provoque pas. Leur comportement idyllique est de nos jours une rareté, une véritable beauté.
+      Dans le passé, des villages entiers poussaient autour de ces grandes ruches, récoltant paisiblement leur part de miel et les protégeant des dangers.
+      Bien que leur mort soit compréhensible étant donné les circonstances, je ressens de la pitié pour ces créatures majestueuses.
+      Le destin fût cruel pour beaucoup d'entre elles.
+      '''
+  }
+  LoreQueenSlime:
+  {
+    DisplayName: La Reine des Slimes
+    Lore:
+      '''
+      Après avoir fui à la suite de votre bataille, il semble que le Dieu Slime ait créé un nouveau gardien à partir des essences libérées.
+      Pris au piège dans le processus d'absorption de son nouveau pouvoir, il n'a pas pu fuir à nouveau.
+      Ou peut-être a-t-il été submergé par l'arrogance ou le désespoir.
+      Une chasse glorieuse, un adversaire digne. Désormais, vous savez que vous devez les poursuivre jusqu'aux confins de Terraria.
+      '''
+  }
+  LoreRavager:
+  {
+    DisplayName: Le Ravageur
+    Lore:
+      '''
+      Un écoeurant golem de chair créé dans le seul but d'une destruction sauvage et implacable.
+      Cette monstruosité était un dernier effort désespéré pour inverser la tendance contre mes armées à la recherche des dieux.
+      À peine pouvais-je le croire moi-même, mais il est né d'un rituel de grand sacrifice, effectué dans une foi ardente.
+      Le rituel a condamné et fusionné les corps et les âmes de leurs alliés déchus en cette chose hideuse.
+      Lorsque les démonistes ont offert leurs propres vies en offrande, il s'est éveillé et les a rapidement occis.
+      Maintenant couvert de sang frais, il en voulait encore plus et s'est lancé dans un carnage sans but.
+      Je suppose que sa brutalité sert de rappel à faire attention à ce en quoi vous croyez.
+      '''
+  }
+  LoreRequiem:
+  {
+    DisplayName: Requiem
+    Lore:
+      '''
+      Alors que le Dragon de Lumière s'éteignait, le moine lui rendit visite. Presque personne ne comprend ce qui s'est passé ce jour-là.
+      La plupart disent que sa mort assistée fût apaisante. La vérité ? L'âme Aurique de Zeratros a été consommée, complètement.
+      Le moine se tenait là, enveloppé de Lumière Primordiale, et se déclara Xeroc, le Premier Dieu.
+      Lorsqu'un Dragon se repose pour la dernière fois dans le repaire, ses pouvoirs sont abandonnés pour qu'ils puissent revenir un jour.
+      Xeroc a renoncé à son serment et a rompu le cycle, devenant un traître sans égal.
+      La nouvelle de l'ascension s'est rapidement répandue. Beaucoup ont tenté de faire de même et d'égoïstement revendiquer une âme Aurique.
+      Maintenant vous savez... Bonnes intentions ou non, tous les Dieux sont des pécheurs. Chacun d'entre eux est complice de génocide.
+      Où que vous mène votre voyage, que vous soyez avec moi ou contre moi, puisse le destin vous être favorable.
+      Car rien d'autre ne le sera.
+      '''
+  }
+  LoreSignus:
+  {
+    DisplayName: Signus
+    Lore:
+      '''
+      Une aberration qui défie toute explication, née de la Distortion et révérée par le clan Onyx.
+      Presque toutes les informations à propos de cette entité nous vient de ce clan énigmatique. Tout le reste n'est que rumeur.
+      Il a été rapporté qu'il se manifeste à plusieurs endroits en même temps. Ses capacités pour la tromperie et sa ruse impitoyable sont sans égal.
+      Braelor, le compatriote de Statis, m'affronta dans un combat singulier. Tandis que nos lames s'entrechoquaient, cet assassin plongea pour assener le coup fatal.
+      Le Dévoreur ne s'encombre pas avec l'honneur et la loyaute. Mais il a senti une faiblesse. De l'hésitation. Une proie facile.
+      Le serpent pièga mes deux assaillants dans un vortex dimensionnel. Il m'assura qu'il était tout comme morts.
+      Pourtant, Statis a du faire un marché avec Signus, car il échappa à son bannissement intact.
+      '''
+  }
+  LoreSkeletron:
+  {
+    DisplayName: Squeletron
+    Lore:
+      '''
+      Un vieil homme désolé, maudit par une secte encore plus ancienne, surpris à pénétrer dans leur ancienne bibliothèque.
+      Ils étaient autrefois mes amis. Leur chef est épris des Dragons et rêve d'en ressusciter un.
+      Les murs mêmes de cet endroit sont maudits encore plus profondément. La magie s'est depuis longtemps dissipée, et les soldats ont pourri.
+      N'espérez pas apprendre grand-chose de ces vieux ouvrages. Ils ont été rédigés avec un zèle égaré.
+      '''
+  }
+  LoreSkeletronPrime:
+  {
+    DisplayName: Grand Squeletron
+    Lore:
+      '''
+      Certains âmes étaient tellement consumées par la haine qu'elles prêtèrent serment de tout faire pour moi.
+      Leur dévouement était inébranlable. Absolu. Aucune atrocité ne leur était étrangère; leur vengeance ne connaissait aucune limite.
+      Je les ai organisés en troupes de choc, redoutées pour leurs lance-flammes et leurs engins incendiaires.
+      Nivellant les lieux de culte et incendiant les prétendus dévots, leur expertise résidait dans la dissolution de la foi par les flammes.
+      Draedon a bien compris cela. Pour eux, il a conçu une apparence si sinistre qu'elle évoquait l'oubli lui-même.
+      '''
+  }
+  LoreSlimeGod:
+  {
+    DisplayName: Le Dieu des Slimes
+    Lore:
+      '''
+      Autrefois, un ancien clan vénérait cette créature comme un parangon de l'équilibre de la nature. Maintenant, sa pureté est souillée par la crasse et la fange nouvellement absorbées.
+      L'être gélatineux n'a cure ni ne se soucie du dernier membre survivant du clan.
+      Une telle tragédie est malheureusement trop courante dans le culte.
+      Hélas, le Dieu Slime est assez sage pour être lâche, fuyant les batailles qu'il ne peut pas gagner lorsque ses serviteurs sont détruits.
+      Peut-être que la chance vous sourira si vous le prenez par surprise.
+      '''
+  }
+  LoreStormWeaver:
+  {
+    DisplayName: Tisse-Tempête
+    Lore:
+      '''
+      Cette bête, bien que de moindre stature que le Dévoreur, représente un grand danger en elle-même.
+      Elles sont clairement de la même espèce. Même ce serpent était connu pour dévorer des Wyvernes entières.
+      Très peu de choses sont connues sur le royaume ou l'espace dont le Grand Dévoreur est originaire.
+      Même Draedon et ses recherches obsessionnelles n'ont pas été en mesure de discerner sa véritable nature.
+      Le Tisseur a glissé à travers une faille de cet endroit ouverte par le Dévoreur, qui le surveille depuis.
+      À son avis, les pouvoirs similaires du serpent de moindre taille pourraient en faire une menace trop importante pour le laisser vivre.
+      Il se croit invincible. Il ne se rend pas compte que sa situation est similaire.
+      '''
+  }
+  LoreSulphurSea:
+  {
+    DisplayName: Mer Sulfureuse
+    Lore:
+      '''
+      Cette côte n'a jamais été agréable, même si elle a connu des jours bien meilleurs.
+      Les fumées incessantes provenant de l'industrie d'Azafure l'ont inondé d'ions caustiques.
+      Pourtant, la vie résiliente s'est adaptée. Sans aucun doute aidée par Silva lorsqu'elle s'est frayée un chemin jusqu'aux profondeurs de l'enfer.
+      Longtemps considérée comme inhabitable, sa détérioration croissante a poussé Draedon à la désigner comme un dépotoir.
+      Des années de rejets massifs inconsidérés ont maintenant rendu la transformation de la côte irréversible.
+      '''
+  }
+  LoreTwins:
+  {
+    DisplayName: Les Jumeaux
+    Lore:
+      '''
+      La guerre n'est pas que bataille. La logistique et le renseignement sont essentiels pour obtenir une victoire décisive.
+      Ces machines sont mes meilleurs éclaireurs et agents, renaissant dans une forme qui leur donne une Vision inégalée.
+      Archers ou tireurs d'élite, espions ou assassins. Un ennemi n'a de sécurité que celle que vous lui laissez.
+      Draedon compris bien que le seul combat équitable est celui que vous gagnez.
+      Son assistance était infaillible, et ses calculs froids et cruels.
+      Même la cible la plus élusive n'avait aucune chance.
+      '''
+  }
+  LoreUnderworld:
+  {
+    DisplayName: Les Enfers
+    Lore:
+      '''
+      La réputation infernale du monde souterrain est plutôt moderne.
+      Les couches de cendres étouffant autrefois les grandes cités sont encore chaudes.
+      Les Dieux les plus dominants voulaient que je défende leur cause et que je dirige leur société à partir d'ici.
+      Cependant, entourée de magma comme elle l'était, Azafure à simplement brûlée lorsque leurs souhaits ne furent pas satisfaits.
+      Tel est le malheureux prix de la guerre, bien que je n'aie aucun regret de m'être battu pour mon peuple.
+      '''
+  }
+  LoreWallofFlesh:
+  {
+    DisplayName: Le Mur de Chaîr
+    Lore:
+      '''
+      Contenir l'essence d'un Dieu tué n'est pas mince affaire. C'est une construction plûtot imposante et terrifiante.
+      Le Mur était assemblé avec du tendon impur et des magies encore plus impies, formant une rudimentaire prison de chair.
+      Il a rempli sa fonction : arrêter la diffusion d'une influence divine injuste.
+      Sans cette percée alchimique, le monde pour lequel j'ai combattu aurait pu être perdu dans le carnage que j'ai provoqué.
+      Mes méthodes ont depuis évolué. Je n'ai plus besoin de contenir de telles essences, quand elles peuvent être dévorées.
+      Puissiez-vous canaliser mon courage pour combattre l'afflux résultant de ces énergies.
+      '''
+  }
+  LoreYharon:
+  {
+    DisplayName: Yharon, Phénix Resplendissant
+    Lore:
+      '''
+      Le retour de l'Âge des Dragons, anéanti. Juste comme ça, il ne reste que des cendres emportées par le vent...
+      Yharon était le dernier des Dragons Auriques. En tant que phénix, la renaissance fait partie de ses pouvoirs.
+      Les Dieux pensaient l'avoir éliminé avec le reste de son espèce, mais il est revenu sous forme d'œuf, caché dans le repaire.
+      J'étais destiné à consommer son âme Aurique à son éclosion, et régner éternellement en tant que Roi-Dieu.
+
+      [c/FCA92B:La destinée est pour les faibles.]
+
+      J'ai rejeté leurs caprices et renversé leur plan. J'ai été condamné à mort pour trahison.
+      Leurs porcs dociles et complaisants m'ont jeté avec l'œuf de Yharon dans le magma de l'Enfer.
+      La chaleur intense m'a horriblement défiguré, mais a donné à Yharon sa renaissance. Il s'est levé, enveloppé de flammes, et a sauvé ma vie.
+      À partir de ce jour, nos âmes ne firent qu'une. Il me raconta l'histoire de Zeratros et du génocide de son espèce.
+      Je lui ai promis que je lui rendrais justice. Ainsi commença la guerre, Yharon nous ralliant tous comme une lueur d'espoir.
+      Maintenant, cet espoir est depuis longtemps terni. Je ne suis plus que l'ombre du héros que j'étais autrefois, et cela en est la preuve ultime.
+      Yharon pourrait encore revenir, comme il le fait toujours, mais il... il m'a fait ses adieux.
+      '''
+  }

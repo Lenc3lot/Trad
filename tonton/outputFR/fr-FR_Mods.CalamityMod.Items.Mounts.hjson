@@ -1,0 +1,65 @@
+
+  Brimrose:
+  {
+    DisplayName: Soufrerose
+    Tooltip: Invoque une monture de soufrerose
+  }
+  ExoThrone:
+  {
+    DisplayName: Exo Boîte
+    Tooltip:
+      '''
+      Materializes a quite cozy and extremely nimble flying Exo throne
+      Hold [KEY] while sitting in the throne to move slower for more precision
+      'A comfortable gamer is a dangerous gamer'
+      '''
+  }
+  Fabsol:
+  {
+    DisplayName: Esprit de Princesse en Bouteille
+    Tooltip:
+      '''
+      Invoque l'esprit de Cirrus, La princesse îvre, dans sa forme d'Alicorn
+      Appeler la monture transformera Cirrus, la renvoyer la retransformera en son état initial
+      '''
+  }
+  FollyFeed:
+  {
+    DisplayName: Nourriture pour Folies
+    Tooltip: Invoque une monstruosité
+  }
+  GazeOfCrysthamyr:
+  {
+    DisplayName: Regard de Crysthamyr
+    Tooltip:
+      '''
+      Summons a shadow dragon
+      Hold W to ascend faster
+      '''
+  }
+  TheCartofGods:
+  {
+    DisplayName: The Cart of Gods
+    Tooltip: ""
+  }
+  OnyxExcavatorKey:
+  {
+    DisplayName: Clé d'Excavateur Onyx
+    Tooltip:
+      '''
+      Invoque une foreuse pour forer à travers le monde, comme ça vous pouvez détruire tout le beau travail de génération de monde
+      En ignorant complètement toutes les créatures qui vivent en ces lieux. Je suis sur que la SPA et PETA vont vouloir
+      avoir une longue discussion avec toi après ça.
+      Le pouvoir de destruction s'étalonne sur la pioche la plus puissante dans votre inventaire
+      '''
+  }
+  SuspiciousLookingJellyBean:
+  {
+    DisplayName: Haricot de Gelée à l'Apparence Suspecte
+    Tooltip: HARICOT DE GELÉE
+  }
+  TundraLeash:
+  {
+    DisplayName: Laisse de la Toundra
+    Tooltip: Invoque un chien en colère en tant que monture
+  }

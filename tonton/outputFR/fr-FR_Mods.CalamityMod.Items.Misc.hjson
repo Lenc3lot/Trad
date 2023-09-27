@@ -1,0 +1,302 @@
+
+  AndroombaItem:
+  {
+    DisplayName: "{$Mods.CalamityMod.NPCs.Androomba.DisplayName}"
+    Tooltip:
+      '''
+      Press <right> on the roomba with a solution to insert it
+      While a solution is inserted, the roomba will start spreading its contents
+      '''
+  }
+  BabyFlakCrabItem:
+  {
+    DisplayName: "{$Mods.CalamityMod.NPCs.BabyFlakCrab.DisplayName}"
+    
+  }
+  BabyGhostBellItem:
+  {
+    DisplayName: "{$Mods.CalamityMod.NPCs.BabyGhostBell.DisplayName}"
+    
+  }
+  NanodroidDysfunctionalItem:
+  {
+    DisplayName: Dysfunctional Nanodroid
+    Tooltip: ""
+  }
+  NanodroidItem:
+  {
+    DisplayName: "{$Mods.CalamityMod.NPCs.Nanodroid.DisplayName}"
+    Tooltip: ""
+  }
+  NanodroidPlagueGreenItem:
+  {
+    DisplayName: Green Plague Nanodroid
+    Tooltip: ""
+  }
+  NanodroidPlagueRedItem:
+  {
+    DisplayName: Red Plague Nanodroid
+    Tooltip: ""
+  }
+  PiggyItem:
+  {
+    DisplayName: "{$Mods.CalamityMod.NPCs.Piggy.DisplayName}"
+    Tooltip: ""
+  }
+  RepairUnitItem:
+  {
+    DisplayName: "{$Mods.CalamityMod.NPCs.RepairUnitCritter.DisplayName}"
+    Tooltip: ""
+  }
+  SeaMinnowItem:
+  {
+    DisplayName: "{$Mods.CalamityMod.NPCs.SeaMinnow.DisplayName}"
+    
+  }
+  TwinklerItem:
+  {
+    DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName}"
+    
+  }
+  BloodOrange:
+  {
+    DisplayName: Orange Sanguine
+    Tooltip:
+      '''
+      Augmente la vie maximale de {0} de façon permanente
+	  Ne peut-être utilisé qu'une seule fois, et uniquement après avoir consommé le maximum de fruits de vie
+      Elle a une saveur distinctement sucrée et un fort arôme
+      '''
+  }
+  CelestialOnion:
+  {
+    DisplayName: Oignon Céleste
+    Tooltip:
+      '''
+      Augmente de façon permanente le nombre d'emplacements d'accessoire
+      Ne fait rien en mode Maître
+      Un pouvoir alien palpite à l'intérieur de ses couches
+      '''
+  }
+  CometShard:
+  {
+    DisplayName: Éclat de Comète
+    Tooltip:
+      '''
+      Augmente le mana maximum de {0} de façon permanente
+      Ne peut être utilisé qu'une fois, et uniquement après avoir consommé le maximum de cristaux de mana
+      '''
+  }
+  Dragonfruit:
+  {
+    DisplayName: Dracofruit
+    Tooltip:
+      '''
+      Augmente la vie maximale de {0} de façon permanente
+	  Ne peut-être utilisé qu'une seule fois, et uniquement après avoir consommé le maximum de fruits de vie
+      Bien que quelque peu fade, le goût peut être décrit comme différent de tout ce que vous avez goûté.
+      '''
+  }
+  Ectoheart:
+  {
+    DisplayName: Ectocoeur
+    Tooltip:
+      '''
+      Augmente de façon permanente les dégâts de 15% et la réduction de dégâts de 5% du mode Adrenaline
+      Revengeance
+      '''
+  }
+  Elderberry:
+  {
+    DisplayName: Baie Ancienne
+    Tooltip:
+      '''
+      Augmente la vie maximale de {0} de façon permanente
+	  Ne peut-être utilisé qu'une seule fois, et uniquement après avoir consommé le maximum de fruits de vie
+      Une saveur acidulée et piquante avec une touche quelque peu terreuse.
+      '''
+  }
+  ElectrolyteGelPack:
+  {
+    DisplayName: Paquet de Gel Électrolyte
+    Tooltip:
+      '''
+      Augmente de façon définitive les dégâts du mode Adrénaline de 15% et la réduction des dégâts quand la jauge est pleine de 5%
+      Revengeance
+      '''
+  }
+  EtherealCore:
+  {
+    DisplayName: Noyau Éthéré
+    Tooltip:
+      '''
+      Augmente le mana maximum de {0} de façon permanente
+      Ne peut être utilisé qu'une fois, et uniquement après avoir consommé le maximum de cristaux de mana
+      '''
+  }
+  InfernalBlood:
+  {
+    DisplayName: Sang Infernal
+    Tooltip:
+      '''
+      Améliore de façon permanente la durée du mode Rage d'une seconde
+      Revengeance
+      '''
+  }
+  MiracleFruit:
+  {
+    DisplayName: Fruit Miraculeux
+    Tooltip:
+      '''
+      Augmente la vie maximale de {0} de façon permanente
+	  Ne peut-être utilisé qu'une seule fois, et uniquement après avoir consommé le maximum de fruits de vie
+      Rafraîchissant et frais, peut-être même mentholé.
+      '''
+  }
+  MushroomPlasmaRoot:
+  {
+    DisplayName: Racine de Champignon Plasmique
+    Tooltip:
+      '''
+      Augmente de façon permanente la durée du mode Rage de 1 seconde
+      Revengeance
+      '''
+  }
+  PhantomHeart:
+  {
+    DisplayName: Coeur Fantôme
+    Tooltip:
+      '''
+      Augmente le mana maximum de {0} de façon permanente
+      Ne peut être utilisé qu'une fois, et uniquement après avoir consommé le maximum de cristaux de mana
+      '''
+  }
+  RedLightningContainer:
+  {
+    DisplayName: Conteneur d'Électricité Rouge
+    Tooltip:
+      '''
+      Augmente de façon permanente la durée du mode Rage de 1 seconde
+      Revengeance
+      '''
+  }
+  StarlightFuelCell:
+  {
+    DisplayName: Cellule d'Alimentation de Lueur Stellaire
+    Tooltip:
+      '''
+      Augmente de façon définitive les dégâts du mode Adrénaline de 15% et la réduction des dégâts quand la jauge est pleine de 5%
+      Revengeance
+      '''
+  }
+  AntiCystOintment:
+  {
+    DisplayName: Pommade Anti-Kyste
+    Tooltip: Favorisez cet objet pour empêcher les kystes de perforateur d'apparaître
+  }
+  AntiTumorOintment:
+  {
+    DisplayName: Pommade Anti-Tumeur
+    Tooltip: Favorisez cet objet pour empêcher les tumeurs de rûche d'apparaître
+  }
+  BleachBall:
+  {
+    DisplayName: Balle de Javel
+    Tooltip: Favorisez cet objet pour empêcher le Fléau Aquatique d'apparaître
+  }
+  BrokenWaterFilter:
+  {
+    DisplayName: Filtre à Eau Cassé
+    Tooltip: Favoriser cet objet pour empêcher la pluie acide d'arriver naturellement
+  }
+  SirenproofEarMuffs:
+  {
+    DisplayName: Protège-oreilles à l'Épreuve des Sirènes
+    Tooltip: Favoriser cet objet pour empêcher Anahita d'apparaître près de vous
+  }
+  VoodooDemonVoodooDoll:
+  {
+    DisplayName: Poupée Vaudou de Démon Vaudou
+    Tooltip: Favoriser cet objet pour empêcher les démons vaudou d'apparaître près de vous
+  }
+  AlicornonaStick:
+  {
+    DisplayName: Alicorn sur un Bâton
+    Tooltip: "'Félicitations, vous avez gagné! Voici ma tête sur un bâton.'"
+  }
+  BallAndChain:
+  {
+    DisplayName: Boule en Chaîne
+    Tooltip:
+      '''
+      Favoriser cet objet pour désactiver les ruées accordées par les équipements
+      'Tellement lourd...'
+      '''
+  }
+  BrimstoneLocus:
+  {
+    DisplayName: Locus de Soufre
+    Tooltip:
+      '''
+      [c/C61B40:'Non seulement je peux améliorer ton équipement avec une puissante magie,]
+      [c/C61B40:Je peux également transcender certains de tes armements dans de nouvelles formes.]
+      [c/C61B40:Ces objets seront révélés quand vos tenez cet objet dans votre inventaire.']
+      '''
+  }
+  MomentumCapacitor:
+  {
+    DisplayName: Condensateur de Momentum
+    Tooltip:
+      '''
+      Quand vous l'utilisez,
+      Votre vitesse augmentera en continu de façon incontrollable
+      Ne fonctionne pas si un boss est en vie
+      '''
+  }
+  NormalityRelocator:
+  {
+    DisplayName: Relocalisateur de Normalité
+    Tooltip:
+      '''
+      Appuyez sur [KEY] pour vous téléporter à la position du curseur
+      La vitesse de chute est doubléé pendant 30 secondes après une téléportation
+      La téléportation est impossible en état chaotique
+      Fonctionne quand présent dans l'inventaire
+      'Je serais là en un battement de cil'
+      '''
+  }
+  RelicOfConvergence:
+  {
+    DisplayName: Relique de Convergence
+    Tooltip:
+      '''
+      Crée un cristal profané qui accumule du pouvoir
+      Tenir le cristal vous ralentit
+      En fin de charge, le cristal soigne l'utilisateur de 70 points de vie
+      '''
+  }
+  Rock:
+  {
+    DisplayName: Caillou
+    Tooltip: Le premier objet jamais crée par Xeroc!
+  }
+  SulphurousSeaWorldSideChanger:
+  {
+    DisplayName: Changeur de Côté de Mer Sulfureuse
+    Tooltip:
+      '''
+      Faites apparaître et utilisez cet objet si votre océan compte comme une mer sulfureuse
+      Cela corrigera aussi les abysses si elles ne fonctionnent pas
+      '''
+  }
+  SuperDummy:
+  {
+    DisplayName: Super Mannequin
+    Tooltip:
+      '''
+      Crée un super mannequin
+      Régénère 1 million de vie par seconde
+      Ne mourra pas des dégâts infligés par les altérations d'étât
+      Clic droit pour détruire tous les super mannequins
+      '''
+  }

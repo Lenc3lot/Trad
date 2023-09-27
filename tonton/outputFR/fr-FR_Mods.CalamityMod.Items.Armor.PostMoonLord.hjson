@@ -1,0 +1,592 @@
+
+  AuricTeslaBodyArmor:
+  {
+    DisplayName: Cuirasse Tesla Aurique
+    Tooltip:
+      '''
+      +100 vie maximum
+      +8% de dégâts et +5% de chances de coup critique
+      '''
+  }
+  AuricTeslaCuisses:
+  {
+    DisplayName: Cuissarde Tesla Aurique
+    Tooltip:
+      '''
+      +10% de vitesse de mouvement
+      +12% de réduction de dégâts et +5% de chances de coup critique
+      Effet du Tapis Volant
+      '''
+  }
+  AuricTeslaHoodedFacemask:
+  {
+    DisplayName: Masque Facial Voilé Tesla Aurique
+    Tooltip:
+      '''
+      +30% de dégâts et de chances de coup critique à distance
+      Rester immobile augmente tous les dégâts et les chances de coup critique
+      '''
+    SetBonus: Effets des armures à distance d'Estragon, de Brûlesang et du Déicide
+  }
+  AuricTeslaPlumedHelm:
+  {
+    DisplayName: Heaume à Plumes Tesla Aurique
+    Tooltip:
+      '''
+      +20% de dégâts et de chances de coup critique de voleur
+      +5% de vitesse de mouvement
+      '''
+    SetBonus:
+      '''
+      Effets des armures de voleur d'Estragon, de Brûlesang et du Déicide
+      +130 furtivité maximum
+      '''
+  }
+  AuricTeslaRoyalHelm:
+  {
+    DisplayName: Heaume Royal Tesla Aurique
+    Tooltip:
+      '''
+      +20% de dégâts de mêlée
+      +10% de chances de coup critique en mêlée
+      '''
+    SetBonus:
+      '''
+      Effets des armures de mêlée d'Estragon, de Brûlesang et du Déicide
+      Les ennemis ont plus de chances de vous cibler
+      +28% de vitesse de mêlée
+      '''
+  }
+  AuricTeslaSpaceHelmet:
+  {
+    DisplayName: Casque Spatial en Tesla Aurique
+    Tooltip: +15% de dégâts d'invocation
+    SetBonus:
+      '''
+      Effets des armures d'invocateur d'Estragon, de Brûlesang et de Silva
+      Accélération et vitesse maximale augmentées de 5%
+      +6 sbires max et +75% de dégâts d'invocation
+      '''
+  }
+  AuricTeslaWireHemmedVisage:
+  {
+    DisplayName: Visage Ourlé de Fils Tesla Aurique
+    Tooltip:
+      '''
+      +30% de dégâts magiques et +20% de chances de coup critique magique, +100 mana maximum et 20% de réduction des coûts en mana
+      Rester immobile augmente les dégâts et les chances de coup critique
+      '''
+    SetBonus:
+      '''
+      Effets des armures de mage d'Estragon, de Brûlesang et de Silva
+      Accélération et vitesse maximale augmentées de 5%
+      '''
+  }
+  BloodflareBodyArmor:
+  {
+    DisplayName: Cuirasse de Brûlesang
+    Tooltip:
+      '''
+      +12% de dégâts et +8% de chances de coup critique
+      Vous régénérez rapidement de la vie et gagnez 30 défense quand vous êtes dans la lave
+      +40 vie maximum
+      '''
+    CommonSetBonus:
+      '''
+      Augmente grandement la régénération de vie
+      Les ennemis ayant moins de 50% de leur vie lâchent un coeur lorsqu'ils sont touchés
+      Cet effet à 5 secondes de temps de recharge
+      '''
+  }
+  BloodflareCuisses:
+  {
+    DisplayName: Cuissardes Brûlesang
+    Tooltip: +17% de vitesse de mouvement, +10% de dégâts et +7% de chances de coup critique
+  }
+  BloodflareHeadMagic:
+  {
+    DisplayName: Heaume d'Hydre Brûlesang
+    Tooltip: +20% de dégâts magiques, +10% de chances de coup critique magique, +100 mana max et 17% de réduction du coût en mana
+    SetBonus:
+      '''
+      Les armes magiques tirent des décharges fantômatiques toutes les 1.67 secondes
+      Les coups critiques magiques provoquerons des explosions de flammes toutes les 2 secondes
+      '''
+  }
+  BloodflareHeadMelee:
+  {
+    DisplayName: Masque Brûlesang de Ruée
+    Tooltip: +10% de dégâts en mêlée
+    SetBonus:
+      '''
+      +18% de vitesse en mêlée
+      Les ennemis ont plus de chances de vous cibler
+      Les attaques en vraie mêlée vous soigneront
+      Après avoir frappé 15 fois en vraie mêlée, vous entrerez dans une furie sanguinaire pendant 5 secondes
+      Cette furie vous fera gagner 25% de dégâts et de chances de coup critique de mêlée supplémentaire, et les dégâts de contact seront réduits de moitié
+      Cet effet a un temps de recharge de 30 secondes
+      '''
+  }
+  BloodflareHeadRanged:
+  {
+    DisplayName: Casque Cornu de Brûlesang
+    Tooltip: +10% de dégâts et de chances de coup critique à distance
+    SetBonus:
+      '''
+      Appuyez sur {0} pour relâcher les âmes perdues de l'Épouvantôme pour détruire vos ennemis
+      Cet effet a un temps de recharge de 30 secondes
+      Les armes à distance tirent des orbes d'explosang toutes les 2,5 secondes
+      '''
+  }
+  BloodflareHeadRogue:
+  {
+    DisplayName: Masque de Diablotin Brûlesang
+    Tooltip:
+      '''
+      +10% de dégâts et de chances de coup critique de voleur
+      +5% de vitesse de mouvement
+      '''
+    SetBonus:
+      '''
+      +120 furtivité maximum
+      Avoir plus de 80% de votre vie augmente votre défense de 30 et vos chances de coup critique de 5%
+      Avoir moins de 80% de vie augmente vos dégâts de voleur de 10%
+      Les coups critiques de voleur ont 50% de vous soigner
+      '''
+  }
+  BloodflareHeadSummon:
+  {
+    DisplayName: Heaume de Wyverne Brûlesang
+    Tooltip: +5% de dégâts d'invocation
+    SetBonus:
+      '''
+      +50% de dégâts d'invocation and +3 sbires max
+      Invoquent des mines d'Épouvantôme autour de vous
+      Avoir plus de 90% de vie vous fait gagner 10% de dégâts d'invocation
+      Avoir 50% ou moins vous fait gagner 20 défense et +2 régénération de vie
+      '''
+  }
+  DemonshadeBreastplate:
+  {
+    DisplayName: Plastron d'Ombredémon
+    Tooltip:
+      '''
+      +25% de vitesse en mêlée, +15% de dégâts et de chances de coup critique
+      Les ennemis prennent une quantité de dégâts absurdes quand ils vous touchent
+      +200 PV et Mana maximum
+      Rester immobile vous permettra d'absorber les ombres et augmentera votre régénération de vie
+      '''
+  }
+  DemonshadeGreaves:
+  {
+    DisplayName: Grèves d'Ombredémon
+    Tooltip: Vitesse d'ombre
+  }
+  DemonshadeHelm:
+  {
+    DisplayName: Heaume d'Ombredémon
+    Tooltip: +30% de dégâts et +15% de chances de coup critique
+    SetBonus:
+      '''
+      +100% de dégâts d'invocation et +10 sbires max
+      Des rayons d'ombre et des faux démoniaques pleuvront si vous vous faîtes toucher
+      Un diable rouge amical vous suit
+      Appuyez sur {0} pour enrager les ennemis environnants avec un sort de magie noire pendant 10 secondes
+      Ils prendront alors 125% de dégâts supplémentaires, mais vous infligeront 25% de dégâts supplémentaires
+      '''
+  }
+  EmpyreanCloak:
+  {
+    DisplayName: Cape Empyréene
+    Tooltip:
+      '''
+      Armure du cosmos
+      +20 vie maximum
+      +7% de dégâts et de chances de coup critique de voleur
+      '''
+  }
+  EmpyreanCuisses:
+  {
+    DisplayName: Cuissardes Empyréenes
+    Tooltip:
+      '''
+      +5% de dégâts et de chances de coup critique de voleur
+      +15% de vitesse de déplacement
+      '''
+  }
+  EmpyreanMask:
+  {
+    DisplayName: Masque Empyréen
+    Tooltip:
+      '''
+      +11% de dégâts et de chances de coup critique de voleur
+      +5% de vitesse de mouvement
+      '''
+    SetBonus:
+      '''
+      +9% de dégâts et de vitesse des projectiles de voleur
+      +115 furtivité maximum
+      Les projectiles de voleur auront des effets spéciaux quand ils touchent
+      Vous imprègne de rage et de fureur cosmique lorsque vous prenez des dégâts
+      '''
+  }
+  FearmongerGreathelm:
+  {
+    DisplayName: Grand Heaume du Sème-Peur
+    Tooltip:
+      '''
+      De le terreur pure émane de vos yeux
+      +60 mana maximum et 10% de réduction du coût en mana
+      +10% de dégâts d'invocation
+      '''
+    SetBonus:
+      '''
+      +20% de dégâts d'invocation et +2 sbires max
+      Les sbires infligent les dégâts normaux, même si vous ne tenez pas une arme d'invocateur
+      Immunise à toutes les formes de givre et de flamme
+      Toutes les attaques de sbires augmente colossalement votre régénération de vie
+      +15% de réduction de dégâts durant les lunes citrouiiles et de givre
+      Cette augmentation de la réduction ignore la limite habituelle
+      '''
+  }
+  FearmongerGreaves:
+  {
+    DisplayName: Grèves du Sème-Peur
+    Tooltip:
+      '''
+      +6% de dégâts
+      +50% d'augmentation de recul des sbires
+      +10% de vitesse de mouvement
+      Prendre des dégâts augmente votre vitesse de mouvement de 40% pendant 4 secondes
+      '''
+  }
+  FearmongerPlateMail:
+  {
+    DisplayName: Armure de Plates du Sème-Peur
+    Tooltip:
+      '''
+      +100 vie maximum et +8% de réduction de dégâts
+      +5% des dégâts et de chances de coup critique
+      '''
+  }
+  GemTechBodyArmor:
+  {
+    DisplayName: Armure corporelle Gem Tech
+    Tooltip: "'Vous êtes tombé assez bas pour que je puisse vous atteindre.'"
+  }
+  GemTechHeadgear:
+  {
+    DisplayName: Couvre-chef Gem Tech
+    Tooltip: "'La Diable dit: Complais toi dans ta victoire; Tu as mérité ta damnation. Prend tes affaires et va t'en.'"
+    AbilityBrief: Gemme de pouvoir - Six fragments de gemmes orbitent autour de vous; une pour chaque classe, et une gemme de base
+    AbilityDescription:
+      '''
+      Chaque gemme active confère un bonus pour sa classe respective, tandis que la gemme défensive accorde des améliorations défensives.
+      Les attaques puissantes des ennemis délogeront les gemmes, les lançant vers l'ennemi le plus proche pour infliger des dégâts considérables.
+      Les gemmes perdues se régénèrent après un certain temps.
+      La gemme perdue est de la même classe que l'arme que vous utilisez, alors préparez-vous à passer d'une arme à l'autre !
+      '''
+    GeneralGemInfo:
+      '''
+      Une gemme est perdue lorsque vous subissez plus de {0} dégâts en un seul coup.
+      Le type de gemme perdue est le même que la classe précédente que vous avez utilisée.
+	  Si cette gemme a déjà été perdue, la gemme de base est perdue à la place.
+      Lorsqu'une gemme est perdue, elle se détache et se dirige vers l'ennemi ou le boss le plus proche, s'il y en a un, infligeant {1} dégâts de base.
+      Les gemmes ont un délai de {2} secondes avant de réapparaître.
+      '''
+    RedGemInfo: "[i:Ruby] La gemme rouge augmente la furtivité maximum de {0}, augmente les statistiques de voleur, et rends la furtivité uniquement consommable par les armes de voleur"
+    YellowGemInfo: "[i:Topaz] La gemme jaune offre des statistiques de mêlée accrues et fait en sorte que les attaques de mêlée libèrent des éclats au contact avec un délai entre chaque libération. Ce délai est plus court pour les attaques de vraie mêlée"
+    GreenGemInfo: "[i:Emerald] La gemme verte offre des statistiques à distance accrues et fait en sorte que des fléchettes volent rapidement vers les cibles lorsqu'elles sont touchées par un projectile à distance"
+    BlueGemInfo: "[i:Sapphire] La gemme bleue accorde {0} sbires supplémentaires, de dégâts d'invocation et annule la pénalité de dégâts d'invocation lorsque vous utilisez des armes qui ne sont pas pour les invocateurs"
+    PurpleGemInfo: "[i:Amethyst] La gemme violette accorde {0} de mana maximum supplémentaire, des statistiques de magie augmentées et permet au mana de se régénérer rapidement lorsque vous tenez une arme qui n'est pas magique."
+    PinkGemInfo: "[i:Diamond] La gemme de base rose accorde {0} de défense supplémentaire, une réduction de dégâts supplémentaire, une vitesse de déplacement augmentée, une vitesse de saut augmentée et +{1} de régénération de vie"
+    GemBonusInfo:
+      '''
+      Quand toutes les gemmes existent simultanément, frapper une cible avec n'importe quelle arme vous accorde +{0} de régénération de vie pendant {1} secondes.
+      Cela augmente à +{2} de régénération de vie si une arme d'une autre classe est utilisée pendant cette période de {1} seconde, pendant {3} secondes.
+      '''
+  }
+  GemTechSchynbaulds:
+  {
+    DisplayName: Couvre-jambes Gem Tech
+    Tooltip: "'S'ils vous blessent, frappez les de vos pieds'"
+  }
+  GodSlayerChestplate:
+  {
+    DisplayName: Plastron du Déicide
+    Tooltip:
+      '''
+      +60 vie maximum
+      Les ennemis subissent des dégâts quand ils vous touchent
+      +11% de dégâts et +6% de chances de coup critique
+      '''
+    CommonSetBonus:
+      '''
+      Vous permet de foncer sur une immense distance dans 8 directions
+      Appuyez sur {0} en maintenant les touches de déplacement dans la direction souhaitée
+      Les ennemis traversés subissent énormément de dégâts
+      Pendant la charge, vous êtes immunisé à la plupart des altérations d'états
+      Cette capacité a un temps de recharge de {1} secondes
+      '''
+  }
+  GodSlayerHeadMelee:
+  {
+    DisplayName: Grand Heaume Cornu du Déicide
+    Tooltip:
+      '''
+      +14% de dégâts de mêlée
+      +7% de chances de coup critique de mêlée
+      '''
+    SetBonus:
+      '''
+      +20% de vitesse de mêlée
+      Les ennemis ont plus de chances de vous cibler
+      Prendre plus de 80 dégâts en une fois vous fera relâcher un essaim de fléchettes déicides infligeant des dégâts élevés
+      Les ennemis subissent beaucoup de dégâts quand ils vous touchent
+      Une attaque vous infligeant 80 dégâts ou moins verra ses dégâts réduits à 1
+      '''
+  }
+  GodSlayerHeadRanged:
+  {
+    DisplayName: Heaume du Déicide
+    Tooltip: +14% de dégâts et de chances de coup critique à distance
+    SetBonus: Vous tirez une cartouche déicide à fragmentation avec les armes à distance toutes les 2,5 secondes
+  }
+  GodSlayerHeadRogue:
+  {
+    DisplayName: Masque du Déicide
+    Tooltip:
+      '''
+      +14% de dégâts et de chances de coup critique de voleur
+      +5% de vitesse de mouvement
+      '''
+    SetBonus:
+      '''
+      +120 furtivité maximum
+      +10% a toutes les statistiques de voleur si vous avez toute votre vie
+      Prendre plus de 80 dégâts en une fois augmentera votre période d'invulnérabilité
+      '''
+  }
+  GodSlayerLeggings:
+  {
+    DisplayName: Pantalon du Déicide
+    Tooltip:
+      '''
+      +5% vitesse de mouvement
+      +10% de dégâts et +6% de chances de coup critique
+      '''
+  }
+  OmegaBlueChestplate:
+  {
+    DisplayName: Plastron Bleu Omega
+    Tooltip:
+      '''
+      +12% de dégâts et +8% de chances de coup critique
+      Vos attaques infligent Écrasement des Profondeurs
+      Annule la régénération de vie
+      '''
+  }
+  OmegaBlueHelmet:
+  {
+    DisplayName: Casque Bleu Omega
+    Tooltip:
+      '''
+      Vous pouvez vous déplacer librement dans les liquides
+      +12% de dégâts et +8% de chances de coup critique
+      '''
+    SetBonus:
+      '''
+      +15 pénétration d'armure
+      +10% de dégâts et de chances de coup critique et +2 sbires max
+      Des tentacules courtes vous soignent en aspirant la vie des ennemis
+      Appuyez sur {0} par activer la folie abyssale pendant 5 secondes
+      La folie abyssale augmente les dégâts, les chances de coup critique et la portée et l'agressivité des tentacules
+      Cet effet a 25 secondes de temps de recharge
+      '''
+  }
+  OmegaBlueTentacles:
+  {
+    DisplayName: Tentacule Bleue Omega
+    Tooltip:
+      '''
+      +12% de vitesse de mouvement
+      +12% de dégâts et de chances de coup critique
+      '''
+  }
+  PrismaticGreaves:
+  {
+    DisplayName: Grèves Prismatiques
+    Tooltip:
+      '''
+      +10% de dégâts magiques et +12% de chances de coup critique magique
+      -20% aux dégâts non magiques
+      +10% de temps de vol et +2% de vitesse de saut
+      '''
+  }
+  PrismaticHelmet:
+  {
+    DisplayName: Casque Prismatique
+    Tooltip:
+      '''
+      +18% de dégâts magiques et +12% de chances de coup critique magique
+      -20% aux dégâts non magiques
+      Les ennemis avec moins de 500 points de vie maximum n'infligent plus de dégâts de contact
+      Cela ne fonctionne pas quand un boss est en vie
+      '''
+    SetBonus:
+      '''
+      +40 mana maximum et +15% de réduction des coût en mana
+      Régénération de mana augmentée
+      Appuyez sur {0} pour relâcher un barrage de lasers mortels au niveau du curseur pour les prochaines 5 secondes
+      Cette capacité a un temps de recharge de 30 secondes
+      '''
+  }
+  PrismaticRegalia:
+  {
+    DisplayName: Regalia Prismatique
+    Tooltip:
+      '''
+      +12% de dégâts magiques et +15% de chances de coup critique magique
+      -20% aux dégâts non-magiques
+      +20 vie maximum et +40 mana maximum
+      Les attaques magiques relâchent occasionnellement une paire de missiles à tête chercheuse
+      '''
+  }
+  SilvaArmor:
+  {
+    DisplayName: Armure Silva
+    Tooltip:
+      '''
+      +80 vie maximum
+      +12% de dégâts et +8% de chances de coup critique
+      '''
+    CommonSetBonus:
+      '''
+      Tous les projectiles font apparaître des orbes de feuilles soignantes quand vous touchez
+      Vitesse maximale et d'accélération augmentées de 5%
+      Si vous tombez à 1 PV, vous survivrez pendant 8 secondes sans pouvoir prendre de dégâts
+      Cet effet a temps de recharge de 5 minutes, et ce temps ne se décompte que si aucun boss ni évènement n'est actif
+      '''
+  }
+  SilvaHeadMagic:
+  {
+    DisplayName: Chapeau Masqué Silva
+    Tooltip:
+      '''
+      +23% de dégâts et +13% de chances de coup critique magique
+      +100 mana maximum et 19% de réduction des coûts en mana
+      '''
+    SetBonus: Les projectiles magiques qui ne transperçent pas lancerons occasionnellement de puissantes explosions d'énergie naturelle
+  }
+  SilvaHeadSummon:
+  {
+    DisplayName: Couvre-chef Wulfrum
+    Tooltip: +10% de dégâts d'invocation
+    SetBonus:
+      '''
+      +65% de dégâts d'invocation et +5 sbires max
+      Invoque un ancien prisme de feuille pour anéantir vos ennemis avec de l'énergie vitale
+      '''
+  }
+  SilvaLeggings:
+  {
+    DisplayName: Pantalon Silva
+    Tooltip:
+      '''
+      +10% de vitesse de mouvement
+      +12% de dégâts et de chances de coup critique
+      '''
+  }
+  TarragonBreastplate:
+  {
+    DisplayName: Plastron d'Estragon
+    Tooltip:
+      '''
+      +10% de dégâts et +5% de chances de coup critique
+      +2 régénération de vie et +40 vie maximum
+      '''
+    CommonSetBonus:
+      '''
+      Réduit le taux d'apparition des ennemis
+      Augmente la portée de collecte des coeurs
+      Les ennemis ont une chance de laisser tomber plus de coeurs quand ils meurent
+      '''
+  }
+  TarragonHeadMagic:
+  {
+    DisplayName: Masque d'Estragon
+    Tooltip:
+      '''
+      +20% de dégâts magiques et +10% de chances de coup critique magique
+      +5% de réduction de dégâts, +100 mana maximum, +15% de réduction du coût en mana
+      '''
+    SetBonus:
+      '''
+      Vous relâchez une tempête de feuilles tous les 5 coups critiques
+      Les projectiles magiques vous soignent quand ils touchent
+      Le montant de vie rendu dépend des dégâts des projectiles
+      '''
+  }
+  TarragonHeadMelee:
+  {
+    DisplayName: Heaume d'Estragon
+    Tooltip:
+      '''
+      +10% de dégâts de mêlée
+      +5% de chances de coup critique de mêlée
+      +5% de réduction de dégâts
+      '''
+    SetBonus:
+      '''
+      +15% de vitesse de mêlée
+      Les ennemis ont plus de chances de vous cibler
+      Vous avez 25% de chances de gagner un bonus de régénération de vie quand vous prenez des dégâts
+      Appuyez sur {0} pour vous entourer d'énergie vitale qui réduit grandement les dégâts de contact pendant for 10 secondes
+      Cet effet a un temps de recharge de 30 secondes
+      '''
+  }
+  TarragonHeadRanged:
+  {
+    DisplayName: Visage d'Estragon
+    Tooltip:
+      '''
+      +10% de dégâts et de chances de coup critique à distance
+      +5% de réduction de dégâts
+      '''
+    SetBonus: Les projectiles des armes à distance se divisent en énergie vitale et en feuilles à tête chercheuse à l'impact
+  }
+  TarragonHeadRogue:
+  {
+    DisplayName: Casque d'Estragon
+    Tooltip:
+      '''
+      +10% de dégâts et de chances de coup critique de voleur
+      +5% de réduction de dégâts et de vitesse de mouvement
+      '''
+    SetBonus:
+      '''
+      +115 furtivité maximum
+      Vous gagnez 3 secondes d'invincibilité tous les 25 coups critiques de voleur
+      Cet effet ne peut s'activer qu'une fois toutes les 30 secondes
+      Si vous êtes sous l'effet d'une altération d'état, vous gagnez 10% de dégâts de voleur
+      '''
+  }
+  TarragonHeadSummon:
+  {
+    DisplayName: Heaume Cornu d'Estragon
+    Tooltip: +5% de réduction de dégâts et de dégâts d'invocation
+    SetBonus:
+      '''
+      +50% de dégâts d'invocation et +3 sbires max
+      Invoque une aura de vie autour de vous qui endommage les ennemis proches
+      '''
+  }
+  TarragonLeggings:
+  {
+    DisplayName: Pantalon d'Estragon
+    Tooltip:
+      '''
+      +10% de vitesse de mouvement
+      +8% de dégâts et de chances de coup critique
+      '''
+  }

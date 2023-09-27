@@ -1,0 +1,171 @@
+
+  AccelerationRound:
+  {
+    DisplayName: Balle Véloce
+    Tooltip: Gagne en vitesse au fur et à mesure
+  }
+  ArcticArrow:
+  {
+    DisplayName: Flèche Arctique
+    Tooltip: Gèle les ennemis pour une courte durée
+  }
+  AstralSolution:
+  {
+    DisplayName: Solution Astrale
+    Tooltip:
+      '''
+      Utilsée par le nettoyeur
+      Répand l'infection astrale
+      '''
+  }
+  BloodfireArrow:
+  {
+    DisplayName: Flèche de Sang de Feu
+    Tooltip: Vous soigne un peu quand vous touchez
+  }
+  BloodfireBullet:
+  {
+    DisplayName: Balle de Sang de Feu
+    Tooltip:
+      '''
+      Accélère la régénération de vie quand vous touchez
+      Inflige des dégâts additionnels en fonction de votre régénération de vie actuelle
+      '''
+  }
+  BloodRune:
+  {
+    DisplayName: Rune de Sang
+    Tooltip:
+      '''
+      Utilisé avec le barrage de glace
+      Trouvé dans une sorte de paysage runique
+      '''
+  }
+  BubonicRound:
+  {
+    DisplayName: Balle Bubonique
+    Tooltip:
+      '''
+	  Explose en peste virulente au toucher
+      Ignore 25% de la défense ennemie
+      '''
+  }
+  ElysianArrow:
+  {
+    DisplayName: Flèche Élysienne
+    Tooltip: Invoque des météores depuis le ciel
+  }
+  EnhancedNanoRound:
+  {
+    DisplayName: Nanoballe Améliorée
+    Tooltip: Rends les ennemis confus et relâchent un nuage de nanites quand les ennemis meurent
+  }
+  FlashRound:
+  {
+    DisplayName: Balle Flash
+    Tooltip: Émet une déflagration concussive qui rends les ennemis confus pour un court moment dans une large zone
+  }
+  GodSlayerSlug:
+  {
+    DisplayName: Balle Déicide
+    Tooltip:
+      '''
+      Des munitions lourdes qui transpercent indéfiniment en déchirant l'espace-temps
+      Après avoir touché, si la balle touche un mur ou ne peut plus percer,
+      Elle se téléporte en arrière dans l'espace et se supercharge, explosant alors à l'impact
+      '''
+  }
+  HolyFireBullet:
+  {
+    DisplayName: Balle de Feu Sacré
+    Tooltip: Balles sacrées explosives
+  }
+  HyperiusBullet:
+  {
+    DisplayName: Balle Hyperius
+    Tooltip:
+      '''
+      Vos ennemis risquent de passer un mauvais moment
+      Crée des balles supplémentaires quand vous touchez
+      '''
+  }
+  IcicleArrow:
+  {
+    DisplayName: Flèche de Stalactite
+    Tooltip: Se brise en morceaux à l'impact
+  }
+  IcyBullet:
+  {
+    DisplayName: Balle Glacée
+    Tooltip:
+      '''
+      Peut toucher jusqu'à trois fois
+      Se brise en éclats de glace au dernier impact
+      '''
+  }
+  MarksmanRound:
+  {
+    DisplayName: Balle de Tireur d'Élite
+    Tooltip:
+      '''
+	  Une balle minutieusement fabriquée qui peut ricocher sur les pièces en l'air
+	  Cela permet aux autres armes à feu d'utiliser les pièces jetées par le Colt Crackshot et Midas Prime
+      '''
+  }
+  MortarRound:
+  {
+    DisplayName: Cartouche de Mortier
+    Tooltip:
+      '''
+      Grande zone d'effet, détruit les tuiles
+      Utilisé par les armes classiques
+      '''
+  }
+  NapalmArrow:
+  {
+    DisplayName: Flèche de Napalm
+    Tooltip: Explose en éclats de feu
+  }
+  RubberMortarRound:
+  {
+    DisplayName: Obus de Mortier en Caoutchouc
+    Tooltip:
+      '''
+      Large rayon d'explosion
+      Detruit les tuiles à chaque rebond
+      Utilisable par les armes classiques
+      '''
+  }
+  SuperballBullet:
+  {
+    DisplayName: Superballe
+    Tooltip: Rebondit à d'extrêmes vitesses
+  }
+  TerraArrow:
+  {
+    DisplayName: Flèche Terra
+    Tooltip: Incroyablement rapide et explose en plus de flèche après avoir atteint une certaine vitesse
+  }
+  TerraBullet:
+  {
+    DisplayName: Balle Terra
+    Tooltip: Explose en éclats à tête chercheuse à l'impact
+  }
+  VanquisherArrow:
+  {
+    DisplayName: Flèche du Vainqueur
+    Tooltip:
+      '''
+      Traverse les tuiles
+      Crée des flèches à tête chercheuse sur sa trajectoire
+      '''
+  }
+  VeriumBullet:
+  {
+    DisplayName: Balle de Verium
+    Tooltip:
+      '''
+      Il n'y a pas d'échappatoire!
+      Pourchasse l'ennemi après l'avoir touché
+      '''
+  }

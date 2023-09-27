@@ -1,0 +1,312 @@
+
+  Abombination:
+  {
+    DisplayName: Abombination
+    Tooltip:
+      '''
+      Invoque le Goliath Porte-Peste quand utilisé dans la Jungle
+      Enrage en dehors de la jungle
+      Non consommable
+      '''
+  }
+  AstralChunk:
+  {
+    DisplayName: Morceau Astral
+    Tooltip:
+      '''
+      Invoque Astrum Aureus quand utilisé dans l'Infection Astrale
+      Enrage en journée quand il est en dehors de l'Infection Astrale
+      Non consommable
+      '''
+  }
+  BloodwormItem:
+  {
+    DisplayName: Ver de Sang
+    Tooltip:
+      '''
+      Invoque le Vieux Duc s'il est utilisé comme un appât dans dans la mer sulfurique
+      Enrage en dehors de la mer sulfurique
+      '''
+  }
+  BloodyWormFood:
+  {
+    DisplayName: Nourriture Sanglante pour Ver
+    Tooltip:
+      '''
+      Invoque la Ruche du Perforateur quand utilisé dans le carmin
+      Enrage en dehors du carmin souterrain
+      Non consommable
+      '''
+  }
+  CeremonialUrn:
+  {
+    DisplayName: Urne cérémoniale
+    Tooltip:
+      '''
+      Utilisez l'urne à l'Autel des Maudits pour invoquer Calamitas, la sorcière suprême
+      Non consommable
+      '''
+  }
+  CharredIdol:
+  {
+    DisplayName: Idole Calcinée
+    Tooltip:
+      '''
+      Invoque l'Élémentaire de Soufre quand utilisé dans les Vestiges Soufrés
+      Enrage en dehors des Vestiges Soufrés
+      Non consommable
+      'A utiliser à vos dépens'
+      '''
+  }
+  CosmicWorm:
+  {
+    DisplayName: Ver Cosmique
+    Tooltip:
+      '''
+      Invoque le dévoreur de dieux
+      Ne se consomme pas
+      '''
+  }
+  CryoKey:
+  {
+    DisplayName: Clé Cryo
+    GFBName: Clé Pyro
+    Tooltip:
+      '''
+      [SPAWN]
+      Enrage en dehors de la toundra
+      Non consommable
+      '''
+    SpawnNormal: Invoque Cryogène quand utilisé dans la Toundra
+    SpawnGFB: Invoque Pryogène...? quand utilisé dans la Toundra
+  }
+  DeathWhistle:
+  {
+    DisplayName: Sifflet de Mort
+    Tooltip:
+      '''
+      Invoque le Ravageur
+      Non consommable
+      Un très vieux sifflet du Temple
+      '''
+  }
+  DecapoditaSprout:
+  {
+    DisplayName: Germe de Décapodite
+    Tooltip:
+      '''
+      Invoque Crabulon quand utilisé dans un biome champignon
+      Enrage en dehors du biome champignon souterrain
+      Non consommable
+      '''
+  }
+  DesertMedallion:
+  {
+    DisplayName: Médaillon du Desert
+    Tooltip:
+      '''
+      Invoque le Fléau du Désert quand utilisé dans le désert
+      Enrage en dehors du désert
+      Non consommable
+      '''
+  }
+  EidolonTablet:
+  {
+    DisplayName: Tablette Eidolon
+    Tooltip:
+      '''
+      Invoque l'Adepte Lunatique
+      Ne se consomme pas
+      '''
+  }
+  ExoticPheromones:
+  {
+    DisplayName: Phéromones Exotiques
+    Tooltip:
+      '''
+      Invoque la Folie Draconique quand utilisé dans la Jungle
+      Enrage en dehors de la Jungle
+      Non consommable
+      Spécifiquement conçues pour attirer des hybrides draconiques
+      '''
+  }
+  EyeofDesolation:
+  {
+    DisplayName: Oeil de Désolation
+    Tooltip:
+      '''
+      Invoque le Clone de Calamitas quand utilisé durant la nuit[GFB]
+      Enrage durant la journée
+      Non consommable
+      'Cette nuit va être horrifique...'
+      '''
+    GFBInfo: Crée une arène carrée faite de blocs, avec vous en son centre
+  }
+  CausticTear:
+  {
+    DisplayName: Larme Caustique
+    Tooltip:
+      '''
+      Provoque un déluge d'acide dans la mer du sulfure
+      Non consommable
+      '''
+  }
+  MartianDistressRemote:
+  {
+    DisplayName: Télécommande de Détresse Martienne
+    Tooltip:
+      '''
+      Invoque la Folie Martienne
+      Non consommable
+      '''
+  }
+  NecroplasmicBeacon:
+  {
+    DisplayName: Balise Nécroplasmique
+    Tooltip:
+      '''
+      Invoque l'Épouvantôme quand utilisé dans le Donjon
+      Enrage dans les grands espaces
+      Non consommable
+      'Ca fait peur!'
+      '''
+  }
+  NO:
+  {
+    DisplayName: NO
+    Tooltip: U
+  }
+  OldPowerCell:
+  {
+    DisplayName: Vielle Cellule d'Énergie
+    Tooltip:
+      '''
+      Invoque le Golem quand utilisé dans le Temple de la Jungle
+      Enrage en dehors du Temple
+      Non consommable
+      '''
+  }
+  OverloadedSludge:
+  {
+    DisplayName: Gadoue Surchargée
+    Tooltip:
+      '''
+      Invoque le Dieu des Slimes
+      Non consommable
+      'Ca à l'air corrompu'
+      '''
+  }
+  Portabulb:
+  {
+    DisplayName: Portabulbe
+    Tooltip:
+      '''
+      Invoque Plantera quand utilisé dans la Jungle
+      Enrage en dehors de la Jungle souterraine
+      Non consommable
+      '''
+  }
+  ProfanedCore:
+  {
+    DisplayName: Coeur Profané
+    Tooltip:
+      '''
+      Invoque Providence quand utilisé dans le sacré ou les enfers
+      Certains objets lachés changent en fonction du biome
+      Enrage quand combattue la nuit
+      Non consommable
+      Le Coeur de la flamme profanée
+      '''
+  }
+  ProfanedShard:
+  {
+    DisplayName: Éclat Profané
+    Tooltip:
+      '''
+      [SPAWN]
+      Enrage quand en dehors du sacré ou des enfers
+      Non consommable
+      Un éclat de la flamme profanée
+      '''
+    SpawnNormal: Invoque les Gardiens Profanés quand utilisé dans le sacré ou les enfers durant la journée
+    SpawnRemix: Invoque les Gardiens Profanés quand utilisé dans le sacré ou les enfers
+  }
+  RuneofKos:
+  {
+    DisplayName: Rune de Kos
+    Tooltip:
+      '''
+      Contient le pouvoir chassé sans relâche par les sentinelles du dévoreur cosmique
+      [SPAWN]
+      Non consommable
+      Une relique de la flamme profanée
+      '''
+    SpawnInfo: Quand utilisée dans certaines zones, elle les invoquera
+    SpawnVoid:
+      '''
+      Invoque le Néant Incessant
+      Enrage à la surface
+      '''
+    SpawnSignus: Invoque Signus, l'Envoyé du Dévoreur
+    SpawnWeaver: Invoque le Tisse-Tempête
+  }
+  SandstormsCore:
+  {
+    DisplayName: Noyau de la Tempête des Sables
+    Tooltip:
+      '''
+      Invoque le Grand Requin des Sables quand utilisé dans le [BIOME]
+      Non consommable
+      '''
+  }
+  Seafood:
+  {
+    DisplayName: Fruit de Mer
+    Tooltip:
+      '''
+      Invoque le Fléau Aquantique quand utilisé dans la Mer Sulfureuse
+      Enrage en dehors de la Mer Sulfureuse
+      Non consommable
+      '''
+  }
+  Starcore:
+  {
+    DisplayName: Coeur d'Étoile
+    Tooltip:
+      '''
+      Invoque Astrum Deus à la Balise Astrale, mais ne se consomme pas
+      Enrage la journée
+      'Que les étoiles guident ton chemin'
+      '''
+  }
+  Teratoma:
+  {
+    DisplayName: Teratome
+    Tooltip:
+      '''
+      Invoque l'Esprit de Rûche quand utilisé dans la Corruption
+      Enrage en dehors de la Corruption souterraine
+      Non consommable
+      '''
+  }
+  Terminus:
+  {
+    DisplayName: Terminus
+    GFBName: Ogscule
+    Tooltip:
+      '''
+	  Active la Ruée de Boss, l'utiliser à nouveau annule la ruée.
+      Pendant la Ruée de Boss, tous les câbles et appareils cablés seront désactivés
+      '''
+  }
+  YharonEgg:
+  {
+    DisplayName: Oeuf de Phénix Béni
+    Tooltip:
+      '''
+	  Invoque Yharon, Dragon de la Renaissance
+      Enrage en dehors des murs de flammes
+      Non consommable
+      Une effigie d'oeuf de dragon phénix, à des fins de culte
+      '''
+  }

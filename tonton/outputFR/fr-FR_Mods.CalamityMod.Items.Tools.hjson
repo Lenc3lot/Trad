@@ -1,0 +1,214 @@
+
+  AbyssalWarhammer:
+  {
+    DisplayName: Marteau de Guerre Abyssal
+    
+  }
+  AerialHamaxe:
+  {
+    DisplayName: Martache Aérienne
+    
+  }
+  AstralHamaxe:
+  {
+    DisplayName: Martache Astrale
+    
+  }
+  AstralPickaxe:
+  {
+    DisplayName: Pioche Astrale
+    
+  }
+  AxeofPurity:
+  {
+    DisplayName: Hache de Pureté
+    Tooltip:
+      '''
+      Clic gauche pour l'utiliser comme outil
+      Clic droit pour purifier le mal
+      '''
+  }
+  BeastialPickaxe:
+  {
+    DisplayName: Pioche-hache Bestiale
+    
+  }
+  BerserkerWaraxe:
+  {
+    DisplayName: Hache de Guerre du Berserker
+    
+  }
+  BlossomPickaxe:
+  {
+    DisplayName: Piochache de Floraison
+    Tooltip: Peut extraire le minerai aurique
+  }
+  BobbitHook:
+  {
+    DisplayName: Bobbit Hook
+    Tooltip:
+      '''
+      Retracts upon attaching to a tile with extreme speeds
+      Reach: 40
+      Launch Velocity: 25
+      Reelback Velocity: 28
+      Pull Velocity: 24
+      '''
+  }
+  AridArtifact:
+  {
+    DisplayName: Artéfact Aride
+    Tooltip:
+      '''
+      Invoque une tempête de sable
+      La tempête de sable arrivera peu après l'utilisation de l'objet
+      Si utilisé durant une tempête de sable, la tempête s'arrêtera peu après l'utilisation de l'objet
+      '''
+  }
+  Cosmolight:
+  {
+    DisplayName: Cosmolueur
+    Tooltip:
+      '''
+      Advances time immediately to the next dawn, noon, dusk or midnight
+      Does not work while a boss is alive
+      '''
+  }
+  TorrentialTear:
+  {
+    DisplayName: Torrential Tear
+    Tooltip:
+      '''
+      Summons the rain
+      Rain will start some time after this item is used
+      If used while it's raining, the rain will stop some time afterward
+      '''
+  }
+  CrystylCrusher:
+  {
+    DisplayName: Écraseur de Crystyl
+    Tooltip:
+      '''
+      Hold <right> to channel a beam that destroys just about anything
+      'Gotta dig faster, gotta go deeper'
+      '''
+  }
+  FellerofEvergreens:
+  {
+    DisplayName: Tombeur des Verdures
+    
+  }
+  Gelpick:
+  {
+    DisplayName: Pioche-Gelée
+    
+  }
+  GenesisPickaxe:
+  {
+    DisplayName: Piochache de Génèse
+    Tooltip: Peut extraire le minerai d'Ueliclosion
+  }
+  Grax:
+  {
+    DisplayName: Grax
+    Tooltip:
+      '''
+      Hitting an enemy will greatly boost your defense, melee damage and melee crit for a short time
+      Press <right> to use without hammering down walls or chopping down trees
+      '''
+  }
+  GreatbayPickaxe:
+  {
+    DisplayName: Pioche de la Grande Baie
+    Tooltip: Can mine Demonite, Crimtane, Meteorite, Sea Prisms and Sea Prism Crystals
+  }
+  InfernaCutter:
+  {
+    DisplayName: Cutter Infernal
+    Tooltip:
+      '''
+      Les coups critiques avec la lame provoquent de petites explosions
+      Génère un nombre aléatoire d'étincelles quand utilisé
+      '''
+  }
+  MarniteDeconstructor:
+  {
+    DisplayName: Marnite Deconstructor
+    Tooltip:
+      '''
+      Its engine generates hardlight rays capable of excavating walls from a long distance
+      Ignores 10 points of enemy Defense
+      '''
+  }
+  MarniteObliterator:
+  {
+    DisplayName: Marnite Obliterator
+    Tooltip:
+      '''
+      Uses a diamond focus to project a long-range digging beam of light
+      Ignores 5 points of enemy Defense
+      '''
+  }
+  ReefclawHamaxe:
+  {
+    DisplayName: Martache de Récigriffe
+    
+  }
+  SeismicHampick:
+  {
+    DisplayName: Marpioche Sismique
+    Tooltip:
+      '''
+      Capable of mining Lihzahrd Bricks
+      Press <left> to use as a pickaxe
+      Press <right> to use as a hammer
+      '''
+  }
+  ShardlightPickaxe:
+  {
+    DisplayName: Pioche d'ÉclatLueur
+    
+  }
+  SkyfringePickaxe:
+  {
+    DisplayName: Pioche de Bordeciel
+    Tooltip: Peut extraire de la pierre infernale
+  }
+  TectonicTruncator:
+  {
+    DisplayName: Tectonic Truncator
+    Tooltip: ""
+  }
+  WulfrumDiggingTurtle:
+  {
+    DisplayName: Wulfrum Digging Turtle
+    Tooltip:
+      '''
+      Throws a rickety mining contraption to dig out a small tunnel
+      In case of an emergency, press <right> to instantly detonate all your digging turtles
+      '''
+  }
+  WulfrumDrill:
+  {
+    DisplayName: Wulfrum Drill
+    Tooltip: ""
+  }
+  WulfrumScaffoldKit:
+  {
+    DisplayName: Wulfrum Scaffold Kit
+    Tooltip:
+      '''
+      Places down temporary metal scaffolding. Uses up one wulfrum metal scrap for 40 tiles built
+      Scaffold needs to be adjacent to a solid tile to be placed down
+      'For when you need something built fast and don't need it to last.'
+      '''
+  }
+  WulfrumTreasurePinger:
+  {
+    DisplayName: Wulfrum Treasure Pinger
+    Tooltip:
+      '''
+      Locates nearby metal that's hopefully more valuable than wulfrum
+      This contraption seems incredibly shoddy. [c/FC4903:It'll break sooner than later for sure]
+      '''
+  }

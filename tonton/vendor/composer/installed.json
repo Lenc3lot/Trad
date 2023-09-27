@@ -1,0 +1,64 @@
+{
+    "packages": [
+        {
+            "name": "laktak/hjson",
+            "version": "v2.2.0",
+            "version_normalized": "2.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hjson/hjson-php.git",
+                "reference": "f2c9eb194c5d294ed5e6a2dbcf79e5d7f4c3fb83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hjson/hjson-php/zipball/f2c9eb194c5d294ed5e6a2dbcf79e5d7f4c3fb83",
+                "reference": "f2c9eb194c5d294ed5e6a2dbcf79e5d7f4c3fb83",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "time": "2021-12-27T17:39:24+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "HJSON\\": "src/HJSON"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Issam Zoli",
+                    "email": "jawbfl@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "JSON for Humans. A configuration file format with relaxed syntax, fewer mistakes and more comments.",
+            "homepage": "https://github.com/hjson/hjson-php",
+            "keywords": [
+                "comments",
+                "config",
+                "hjson",
+                "human",
+                "json",
+                "parser",
+                "serializer"
+            ],
+            "support": {
+                "issues": "https://github.com/hjson/hjson-php/issues",
+                "source": "https://github.com/hjson/hjson-php/tree/v2.2.0"
+            },
+            "install-path": "../laktak/hjson"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

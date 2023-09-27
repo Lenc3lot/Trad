@@ -1,0 +1,19 @@
+AcidRainT1: {
+	 EntryName: Pluie Acide
+	 SpawnInfo: Utilisez une [i:CalamityMod/CausticTear] ou attendez que l'évènement se déclenche naturellement après avoir vaincu l'Oeil de Cthulhu
+}
+
+AcidRainT2: {
+	 EntryName: Pluie Acide (Rang 2)
+	 SpawnInfo: Utilisez une [i:CalamityMod/CausticTear] ou attendez que l'évènement se déclenche naturellement après avoir vaincu le Fléau Aquatique
+}
+
+AcidRainT3: {
+	 EntryName: Pluie Acide (Rang 3)
+	 SpawnInfo: Utilisez une [i:CalamityMod/CausticTear] ou attendez que l'évènement se déclenche naturellement après avoir vaincu l'Épouvantôme
+}
+
+BossRush: {
+	 EntryName: Boss Rush
+	 SpawnInfo: Utilisez un [i:CalamityMod/Terminus] trouvé au fond des abysses
+}

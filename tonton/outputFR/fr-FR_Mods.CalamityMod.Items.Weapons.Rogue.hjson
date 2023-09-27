@@ -1,0 +1,1381 @@
+
+  AcidicRainBarrel:
+  {
+    DisplayName: Baril de Pluie Acide
+    Tooltip:
+      '''
+      Lance un baril roulant qui explose contre les murs
+      Les attaques furtives font pleuvoir quand elles heurtent quelque chose
+      '''
+  }
+  AdamantiteThrowingAxe:
+  {
+    DisplayName: Hache de Lancer en Adamantite
+    Tooltip: Les attaques furtives invoquent des éclairs quand vous touchez
+  }
+  AlphaVirus:
+  {
+    DisplayName: Virus Alpha
+    Tooltip:
+      '''
+      Throws a giant plague cell with a lethal aura that explodes into 6 homing plague seekers
+      Stealth strikes cause the plague cell to move slower, accumulating an aura of swirling plague seekers as it flies
+      '''
+  }
+  Apoctolith:
+  {
+    DisplayName: Apoctolite
+    Tooltip:
+      '''
+      Critical hits tear away enemy defense
+      Stealth strikes shatter and briefly stun enemies
+      'Maybe catching bricks with your face isn't such a hot idea...'
+      '''
+  }
+  AshenStalactite:
+  {
+    DisplayName: Stalactite Cendrée
+    Tooltip:
+      '''
+      Throws a small stalactite that crumbles to dust after travelling a short distance
+      Stealth strikes cause a larger, more damaging stalagmite to be thrown which travels slower and further before crumbling to damaging dust
+      '''
+  }
+  AuroradicalThrow:
+  {
+    DisplayName: Lancer Radicalaurore
+    Tooltip:
+      '''
+      Lance une étoile qui se divisent après un court moment
+      Les étoiles résultantes se dirigent vers les ennemis après un instant
+      Les attaques furtives invoquent un météore quand les ennemis sont touchés
+      '''
+  }
+  BallisticPoisonBomb:
+  {
+    DisplayName: Bombe de Poison Ballistique
+    Tooltip:
+      '''
+      Jette une bombe collante qui explosent en piques et en nuages de poison
+      Les attaques furtives en lancent trois à la fois
+      '''
+  }
+  BlastBarrel:
+  {
+    DisplayName: Tonneau Explosif
+    Tooltip:
+      '''
+      Lance un tonneau roulant qui explose en heurtant un mur
+      Les attaque furtives font rebondir le baril deux fois avec qu'il explose, avec des effets variés à chaque rebond
+      'Y a des gens qui sautaient au-dessus, avant'
+      '''
+  }
+  BlazingStar:
+  {
+    DisplayName: Étoile Flamboyante
+    Tooltip:
+      '''
+      Tosses up to 3 red hot returning glaives
+      Stealth strikes throw three glaives with infinite piercing
+      '''
+  }
+  BloodsoakedCrasher:
+  {
+    DisplayName: Écraseur Ensanglanté
+    Tooltip:
+      '''
+      Throws a bloody axe that is affected by gravity and can bounce twice
+      The axe speeds up over time, but will slow down upon hitting an enemy
+      Heals on enemy hits
+      Stealth strikes spawn homing blood on enemy hits
+      '''
+  }
+  BouncingEyeball:
+  {
+    DisplayName: Globe Oculaire Rebondissant
+    Tooltip:
+      '''
+      Throws an eyeball that bounces off of surfaces
+      Stealth strikes cause the eyeballs to move much faster and bounce more energetically
+      Knockback is much stronger during a blood moon
+      '''
+  }
+  BouncySpikyBall:
+  {
+    DisplayName: Boule à Piques Rebondissante
+    Tooltip:
+      '''
+      Lance une boule très rebondissante qui ricoche sur les murs et les ennemis
+      Gagne un petit bonus aux dégâts et en vitesse quand elle rebondit sur un ennemi
+      Les attaques furtives lancent 4 balles d'un coup
+      '''
+  }
+  BrackishFlask:
+  {
+    DisplayName: Flasque Saumâtre
+    Tooltip:
+      '''
+      Throws a flask that explodes into poisonous seawater blasts
+      Stealth strikes summon a brackish spear spike
+      '''
+  }
+  Brimblade:
+  {
+    DisplayName: Soufrelame
+    Tooltip:
+      '''
+      Jette une lame qui se divise en touchant les ennemis
+      Les attaques furtives se divisent davantage et provoquent un barrage de fléchettes de soufre depuis le joueur
+      '''
+  }
+  BurningStrife:
+  {
+    DisplayName: Conflit Brûlant
+    Tooltip:
+      '''
+      Throws a shadowflame spiky ball that bursts into flames
+      Stealth strikes make the ball linger and explode more violently
+      'Definitely not pocket safe'
+      '''
+  }
+  CelestialReaper:
+  {
+    DisplayName: Faucheur Céleste
+    Tooltip:
+      '''
+      Lance une faux à tête chercheuse rapide
+      La faux rebondit après avoir touché un ennemi jusqu'a 6 fois
+      Les attaques furtives créent des images rémanentes qui infligent des dégâts
+      '''
+  }
+  Celestus:
+  {
+    DisplayName: Celestus
+    Tooltip:
+      '''
+      Throws a high-velocity scythe that splits into multiple phantom scythes on enemy hits
+      Stealth strikes reverse direction and home in on enemies after returning to the player
+      '''
+  }
+  Cinquedea:
+  {
+    DisplayName: Cinquedea
+    Tooltip: Les attaques furtives pourchassent les ennemis après les avoir touchés
+  }
+  CobaltKunai:
+  {
+    DisplayName: Kunaï de Cobalt
+    Tooltip: Les attaques furtives tirent trois eclairs d'énergie cobalt
+  }
+  ConsecratedWater:
+  {
+    DisplayName: Eau Consacrée
+    Tooltip:
+      '''
+      Throws a holy flask of water that explodes into a sacred flame pillar
+      The pillar is destroyed if there's no tiles below it
+      Stealth strikes create three flame pillars instead of one on impact
+      The bottle is surprisingly dusty
+      '''
+  }
+  ContaminatedBile:
+  {
+    DisplayName: Bile Contaminée
+    Tooltip:
+      '''
+      Lance une flasque de bile verte irradiée et maladive, qui explose à l'impact
+      Les attaques furtives explosent bien plus violemment
+      '''
+  }
+  CorpusAvertor:
+  {
+    DisplayName: Corpus Avertor
+    Tooltip:
+      '''
+      Attacks grant lifesteal based on damage dealt
+      The lower your HP the more damage this weapon does and heals the player on enemy hits
+      Stealth strikes throw a single rainbow outlined dagger
+      On enemy hits, this dagger boosts the damage and life regen of all members of your team
+      However, there is a small chance it will cut your health in half instead
+      'Seems like it has worn down over time'
+      '''
+  }
+  CosmicKunai:
+  {
+    DisplayName: Kunaï Cosmique
+    Tooltip:
+      '''
+      Fires a rapid stream of short-range kunai
+      Stealth strikes spawn 5 Cosmic Scythes which home and explode
+      '''
+  }
+  CraniumSmasher:
+  {
+    DisplayName: Destructeur de Crânes
+    Tooltip:
+      '''
+      Lance des disques qui roulent sur le sol, lancant occasionnellement un disque explosif
+      Les attaques furtives lancent un disque explosif qui peut traverser plusieurs ennemis
+      '''
+  }
+  CrushsawCrasher:
+  {
+    DisplayName: Écraseur Broie-scie
+    Tooltip:
+      '''
+      Jette des haches rebondissantes
+      Les attaques furtives en lancent 5 à la fois
+      '''
+  }
+  Crystalline:
+  {
+    DisplayName: Crystalline
+    Tooltip:
+      '''
+      Se divise en plusieurs projectiles sur sa trajectoire
+      Les attaques furtives font se diviser les lames davantage et créent des cristaux à la destruction
+      '''
+  }
+  CrystalPiercer:
+  {
+    DisplayName: Transperceur de Cristal
+    Tooltip:
+      '''
+      Jette un javelot de cristal qui transperce indéfiniment
+      Les attaques furtives traversent les blocs, ignorent la gravité et invoquent des éclats de cristal sur leur trajectoire
+      '''
+  }
+  CursedDagger:
+  {
+    DisplayName: Dague Maudite
+    Tooltip:
+      '''
+      Lance des dagues rebondissantes
+      Les attaques furtives font tomber des flammes maudites
+      '''
+  }
+  DeepSeaDumbbell:
+  {
+    DisplayName: Haltère de la Mer Profonde
+    Tooltip:
+      '''
+      Throws a dumbbell that bounces and flings weights with each bounce
+      Press <right> to flex, increasing the damage of your next attack up to 5 times damage
+      Flexes can hit enemies directly
+      '''
+  }
+  DeepWounder:
+  {
+    DisplayName: Bourreau des Profondeurs
+    Tooltip:
+      '''
+      Throws an abyssal hatchet that inflicts Armor Crunch and Crush Depth to the enemies it hits
+      Stealth strikes cause the hatchet to be thrown faster and trail water, inflicting Marked for Death in addition to the other debuffs
+      '''
+  }
+  DefectiveSphere:
+  {
+    DisplayName: Sphère Défectueuse
+    Tooltip:
+      '''
+      Fires a variety of deadly spheres with different effects
+      Up to five spheres can be thrown at a time
+      Stealth strikes launch all 4 sphere types at once
+      '''
+  }
+  DesecratedWater:
+  {
+    DisplayName: Eau Désacralisée
+    Tooltip:
+      '''
+      Throws an unholy flask of water that explodes into an explosion of evil bubbles
+      Stealth strikes spawn additional bubbles that inflict Ichor and Cursed Inferno
+      '''
+  }
+  DukesDecapitator:
+  {
+    DisplayName: Décapitateur du Duc
+    Tooltip:
+      '''
+      Throws a hydro axe which shreds enemies when it comes into contact with them
+      The faster the axe is spinning, the more times it hits before disappearing
+      Stealth strikes emit short-ranged bubbles
+      '''
+  }
+  DuststormInABottle:
+  {
+    DisplayName: Tempête de Poussière en Bouteille
+    Tooltip:
+      '''
+      Explose en un nuage de poussière
+      Les attaques furtives forment un nuage plus intense et plus persistant
+      '''
+  }
+  DynamicPursuer:
+  {
+    DisplayName: Poursuivant Dynamique
+    Tooltip:
+      '''
+      Throws a calculation-processing disk that fires electricity at enemies
+      Stealth strikes allows the disk to ricochet to other targets, fire lasers, and unleash an explosion
+      If the disk cannot find a new target to ricochet to, it will pursue the original target instead
+      '''
+  }
+  EclipsesFall:
+  {
+    DisplayName: Chute de l'Éclipse
+    Tooltip:
+      '''
+      Summons spears from the sky on hit
+      Stealth strikes impale enemies and summon a constant barrage of spears over time
+      'When the sun goes dark, you will know judgment'
+      '''
+  }
+  ElementalDisk:
+  {
+    DisplayName: Disque des Éléments
+    Tooltip:
+      '''
+      Lance un disque qui a une chance de générer plusieurs disques si les ennemis en sont proches
+      Les attaques furtives voyagent plus lentement mais plus loin, transpercent les ennemis et ont plus de chances de générer des disques additionnels
+      '''
+  }
+  EnchantedAxe:
+  {
+    DisplayName: Hache Enchantée
+    Tooltip:
+      '''
+      Lance une hache rapide qui revient après une courte distance ou avoir percuté un mur
+      Au point culminant de sa trajectoire, une hache magique qui traverse les murs sera envoyée sur l'ennemi le plus proche
+      Les attaques furtives font aller la hache plus loin, tout en lancant une myriade des haches additionnelles dans toutes les directions
+      '''
+  }
+  EpidemicShredder:
+  {
+    DisplayName: Déchireur d'Épidémie
+    Tooltip:
+      '''
+      Throws a plagued boomerang that releases plague seekers when it hits tiles or enemies
+      Stealth strikes cause the boomerang to release plague seekers constantly as it travels
+      Contrary to its name, it will probably cause an epidemic if used incorrectly
+      '''
+  }
+  Equanimity:
+  {
+    DisplayName: Equanimité
+    Tooltip:
+      '''
+      Throws a boomerang born of light and darkness that confuses enemies
+      The boomerang will create light shards upon hitting enemies when thrown out, and will fire homing dark shards when returning
+      Stealth strikes cause the boomerang to create both dark and light shards whenever one type would be created
+      '''
+  }
+  Eradicator:
+  {
+    DisplayName: Éradicateur
+    Tooltip:
+      '''
+      Throws a disk that fires nebula lasers at nearby enemies
+      Stealth strikes stick to enemies and unleash a barrage of lasers in all directions
+      '''
+  }
+  ExecutionersBlade:
+  {
+    DisplayName: Lame de l'Exécuteur
+    Tooltip:
+      '''
+      Lance un torrent de lames à tête chercheuse
+      Les attaques furtives invoquent une guillotine de lames au toucher
+      '''
+  }
+  Exorcism:
+  {
+    DisplayName: Exorcisme
+    Tooltip:
+      '''
+      Jette une croix sacrée qui explose en un flash de lumière qui endommage les ennemis plus ils en sont proches
+      Quand la croix est en train de tomber, les dégâts infligés augmentent au fur et à mesure
+      Les attaques furtives maximisent les dégâts dès le lancer, et des étoiles sacrées tombent du ciel quand la croix explose
+      '''
+  }
+  FantasyTalisman:
+  {
+    DisplayName: Talisman de Fantaisie
+    Tooltip:
+      '''
+      Tire des talismans à haute vélocité qui ignorent la gravité
+      Les talismans s'attachent aux ennemis, les faisant relâcher des âmes perdues
+      Les attaques furtives relâchent plus d'âmes et laissent des âmes dans leur sillage
+      '''
+  }
+  FeatherKnife:
+  {
+    DisplayName: Couteau de Plume
+    Tooltip:
+      '''
+      Lance un couteau qui invoque des plumes à tête chercheuse
+      Les attaques furtives lancent une volée de couteaux
+      '''
+  }
+  FinalDawn:
+  {
+    DisplayName: Le Dernier Crépuscule
+    Tooltip:
+      '''
+      Attack enemies with a giant scythe swing to replenish stealth
+      Press up and attack to throw the scythe 
+      Stealth strikes perform a horizontal swing that leaves a lingering fire aura
+      Stealth strikes performed while pressing up fling yourself at the enemy and slice through them, causing homing fireballs to emerge
+      'We shall ride into the sunrise once more'
+      '''
+  }
+  FishboneBoomerang:
+  {
+    DisplayName: Boomerang en arête de poisson
+    Tooltip:
+      '''
+      Les frappes furtives font ricocher le boomerang entre les ennemis
+      [c/5C95A1:Bien que le royaume de la mer en évaporation ait mené une bataille perdue d'avance, ses fiers habitants ne sont pas tombés facilement.]
+      [c/5C95A1:En dernier recours, ils devaient fabriquer des armes à partir de squelettes d'animaux morts.]
+      '''
+  }
+  FrostcrushValari:
+  {
+    DisplayName: Valari Écrase-Givre
+    Tooltip:
+      '''
+      Fires a long ranged boomerang that explodes into icicles on hit
+      Stealth strikes throw three shorter ranged boomerangs that freeze along with a spread of icicles
+      '''
+  }
+  FrostyFlare:
+  {
+    DisplayName: Fusée Glaciale
+    Tooltip:
+      '''
+      Throw a flare that sticks to enemies and rains a hailstorm on them
+      Stealth strikes trail snowflakes and summon phantom copies instead of ice shards
+      'Do not insert in flare gun'
+      '''
+  }
+  GacruxianMollusk:
+  {
+    DisplayName: Mollusque Gacruxien
+    Tooltip:
+      '''
+      Relâche des étincelles à tête chercheuse sur sa trajectoire
+      Les attaques furtives relâchent des limaces à tête chercheuse qui créent encore plus d'étincelles
+      '''
+  }
+  GelDart:
+  {
+    DisplayName: Fléchette de Gelée
+    Tooltip:
+      '''
+      Throws bouncing gel darts
+      Stealth strikes ignore gravity and bounce more vigorously
+      They additionally leak slime and cover enemies in dark sludge
+      '''
+  }
+  GhoulishGouger:
+  {
+    DisplayName: Désengorgeur Macabre
+    Tooltip:
+      '''
+      Lance quatre faux macabres à ultra-haute vélocité
+      Les attaques furtives font apparaître un myriade d'âmes torturées quand elles touchent
+      '''
+  }
+  GildedDagger:
+  {
+    DisplayName: Dague Dorée
+    Tooltip:
+      '''
+      Lance une lame brillante qui ricoche vers un autre ennemi quand elle touche
+      Les attaques furtives sont à tête chercheuse après un ricochet, et chaque ricochet augmente les dégâts de l'attaque de 20%
+      Les attaques furtives percent également davantage
+      '''
+  }
+  Glaive:
+  {
+    DisplayName: Glaive
+    Tooltip:
+      '''
+      Tosses up to 3 sharp returning glaives
+      Stealth strikes are super fast and pierce infinitely
+      '''
+  }
+  GleamingDagger:
+  {
+    DisplayName: Dague Éclatante
+    Tooltip:
+      '''
+      Jette une dague brillante qui ricoche sur un autre ennemi quand vous touchez
+      Les attaques furtives pourchassent les ennemis après un ricochet, et chaque ricochet inflige 20% de dégâts supplémentaires
+      Les attaques furtives ont une meilleure capacité à percer les ennemis
+      '''
+  }
+  GodsParanoia:
+  {
+    DisplayName: Paranoïa de Dieu
+    Tooltip:
+      '''
+      Hurls up to 10 speedy homing spiky balls
+      Attaches to enemies and summons a localized storm of god slayer kunai
+      Stealth strikes home in faster and summon kunai at a faster rate
+      Press <right> to delete all existing spiky balls
+      '''
+  }
+  GraveGrimreaver:
+  {
+    DisplayName: Grimreaver sérieux
+    Tooltip:
+      '''
+      Hurls a cursed scythe which homes in
+      The scythe summons skulls as it flies and explodes into bats on hit
+      Stealth strikes spawn a flood of bats and falling skulls when destroyed
+      Inflicts cursed flames and confusion
+      'A dapper skeleton's weapon of choice'
+      '''
+  }
+  HardenedHoneycomb:
+  {
+    DisplayName: Nid d'Abeilles Durci
+    Tooltip:
+      '''
+      Tire un nid d'abeille qui se brise en fragments
+      Accorde l'amélioration du miel aux joueurs qu'il touche
+      Les attaques furtives rebondissent sur les murs et les ennemis
+      '''
+  }
+  HeavenfallenStardisk:
+  {
+    DisplayName: Disquétoile Chu-des-cieux
+    Tooltip:
+      '''
+      Throws a stardisk upwards which then launches itself towards your mouse cursor
+      Explodes into 5 astral energy bolts if the thrower is moving vertically when throwing it
+      Stealth strikes rain astral energy bolts from the sky
+      '''
+  }
+  HellsSun:
+  {
+    DisplayName: Soleil de l'Enfer
+    Tooltip:
+      '''
+      Hurls up to 10 gravity-defying spiky balls
+      Once stationary, periodically emit small suns that explode on hit
+      Stealth strikes emit suns at a faster rate and last for a longer amount of time
+      Press <right> to delete all existing spiky balls
+      'The Subterranean Sun in the palm of your hand'
+      '''
+  }
+  Hypothermia:
+  {
+    DisplayName: Hypothermie
+    Tooltip:
+      '''
+      Tire un barrage constant d'éclat de glace noire
+      Les attaques furtives envoient violemment des morceaux de glace tranchant comme des rasoirs qui se brisent à l'impact
+      '''
+  }
+  Icebreaker:
+  {
+    DisplayName: Brise-Glace
+    Tooltip: Les attaques furtives créent une explosion cosmique et gèlent les ennemis quand elles touchent
+  }
+  IceStar:
+  {
+    DisplayName: Étoile de Glace
+    Tooltip:
+      '''
+      Throws fast but brittle homing ice stars
+      Stealth strikes last longer and spawn smaller homing stars on first hits
+      '''
+  }
+  IchorSpear:
+  {
+    DisplayName: Lance d'Ichor
+    Tooltip:
+      '''
+      Lance une lance dont la pointe est enduite d'ichor
+      Les attaques furtives envoient des faisceaux d'ichor
+      '''
+  }
+  InfernalKris:
+  {
+    DisplayName: Kris Infernal
+    Tooltip:
+      '''
+      Jette une dague brûlante qui se met à tournoyer après avoir parcouru une courte distance, infligeant ainsi des dégâts supplémentaires
+      Les attaques furtives sont enveloppées de flammes et explosent au contact des murs et des ennemis
+      '''
+  }
+  InfestedClawmerang:
+  {
+    DisplayName: Champirang
+    Tooltip:
+      '''
+      Jette un lent boomerang à longue portée
+      Les attaques furtives octroient l'amélioration mousseux à l'utilisateur quand elles touchent et invoquent des spores à tête chercheuse
+      '''
+  }
+  IronFrancisca:
+  {
+    DisplayName: Francisque de Fer
+    Tooltip:
+      '''
+      The franciscas do more damage for a short time when initially thrown
+      Stealth strikes pierce up to 6 times
+      '''
+  }
+  JawsOfOblivion:
+  {
+    DisplayName: Machoires de l'Oubli
+    Tooltip:
+      '''
+      Throws a tight spread of six venomous reaper fangs that stick in enemies
+      Stealth strikes cause the teeth to emit a crushing shockwave on impact
+      'You're gonna need a bigger boat'
+      '''
+  }
+  KelvinCatalyst:
+  {
+    DisplayName: Catalyste Kelvin
+    Tooltip:
+      '''
+      Lance une lame glacée qui se divise en étoiles de glace quand vous touchez
+      Les attaques furtives prendront brièvement conscience et chargeront les ennemis proches avant de retourner vers le joueur
+      '''
+  }
+  Kylie:
+  {
+    DisplayName: Kylie
+    Tooltip:
+      '''
+      Stealth strikes throws three shorter ranged kylies instead of a single long range one
+      'Also known as Dowak'
+      '''
+  }
+  LeadTomahawk:
+  {
+    DisplayName: Lead Tomahawk
+    Tooltip:
+      '''
+      The tomahawks have more damage for a short time when initially thrown
+      Stealth strikes pierce up to 6 times
+      '''
+  }
+  LeonidProgenitor:
+  {
+    DisplayName: Progéniteur Léonide
+    Tooltip:
+      '''
+      Throws a bombshell that explodes, summoning a meteor to impact the site
+      Press <right> to throw a spread of gravity affected comets that explode, leaving behind a star
+      Stealth strikes lob a bombshell that additionally splits into comets on hit
+      '''
+  }
+  LeviathanTeeth:
+  {
+    DisplayName: Dents de Leviathan
+    Tooltip:
+      '''
+      Rapidly throws a variety of poisonous fangs that stick to enemies
+      Stealth strikes cause 6 very fast teeth to be thrown, ignoring gravity and inflicting extreme knockback
+      '''
+  }
+  Lionfish:
+  {
+    DisplayName: Poisson-lion
+    Tooltip:
+      '''
+      Colle aux ennemis et leur injecte une puissante toxine
+      Les attaques furtives libèrent des épines d'oursin à tête chercheuse sur la trajectoire
+      '''
+  }
+  LuminousStriker:
+  {
+    DisplayName: Frappeur Lumineux
+    Tooltip:
+      '''
+      Throws a stardust javelin trailed by rising stardust shards
+      Explodes into additional stardust shards upon hitting enemies
+      Stealth strikes cause the stardust shards to fly alongside the javelin instead of rising
+      'Send the stars back to where they belong'
+      '''
+  }
+  LunarKunai:
+  {
+    DisplayName: Kunaï Lunaire
+    Tooltip:
+      '''
+      Jette une triplette de kunaï qui ignore la gravité et possède un léger effet de tête chercheuse
+      Après une certaine distance, les kunaïs se surchargent d'énergie lunaire, ce qui augmente l'effet de tête chercheuse et les fait exploser à l'impact
+      Les attaques furtives lancent 8 kunaï surchargés
+      '''
+  }
+  Malachite:
+  {
+    DisplayName: Malachite
+    Tooltip:
+      '''
+      Throws a stream of kunai that stick to enemies and explode
+      Press <right> to throw a single kunai that pierces, after piercing an enemy it emits a massive explosion on the next enemy hit
+      Stealth strikes fire three kunai that home in, stick to enemies, and explode
+      '''
+  }
+  MangroveChakram:
+  {
+    DisplayName: Chakram de la Mangrove
+    Tooltip: Les frappes furtives laissent une traînée de fleurs persistantes.
+  }
+  MetalMonstrosity:
+  {
+    DisplayName: Montruosité de Métal
+    Tooltip:
+      '''
+      Hurls a heavy metal ball that shatters on impact
+      Stealth strikes cause the ball to release spikes as it travels
+      'This has to hurt'
+      '''
+  }
+  MeteorFist:
+  {
+    DisplayName: Poing Météore
+    Tooltip:
+      '''
+      Fires a rocket fist that explodes forcefully
+      Stealth strikes make the fist ricochet between enemies up to 4 times
+      '''
+  }
+  MoltenAmputator:
+  {
+    DisplayName: Amputateur en Fusion
+    Tooltip:
+      '''
+      Lance une faux qui émet des globes en fusion quand elle touche
+      Les attaques furtives créent des globes périodiquement et en créent plus quand elles touchent
+      '''
+  }
+  MonkeyDarts:
+  {
+    DisplayName: Fléchettes de Singe
+    Tooltip:
+      '''
+      Les attaques furtives jettent 3 fléchettes rebondissantes à haute vitesse
+      'Parfait pour faire caca'
+      '''
+  }
+  Mycoroot:
+  {
+    DisplayName: Mycoroot
+    Tooltip:
+      '''
+      Fires a stream of short-range fungal roots
+      Stealth strikes spawn an explosion of fungi spores
+      and grant you and all other players the Mushy buff for 15 seconds
+      '''
+  }
+  MythrilKnife:
+  {
+    DisplayName: Couteau en Mithril
+    Tooltip: Stealth strikes are coated in deadly toxins, inflicting irradiated, poison, and acid venom
+  }
+  NanoblackReaper:
+  {
+    DisplayName: Faucheur Nano-noir
+    Tooltip:
+      '''
+      Libère une tempête de lames d'énergie nano-noire
+      Les lames visent les boss quand c'est possible
+      Les attaques furtives créent un gand nombre d'images rémanentes à tête chercheuse à la place des lames d'énergie
+      'Elle les a étouffés dans Sa haine'
+      '''
+  }
+  NastyCholla:
+  {
+    DisplayName: Cholla Nuisible
+    Tooltip:
+      '''
+      Throws a spiky ball that sticks to everything
+      Explodes into cactus spikes after roughly 3 seconds
+      Can hurt town NPCs
+      Stealth strikes throw four at once
+      '''
+  }
+  NightsGaze:
+  {
+    DisplayName: Regard de la Nuit
+    Tooltip:
+      '''
+      Frappez vos ennemis avec cette lance de la nuit
+      Jette une lance qui se brise quand elle touche un ennemi
+      Les attaques furtives créent des étoiles qui pourchassent les ennemis sur la trajectoire de la lance
+      '''
+  }
+  Nychthemeron:
+  {
+    DisplayName: Nychthemeron
+    Tooltip:
+      '''
+      Throws a spiky ball that ignores gravity and summons a pair of dark and light orbs that orbit the player
+      Once the spiky ball disappears the orbs will home in on the nearest target
+      Up to 10 spiky balls can exist at a time
+      Stealth strikes cause all spiky balls and orbs to be thrown at once
+      Press <right> to recall all existing spiky balls
+      '''
+  }
+  OrichalcumSpikedGemstone:
+  {
+    DisplayName: Pointe de Gemme en Orichalque
+    Tooltip: LEs attaques furtives durent plus longtemps et invoquent des pétales quand vous touchez les ennemis
+  }
+  PalladiumJavelin:
+  {
+    DisplayName: Javelot en Palladium
+    Tooltip: Stealth strikes split into more javelins and boost life regeneration on hits
+  }
+  Penumbra:
+  {
+    DisplayName: Pénombre
+    Tooltip:
+      '''
+      Lance une bombe d'ombre qui explose en âmes à tête chercheuse
+      Les attaques furtives téléportent la bombe sur le curseur et libèrent un plus grand nombre d'âmes
+      '''
+  }
+  PhantasmalRuin:
+  {
+    DisplayName: Ruine Fantasmatique
+    Tooltip:
+      '''
+      Tire une énorme lance fantôme qui laisse des âmes perdues dans son sillage
+      Explose en esprits fantômes quand vous touchez
+      Les attaques furtives invoquent des clones fantomes dans leur sillage
+      '''
+  }
+  PhantomLance:
+  {
+    DisplayName: Lance Fantôme
+    Tooltip:
+      '''
+      Tire un javelot spectral qui relâchent rapidement des âmes perdues
+      Ralenti et disparaît au fur et à mesure
+      Les âmes perdues relâchés tardivement infligent moins de dégâts
+      Les attaques furtives ne ralentissent pas et infligent toujours les dégâts maximums
+      '''
+  }
+  Plaguenade:
+  {
+    DisplayName: Pestenade
+    Tooltip:
+      '''
+      Relâche une nuée d'abeilles de peste enervées
+      Les attaques furtives contiennent plus d'abeilles et ont une plus grosse explosion
+      '''
+  }
+  PoisonPack:
+  {
+    DisplayName: Paquet de Poison
+    Tooltip:
+      '''
+      Throws up to 3 poisonous spiky balls
+      Stealth strikes cause the balls to release spore clouds
+      Press <right> to delete all existing spiky balls
+      '''
+  }
+  Prismalline:
+  {
+    DisplayName: Prismalline
+    Tooltip:
+      '''
+      Lance des dagues qui se divisent après un moment
+      Les attaques furtives explosent également en éclats de prisme et stoppent les ennemis brièvement
+      '''
+  }
+  ProfanedPartisan:
+  {
+    DisplayName: Pertuisane Profanée
+    Tooltip:
+      '''
+      Tire une lance impie qui explose
+      Les attaques furtives s'accompagnent de lances plus petites en plus de la lance principale
+      '''
+  }
+  RadiantStar:
+  {
+    DisplayName: Étoile Radieuse
+    Tooltip:
+      '''
+      Lance des dagues qui explosent et se divisent après un moment
+      Les attaques furtives se divisent plus et provoquent une explosion dévastatrice qui attirent les ennemis
+      '''
+  }
+  RefractionRotor:
+  {
+    DisplayName: Refraction Rotor
+    Tooltip:
+      '''
+      Fires a huge prismatic disk shuriken
+      The shuriken shatters moments after impact into homing rockets
+      Stealth strikes shatter into many more rockets
+      '''
+  }
+  RegulusRiot:
+  {
+    DisplayName: Rébellion de Régulus
+    Tooltip:
+      '''
+      Tire un disque à tête chercheuse rapide
+      Les attaques furtives explosent en étoiles d'énergie
+      '''
+  }
+  RotBall:
+  {
+    DisplayName: Balle Pourrie
+    Tooltip: Les attaques furtives créent des nuages de pluie quand elles touchent
+  }
+  Sacrifice:
+  {
+    DisplayName: Sacrifice
+    Tooltip:
+      '''
+      Throws sacrificial daggers that lodge themselves in enemies
+      Press <right> to cause all stuck daggers to fly back at you and give you life
+      Daggers stuck to enemies release bloodsplosions over time
+      Stealth strikes lodge for longer and provide much more life when returning to you
+      '''
+  }
+  SandDollar:
+  {
+    DisplayName: Clypéastéroïde
+    Tooltip:
+      '''
+      Throws up to 2 returning sand dollars
+      Stealth strikes throw 2 long ranged sand dollars that explode into coral shards on enemy hits
+      '''
+  }
+  Sandslasher:
+  {
+    DisplayName: Tranche-Sable
+    Tooltip:
+      '''
+      Lance un énorme shuriken qui ignore la gravité fait de sable fusionné qui accélère lentement et horizontalement
+      Les dégâts augmentent en fonction de sa vitesse et du temps de présence
+      Les attaques furtives relâchent périodiquement des nuages
+      '''
+  }
+  ScarletDevil:
+  {
+    DisplayName: Diable Écarlate
+    Tooltip:
+      '''
+      Throws an ultra high velocity spear, which creates more projectiles that home in
+      The spear creates a Scarlet Blast upon hitting an enemy
+      Stealth strikes grant you lifesteal and summon a star of projectiles upon hitting an enemy
+      'Divine Spear "Spear the Gungnir"'
+      '''
+  }
+  ScourgeoftheDesert:
+  {
+    DisplayName: Fléau du Désert
+    Tooltip:
+      '''
+      Gagne en vitesse au fur et à mesure
+      Les attaques furtives augmentent leur dégâts à chaque fois qu'elles en infligent
+      '''
+  }
+  ScourgeoftheSeas:
+  {
+    DisplayName: Fléau des Mers
+    Tooltip:
+      '''
+      Se désagrège en un nuage de venin quand il touche un ennemi
+      Les attaques furtives sont enduites de toxines viles, qui infligera aux ennemis une puissante altération d'état
+      '''
+  }
+  SeafoamBomb:
+  {
+    DisplayName: Bombe d'Écume
+    Tooltip:
+      '''
+      Jette une bombe qui explose en une bulle qui inflige des dégâts additionnels
+      Les attaques furtives sont plus rapides et explosent en 5 bulles
+      '''
+  }
+  SealedSingularity:
+  {
+    DisplayName: Singularité Scellée
+    Tooltip:
+      '''
+      Se brise à l'impact et invoque un trou noir qui aspire les ennemis proches
+      Les attaques furtives invoquent un trou noir qui dure plus longtemps et qui attire mieux les ennemis
+      '''
+  }
+  SearedPan:
+  {
+    DisplayName: Seared Pan
+    Tooltip:
+      '''
+      Fires a frying pan at high velocity
+      Enemy hits summon fireballs that linger around the target
+      Landing three consecutive hits will launch a golden pan on the next throw
+      Golden pans cause all fireballs to aggressively home in on their target on hit
+      Stealth strikes act similar to golden pans but also explode into golden sparks
+      Stealth strikes also summon additional fireballs on hit
+      [c/842593:'dAMaGe iS rAthEr cOnSisTeNT']
+      '''
+  }
+  Seraphim:
+  {
+    DisplayName: Seraphim
+    Tooltip:
+      '''
+      Throws an extraordinarily fast dagger which slows down exponentially and dissipates into light
+      Once dissipation has ended, 6 splitting blades that slice nearby targets are released, along with a large laserbeam
+      Stealth strikes release a volley of 7 lights which explode into smaller laser beams along with the dagger
+      '''
+  }
+  ShardofAntumbra:
+  {
+    DisplayName: Éclat d'Antumbra
+    Tooltip: Les attaques furtives laissent des étoiles à tête chercheuse dans leur sillage
+  }
+  ShatteredSun:
+  {
+    DisplayName: Soleil Brisé
+    Tooltip:
+      '''
+      Lance des dagues qui se divisent en dagues brûlantes à tête chercheuse
+      Les attaques furtives tirent des volées de dagues à têtes chercheuses qui attirent les ennemis
+      '''
+  }
+  ShinobiBlade:
+  {
+    DisplayName: Lame de Shinobi
+    Tooltip:
+      '''
+      Throws a fast blade that spawns healing orbs when it kills an enemy
+      Stealth strikes repeatedly stab the struck enemy from random directions
+      '''
+  }
+  ShockGrenade:
+  {
+    DisplayName: Grenade à Choc
+    Tooltip:
+      '''
+      Lance une grenade qui explose dans une déflagration d'électricité
+      Les attaques furtives créent une aura électrifiante rémanente après l'explosion
+      '''
+  }
+  SkyfinBombers:
+  {
+    DisplayName: Bombardiers Nageciel
+    Tooltip:
+      '''
+      Launches a skyfin nuke that homes in on enemies below it
+      Stealth strikes rapidly home in regardless of enemy position
+      'Fishy bombers inbound!'
+      '''
+  }
+  SkyStabber:
+  {
+    DisplayName: Poignardeur Céleste
+    Tooltip:
+      '''
+      Throws up to 4 gravity-defying spiky balls
+      Stealth strikes make the balls rain feathers onto enemies when they hit
+      Press <right> to delete all existing spiky balls
+      '''
+  }
+  SlickCane:
+  {
+    DisplayName: Canne Rusée
+    Tooltip:
+      '''
+      Swipes a cane that steals money from enemies
+      Stealth strikes gives a 1 in 15 chance for enemies to drop 1-3 gold coins when hit
+      'Economy at its finest'
+      '''
+  }
+  SludgeSplotch:
+  {
+    DisplayName: Éclaboussure Boueuse
+    Tooltip: Stealth strikes cause the main ball of sludge to split on hit, inflicting more damage
+  }
+  SnapClam:
+  {
+    DisplayName: Palourde Claquante
+    Tooltip:
+      '''
+      Peut s'accrocher aux ennemis et infliger des dégâts sur la durée
+      Les attaques furtives lancent 5 palourdes à la fois qui infligent plus de dégâts
+      '''
+  }
+  SpearofDestiny:
+  {
+    DisplayName: Lance du Destin
+    Tooltip:
+      '''
+      Jette trois lances dont les deux sur le côté pourchassent les ennemis.
+      Les attaques furtives font que toutes les lances pourchassent les ennemis, ignorent les tuiles et percent davantage
+      '''
+  }
+  SpearofPaleolith:
+  {
+    DisplayName: Lance du Paléolithe
+    Tooltip:
+      '''
+      Jette une lance ancienne qui brise l'armure ennemi
+      Les lances font pleuvoir des éclats fossiles sur leur trajectoire
+      Les attaques furtives sont plus lentes mais vont plus loin, et font pleuvoir plus d'éclats
+      '''
+  }
+  SpentFuelContainer:
+  {
+    DisplayName: Conteneur de Carburant Vidé
+    Tooltip:
+      '''
+      Throws a fuel container with trace amounts of plutonium that causes a nuclear explosion
+      The explosion does not occur if there are no tiles below it
+      Stealth strikes leave a lingering irradiated zone after the explosion dissipates
+      'War Never Changes'
+      '''
+  }
+  StarofDestruction:
+  {
+    DisplayName: Étoile de la Destruction
+    Tooltip:
+      '''
+      Tire une gigantesque mine destructive qui explose en des éclairs de destruction
+      La quantité d'éclairs dépendent du nombre de coups portés aux ennemis, jusqu'a un maximum de 16
+      Les attaques furtives émettent toujours le maximum d'éclairs
+      '''
+  }
+  StellarKnife:
+  {
+    DisplayName: Couteau Stellaire
+    Tooltip:
+      '''
+      Throws knives that stop middair and then home into enemies
+      Stealth strikes throw a volley of 10 knives in a spread
+      'ZA WARUDO'
+      '''
+  }
+  StickySpikyBall:
+  {
+    DisplayName: Sticky Spiky Ball
+    Tooltip:
+      '''
+      Throws a spiky ball that sticks to everything
+      Stealth strikes throw four at once and last a lot longer
+      '''
+  }
+  StormfrontRazor:
+  {
+    DisplayName: Rasoir Face-Tempête
+    Tooltip:
+      '''
+      Throws a knife that summons lightning on hit.
+      Stealth strikes cause the knife to be faster and summon multiple lightning bolts on hit
+      [c/24C7F0:'Strike and stem the flow']
+      '''
+  }
+  SubductionSlicer:
+  {
+    DisplayName: Découpeur de Subduction
+    Tooltip:
+      '''
+      Lance une faux qui explose quand elle touche les ennemis
+      Les attaques furtives invoquent également un pilier de feu orange quand elles touchent les ennemis
+      '''
+  }
+  Supernova:
+  {
+    DisplayName: Supernova
+    Tooltip:
+      '''
+      Crée une explosion massive à l'impact
+      Explose en piques et en énergie à tête chercheuse
+      Les attaques furtives relâchent de l'energie dans leur sillage
+      '''
+  }
+  TarragonThrowingDart:
+  {
+    DisplayName: Fléchette de Lancer d'Estragon
+    Tooltip:
+      '''
+      Tire une fléchette d'Estragon qui ignore une partie de la période d'invulnérabilité
+      Les attaques furtives provoquent une éruption d'épines quand elles touchent
+      '''
+  }
+  TerraDisk:
+  {
+    DisplayName: Disque Terra
+    Tooltip:
+      '''
+      Throws a disk that has a chance to generate several disks if enemies are near it
+      Stealth strikes travel slower and are rapidly orbited by the smaller disks
+      '''
+  }
+  TerrorTalons:
+  {
+    DisplayName: Serres de Terreur
+    Tooltip:
+      '''
+      Tire des petites griffes ondulantes
+      Les attaques furtives lancent une énorme griffe rapide qui transperce
+      '''
+  }
+  TheAtomSplitter:
+  {
+    DisplayName: The Atom Splitter
+    Tooltip:
+      '''
+      Throws a quantum-superimposed javelin that strikes from numerous timelines at once
+      Stealth strikes perform far more simultaneous strikes
+      '''
+  }
+  TheOldReaper:
+  {
+    DisplayName: The Old Reaper
+    Tooltip:
+      '''
+      Throws a homing reaper scythe that shreds enemies
+      Stealth strikes throw four at once
+      'Slice 'n dice'
+      '''
+  }
+  TheSyringe:
+  {
+    DisplayName: La Seringue
+    Tooltip:
+      '''
+      Jette une seringue véloce qui gagne en dégâts au fur et à mesure de sa trajectoire
+      Se brise en verre et en cendres de peste à l'impact
+      Les attaques furtives libèrent également des abeilles pestiférées
+      'Je suis a peu près certain que ce n'est pas bon pour la santé'
+      '''
+  }
+  ThrowingBrick:
+  {
+    DisplayName: Brique de Lancer
+    Tooltip:
+      '''
+      Prove its resistance by throwing it upwards and catching it with your face
+      Throws a brick that shatters if stealth is full
+      '''
+  }
+  TimeBolt:
+  {
+    DisplayName: Dague Temporelle
+    Tooltip:
+      '''
+      Throws a temporal knife that distorts time around enemies
+      Stealth strikes can hit more enemies and create a larger time field
+      'There should be no boundary to human endeavor'
+      '''
+  }
+  TitaniumShuriken:
+  {
+    DisplayName: Shuriken de Titane
+    Tooltip: Les attaques furtives se comportent comme un boomerang et créent des clones quand elles touchent les ennemis
+  }
+  ToothBall:
+  {
+    DisplayName: Balle de Dents
+    Tooltip: Les attaques furtives créent des nuages de pluie quand elles touchent
+  }
+  TotalityBreakers:
+  {
+    DisplayName: Briseurs de Totalité
+    Tooltip:
+      '''
+      Explodes into highly flammable black tar
+      Black tar oils enemies and sets them alight
+      Stealth strikes leak black tar as they fly
+      'I need a bigger breaker'
+      '''
+  }
+  ToxicantTwister:
+  {
+    DisplayName: Tourbillon Intoxicant
+    Tooltip:
+      '''
+      Lance un boomerang bougeant lentement
+      Après quelques instants, Le boomerang choisit une cible et la pourchasse rapidement
+      Les attaques furtives commencent à pourchasser plus rapidement et relâchent rapidement du sable
+      '''
+  }
+  Turbulance:
+  {
+    DisplayName: Turbulance
+    Tooltip:
+      '''
+      Tire des javelots nuageux qui explosent en rafales de vent quand ils touchent
+      Les rafales de vent pourchassent les ennemis en cas de coup critique
+      Les attaques furtives sont suivies de rafales de vent qui pourchassent les ennemis
+      '''
+  }
+  UrchinStinger:
+  {
+    DisplayName: Épine d'Oursin
+    Tooltip: Stealth strikes stick to enemies while releasing sulphuric bubbles
+  }
+  UtensilPoker:
+  {
+    DisplayName: Ustensiles Troueurs
+    Tooltip:
+      '''
+      Fires random utensils in bursts of three
+      Stealth strikes replace any utensil with a powerful butcher knife
+      'Space chickens, that is all'
+      '''
+  }
+  Valediction:
+  {
+    DisplayName: Conclusion
+    Tooltip:
+      '''
+      Jette une faux à tête chercheuse
+      Les attaques furtives invoquent des typhons rasoirs quand elles touchent
+      '''
+  }
+  WaveSkipper:
+  {
+    DisplayName: Ricocheur
+    Tooltip:
+      '''
+      Lance une lance qui rebondit énormément
+      Les attaques furtives lancent 3 lances ultra rapides
+      '''
+  }
+  WebBall:
+  {
+    DisplayName: Boule de Toile
+    Tooltip:
+      '''
+      Lance une boule couverte de toile qui couvre les ennemis de toiles d'araignées pour les ralentir
+      Les attaques furtives ralentissent les ennemis plus longtemps
+      '''
+  }
+  Wrathwing:
+  {
+    DisplayName: Infernaile
+    Tooltip:
+      '''
+      Lance une lance ailée agile à tête chercheuse qui crache constamment du feu
+      Les attaques furtives invoquent une éruption de cendres quand elles touchent
+      '''
+  }
+  WulfrumKnife:
+  {
+    DisplayName: Wulfrum Knife
+    Tooltip:
+      '''
+      Fires wulfrum knives in bursts of 3
+      Stealth strikes make the knife fly further and hit several times at once
+      Hold <right> to magnetize all nearby fallen knives back to you
+      '''
+  }

@@ -1,0 +1,227 @@
+DraedonPowerCell: {
+	 DisplayName: Cellule d'énergie de Draedon
+	 Tooltip:
+		'''
+		Utilisée pour charger l'armement de Draedon avec une Station de Charge
+		Peut aussi être utilisée dans un Extractinateur pour obtenir des pièces détachées
+		''' 
+}
+
+// Codebreaker Pieces
+AdvancedDisplay: {
+	 DisplayName: Affichage Avancé
+	 Tooltip:
+		'''
+		Peut-être placé sur le Décrypteur
+		Permet de décoder les schémas des enfers
+		Ce qui vous permettra de fabriquer de nouveaux objets
+		''' 
+}
+
+AuricQuantumCoolingCell: {
+	 DisplayName: Cellule de Refroidissement Aurique Quantique
+	 Tooltip:
+		'''
+		Peut-être placé sur le Décrypteur, le finalisant
+		Augmente grandement la vitesse de décryptage
+		La finalisation du Décrypteur vous permet de contacter son créateur
+		[c/8B00000:Le contacter aura probablement de graves conséquences]
+		''' 
+}
+
+CodebreakerBase: {
+	 DisplayName: Base du Décrypteur
+	 Tooltip: ""
+}
+
+DecryptionComputer: {
+	 DisplayName: Ordinateur de Décryptage
+	 Tooltip:
+		'''
+		Peut-être placé sur le Décrypteur
+		Permet de décoder le schéma du planétoïde
+		Ce qui vous permettra de fabriquer de nouveaux objets
+		''' 
+}
+
+LongRangedSensorArray: {
+	 DisplayName: Panel de Capteur Longue Portée
+	 Tooltip:
+		'''
+		Peut-être placé sur le Décrypteur
+		Permet de décoder le schéma de la jungle
+		Ce qui vous permettra de fabriquer de nouveaux objets
+		''' 
+}
+
+VoltageRegulationSystem: {
+	 DisplayName: Système de Régulation Voltaïque
+	 Tooltip:
+		'''
+		Peut-être placé sur le Décrypteur
+		Permet de décoder le schéma de la toundra
+		Ce qui vous permettra de fabriquer de nouveaux objets
+		''' 
+}
+
+// Draedon Logs
+DraedonsLogHell: {
+	 DisplayName: Journal de Pollution environnementale
+	 Tooltip:
+		'''
+		[Journal d'environnement] - La pollution et le 'Mur de chair'
+		Cliquez pour lire son contenu
+		''' 
+	 ContentPage1: L'enfer est un royaume dont l'histoire remonte à plus d'un millénaire, lorsque les vestiges ont été colonisés pour la première fois, et il offre un aperçu à la fois du monde moderne et ancien en même temps. Avant que je ne rejoigne les forces de Yharim, Azafure était le centre de l'avancement scientifique dans ce monde. Des explosifs, Des armes à feu, Des techniques de forge et même des écoles entières de magie trouvent leurs racines dans cette ville. Il ne fait aucun doute que la ville a été largement aidée par le fait que la forge est aisée en enfer, ainsi que par l'abondance de nourriture due à l'essence de Silva qui goutte depuis les abysses au-dessus. En raison de cela, la ville a prospéré même avec les attaques occasionnelles des démons.
+	 ContentPage2: Son existence ne fût pas sans conséquence, bien sûr. Toute société à une si grande échelle laisse une empreinte écologique derrière elle. Cela peut être vu le plus clairement dans la mer bien au-dessus de la ville, appropriément appelée la Mer Sulfureuse. Les émanations de soufre sont devenues assez intenses dans la ville pour qu'elles commencent à remonter à travers les abysses par un processus semblable à l'osmose, et finirent par atteindre la mer. Réduire la pollution que la ville crée, en particulier par la forge, est un objectif que Yharim souhaite que je priorise. Je n'y vois guère de nécessité, mais c'est un domaine d'étude dans lequel peu de gens de ce monde se sont plongés. Je refuse de gaspiller une opportunité de percée scientifique.
+	 ContentPage3: Un être particulier d'ici a attiré mon attention : un mur massif fait de matériaux biologiques se trouve en cet endroit, créé il y a de nombreuses années par les plus grands mages qu'Azafure a à offrir. C'est un être vivant, quoique à peine. Il manque à la fois de douleur et d'émotion, et inspire la terreur à tous ceux qui posent les yeux sur lui. Il est protégé par une sécurité renforcée de la part de la ville, et donc peu de personnes en dehors des alliés les plus proches du Traqueur de Dieux ont eu l'occasion de l'observer. Tant qu'Azafure continuera d'exister, il est peu probable qu'il soit jamais véritablement libéré. Cependant, je ne nie pas que je serais fasciné de voir les effets que sa libération aurait sur le monde.
+}
+
+DraedonsLogJungle: {
+	 DisplayName: Journal des Nanomachines Pestilentielles
+	 Tooltip:
+		'''
+		[Résultats des expérimentations aux nanomachines] - 'La Peste'
+		Cliquez pour lire son contenu
+		''' 
+	 ContentPage1: Il ne serait pas exagéré de qualifier la jungle de plaque tournante de cette planète. Tout tourne autour d'elle, et personne ne l'ignore. Cela me cause un certain malaise de voir les formes inconfortables et brutes des êtres vivants qui la traverse lors de leurs voyages à la surface. Heureusement, ces laboratoires fournissent tout ce dont j'ai besoin pour mes recherches, et plus encore. Il n'y a guère besoin de visiter la surface, sauf lors des convocations de Yharim.
+	 ContentPage2: Peu de gens voyagent jusqu'ici bas, et encore moins entreprennent l'expédition pour descendre aussi loin que cette station de recherche. C'est pourquoi j'ai décidé d'utiliser cet isolement pour développer une nanotechnologie avancée destinée à contrôler les esprits des êtres biologiques. J'espère qu'elle sera capable de se propager d'un organisme à l'autre, une fusion parfaite entre un virus et la nanotechnologie. Cependant, cela a été une tâche ardue même avec mes technologies nouvellemnt développées. Des expérimentations et des recherches supplémentaires sont nécessaires.
+	 ContentPage3: La suite des expérimentations a abouti à des résultats significatifs. En utilisant une Reine des Abeilles mécaniquement modifiée comme hôte principal, elle peut servir de noyau à un esprit collectif de ceux touchés par ma peste. Cependant, Yharim s'est indigné en apprenant mes expériences ici et les a qualifiées d'inhumaines. Après un bref conflit verbal, il est parti en silence et je n'ai plus eu de nouvelles de lui depuis. Heureusement, je n'ai plus besoin de dépendre du tueur de dieux, et cela depuis des années.
+}
+
+DraedonsLogPlanetoid: {
+	 DisplayName: Journal d'Étude de l'Orbite Basse
+	 Tooltip:
+		'''
+		[Étude de l'espace et du sol] - Orbite basse de Terraria
+		Cliquez pour lire son contenu
+		''' 
+	 ContentPage1: Plus haut encore que les îles célestes soulevées il y a longtemps se trouve un phénomène géologique fascinant. Contrairement aux îles, leur nature aérienne semble s'être formée de manière plus naturelle. Je spécule qu'elles se sont formées il y a longtemps lorsque le monde était encore à ses débuts, en jugeant par les échantillons de sol que j'ai pris tout en testant la croissance des plantes en haute atmosphère. Peut-être que ces "planétoïdes", comme beaucoup les appellent, se sont formés via des impacts de météores projetant de la matière haut dans l'atmosphère. Cela expliquerait simultanément de nombreuses anomalies géologiques que j'ai trouvées à la surface du monde.
+	 ContentPage2: Les voyages entre les mondes me fascinent. Les planètes à une distance raisonnable de celle-ci ne m'offrent aucune utilité en termes de matériaux ou d'opportunités d'étude. Ainsi, je souhaite un jour aller au-delà de ce simple regroupement de planètes. Cependant, cela prendra probablement de nombreuses décennies de progrès technologiques, car les voyages entre les mondes prendraient des années même à la vitesse maximale que la matière physique peut actuellement atteindre. Peut-être trouverai-je un moyen de briser cette limite une fois que ce monde n'aura plus d'intérêt.
+	 ContentPage3: Une requête de Yharim est arrivée. Une demande de création d'une armure pour le serpent qui a récemment rejoint ses forces, le "Dévoreur de Dieux" comme il se nomme lui-même. C'est un être dérangeant mais fascinant. J'en ai profité pour en apprendre plus sur sa dimension d'origine. En utilisant des matériaux de son lieu d'origine, j'ai forgé une armure d'une taille et d'une durabilité immenses, mais d'une extrême flexibilité. C'est certainement l'un des matériaux les plus uniques avec lesquels j'ai travaillé et cela a grandement enrichi mes connaissances. Cependant, j'ai appris plus que je ne m'y attendais au sujet de la bête cosmique. Peut-être plus que ce qu'il souhaitait que je n'en sache.
+}
+
+DraedonsLogSnowBiome: {
+	 DisplayName: Journal sur le Mineral Cryonique
+	 Tooltip:
+		'''
+		[Rapport Mineral Scientifique] - Le 'Métal Cryonique' de l'Archimage
+		Cliquez pour lire son contenu
+		''' 
+	 ContentPage1: Une toundra glaciale, où seules les créatures qui se sont adaptées aux températures inférieures à 0 prospèrent. Peu d'êtres intelligents y ont résidé en permanence, à l'exception des mineurs et de l'Archimage. Ayant cela à l'esprit, Yharim m'a demandé d'observer cet endroit en proie à toute anomalie, car ses armées l'ont largement négligé. De plus, l'Archimage m'a demandé d'effectuer des études sur ses métaux glacés. Il y a pas grand chose d'autre à faire dans ce désert gelé, j'ai donc accepté sa demande.
+	 ContentPage2: Le Minerai Cryonique, comme l'appelle simplement l'Archimage, est un matériau semblable a du verglas. À première vue, on pourrait supposer qu'il s'agit d'un matériau fragile, mais après des tests, il est clair que ce n'est pas le cas. Des plaques fabriquées à partir de ce matériau se sont avérées plus durables et résistantes que l'alliage de mthril lors de tests de flexion et de tension, suivis de tentatives de destruction. Pourtant, elles n'en pèsent qu'une fraction du poids. Peut-être que de grandes quantités de ce matériau pourraient être utilisées pour forger des armures pour des unités qui méprisent le fardeau habituel des plaques métalliques. Je vais probablement m'enquérir davantage des méthodes de création du Minerai Cryonique pour parvenir à cela.
+	 ContentPage3: Comme décrit précédemment, le Minerai Cryonique a été développé par l'Archimage Permafrost. Malgré son poste de mage des mages, il n'a pas vocation au combat. Il agit plutôt en tant que conseiller de Yharim, participant à la gestion des villes et des villages pris par le Tueur de Dieux ou ceux qui ont pris son parti. De plus, il semble avoir créé un lien avec la jeune fille cherchant Yharim qui est arrivée il y a quelques mois, agissant comme une figure paternelle pour elle. J'ai moi-même porté un intérêt à son immense pouvoir latent.
+}
+
+DraedonsLogSunkenSea: {
+	 DisplayName: Journal de Biologie Marine
+	 Tooltip:
+		'''
+		[Recherche sur les Bioformes] - La Vie Aquatique d'Ilmeris
+		Cliquez pour lire son contenu
+		''' 
+	 ContentPage1: Un pôle de diversité marine, et tout ce qui reste d'Ilmeris, royaume réduit en cendres . Autrefois ses périphéries rurales, c'est maintenant le dernier fragment d'un royaume autrefois puissant. Il est heureux que la Sorcière aie uniquement concentrée ses attaques sur les villes principales, épargnant ainsi une partie de la mer de l'Incinération. J'ai depuis longtemps désiré étudier ces eaux en profondeur, mais je n'ai jamais pu le faire en raison du conflit en cours. Bien que de nombreuses espèces aient disparu dans la dévastation, beaucoup prospèrent encore dans les profondeurs. C'est grace à ce laboratoire que je pourrai enfin étudier correctement la vie aquatique et en apprendre davantage sur sa nature.
+	 ContentPage2: Bien que la vie marine dans ces grottes possède des yeux, la plupart sont faibles et ne traitent que peu de couleurs. Ils ne sont faits que pour voir la lumière des prismes marins qui les entourent, de nombreuses créatures s'appuyant sur eux pour se guider à travers les cavernes submergées. Leurs peaux dures et noueuses possèdent des formations cristallines que j'avais initialement supposé être les prismes se fixant sur leur dos. Cependant, les résultats des dissections révèlent qu'ils possèdent plutôt ces cristaux à l'intérieur, et les formations sont le résultat de prismes marins internes émergeant hors de leur peau. La croissance de ces cristaux atteint un tel point que certaines créatures sont plus géologiques que biologiques dans certains domaines.
+	 ContentPage3: Parmi les spécimens observés, ce sont les palourdes anormalement grandes qui retiennent le plus mon intérêt. Beaucoup plus grandes qu'un humain moyen, leur poids est si élevé qu'elles n'ont pas la capacité de se déplacer de la même manière que leurs homologues plus petits. Au lieu de cela, elles comptent sur la téléportation pour transporter leurs corps massifs et lourdement blindés. D'après les éclaireurs, elles semblaient posséder des pouvoirs magiques supplémentaires. Cependant, étant donné qu'elles n'ont été vues que de loin, leurs rapports pourraient facilement avoir été erronés. Alternativement, leur source de pouvoir aurait simplement pu s'estomper après la chute d'Ilmeris. Il serait sage de ne pas complètement exclure cette possibilité.
+}
+
+// Lab Finders
+CyanSeekingMechanism: {
+	 DisplayName: Mécanisme Chercheur Cyan
+	 Tooltip: Se déplace rapidement vers un laboratoire situé enfoui profondément sous le désert
+}
+
+GreenSeekingMechanism: {
+	 DisplayName: Mécanisme Chercheur Vert
+	 Tooltip: Se déplace rapidement vers un laboratoire situé au sein de la jungle
+}
+
+LabSeekingMechanism: {
+	 DisplayName: Mécanisme Chercheur de Laboratoire
+	 Tooltip: Un réceptable pour une technologie qui localise les noyaux d'alimentation des laboratoires de Draedon
+}
+
+OnyxSeekingMechanism: {
+	 DisplayName: Mécanisme Chercheur Onyx
+	 Tooltip: Se déplace rapidement vers un laboratoire situé dans les cavernes
+}
+
+RedSeekingMechanism: {
+	 DisplayName: Mécanisme Chercheur Rouge
+	 Tooltip: Se déplace rapidement vers un laboratoire situé en enfer
+}
+
+WhiteSeekingMechanism: {
+	 DisplayName: Mécanisme Chercheur Blanc
+	 Tooltip: Se déplace rapidement vers un laboratoire situé dans les cavernes gelées
+}
+
+YellowSeekingMechanism: {
+	 DisplayName: Mécanisme Chercheur Jaune
+	 Tooltip: Se déplace rapidement vers un laboratoire situé dans le ciel
+}
+
+// Schematics
+ SchematicUnlocked:
+	'''
+	Déja décrypté.
+	Cliquez pour lire son contenu.
+	Recette débloquées:
+	''' 
+
+EncryptedSchematicHell: {
+	 DisplayName: Schéma Crypté (Enfer)
+	 Tooltip: Nécessite un Décrypteur avec un affichage sophistiqué pour être décodé
+	 Content:
+		'''
+		Seuls les bataillons les plus gradés de l'armée de Yharim possédaient ces armes. Cependant, ce ne sont toujours pas mes outils les plus puissants. Je ne pouvait pas le confier à ces... personnages.
+		Addendum: La pièce finale reste à découvrir. Voyagez maintenant du feu le plus brûlant que cette terre a à offrir, jusqu'au froid le plus glacial. Je ne peux pas nier avoir un certain sens de la symétrie poétique.
+		''' 
+}
+
+EncryptedSchematicIce: {
+	 DisplayName: Schéma Crypté (Toundra)
+	 Tooltip: Nécessite un Décrypteur avec un systeme de régulation voltaïque complexe pour être décodé
+	 Content:
+		'''
+		J'ai depuis progressé et créé des armes plus puissantes que celles-ci, mais elles restent des créations dont je peux être fier. Aucun progrès ne peut-être fait sans le désir inhérant à l'insatisfaction.
+		Addendum: Le temps est venu. Vous êtes prêt.
+		''' 
+}
+
+EncryptedSchematicJungle: {
+	 DisplayName: Schéma Crypté (Jungle)
+	 Tooltip: Nécessite un Décrypteur avec un capteur longue portée pour être décodé
+	 Content:
+		'''
+		Quand le grade monte, la létalité de l'équipement fourni le suit. Dans les mains de soldats compétents, ces armes sont capables de provoquer un changement. Cependant, les soldats compétent n'agissent pas sans ordre d'en haut.
+		Addendum: Si vous lisez ceci, vous avez bien progressé. Ne me décevez pas. Gagnez les enfers, car le prochain composant est entreposé dans ce qui fût autrefois mes forges.
+		''' 
+}
+
+EncryptedSchematicPlanetoid: {
+	 DisplayName: Schéma Crypté (Planetoïde)
+	 Tooltip: Nécessite un Décrypteur avec un ordinateur de décryptage basique pour être décodé
+	 Content:
+		'''
+		Au sein d'une armée, et à l'instar des armes, les soldats remplissent différentes fonctions. Cette distinction est cruciale, car mettre le mauvais outil dans les mauvaises mains -en dépit des compétences-, revient à donner un bout de bois.
+		Addendum: Pars à la recherche de ma base près du domicile des Lihzahrd. Je te souhaite sincèrement bonne chance, car cela fait bien longtemps que je n'ai pas eu un sujet de test aussi méritant.
+		''' 
+}
+
+EncryptedSchematicSunkenSea: {
+	 DisplayName: Schéma (Mer Coulée)
+	 Tooltip:
+		'''
+		Des diagrammes finement détaillés de nombreux appareils et armements dancent sur l'écran holographique
+		Rammasez cet objet ou l'avoir dans votre inventaire débloque de façon permanente de nouvelles recettes
+		Cliquez pour lire son contenu
+		''' 
+	 Content:
+		'''
+		L'armement que je fournis au personnel du laboratoire est faible. Difficilement qualifié pour le combat.
+		Cependant, il suffira pour l'autodéfense en cas de problème avec les mécanismes ou les expériences dont le contrôle m'échappe.
+		Addendum: Pour ceux qui se pensent puissants, fouillez les limites supérieures de l'atmosphère de cete planète à la recherche d'une structure similaire à celle-ci.
+		Je finirai par savoir si vous être digne d'affronter mes créations.
+		''' 
+}

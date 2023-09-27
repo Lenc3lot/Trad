@@ -1,0 +1,78 @@
+// For general uses
+ Abyss: Abysse
+ AstralInfection: Infection Astrale
+ AstralDesert: Désert Astral
+ AstralSnow: Toundra Astrale
+ BrimstoneCrags: Vestiges Soufrés
+ SulphurousSea: Mer Sulfureuse
+ SunkenSea: Mer Coulée
+
+AbovegroundAstralBiome: {
+	 DisplayName: Infection Astrale
+	 TownNPCDialogueName: Infection Astrale
+}
+
+AbovegroundAstralBiomeSurface: {
+	 DisplayName: Surface Astrale
+	 TownNPCDialogueName: Infection Astrale
+}
+
+AbovegroundAstralDesertBiome: {
+	 DisplayName: Désert Astral (Surface)
+	 TownNPCDialogueName: Désert Astral
+}
+
+AbovegroundAstralSnowBiome: {
+	 DisplayName: Toundra Astrale (Surface)
+	 TownNPCDialogueName: Toundra Astrale
+}
+
+AbyssLayer1Biome: {
+	 DisplayName: Profondeurs Sulfuriques
+	 TownNPCDialogueName: Profondeurs Sulfuriques
+}
+
+AbyssLayer2Biome: {
+	 DisplayName: Eaux Obscures
+	 TownNPCDialogueName: Eaux Obscures
+}
+
+AbyssLayer3Biome: {
+	 DisplayName: Évents Thermiques
+	 TownNPCDialogueName: Évents Thermiques
+}
+
+AbyssLayer4Biome: {
+	 DisplayName: Le Vide
+	 TownNPCDialogueName: Vide
+}
+
+AcidRainBiome: {
+	 DisplayName: Pluie Acide
+	 TownNPCDialogueName: Pluie Acide
+}
+
+ArsenalLabBiome: {
+	 DisplayName: Labos d'Arsenal
+	 TownNPCDialogueName: Labo d'Arsenal
+}
+
+BrimstoneCragsBiome: {
+	 DisplayName: Vestiges Soufrés
+	 TownNPCDialogueName: Vestiges Soufrés
+}
+
+SulphurousSeaBiome: {
+	 DisplayName: Mer Sulfureuse
+	 TownNPCDialogueName: Mer Sulfureuse
+}
+
+SunkenSeaBiome: {
+	 DisplayName: Mer Coulée
+	 TownNPCDialogueName: Mer Coulée
+}
+
+UndergroundAstralBiome: {
+	 DisplayName: Souterrain Astral
+	 TownNPCDialogueName: Souterrain Astral
+}
