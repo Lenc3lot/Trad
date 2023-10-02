@@ -39,7 +39,7 @@ json_encode($objFR);
 
 
 <?php
-foreach ($obj as $key => $element) {
+foreach ($obj as $key => $element) { //élément non traduit
 	echo "
 	<tr> 		
 		<td>".$key."</td>
@@ -67,8 +67,8 @@ foreach ($obj as $key => $element) {
 				}
 			}
 		}
-		echo "</td>";
-		
+		echo "</td>"; 
+
 	}
 	
 }
@@ -85,18 +85,16 @@ echo "</table>";
 
 
 <?php
-foreach ($objFR as $FRkey => $FRelement) {
+foreach ($objFR as $FRkey => $FRelement) {//élément traduit ou partiellement traduit
 	echo "
 	<tr> 		
-		<td>".$FRkey."</td>
+		<td><input type='text' name='FRelement' value = '$FRkey'></td>
 		<td>";
 	if (gettype($FRelement) != 'array') {
-		echo $FRelement;
+		echo "<input type='text' name='FRelement' value = '$FRelement'>";
 	} else {
 
 		foreach ($FRelement as $FRkey2 => $FRsouselement) {
-			//echo " key2 = " . htmlspecialchars($key2) . " : ";
-			
 			
 			if (gettype($FRkey2) != 'array') {
 
@@ -108,7 +106,7 @@ foreach ($objFR as $FRkey => $FRelement) {
 
 				} else {
 
-					echo htmlspecialchars($FRkey2) ." : ".htmlspecialchars($FRsouselement)." <br>";
+					echo "<input type='text' name='FRelement' value = '".htmlspecialchars($FRkey2) ." : ".htmlspecialchars($FRsouselement)."' <br>";
 				
 				}
 			}

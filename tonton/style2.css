@@ -27,3 +27,11 @@ td{
     color:rgb(26, 26, 26);
 }
 
+tr{
+    height: 50px;
+}
+
+input{
+    height: auto;
+    width: auto;
+}
