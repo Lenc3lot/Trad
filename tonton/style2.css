@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    background-color: rgb(230, 230, 230);
+    border: 2px solid rgb(115, 157, 206);
+    border-left: 0.5px solid rgb(115, 157, 206);
+    border-right: 0.5px solid rgb(115, 157, 206);
+}
+
+TH {
+ 
+    border:1px solid rgb(115, 157, 206);
+    font-size:24px;
+    color:rgb(26, 26, 26);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+td{
+    border:1px solid rgb(115, 157, 206);
+    font-size:18px;
+    color:rgb(26, 26, 26);
+}
+
