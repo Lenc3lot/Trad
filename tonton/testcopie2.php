@@ -25,8 +25,10 @@ $dataFR = file_get_contents("./outputFR/fr-FR_Mods.CalamityMod.Attunement.hjson"
 $objFR = $parser->parse($dataFR, $option);
 json_encode($objFR);
 //var_dump($objFR);
-// $retourTab = array();
-// $dataTotal = array();
+$fulldata = array();
+$retourTab = array();
+$dataTotal = array();
+$i = 0;
 
 ?> 
 
@@ -65,6 +67,8 @@ foreach ($obj as $key => $element) { //élément non traduit
 	<tr> 		
 		<td>".$key."</td>
 		<td>";
+
+		
 	if (gettype($element) != 'array') {
 		echo $element;
 	} else {
@@ -83,15 +87,17 @@ foreach ($obj as $key => $element) { //élément non traduit
 
 				} else {
 
-					echo htmlspecialchars($key2) ." : ".htmlspecialchars($souselement)." <br>";
-				
+					echo htmlspecialchars($key2) ." : ".htmlspecialchars($souselement)." </br>";
+					$retourTab["$key2"] = $souselement;
+					$dataTotal["$key"] = $retourTab["$key2"];
+					$fulldata[] = $retourTab; 
 				}
 			}
 		}
 		echo "</td>"; 
 
 	}
-	
+	$i ++;
 }
 echo "</tr>";
 echo "</table>
@@ -111,10 +117,10 @@ echo "</table>
 foreach ($objFR as $FRkey => $FRelement) {//élément traduit ou partiellement traduit
 	echo "
 	<tr> 		
-		<td><input type='text' name='FRelement' value = '$FRkey'></td>
+		<td><input type='text' name='FRelement' value = '$FRkey' disabled></td>
 		<td>";
 	if (gettype($FRelement) != 'array') {
-		echo "<input type='text' name='FRelement' value = '$FRelement'>";
+		echo "<input type='text' name='FRelement' value = '$FRelement' >";
 	} else {
 
 		foreach ($FRelement as $FRkey2 => $FRsouselement) {
@@ -129,7 +135,7 @@ foreach ($objFR as $FRkey => $FRelement) {//élément traduit ou partiellement t
 
 				} else {
 
-					echo "<input type='text' name='FRelement' value = '".htmlspecialchars($FRkey2) ." : ".htmlspecialchars($FRsouselement)."'>	 </br>";
+					echo "<input type='text' name='FRelement' value = '".htmlspecialchars($FRkey2) ." =' disabled><textarea value ='".htmlspecialchars($FRsouselement)."'>".htmlspecialchars($FRsouselement)."</textarea>";
 				
 				}
 			}
@@ -143,6 +149,8 @@ echo "</tr>";
 echo "</table>
 </section>";
 
+
+print_r($fulldata);
 ?>
 </body>
 <html>
