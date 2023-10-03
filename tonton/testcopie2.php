@@ -6,6 +6,8 @@
     <title>Onglet Trad</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" type="text/css" href="./style2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="./script.js"></script>
 </head>
 
 
@@ -19,6 +21,7 @@ $option = ['keepWsc' => false, 'assoc' => true];
 
 $data = file_get_contents("./base1311/Mods.CalamityMod.Attunement.hjson");
 $parser = new HJSONParser();
+
 $obj = $parser->parse($data, $option);
 
 $dataFR = file_get_contents("./outputFR/fr-FR_Mods.CalamityMod.Attunement.hjson");
@@ -26,7 +29,6 @@ $objFR = $parser->parse($dataFR, $option);
 json_encode($objFR);
 //var_dump($objFR);
 $MonTab = [];
-echo (gettype($MonTab));
 $anothertab = [];
 
 $i = 0;
@@ -55,8 +57,15 @@ $i = 0;
 	<br>
 	<br>
 
-	<form method="post" action="./CopierDonnee.php">
-	<input type="submit" value="Valider">
+	<button><a href="./test.json" download>Télécharger</a></button>
+
+	<?php 
+
+	// print_r($objFR);
+	
+	
+
+	?>
 
 </section>
 
@@ -91,9 +100,7 @@ foreach ($obj as $key => $element) { //élément non traduit
 	} else {
 
 		foreach ($element as $key2 => $souselement) {
-			echo " key2 = " . htmlspecialchars($key2) . " : ";
-			
-			
+			echo htmlspecialchars($key2) . " : ";
 			
 			if (gettype($key2) != 'array') {
 
@@ -107,7 +114,7 @@ foreach ($obj as $key => $element) { //élément non traduit
 
 					echo htmlspecialchars($key2) ." : ".htmlspecialchars($souselement)." </br>";
 					$anothertab[$key2] = $souselement;
-					print_r($anothertab);
+					//print_r($anothertab);
 					
 
 				}
@@ -126,6 +133,7 @@ echo "</table>
 ?>
 
 <section id="FR_table">
+	<form name = "monForm" action="./CopierDonnee.php" method="post">
 <table>
 
 	<tr>
@@ -146,8 +154,8 @@ foreach ($objFR as $FRkey => $FRelement) {//élément traduit ou partiellement t
 	echo "
 	<tr> 		
 		<td>
-			<input type='text' name='FRkey' value = '$FRkey' disabled>
-			<input type='text' name='FRkey' value = '$FRkey' hidden>
+			<input type='text' value = '$FRkey' disabled>
+			<input type='text' id='$FRkey' value = '$FRkey' hidden>
 		</td>
 		<td>";
 	if (gettype($FRelement) != 'array') {
@@ -166,7 +174,7 @@ foreach ($objFR as $FRkey => $FRelement) {//élément traduit ou partiellement t
 
 				} else {
 
-					echo "<input type='text' name='FRelement' value = '".htmlspecialchars($FRkey2) ." =' ><textarea name ='FR_desc' value ='".htmlspecialchars($FRsouselement)."'>".htmlspecialchars($FRsouselement)."</textarea>";
+					echo "<input type='text' id='FRelementINTIT' value = '".htmlspecialchars($FRkey2) ." =' onchange='Test()'><textarea id ='FR_desc' value ='".htmlspecialchars($FRsouselement)."' onchange='Test()'>".htmlspecialchars($FRsouselement)."</textarea>";
 				
 				}
 			}
@@ -181,9 +189,13 @@ echo "</table>
 </section>"; 
 
 // echo(json_encode($MonTab));
-// file_put_contents("./test.json",json_encode($MonTab));
+file_put_contents("./test.json",json_encode($MonTab));
+
+$srch = "DefaultAttunement";
 
 ?>
+<input type="submit">
 </form>
 </body>
 <html>
+
