@@ -25,29 +25,38 @@ $dataFR = file_get_contents("./outputFR/fr-FR_Mods.CalamityMod.Attunement.hjson"
 $objFR = $parser->parse($dataFR, $option);
 json_encode($objFR);
 //var_dump($objFR);
-$fulldata = array();
-$retourTab = array();
-$dataTotal = array();
+$MonTab = [];
+echo (gettype($MonTab));
+$anothertab = [];
+
 $i = 0;
 
 ?> 
 
 <section id="ZoneSelect">
-	
+
+	<!--#####################################-->
+	<!-- SECTION DE SELECTION / CONFIRMATION -->
+	<!--#####################################-->
+
 	<header>
 		<h2>Traducteur CalamityFR</h2>
 	</header>
 
 	<select>
-	
 	<?php
 	$dir = new DirectoryIterator(dirname("./base1311/test"));
 	foreach ($dir as $fileinfo) {
 		echo "<option>" .$fileinfo->getFilename() . " </option>";
 	}
 	?>
-
 	</select>
+	<br>
+	<br>
+	<br>
+
+	<form method="post" action="./CopierDonnee.php">
+	<input type="submit" value="Valider">
 
 </section>
 
@@ -62,11 +71,19 @@ $i = 0;
 
 
 <?php
+
+
+###############################
+# ELEMENT ORIGINAL EN ANGLAIS # 
+###############################
+
+
 foreach ($obj as $key => $element) { //élément non traduit
 	echo "
 	<tr> 		
 		<td>".$key."</td>
 		<td>";
+	$soustab[$key]= [];
 
 		
 	if (gettype($element) != 'array') {
@@ -74,7 +91,8 @@ foreach ($obj as $key => $element) { //élément non traduit
 	} else {
 
 		foreach ($element as $key2 => $souselement) {
-			//echo " key2 = " . htmlspecialchars($key2) . " : ";
+			echo " key2 = " . htmlspecialchars($key2) . " : ";
+			
 			
 			
 			if (gettype($key2) != 'array') {
@@ -88,17 +106,20 @@ foreach ($obj as $key => $element) { //élément non traduit
 				} else {
 
 					echo htmlspecialchars($key2) ." : ".htmlspecialchars($souselement)." </br>";
-					$retourTab["$key2"] = $souselement;
-					$dataTotal["$key"] = $retourTab["$key2"];
-					$fulldata[] = $retourTab; 
+					$anothertab[$key2] = $souselement;
+					print_r($anothertab);
+					
+
 				}
 			}
 		}
 		echo "</td>"; 
 
 	}
+	$soustab[$key] = $anothertab;
 	$i ++;
 }
+$MonTab[]=$soustab;
 echo "</tr>";
 echo "</table>
 </section>";
@@ -114,10 +135,20 @@ echo "</table>
 
 
 <?php
+
+
+###############################
+# ELEMENT TRADUIT EN FRANCAIS # 
+###############################
+
+
 foreach ($objFR as $FRkey => $FRelement) {//élément traduit ou partiellement traduit
 	echo "
 	<tr> 		
-		<td><input type='text' name='FRelement' value = '$FRkey' disabled></td>
+		<td>
+			<input type='text' name='FRkey' value = '$FRkey' disabled>
+			<input type='text' name='FRkey' value = '$FRkey' hidden>
+		</td>
 		<td>";
 	if (gettype($FRelement) != 'array') {
 		echo "<input type='text' name='FRelement' value = '$FRelement' >";
@@ -135,7 +166,7 @@ foreach ($objFR as $FRkey => $FRelement) {//élément traduit ou partiellement t
 
 				} else {
 
-					echo "<input type='text' name='FRelement' value = '".htmlspecialchars($FRkey2) ." =' disabled><textarea value ='".htmlspecialchars($FRsouselement)."'>".htmlspecialchars($FRsouselement)."</textarea>";
+					echo "<input type='text' name='FRelement' value = '".htmlspecialchars($FRkey2) ." =' ><textarea name ='FR_desc' value ='".htmlspecialchars($FRsouselement)."'>".htmlspecialchars($FRsouselement)."</textarea>";
 				
 				}
 			}
@@ -147,10 +178,12 @@ foreach ($objFR as $FRkey => $FRelement) {//élément traduit ou partiellement t
 }
 echo "</tr>";
 echo "</table>
-</section>";
+</section>"; 
 
+// echo(json_encode($MonTab));
+// file_put_contents("./test.json",json_encode($MonTab));
 
-print_r($fulldata);
 ?>
+</form>
 </body>
 <html>
