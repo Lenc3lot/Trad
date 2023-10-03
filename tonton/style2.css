@@ -6,11 +6,23 @@ body {
 
 table {
     background-color: rgb(230, 230, 230);
-    border: 2px solid rgb(115, 157, 206);
-    border-left: 0.5px solid rgb(115, 157, 206);
-    border-right: 0.5px solid rgb(115, 157, 206);
+    
 }
 
+section{
+    width: 50em;
+}
+
+
+
+#EN_table > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) {
+    height: 0px;
+  }
+
+  #FR_table > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) {
+    height: 0px;
+  }
+  
 TH {
  
     border:1px solid rgb(115, 157, 206);
@@ -28,7 +40,7 @@ td{
 }
 
 tr{
-    height: 50px;
+    height: 100px;
 }
 
 input{
