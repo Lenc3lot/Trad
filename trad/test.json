@@ -1,98 +1,98 @@
 {
     "DefaultAttunement": {
         "Name": "Bonjour Test 2 !",
-        "Function": "Fires a weak projectile that crushes enemy defenses"
+        "Function": "Tire un faible projectile qui \u00e9crase les d\u00e9fenses ennemies"
     },
     "HotAttunement": {
-        "Name": "Arid Grandeur",
-        "Function": "Hold <left> to conjure searing blades in front of you that get larger and stronger the more you hit enemies\nThe blades can also be used to bounce off tiles when in the air"
+        "Name": "Grandeur Aride",
+        "Function": "Maintenez <left> pour invoquer des lames br\u00fblantes devant vous qui deviennent plus grandes et plus puissantes \u00e0 mesure que vous touchez des ennemis\nLes lames peuvent \u00e9galement vous faire rebondir sur les tuiles lorsque vous \u00eates en l'air"
     },
     "ColdAttunement": {
-        "Name": "Biting Embrace",
-        "Function": "Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second"
+        "Name": "\u00c9treinte Mordante",
+        "Function": "Effectuez une combinaison de 3 frappes avec une lame glaciale. La frappe finale g\u00e8le les ennemis pendant un bref instant"
     },
     "TropicalAttunement": {
-        "Name": "Grovetender's Touch",
-        "Function": "Throw out the blade using a vine whip\nStriking enemies with the tip of the whip as it cracks guarantees a critical hit\nThe whip will also propel you towards struck tiles"
+        "Name": "Toucher du Gardien de Bosquet",
+        "Function": "Lancez la lame en utilisant un fouet de vigne\nFrapper les ennemis avec le bout du fouet au moment o\u00f9 il se fend garantit un coup critique\nLe fouet vous propulsera \u00e9galement vers les tuiles touch\u00e9es"
     },
     "EvilAttunement": {
-        "Name": "Decay's Retort",
-        "Function": "Lunge forward using a ghostly rapier projection that leeches life on enemy hits\nYou will bounce away from struck targets"
+        "Name": "R\u00e9plique de D\u00e9cadence",
+        "Function": "Vous lance en avant en utilisant une projection de rapi\u00e8re fantomatique qui absorbe la vie lors des coups port\u00e9s aux ennemis\nVous rebondirez sur les cibles touch\u00e9es"
     },
     "TrueDefaultAttunement": {
-        "Name": "Pure Clarity",
-        "Function": "Fires a weak projectile that crushes enemy defenses\nLanding true melee hits places a sigil of purity over the enemy. Your projectiles home onto the marked foes"
+        "Name": "Clart\u00e9 Pure",
+        "Function": "Tire un faible projectile qui \u00e9crase les d\u00e9fenses ennemies\nLorsque vous portez des coups en vraie m\u00eal\u00e9e, un sigle de puret\u00e9 est plac\u00e9 sur l'ennemi. Vos projectiles se dirigent vers les ennemis marqu\u00e9s"
     },
     "TrueHotAttunement": {
-        "Name": "Arid Grandeur",
-        "Function": "Hold <left> to conjure searing blades in front of you that get larger and stronger the more you hit enemies\nThe blades can also be used to bounce off tiles when in the air\nReleasing after the blades are fully charged sends them hurtling forwards to shred your foes"
+        "Name": "Grandeur Aride",
+        "Function": "Maintenez <left> pour invoquer des lames br\u00fblantes devant vous qui deviennent plus grandes et plus puissantes \u00e0 mesure que vous touchez des ennemis\nLes lames peuvent \u00e9galement vous faire rebondir sur les tuiles lorsque vous \u00eates en l'air\nRel\u00e2chez apr\u00e8s que les lames soient compl\u00e8tement charg\u00e9es pour les propulser en avant et d\u00e9chiquetez vos ennemis"
     },
     "TrueColdAttunement": {
-        "Name": "Biting Embrace",
-        "Function": "Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second\nLingering glacial mist is released on each swing, dealing damage to enemies wandering into it"
+        "Name": "\u00c9treinte Mordante",
+        "Function": "Effectuez une combinaison de 3 frappes avec une lame glaciale. La frappe finale g\u00e8le les ennemis pendant un bref instant\nUne brume glaciale persistante est lib\u00e9r\u00e9e \u00e0 chaque coup, infligeant des d\u00e9g\u00e2ts aux ennemis qui s'y aventurent"
     },
     "TrueTropicalAttunement": {
-        "Name": "Grovetender's Touch",
-        "Function": "Throw out the blade using a vine whip.\nStriking enemies with the tip of the whip as it cracks guarantees a critical hit\nThe whip will also propel you towards struck tiles\nSpreading vines sprout from critical strikes. These vines can hit up to three targets"
+        "Name": "Toucher du Gardien de Bosquet",
+        "Function": "Lancez la lame en utilisant un fouet de vigne\nFrapper les ennemis avec le bout du fouet au moment o\u00f9 il se fend garantit un coup critique\nLe fouet vous propulsera \u00e9galement vers les tuiles touch\u00e9es\nDes vignes se propagent \u00e0 partir des coups critiques. Ces vignes peuvent toucher jusqu'\u00e0 trois cibles."
     },
     "TrueEvilAttunement": {
-        "Name": "Decay's Retort",
-        "Function": "Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets\nLanding three strikes without touching the ground changes your next attack into an empowered dash thrust"
+        "Name": "R\u00e9plique de D\u00e9cadence",
+        "Function": "Vous lance en avant en utilisant une projection de rapi\u00e8re fantomatique qui absorbe la vie lors des coups port\u00e9s aux ennemis\nVous rebondirez sur les cibles touch\u00e9es\nEffectuer trois frappes sans toucher le sol transforme votre prochaine attaque en une charge renforc\u00e9e"
     },
     "HolyAttunement": {
-        "Name": "Heaven's Might",
-        "Function": "Hold <left> to swing the sword around you, accelerating over time\nReleasing hurls the sword towards your cursor. The sword then quickly returns to your hand"
+        "Name": "Puissance C\u00e9leste",
+        "Function": "Maintenez <left> pour faire tournoyer l'\u00e9p\u00e9e autour de vous de plus en plus vite\nRel\u00e2chez pour projeter l'\u00e9p\u00e9e vers votre curseur. L'\u00e9p\u00e9e revient ensuite rapidement dans votre main"
     },
     "AstralAttunement": {
-        "Name": "Extant Abhorrence",
-        "Function": "Hold <left> to charge a star-piercing lunge, release to unleash the devastating blow\nStriking the earth with the lunge will cause a massive impact which raises otherworldly monoliths"
+        "Name": "Horreur Existancielle",
+        "Function": "Maintenez <left> pour pr\u00e9parer une ru\u00e9e transper\u00e7ant les \u00e9toiles, rel\u00e2chez pour d\u00e9cha\u00eener le coup d\u00e9vastateur.\nFrapper la terre avec la ru\u00e9e provoquera un impact massif qui \u00e9l\u00e8vera des monolithes surnaturels."
     },
     "MarineAttunement": {
-        "Name": "Gesture for the Drowned",
-        "Function": "Shoot out two water balls at your sides. On ground contact the water balls will turn into small waves that ride along the ground\nWaves fired while underwater or that touch water will become much larger and faster"
+        "Name": "Geste aux Noy\u00e9s",
+        "Function": "Tire deux boules d'eau sur vos c\u00f4t\u00e9s. Au contact du sol, les boules d'eau se transformeront en petites vagues qui glisseront le long du sol\nLes vagues tir\u00e9es sous l'eau ou qui touchent l'eau deviendront beaucoup plus grandes et plus rapides"
     },
     "WhirlwindAttunement": {
-        "Name": "Swordsmith's Pride",
-        "Function": "Hold <left> to swing the sword around you, accelerating over time. Sword beams are fired wildly while swinging\nReleasing hurls the sword towards your cursor. Sword beams home onto enemies struck by the thrown sword",
-        "PassiveDesc": "All attacks have a chance to fire sword beams"
+        "Name": "Fiert\u00e9 du Forgeron",
+        "Function": "Maintenez <left> pour faire tournoyer l'\u00e9p\u00e9e autour de vous de plus en plus vite. Des rayons d'\u00e9p\u00e9e sont tir\u00e9s de mani\u00e8re incontr\u00f4l\u00e9e pendant la rotation. \nRel\u00e2chez pour projeter l'\u00e9p\u00e9e vers votre curseur. Les rayons d'\u00e9p\u00e9e se dirigent vers les ennemis touch\u00e9s par l'\u00e9p\u00e9e lanc\u00e9e",
+        "PassiveDesc": "Toutes les attaques ont une chance de tirer des rayons d'\u00e9p\u00e9e"
     },
     "FlailBladeAttunement": {
-        "Name": "Lamentations of the Chained",
-        "Function": "Lash out with a flurry of chained blades. Striking enemies with the tip of the blades guarantees a critical hit\nCritical strikes send out extra phantom chains which latch onto multiple targets",
-        "PassiveDesc": "An enchanted chain hook floats near you. Striking enemies makes the hook whirl around you, freezing enemies"
+        "Name": "Lamentations des Encha\u00een\u00e9s",
+        "Function": "Frappez avec une rafale de lames encha\u00een\u00e9es. Frapper les ennemis avec la pointe des lames garantit un coup critique\nLes coups critiques envoient des cha\u00eenes spectrales suppl\u00e9mentaires qui s'accrochent \u00e0 plusieurs cibles.",
+        "PassiveDesc": "Un crochet enchant\u00e9 flotte pr\u00e8s de vous. Frapper les ennemis fait tourbillonner le crochet autour de vous, gelant les ennemis"
     },
     "SuperPogoAttunement": {
-        "Name": "Sanguine Fury",
-        "Function": "Hold <left> to conjure molten blades in front of you that get larger and stronger the more you hit enemies\nThe blades can also be used to bounce off tiles when in the air\nReleasing sends the charged blades hurtling forwards like a wheel\nAttacking again immediately thereafter dashes to the wheel, shredding anything in the way",
-        "PassiveDesc": "Striking enemies rarely steals a small amount of life"
+        "Name": "Fureur Sanguine",
+        "Function": "Maintenez <left> pour invoquer des lames en fusion devant vous qui deviennent plus grandes et plus puissantes \u00e0 mesure que vous touchez des ennemis\nLes lames peuvent \u00e9galement vous faire rebondir sur les tuiles lorsque vous \u00eates en l'air\nRel\u00e2chez pour envoyer les lames charg\u00e9es en avant comme une roue\nAttaquer imm\u00e9diatement apr\u00e8s effectue une ru\u00e9e dans la m\u00eame direction, d\u00e9chiquetant tout sur son passage.",
+        "PassiveDesc": "Frapper les ennemis vole rarement une petite quantit\u00e9 de vie"
     },
     "ShockwaveAttunement": {
-        "Name": "Mercurial Tides",
-        "Function": "Hold <left> to charge a heaven-shattering lunge, release to unleash the devastating blow\nShock waves are emitted as the sword charges up\nStriking the earth with the lunge will cause a massive shock wave on impact which raises a flood of monoliths",
-        "PassiveDesc": "Periodically emit shock waves while attacking"
+        "Name": "Mar\u00e9es Mercurielles",
+        "Function": "Maintenez <left> pour charger une ru\u00e9e d\u00e9chirant le ciel, rel\u00e2chez pour d\u00e9cha\u00eener le coup d\u00e9vastateur\n Des ondes de choc sont \u00e9mises pendant que l'\u00e9p\u00e9e se charge\nFrapper la terre avec la ru\u00e9e provoquera une onde de choc massive \u00e0 l'impact, qui \u00e9l\u00e8vera un flot de monolithes",
+        "PassiveDesc": "\u00c9met p\u00e9riodiquement des ondes de choc en attaquant"
     },
     "PhoenixAttunement": {
-        "Name": "Phoenix's Pride",
-        "Function": "<left> to swing Galaxia around you, accelerating over time\nThe swirling nebula constantly emits homing cosmic bolts\nRelease to hurl Galaxia toward the cursor alongside 6 gigantic cosmic bolts",
-        "PassiveName": "Capricorn's Blessing",
-        "PassiveDesc": "Periodically releases a ring of weakening stars around your cursor when attacking\nThe ring is repelled away from you at first, before slowing down over time"
+        "Name": "Fiert\u00e9 du Ph\u00e9nix",
+        "Function": "<left> pour faire tournoyer Galaxia autour de vous de plus en plus vite\nLa n\u00e9buleuse tourbillonnante \u00e9met constamment des d\u00e9charges cosmiques traqueuses\nRel\u00e2chez pour lancer Galaxia vers le curseur en m\u00eame temps que 6 \u00e9normes d\u00e9charges cosmiques",
+        "PassiveName": "B\u00e9n\u00e9diction du Capricorne",
+        "PassiveDesc": "Lib\u00e8re p\u00e9riodiquement un anneau d'\u00e9toiles affaiblissantes autour de vous lorsque vous attaquez\nL'anneau est d'abord attir\u00e9 vers vous, avant de ralentir avec le temps"
     },
     "AriesAttunement": {
-        "Name": "Aries' Wrath",
-        "Function": "Throw Galaxia to your cursor, holding it in place with constellations\nGalaxia follows your cursor, rapidly spinning to shred enemies\nStriking enemies causes nebulous explosions which spawn homing cosmic bolts",
-        "PassiveName": "Capricorn's Blessing",
-        "PassiveDesc": "Periodically releases a ring of weakening stars around your cursor when attacking\nThe ring is repelled away from you at first, before slowing down over time"
+        "Name": "Col\u00e8re du B\u00e9lier",
+        "Function": "Lancez Galaxia vers votre curseur, qui se maintient en place avec des constellations\nGalaxia suit votre curseur, tournant rapidement pour d\u00e9chiqueter les ennemis\nFrapper les ennemis provoque des explosions n\u00e9buleuses qui font appara\u00eetre des d\u00e9charges cosmiques traqueuses",
+        "PassiveName": "B\u00e9n\u00e9diction du Capricorne",
+        "PassiveDesc": "Lib\u00e8re p\u00e9riodiquement un anneau d'\u00e9toiles affaiblissantes autour de vous lorsque vous attaquez\nL'anneau est d'abord attir\u00e9 vers vous, avant de ralentir avec le temps"
     },
     "PolarisAttunement": {
-        "Name": "Polaris' Gaze",
-        "Function": "Hold <left> to channel Galaxia's power into a tight vortex of galactic energies\nThe vortex powers up over time and when hitting enemies\nRelease to fire off the charged star in straight line\nPress <left> again immediately to dash towards the star and release cosmic bolts",
-        "PassiveName": "Cancer's Blessing",
-        "PassiveDesc": "Periodically releases a ring of lifestealing stars around yourself when attacking\nThe ring is attracted towards you at first, before slowing down over time"
+        "Name": "Regard de Polaris",
+        "Function": "Maintenez <left> pour canaliser le pouvoir de Galaxia dans un vortex serr\u00e9 d'\u00e9nergies galactiques\nLe vortex se renforce avec le temps et en frappant les ennemis\nRel\u00e2chez pour lancer l'\u00e9toile charg\u00e9e en ligne droite\nAppuyez imm\u00e9diatement \u00e0 nouveau sur <left> pour foncer vers l'\u00e9toile et lib\u00e9rer des d\u00e9charges cosmiques",
+        "PassiveName": "B\u00e9n\u00e9diction du Cancer",
+        "PassiveDesc": "Lib\u00e8re p\u00e9riodiquement un anneau d'\u00e9toiles vampiriques autour de vous lorsque vous attaquez\nL'anneau est d'abord attir\u00e9 vers vous, avant de ralentir avec le temps"
     },
     "AndromedaAttunement": {
-        "Name": "Andromeda's Stride",
-        "Function": "Hold <left> to charge a god-erasing lunge, release to unleash the devastating blow\nGalaxia emits cosmic bolts while charging\nLunging into the ground will cause a shockwave which summons a storm of cosmic energies",
-        "PassiveName": "Cancer's Blessing",
-        "PassiveDesc": "Periodically releases a ring of lifestealing stars around yourself when attacking\nThe ring is attracted towards you at first, before slowing down over time"
+        "Name": "Foul\u00e9e d'Androm\u00e8de",
+        "Function": "Maintenez <left> pour charger une ru\u00e9e d\u00e9icide, rel\u00e2chez pour d\u00e9cha\u00eener le coup d\u00e9vastateur.\nGalaxia \u00e9met des d\u00e9charges cosmiques pendant la charge.\nFrapper le sol avec la ru\u00e9e provoquera une onde de choc qui invoque une temp\u00eate d'\u00e9nergies cosmiques.",
+        "PassiveName": "B\u00e9n\u00e9diction du Cancer",
+        "PassiveDesc": "Lib\u00e8re p\u00e9riodiquement un anneau d'\u00e9toiles vampiriques autour de vous lorsque vous attaquez\nL'anneau est d'abord attir\u00e9 vers vous, avant de ralentir avec le temps"
     }
 }
