@@ -1,100 +1,98 @@
-[
-    {
-        "DefaultAttunement": {
-            "Name": "Pure Clarity",
-            "Function": "Fires a weak projectile that crushes enemy defenses"
-        },
-        "HotAttunement": {
-            "Name": "Arid Grandeur",
-            "Function": "Hold <left> to conjure searing blades in front of you that get larger and stronger the more you hit enemies\nThe blades can also be used to bounce off tiles when in the air"
-        },
-        "ColdAttunement": {
-            "Name": "Biting Embrace",
-            "Function": "Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second"
-        },
-        "TropicalAttunement": {
-            "Name": "Grovetender's Touch",
-            "Function": "Throw out the blade using a vine whip\nStriking enemies with the tip of the whip as it cracks guarantees a critical hit\nThe whip will also propel you towards struck tiles"
-        },
-        "EvilAttunement": {
-            "Name": "Decay's Retort",
-            "Function": "Lunge forward using a ghostly rapier projection that leeches life on enemy hits\nYou will bounce away from struck targets"
-        },
-        "TrueDefaultAttunement": {
-            "Name": "Pure Clarity",
-            "Function": "Fires a weak projectile that crushes enemy defenses\nLanding true melee hits places a sigil of purity over the enemy. Your projectiles home onto the marked foes"
-        },
-        "TrueHotAttunement": {
-            "Name": "Arid Grandeur",
-            "Function": "Hold <left> to conjure searing blades in front of you that get larger and stronger the more you hit enemies\nThe blades can also be used to bounce off tiles when in the air\nReleasing after the blades are fully charged sends them hurtling forwards to shred your foes"
-        },
-        "TrueColdAttunement": {
-            "Name": "Biting Embrace",
-            "Function": "Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second\nLingering glacial mist is released on each swing, dealing damage to enemies wandering into it"
-        },
-        "TrueTropicalAttunement": {
-            "Name": "Grovetender's Touch",
-            "Function": "Throw out the blade using a vine whip.\nStriking enemies with the tip of the whip as it cracks guarantees a critical hit\nThe whip will also propel you towards struck tiles\nSpreading vines sprout from critical strikes. These vines can hit up to three targets"
-        },
-        "TrueEvilAttunement": {
-            "Name": "Decay's Retort",
-            "Function": "Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets\nLanding three strikes without touching the ground changes your next attack into an empowered dash thrust"
-        },
-        "HolyAttunement": {
-            "Name": "Heaven's Might",
-            "Function": "Hold <left> to swing the sword around you, accelerating over time\nReleasing hurls the sword towards your cursor. The sword then quickly returns to your hand"
-        },
-        "AstralAttunement": {
-            "Name": "Extant Abhorrence",
-            "Function": "Hold <left> to charge a star-piercing lunge, release to unleash the devastating blow\nStriking the earth with the lunge will cause a massive impact which raises otherworldly monoliths"
-        },
-        "MarineAttunement": {
-            "Name": "Gesture for the Drowned",
-            "Function": "Shoot out two water balls at your sides. On ground contact the water balls will turn into small waves that ride along the ground\nWaves fired while underwater or that touch water will become much larger and faster"
-        },
-        "WhirlwindAttunement": {
-            "Name": "Swordsmith's Pride",
-            "Function": "Hold <left> to swing the sword around you, accelerating over time. Sword beams are fired wildly while swinging\nReleasing hurls the sword towards your cursor. Sword beams home onto enemies struck by the thrown sword",
-            "PassiveDesc": "All attacks have a chance to fire sword beams"
-        },
-        "FlailBladeAttunement": {
-            "Name": "Lamentations of the Chained",
-            "Function": "Lash out with a flurry of chained blades. Striking enemies with the tip of the blades guarantees a critical hit\nCritical strikes send out extra phantom chains which latch onto multiple targets",
-            "PassiveDesc": "An enchanted chain hook floats near you. Striking enemies makes the hook whirl around you, freezing enemies"
-        },
-        "SuperPogoAttunement": {
-            "Name": "Sanguine Fury",
-            "Function": "Hold <left> to conjure molten blades in front of you that get larger and stronger the more you hit enemies\nThe blades can also be used to bounce off tiles when in the air\nReleasing sends the charged blades hurtling forwards like a wheel\nAttacking again immediately thereafter dashes to the wheel, shredding anything in the way",
-            "PassiveDesc": "Striking enemies rarely steals a small amount of life"
-        },
-        "ShockwaveAttunement": {
-            "Name": "Mercurial Tides",
-            "Function": "Hold <left> to charge a heaven-shattering lunge, release to unleash the devastating blow\nShock waves are emitted as the sword charges up\nStriking the earth with the lunge will cause a massive shock wave on impact which raises a flood of monoliths",
-            "PassiveDesc": "Periodically emit shock waves while attacking"
-        },
-        "PhoenixAttunement": {
-            "Name": "Phoenix's Pride",
-            "Function": "<left> to swing Galaxia around you, accelerating over time\nThe swirling nebula constantly emits homing cosmic bolts\nRelease to hurl Galaxia toward the cursor alongside 6 gigantic cosmic bolts",
-            "PassiveDesc": "Periodically releases a ring of weakening stars around your cursor when attacking\nThe ring is repelled away from you at first, before slowing down over time",
-            "PassiveName": "Capricorn's Blessing"
-        },
-        "AriesAttunement": {
-            "Name": "Aries' Wrath",
-            "Function": "Throw Galaxia to your cursor, holding it in place with constellations\nGalaxia follows your cursor, rapidly spinning to shred enemies\nStriking enemies causes nebulous explosions which spawn homing cosmic bolts",
-            "PassiveDesc": "Periodically releases a ring of weakening stars around your cursor when attacking\nThe ring is repelled away from you at first, before slowing down over time",
-            "PassiveName": "Capricorn's Blessing"
-        },
-        "PolarisAttunement": {
-            "Name": "Polaris' Gaze",
-            "Function": "Hold <left> to channel Galaxia's power into a tight vortex of galactic energies\nThe vortex powers up over time and when hitting enemies\nRelease to fire off the charged star in straight line\nPress <left> again immediately to dash towards the star and release cosmic bolts",
-            "PassiveDesc": "Periodically releases a ring of lifestealing stars around yourself when attacking\nThe ring is attracted towards you at first, before slowing down over time",
-            "PassiveName": "Cancer's Blessing"
-        },
-        "AndromedaAttunement": {
-            "Name": "Andromeda's Stride",
-            "Function": "Hold <left> to charge a god-erasing lunge, release to unleash the devastating blow\nGalaxia emits cosmic bolts while charging\nLunging into the ground will cause a shockwave which summons a storm of cosmic energies",
-            "PassiveDesc": "Periodically releases a ring of lifestealing stars around yourself when attacking\nThe ring is attracted towards you at first, before slowing down over time",
-            "PassiveName": "Cancer's Blessing"
-        }
+{
+    "DefaultAttunement": {
+        "Name": "Bonjour Test 2 !",
+        "Function": "Fires a weak projectile that crushes enemy defenses"
+    },
+    "HotAttunement": {
+        "Name": "Arid Grandeur",
+        "Function": "Hold <left> to conjure searing blades in front of you that get larger and stronger the more you hit enemies\nThe blades can also be used to bounce off tiles when in the air"
+    },
+    "ColdAttunement": {
+        "Name": "Biting Embrace",
+        "Function": "Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second"
+    },
+    "TropicalAttunement": {
+        "Name": "Grovetender's Touch",
+        "Function": "Throw out the blade using a vine whip\nStriking enemies with the tip of the whip as it cracks guarantees a critical hit\nThe whip will also propel you towards struck tiles"
+    },
+    "EvilAttunement": {
+        "Name": "Decay's Retort",
+        "Function": "Lunge forward using a ghostly rapier projection that leeches life on enemy hits\nYou will bounce away from struck targets"
+    },
+    "TrueDefaultAttunement": {
+        "Name": "Pure Clarity",
+        "Function": "Fires a weak projectile that crushes enemy defenses\nLanding true melee hits places a sigil of purity over the enemy. Your projectiles home onto the marked foes"
+    },
+    "TrueHotAttunement": {
+        "Name": "Arid Grandeur",
+        "Function": "Hold <left> to conjure searing blades in front of you that get larger and stronger the more you hit enemies\nThe blades can also be used to bounce off tiles when in the air\nReleasing after the blades are fully charged sends them hurtling forwards to shred your foes"
+    },
+    "TrueColdAttunement": {
+        "Name": "Biting Embrace",
+        "Function": "Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second\nLingering glacial mist is released on each swing, dealing damage to enemies wandering into it"
+    },
+    "TrueTropicalAttunement": {
+        "Name": "Grovetender's Touch",
+        "Function": "Throw out the blade using a vine whip.\nStriking enemies with the tip of the whip as it cracks guarantees a critical hit\nThe whip will also propel you towards struck tiles\nSpreading vines sprout from critical strikes. These vines can hit up to three targets"
+    },
+    "TrueEvilAttunement": {
+        "Name": "Decay's Retort",
+        "Function": "Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets\nLanding three strikes without touching the ground changes your next attack into an empowered dash thrust"
+    },
+    "HolyAttunement": {
+        "Name": "Heaven's Might",
+        "Function": "Hold <left> to swing the sword around you, accelerating over time\nReleasing hurls the sword towards your cursor. The sword then quickly returns to your hand"
+    },
+    "AstralAttunement": {
+        "Name": "Extant Abhorrence",
+        "Function": "Hold <left> to charge a star-piercing lunge, release to unleash the devastating blow\nStriking the earth with the lunge will cause a massive impact which raises otherworldly monoliths"
+    },
+    "MarineAttunement": {
+        "Name": "Gesture for the Drowned",
+        "Function": "Shoot out two water balls at your sides. On ground contact the water balls will turn into small waves that ride along the ground\nWaves fired while underwater or that touch water will become much larger and faster"
+    },
+    "WhirlwindAttunement": {
+        "Name": "Swordsmith's Pride",
+        "Function": "Hold <left> to swing the sword around you, accelerating over time. Sword beams are fired wildly while swinging\nReleasing hurls the sword towards your cursor. Sword beams home onto enemies struck by the thrown sword",
+        "PassiveDesc": "All attacks have a chance to fire sword beams"
+    },
+    "FlailBladeAttunement": {
+        "Name": "Lamentations of the Chained",
+        "Function": "Lash out with a flurry of chained blades. Striking enemies with the tip of the blades guarantees a critical hit\nCritical strikes send out extra phantom chains which latch onto multiple targets",
+        "PassiveDesc": "An enchanted chain hook floats near you. Striking enemies makes the hook whirl around you, freezing enemies"
+    },
+    "SuperPogoAttunement": {
+        "Name": "Sanguine Fury",
+        "Function": "Hold <left> to conjure molten blades in front of you that get larger and stronger the more you hit enemies\nThe blades can also be used to bounce off tiles when in the air\nReleasing sends the charged blades hurtling forwards like a wheel\nAttacking again immediately thereafter dashes to the wheel, shredding anything in the way",
+        "PassiveDesc": "Striking enemies rarely steals a small amount of life"
+    },
+    "ShockwaveAttunement": {
+        "Name": "Mercurial Tides",
+        "Function": "Hold <left> to charge a heaven-shattering lunge, release to unleash the devastating blow\nShock waves are emitted as the sword charges up\nStriking the earth with the lunge will cause a massive shock wave on impact which raises a flood of monoliths",
+        "PassiveDesc": "Periodically emit shock waves while attacking"
+    },
+    "PhoenixAttunement": {
+        "Name": "Phoenix's Pride",
+        "Function": "<left> to swing Galaxia around you, accelerating over time\nThe swirling nebula constantly emits homing cosmic bolts\nRelease to hurl Galaxia toward the cursor alongside 6 gigantic cosmic bolts",
+        "PassiveName": "Capricorn's Blessing",
+        "PassiveDesc": "Periodically releases a ring of weakening stars around your cursor when attacking\nThe ring is repelled away from you at first, before slowing down over time"
+    },
+    "AriesAttunement": {
+        "Name": "Aries' Wrath",
+        "Function": "Throw Galaxia to your cursor, holding it in place with constellations\nGalaxia follows your cursor, rapidly spinning to shred enemies\nStriking enemies causes nebulous explosions which spawn homing cosmic bolts",
+        "PassiveName": "Capricorn's Blessing",
+        "PassiveDesc": "Periodically releases a ring of weakening stars around your cursor when attacking\nThe ring is repelled away from you at first, before slowing down over time"
+    },
+    "PolarisAttunement": {
+        "Name": "Polaris' Gaze",
+        "Function": "Hold <left> to channel Galaxia's power into a tight vortex of galactic energies\nThe vortex powers up over time and when hitting enemies\nRelease to fire off the charged star in straight line\nPress <left> again immediately to dash towards the star and release cosmic bolts",
+        "PassiveName": "Cancer's Blessing",
+        "PassiveDesc": "Periodically releases a ring of lifestealing stars around yourself when attacking\nThe ring is attracted towards you at first, before slowing down over time"
+    },
+    "AndromedaAttunement": {
+        "Name": "Andromeda's Stride",
+        "Function": "Hold <left> to charge a god-erasing lunge, release to unleash the devastating blow\nGalaxia emits cosmic bolts while charging\nLunging into the ground will cause a shockwave which summons a storm of cosmic energies",
+        "PassiveName": "Cancer's Blessing",
+        "PassiveDesc": "Periodically releases a ring of lifestealing stars around yourself when attacking\nThe ring is attracted towards you at first, before slowing down over time"
     }
-]
+}

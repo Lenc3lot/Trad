@@ -1,11 +1,11 @@
-function Test (selfkey){
-    alert (selfkey.toString());
-    let id = document.getElementById(selfkey).value;
-    alert('Modif effectuée !');
+function sendData(monInput){
+    let monAttribut = monInput.getAttribute('data-id');
+    let contenu = monInput.value;
+    alert (monAttribut + " " +contenu);
     $.ajax({
         url:"http://localhost/Trad/trad/CopierDonnee.php",
         type:"post",
-        data:"FRkey="+id,
+        data:"monAttribut="+monAttribut+"&contenu="+contenu,
         success: function(data,statut){
 
         },
@@ -15,6 +15,6 @@ function Test (selfkey){
         complete : function(data,statut){
         }
 
-
     })
-}
+    // alert(monInput.getAttribute('data-id') + ' ' + monInput.parentNode.parentNode.getElementsByTagName('TD')[1].innerHTML); //avant l'espace vide = le data-id à la chaine "tab1.tab2..." de l'autre côté
+} 
