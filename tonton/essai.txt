@@ -1,1 +1,0 @@
-DefaultAttunementName =FR_desc=Clarté Pure

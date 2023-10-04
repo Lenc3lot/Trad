@@ -3,7 +3,7 @@
 use HJSON\HJSONParser;
 
 $option = ['keepWsc' => false, 'assoc' => true];
-$data = file_get_contents("./base1311/Mods.CalamityMod.Attunement.hjson");
+$data = file_get_contents("./base1311/Mods.CalamityMod.Configs.hjson");
 $parser = new HJSONParser();
 $obj = $parser->parse($data, $option);
 

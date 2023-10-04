@@ -42,7 +42,7 @@ $i = 0;
 	<!--#####################################-->
 
 	<header>
-		<h2>Traducteur CalamityFR</h2>
+		<h2>Selection Fichier Traducteur</h2>
 	</header>
 
 	<select>
@@ -53,31 +53,18 @@ $i = 0;
 	}
 	?>
 	</select>
-	<br>
-	<br>
-	<br>
-
 	<button><a href="./test.json" download>Télécharger</a></button>
-
 	<?php 
-
 	// print_r($objFR);
-	
-	
-
 	?>
-
 </section>
 
 <section id= "EN_table">
-
 <table>
-
 	<tr>
 		<th> EN_Id </th>
 		<th> EN_desc </th>
 	<tr>
-
 
 <?php
 
@@ -124,7 +111,7 @@ foreach ($obj as $key => $element) { //élément non traduit
 
 	}
 	$soustab[$key] = $anothertab;
-	$i ++;
+	
 }
 $MonTab[]=$soustab;
 echo "</tr>";
@@ -151,10 +138,11 @@ echo "</table>
 
 
 foreach ($objFR as $FRkey => $FRelement) {//élément traduit ou partiellement traduit
+
 	echo "
 	<tr> 		
 		<td>
-			<input type='text' value = '$FRkey' disabled>
+			<input type='text' id='$FRkey' value = '$FRkey' disabled>
 			<input type='text' id='$FRkey' value = '$FRkey' hidden>
 		</td>
 		<td>";
@@ -174,15 +162,17 @@ foreach ($objFR as $FRkey => $FRelement) {//élément traduit ou partiellement t
 
 				} else {
 
-					echo "<input type='text' id='FRelementINTIT' value = '".htmlspecialchars($FRkey2) ." =' onchange='Test()'><textarea id ='FR_desc' value ='".htmlspecialchars($FRsouselement)."' onchange='Test()'>".htmlspecialchars($FRsouselement)."</textarea>";
+					echo "
+					<input type='text' id='$FRkey2' value = '".htmlspecialchars($FRkey2) ."'onchange='Test(this)>
+
+					<textarea id ='$FRsouselement' value ='".htmlspecialchars($FRsouselement)."' onchange='Test(this)'>".htmlspecialchars($FRsouselement)."</textarea>";
 				
 				}
 			}
 		}
 		echo "</td>";
-		
 	}
-	
+	$i ++;
 }
 echo "</tr>";
 echo "</table>
@@ -191,7 +181,7 @@ echo "</table>
 // echo(json_encode($MonTab));
 file_put_contents("./test.json",json_encode($MonTab));
 
-$srch = "DefaultAttunement";
+//$srch = "DefaultAttunement";
 
 ?>
 <input type="submit">
