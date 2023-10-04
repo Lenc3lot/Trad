@@ -1,11 +1,14 @@
 <?php require __DIR__ . "/vendor/autoload.php";
     
     use HJSON\HJSONParser;
+    use HJSON\HJSONStringifier;
 
     $option = ['keepWsc' => false, 'assoc' => true];
 
-    $data = file_get_contents("./outputFR/fr-FR_Mods.CalamityMod.Attunement.hjson");
+    $fichier = "./outputFR/fr-FR_Mods.CalamityMod.Attunement.hjson";
+    $data = file_get_contents($fichier);
     $parser = new HJSONParser();
+    $stringifierHJSON = new HJSONStringifier;
     $obj = $parser->parse($data, $option);
 
     //print_r($_POST);
@@ -23,8 +26,11 @@
     // $contenu = "Bonjour Test 2 !";
 
     // $jsonmodifiable = "./Copytest.json";
+
     $tabModif = explode(".",$monAttribut);
+
     $monTabCourant = $obj;
+
     $monAdr = &$monTabCourant;
 
     for($i = 0;$i<count($tabModif);$i++){
@@ -35,5 +41,8 @@
             $monAdr = &$monAdr[$tabModif[$i]];
         }
     }
-    file_put_contents($jsonmodifiable,json_encode($monTabCourant));
+
+    $text = $stringifier->stringify($monTabCourant);
+
+    file_put_contents($fichier,$text);
 ?>
