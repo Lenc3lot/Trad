@@ -1,3 +1,8 @@
+function MaFonction(monOption){
+    let monPath = monOption.getAttribute('data-path');
+    alert("bonjour " +monPath);
+}
+
 function sendData(monInput){
     let monAttribut = monInput.getAttribute('data-id');
     let contenu = monInput.value;
