@@ -1,49 +1,6 @@
-body {
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-}
-
-table {
-    background-color: rgb(230, 230, 230);
-    
-}
-
 section{
-    width: 50em;
+    display: flex;
 }
-
-
-
-#EN_table > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) {
-    height: 0px;
-  }
-
-  #FR_table > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) {
-    height: 0px;
-  }
-  
-TH {
- 
-    border:1px solid rgb(115, 157, 206);
-    font-size:24px;
-    color:rgb(26, 26, 26);
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-}
-
-td{
-    border:1px solid rgb(115, 157, 206);
-    font-size:18px;
-    color:rgb(26, 26, 26);
-}
-
-tr{
-    height: 100px;
-}
-
-input{
-    height: auto;
-    width: auto;
+table{
+    display: flex;
 }

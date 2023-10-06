@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <title>Onglet Trad</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-
+    <link href="./style2.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./script.js"></script>
 </head>
@@ -20,17 +20,22 @@
         <select name='nomFichier'>
             <?php
             $dir = new DirectoryIterator(dirname("./outputFR/folder"));
+
+            if (isset($_POST["nomFichier"])) {
+                echo "<option data-path='" . $_POST["nomFichier"] . "'  value='" . $_POST["nomFichier"] . "' selected>" . $_POST["nomFichier"] . " </option>";
+            }
             foreach ($dir as $fileinfo) {
+
                 $fichier = $fileinfo->getFilename();
                 $nomfichier = explode("_", $fichier);
                 echo "<option data-path='" . $nomfichier[1] . "'  value='" . $nomfichier[1] . "'>" . $nomfichier[1] . " </option>";
+
             }
             ?>
         </select>
         <input type="submit" value="Choisir le fichier">
     </form>
     <?php
-
     if (isset($_POST["nomFichier"])) {
         $fileEN = "./base1311/" . $_POST["nomFichier"];
         $fileFR = "./outputFR/fr-FR_" . $_POST["nomFichier"];
@@ -41,7 +46,7 @@
     <?php require __DIR__ . "/vendor/autoload.php";
 
     //FONCTION AFFICHAGE ELEMENT FR
-
+    
 
     use HJSON\HJSONParser;
 
@@ -89,18 +94,18 @@
         ###############################
         # ELEMENT ORIGINAL EN ANGLAIS # 
         ###############################
-
-        // echo "<table>";
-        // processElementEN($obj, "");
-        // echo "</table>";
+    
+        echo "<section><table>";
+        processElementEN($obj, "");
+        echo "</table>";
 
         ###############################
         # ELEMENT TRADUIT EN FRANCAIS # 
         ###############################
-
+    
         echo "<table>";
         processElement($objFR, "");
-        echo "</table>";
+        echo "</table></section>";
     }
     ?>
 
