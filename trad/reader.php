@@ -49,35 +49,34 @@
     
 
     use HJSON\HJSONParser;
-
-    function processElement($leTab, $path)
+    function processElement($leTab, $path, $arg ="")
     {
         foreach ($leTab as $key => $element) {
             if (gettype($element) != "array") {
-                echo "<tr><td data-id='" . $path . "." . $key . "'>$key</td><td><textarea data-id='" . $path . "." . $key . "' onchange='sendData(this)' style='width:500px; height:125px'>$element</textarea></td>";
+                echo "<tr><td data-id='" . $path . "." . $key . "'>$key</td><td><textarea data-id='" . $path . "." . $key . "' onchange='sendData(this)' style='width:500px; height:125px' $arg>$element</textarea></td>";
             } else {
                 echo "<tr><td><table>";
                 $newPath = empty($path) ? $key : $path . "." . $key;
-                processElement($element, $newPath);
+                processElement($element, $newPath, $arg);
                 echo "</table></td></tr>";
             }
         }
     }
 
     //FONCTION AFFICHAGE ELEMENT EN
-    function processElementEN($leTab, $path)
-    {
-        foreach ($leTab as $key => $element) {
-            if (gettype($element) != "array") {
-                echo "<tr><td data-id='" . $path . "." . $key . "'>$key</td><td><textarea data-id='" . $path . "." . $key . "' onchange='sendData(this)' style='width:500px; height:125px' disabled>$element</textarea></td>";
-            } else {
-                echo "<tr><td><table>";
-                $newPath = empty($path) ? $key : $path . "." . $key;
-                processElementEN($element, $newPath);
-                echo "</table></td></tr>";
-            }
-        }
-    }
+    // function processElementEN($leTab, $path)
+    // {
+    //     foreach ($leTab as $key => $element) {
+    //         if (gettype($element) != "array") {
+    //             echo "<tr><td data-id='" . $path . "." . $key . "'>$key</td><td><textarea data-id='" . $path . "." . $key . "' onchange='sendData(this)' style='width:500px; height:125px' disabled>$element</textarea></td>";
+    //         } else {
+    //             echo "<tr><td><table>";
+    //             $newPath = empty($path) ? $key : $path . "." . $key;
+    //             processElementEN($element, $newPath);
+    //             echo "</table></td></tr>";
+    //         }
+    //     }
+    // }
 
 
 
@@ -96,7 +95,7 @@
         ###############################
     
         echo "<section><table>";
-        processElementEN($obj, "");
+        processElement($obj, "","disabled");
         echo "</table>";
 
         ###############################
