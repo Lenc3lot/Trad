@@ -1,3 +1,83 @@
+<?php require __DIR__ . "/vendor/autoload.php";
+
+//FONCTION AFFICHAGE ELEMENT
+
+
+use HJSON\HJSONParser;
+
+function processElement($leTab, $path, $arg = "")
+{
+    foreach ($leTab as $key => $element) {
+        if (gettype($element) != "array") {
+            echo "<tr><td data-id='" . $path . "." . $key . "'>$key</td><td><textarea data-id='" . $path . "." . $key . "' onchange='sendData(this)' style='width:500px; height:125px' $arg>$element</textarea></td>";
+        } else {
+            echo "<tr><td><table>";
+            $newPath = empty($path) ? $key : $path . "." . $key;
+            processElement($element, $newPath, $arg);
+            echo "</table></td></tr>";
+        }
+    }
+}
+
+
+function parcourElement($unTab, $path, $arg = "")
+{
+
+    $tableauRacine = array();
+
+    foreach ($unTab as $key => $value) {
+        if (gettype($value) != "array") {
+            echo 'bout <br>' ;
+            //echo "<tr><td> -----> PAS ARRAY ".$key."</td>";
+            $tableauRacine[] = $key;
+        } else {
+            //echo "<tr><td><table> --> ARRAY ".$key." path : ".$path.".".$key;
+            // $nvPath = empty($path) ? $key : $path . "." . $key;
+            // $tableau[] = $key;
+            echo'pas bout <br>';
+            $tableauRacine[] = $key;
+            foreach ($value as $key1 => $value1) {
+                if (gettype($value1) != "array") {
+                    echo "bout1 <br>";
+                } else {
+                    echo 'pas bout 1 <br>';
+                    // $tableauRacine[] = $key1;
+                    foreach ($value1 as $key2 => $value2) {
+                        if (gettype($value2) != "array") {
+                            echo "bout2 <br>";
+                        } else {
+                            echo " pas bout2";
+                            foreach ($value2 as $key3 => $value3) {
+                                if (gettype($value3) != "array") {
+                                    echo "bout3 <br>";
+                                } else {
+                                    echo " pas bout3";
+                                }
+                            }
+                        }
+                    }
+                    // parcourElement($value,$nvPath,$arg);
+                    //echo "</table></td></tr>";
+                }
+            }
+        }
+    }
+    return $tableauRacine;
+}
+
+
+// foreach($key as $key2 => $value2){
+//     if(gettype($value) != "array"){
+//         echo "<tr><td> -----> PAS ARRAY ".$key2."</td>";
+//     }else{
+//         echo "<tr><td><table> --> ARRAY ".$key2;
+//     } 
+// }
+?>
+
+
+
+
 <!DOCTYPE html>
 <html>
 
@@ -43,42 +123,7 @@
     ?>
     <button><a href="<?php echo $fileFR; ?>" download>Télécharger</a></button>
 
-    <?php require __DIR__ . "/vendor/autoload.php";
-
-    //FONCTION AFFICHAGE ELEMENT FR
-    
-
-    use HJSON\HJSONParser;
-    function processElement($leTab, $path, $arg ="")
-    {
-        foreach ($leTab as $key => $element) {
-            if (gettype($element) != "array") {
-                echo "<tr><td data-id='" . $path . "." . $key . "'>$key</td><td><textarea data-id='" . $path . "." . $key . "' onchange='sendData(this)' style='width:500px; height:125px' $arg>$element</textarea></td>";
-            } else {
-                echo "<tr><td><table>";
-                $newPath = empty($path) ? $key : $path . "." . $key;
-                processElement($element, $newPath, $arg);
-                echo "</table></td></tr>";
-            }
-        }
-    }
-
-    //FONCTION AFFICHAGE ELEMENT EN
-    // function processElementEN($leTab, $path)
-    // {
-    //     foreach ($leTab as $key => $element) {
-    //         if (gettype($element) != "array") {
-    //             echo "<tr><td data-id='" . $path . "." . $key . "'>$key</td><td><textarea data-id='" . $path . "." . $key . "' onchange='sendData(this)' style='width:500px; height:125px' disabled>$element</textarea></td>";
-    //         } else {
-    //             echo "<tr><td><table>";
-    //             $newPath = empty($path) ? $key : $path . "." . $key;
-    //             processElementEN($element, $newPath);
-    //             echo "</table></td></tr>";
-    //         }
-    //     }
-    // }
-
-
+    <?php
 
 
     if (isset($fileEN) && isset($fileFR) && isset($_POST["nomFichier"])) {
@@ -94,16 +139,17 @@
         # ELEMENT ORIGINAL EN ANGLAIS # 
         ###############################
     
+        $Newtableau = array();
         echo "<section><table>";
-        processElement($obj, "","disabled");
+        //processElement($obj, "","disabled");
+        print_r(parcourElement($obj, " ", "disabled"));
         echo "</table>";
-
         ###############################
         # ELEMENT TRADUIT EN FRANCAIS # 
         ###############################
     
         echo "<table>";
-        processElement($objFR, "");
+        //processElement($objFR, "");
         echo "</table></section>";
     }
     ?>
