@@ -1,5 +1,6 @@
 - vue pour un objet en cliquant 
-et vue liste (défaut)
+
+- vue liste (défaut) OK
 
 - Suivi de trad (%) / fichier = fini quand trad de l'ensemble de l'objet
 
