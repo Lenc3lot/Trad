@@ -2,7 +2,6 @@
 
 //FONCTION AFFICHAGE ELEMENT
 
-
 use HJSON\HJSONParser;
 
 function processElement($leTab, $path, $arg = "")
@@ -20,44 +19,26 @@ function processElement($leTab, $path, $arg = "")
 }
 
 
-function parcourElement($unTab, $path, $arg = "")
-{
-
+function parcourElement($unTab, $path){
     $tableauRacine = array();
-
     foreach ($unTab as $key => $value) {
         if (gettype($value) != "array") {
-            echo 'bout <br>' ;
-            //echo "<tr><td> -----> PAS ARRAY ".$key."</td>";
             $tableauRacine[] = $key;
         } else {
-            //echo "<tr><td><table> --> ARRAY ".$key." path : ".$path.".".$key;
-            // $nvPath = empty($path) ? $key : $path . "." . $key;
-            // $tableau[] = $key;
-            echo'pas bout <br>';
             $tableauRacine[] = $key;
             foreach ($value as $key1 => $value1) {
                 if (gettype($value1) != "array") {
-                    echo "bout1 <br>";
                 } else {
-                    echo 'pas bout 1 <br>';
-                    // $tableauRacine[] = $key1;
                     foreach ($value1 as $key2 => $value2) {
                         if (gettype($value2) != "array") {
-                            echo "bout2 <br>";
                         } else {
-                            echo " pas bout2";
                             foreach ($value2 as $key3 => $value3) {
                                 if (gettype($value3) != "array") {
-                                    echo "bout3 <br>";
                                 } else {
-                                    echo " pas bout3";
                                 }
                             }
                         }
                     }
-                    // parcourElement($value,$nvPath,$arg);
-                    //echo "</table></td></tr>";
                 }
             }
         }
@@ -65,14 +46,10 @@ function parcourElement($unTab, $path, $arg = "")
     return $tableauRacine;
 }
 
-
-// foreach($key as $key2 => $value2){
-//     if(gettype($value) != "array"){
-//         echo "<tr><td> -----> PAS ARRAY ".$key2."</td>";
-//     }else{
-//         echo "<tr><td><table> --> ARRAY ".$key2;
-//     } 
-// }
+function parcoursElementSpe($unTab, $path){
+    $tableauRacine = array();
+    foreach()
+}
 ?>
 
 
@@ -128,29 +105,31 @@ function parcourElement($unTab, $path, $arg = "")
 
     if (isset($fileEN) && isset($fileFR) && isset($_POST["nomFichier"])) {
 
+        //Préparation des options + parser pour HJSON
         $option = ['keepWsc' => false, 'assoc' => true];
-        $data = file_get_contents($fileEN);
         $parser = new HJSONParser();
+
+        //recup fichier EN + parse
+        $data = file_get_contents($fileEN);
         $obj = $parser->parse($data, $option);
+
+        //recup fichier FR + parse
         $dataFR = file_get_contents($fileFR);
         $objFR = $parser->parse($dataFR, $option);
+        ?>
+        
+        <br>
+        <br>
 
-        ###############################
-        # ELEMENT ORIGINAL EN ANGLAIS # 
-        ###############################
-    
-        $Newtableau = array();
-        echo "<section><table>";
-        //processElement($obj, "","disabled");
-        print_r(parcourElement($obj, " ", "disabled"));
-        echo "</table>";
-        ###############################
-        # ELEMENT TRADUIT EN FRANCAIS # 
-        ###############################
-    
-        echo "<table>";
-        //processElement($objFR, "");
-        echo "</table></section>";
+        <?php
+
+        // AFFICHAGE DES ELEMENTS 
+
+        if($fileEN == "./base1311/Mods.CalamityMod.Configs.hjson"){
+            echo "FICHIER CONFIG J'EN VEUX PAS";
+        }else{
+            print_r(parcourElement($obj, " ", "disabled"));
+        }
     }
     ?>
 
