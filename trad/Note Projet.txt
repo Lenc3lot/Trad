@@ -1,0 +1,24 @@
+- vue pour un objet en cliquant 
+et vue liste (défaut)
+
+- Suivi de trad (%) / fichier = fini quand trad de l'ensemble de l'objet
+
+- Savoir qui est en train de modifier : flag qui fait quoi (AJAX)
+
+- Systeme de connexion ( PAS d'INSCRIPTION ) 
+
+- Conserver qui a modifier (log) , fichier de données séparés qui a les clés de trad -> modifié par untel 
+
+- Limiter la saisie (taille de caractères, côté client ok JS)
+
+- Mettre a jour l'obejt qui est édité
+
+- fct pour recup l'intégralité des fichiers, creation d'une snapshot et svgr a part / utilisateur UNE PAR JOUR
+
+- On trust l'utilisateur 
+
+- Mettre a jour le snapshot du jour quand on DL 
+
+- Snapshot et ensemble des fichiers a DL en zipper
+
+- Revoir le CSS 
