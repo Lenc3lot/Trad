@@ -19,18 +19,16 @@ function processElement($leTab, $path, $arg = "")
 }
 
 
-function parcourElement($unTab, $path){
+function parcourElement($unTab, $path)
+{
     $tableauRacine = array();
 
     foreach ($unTab as $key => $value) {
         if (gettype($value) != "array") {
-            echo $key." --- oui ?<BR>";
             $tableauRacine[] = $key;
         } else {
             $tableauRacine[] = $key;
-            echo $key." --- oui ?<BR>";
             foreach ($value as $key1 => $value1) {
-                echo $key1." key1<BR> ";
                 if (gettype($value1) != "array") {
                 } else {
                     foreach ($value1 as $key2 => $value2) {
@@ -50,18 +48,17 @@ function parcourElement($unTab, $path){
     return $tableauRacine;
 }
 
-function parcoursElementSpe($unTab, $path){
+function parcoursElementSpe($unTab, $path)
+{
     $tableauRacine = array();
 
-    foreach($unTab as $key => $value){
-        echo "key : ".$key."<br>";
-        if(gettype($value) != "array"){
+    foreach ($unTab as $key => $value) {
+        if (gettype($value) != "array") {
             $tableauRacine[] = $key;
         } else {
             $tableauRacine[] = $key;
-            foreach($value as $key => $element){
-                echo "key : ".$key. "<br>";
-                $tableauRacine[]= $key;
+            foreach ($value as $key => $element) {
+                $tableauRacine[] = $key;
             }
         }
     }
@@ -121,7 +118,6 @@ function parcoursElementSpe($unTab, $path){
 
 
     if (isset($fileEN) && isset($fileFR) && isset($_POST["nomFichier"])) {
-
         //Préparation des options + parser pour HJSON
         $option = ['keepWsc' => false, 'assoc' => true];
         $parser = new HJSONParser();
@@ -134,22 +130,19 @@ function parcoursElementSpe($unTab, $path){
         $dataFR = file_get_contents($fileFR);
         $objFR = $parser->parse($dataFR, $option);
         ?>
-        
-        <br>
-        <br>
 
-        <?php
+        <div id="displayData">
 
-        // AFFICHAGE DES ELEMENTS 
-
-        if($fileEN == "./base1311/Mods.CalamityMod.Configs.hjson"){
-            echo "FICHIER CONFIG J'EN VEUX PAS";
-            print_r(parcoursElementSpe($obj, " "));
-        }else{
-            print_r(parcourElement($obj, " "));
-        }
-    }
-    ?>
+            <?php
+            // AFFICHAGE DES ELEMENTS 
+            if ($fileEN == "./base1311/Mods.CalamityMod.Configs.hjson") {
+                echo "FICHIER CONFIG J'EN VEUX PAS<br><br>";
+                print_r(parcoursElementSpe($obj, " "));
+            } else {
+                print_r(parcourElement($obj, " "));
+            }
+    } ?>
+        </div>
 
 </body>
 
