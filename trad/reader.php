@@ -82,25 +82,19 @@ function parcoursElementSpe($unTab, $path)
 </head>
 
 <body>
-
     <h1> Calamity traducteur </h1>
-
     <p> File selector : </p>
-
     <form action="./reader.php" method="post">
         <select name='nomFichier'>
             <?php
             $dir = new DirectoryIterator(dirname("./outputFR/folder"));
-
             if (isset($_POST["nomFichier"])) {
                 echo "<option data-path='" . $_POST["nomFichier"] . "'  value='" . $_POST["nomFichier"] . "' selected>" . $_POST["nomFichier"] . " </option>";
             }
             foreach ($dir as $fileinfo) {
-
                 $fichier = $fileinfo->getFilename();
                 $nomfichier = explode("_", $fichier);
                 echo "<option data-path='" . $nomfichier[1] . "'  value='" . $nomfichier[1] . "'>" . $nomfichier[1] . " </option>";
-
             }
             ?>
         </select>
@@ -115,8 +109,6 @@ function parcoursElementSpe($unTab, $path)
     <button><a href="<?php echo $fileFR; ?>" download>Télécharger</a></button>
 
     <?php
-
-
     if (isset($fileEN) && isset($fileFR) && isset($_POST["nomFichier"])) {
         //Préparation des options + parser pour HJSON
         $option = ['keepWsc' => false, 'assoc' => true];
@@ -132,18 +124,20 @@ function parcoursElementSpe($unTab, $path)
         ?>
 
         <div id="displayData">
-
             <?php
             // AFFICHAGE DES ELEMENTS 
             if ($fileEN == "./base1311/Mods.CalamityMod.Configs.hjson") {
-                echo "FICHIER CONFIG J'EN VEUX PAS<br><br>";
-                print_r(parcoursElementSpe($obj, " "));
+                $listeElements = parcoursElementSpe($obj, " ");
+                foreach($listeElements as $elem){
+                    echo $elem."<br>";
+                }
             } else {
-                print_r(parcourElement($obj, " "));
+                $listeElements = parcourElement($obj, " ");
+                foreach($listeElements as $elem){
+                    echo $elem."<br>";
+                }
             }
     } ?>
         </div>
-
 </body>
-
 </html>
