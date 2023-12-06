@@ -1,9 +1,8 @@
 <?php require __DIR__ . "/vendor/autoload.php";
 
-//FONCTION AFFICHAGE ELEMENT
-
 use HJSON\HJSONParser;
 
+//FONCTIONS AFFICHAGE ELEMENT
 function processElement($leTab, $path, $arg = "")
 {
     foreach ($leTab as $key => $element) {
@@ -17,12 +16,8 @@ function processElement($leTab, $path, $arg = "")
         }
     }
 }
-
-
-function parcourElement($unTab, $path)
-{
+function parcourElement($unTab, $path){
     $tableauRacine = array();
-
     foreach ($unTab as $key => $value) {
         if (gettype($value) != "array") {
             $tableauRacine[] = $key;
@@ -51,7 +46,6 @@ function parcourElement($unTab, $path)
 function parcoursElementSpe($unTab, $path)
 {
     $tableauRacine = array();
-
     foreach ($unTab as $key => $value) {
         if (gettype($value) != "array") {
             $tableauRacine[] = $key;
@@ -66,12 +60,8 @@ function parcoursElementSpe($unTab, $path)
 }
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset='utf-8'>
     <title>Onglet Trad</title>
@@ -82,7 +72,13 @@ function parcoursElementSpe($unTab, $path)
 </head>
 
 <body>
-    <h1> Calamity traducteur </h1>
+    <header>
+        <ul>
+        <h1> Calamity traducteur </h1>
+        <li>Se connecter</li>
+        </ul>
+    </header>
+    
     <p> File selector : </p>
     <form action="./reader.php" method="post">
         <select name='nomFichier'>
@@ -128,14 +124,19 @@ function parcoursElementSpe($unTab, $path)
             // AFFICHAGE DES ELEMENTS 
             if ($fileEN == "./base1311/Mods.CalamityMod.Configs.hjson") {
                 $listeElements = parcoursElementSpe($obj, " ");
+                echo "<ul>";
                 foreach($listeElements as $elem){
-                    echo $elem."<br>";
+                    echo "<li>".$elem."</li>";
                 }
+                echo "</ul>";
             } else {
                 $listeElements = parcourElement($obj, " ");
+                echo "<ul>";
                 foreach($listeElements as $elem){
-                    echo $elem."<br>";
+                    echo "<li>".$elem."</li>";
                 }
+                echo "</ul>";
+
             }
     } ?>
         </div>
