@@ -68,14 +68,14 @@ function parcoursElementSpe($unTab, $path)
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="./style2.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./script.js"></script>
+    <script defer src="./script.js"></script>
 </head>
 
 <body>
     <header>
         <ul>
         <h1> Calamity traducteur </h1>
-        <li>Se connecter</li>
+        <li id="connexion" value="connexion">Se connecter</li>
         </ul>
     </header>
     

@@ -1,3 +1,5 @@
+const boutonConnexion = document.getElementById("connexion");
+
 function MaFonction(monOption){
     let monPath = monOption.getAttribute('data-path');
 }
@@ -20,3 +22,7 @@ function sendData(monInput){
 
     })
 } 
+
+boutonConnexion.addEventListener("click",function(){
+    window  .location.href = "./connexion.php";
+})
