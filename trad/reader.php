@@ -59,9 +59,10 @@ function parcoursElementSpe($unTab, $path)
     }
     return $tableauRacine;
 }
-if(!isset($_SESSION["utlisateur"])){
-    header("Location: ./connexion.php");
-}
+
+// if(!isset($_SESSION["utlisateur"])){
+//     header("Location: ./connexion.php");
+// }
 ?>
 
 <!DOCTYPE html>
@@ -87,26 +88,34 @@ if(!isset($_SESSION["utlisateur"])){
     <form action="./reader.php" method="post">
         <select name='nomFichier'>
             <?php
-            $dir = new DirectoryIterator(dirname("./outputFR/folder"));
+            $dir = scandir("./outputFR");
+            unset($files[0]);
+            unset($files[1]);
             if (isset($_POST["nomFichier"])) {
-                echo "<option data-path='" . $_POST["nomFichier"] . "'  value='" . $_POST["nomFichier"] . "' selected>" . $_POST["nomFichier"] . " </option>";
+                echo "<option data-path='" . $_POST["nomFichier"] . "'  value='" . $_POST["nomFichier"] . "' selected> FICHIER ACTUEL :" . $_POST["nomFichier"] . " </option>";
+            }else{
+                echo "<option selected> Selectionnez un fichier ... </option>";
             }
             foreach ($dir as $fileinfo) {
-                $fichier = $fileinfo->getFilename();
-                $nomfichier = explode("_", $fichier);
+                $nomfichier = explode("_",$fileinfo);
+                if($nomfichier[1] != ""){
                 echo "<option data-path='" . $nomfichier[1] . "'  value='" . $nomfichier[1] . "'>" . $nomfichier[1] . " </option>";
             }
+        }
             ?>
         </select>
+
         <input type="submit" value="Choisir le fichier">
     </form>
+
+
     <?php
     if (isset($_POST["nomFichier"])) {
         $fileEN = "./base1311/" . $_POST["nomFichier"];
         $fileFR = "./outputFR/fr-FR_" . $_POST["nomFichier"];
     }
     ?>
-    <button><a href="<?php echo $fileFR; ?>" download>Télécharger</a></button>
+    <!-- <button><a href="<?php //echo $fileFR; ?>" download>Télécharger</a></button> -->
 
     <?php
     if (isset($fileEN) && isset($fileFR) && isset($_POST["nomFichier"])) {
@@ -137,10 +146,9 @@ if(!isset($_SESSION["utlisateur"])){
                 $listeElements = parcourElement($obj, " ");
                 echo "<ul>";
                 foreach($listeElements as $elem){
-                    echo "<li>".$elem."</li>";
+                    echo "<li onclick='afficherValues(this)'>".$elem."</li>";
                 }
                 echo "</ul>";
-
             }
     } ?>
         </div>
