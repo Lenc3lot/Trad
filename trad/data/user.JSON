@@ -1,17 +1,1 @@
-[
-    {
-        "username": "Rox",
-        "password": "cd7bb9f8d21735340878f50dd7d366f4d7bb0c5947ac952ddab4f8e57ec3587c",
-        "lastConnexion": ""
-    },
-    {
-        "username": "Rox2",
-        "password": "cd7bb9f8d21735340878f50dd7d366f4d7bb0c5947ac952ddab4f8e57ec3587c",
-        "lastConnexion": ""
-    },
-    {
-        "username": "Rox3",
-        "password": "cd7bb9f8d21735340878f50dd7d366f4d7bb0c5947ac952ddab4f8e57ec3587c",
-        "lastConnexion": ""
-    }
-]
+[{"username":"Rox","password":"cd7bb9f8d21735340878f50dd7d366f4d7bb0c5947ac952ddab4f8e57ec3587c","lastConnexion":""},{"username":"Rox2","password":"cd7bb9f8d21735340878f50dd7d366f4d7bb0c5947ac952ddab4f8e57ec3587c","lastConnexion":""},{"username":"Rox3","password":"cd7bb9f8d21735340878f50dd7d366f4d7bb0c5947ac952ddab4f8e57ec3587c","lastConnexion":""},{"username":"Rox4","password":"07c54d2bfbaa647afb25088bf66569d2215f5bf2f593212005e410f293de0719","lastConnexion":""},{"username":"Rox5","password":"3126597de562703764f0e1ed6abe68e32f0e97bfe51453abbfc21b8bef1ccda7","lastConnexion":""}]

@@ -8,14 +8,13 @@
         "password" => $password,
         "lastConnexion" => ""
     ];
-
-    print_r($data)."<br><br>";
-
-    foreach($data[0] as $key => $elem){
-        echo $key;
-        echo $elem["username"];
+    $test = false;
+    foreach($data as $elem){
+        if($username == $elem["username"]){
+            $test = true;
+        }
     }
-    
-    // $data[] = $newuser;
-    // file_put_contents("../data/user.JSON",json_encode($data));
+    $test ? header("Location:../registerPage.php?CodeErr=1") : $data[] = $newuser;
+    file_put_contents("../data/user.JSON",json_encode($data));
+    header("Location:../connexion.php");
 ?>

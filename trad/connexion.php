@@ -15,7 +15,7 @@
     </header>
     <div id="divConnexion">
         <h1>Espace de connexion</h1>
-        <form name="connexionUser" method="POST">
+        <form name="connexionUser" method="POST" action="./scripts/connexionScript.php">
             <input type="text" name="login" placeholder="Login">
             <input type="password" name="password" placeholder="Password">
             <input type="submit">
