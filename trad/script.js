@@ -24,5 +24,5 @@ function sendData(monInput){
 } 
 
 function afficherValues(monInput){
-    console.log(monInput.innerHTML);
+    console.log(monInput.getAttribute("data-tab"));
 }

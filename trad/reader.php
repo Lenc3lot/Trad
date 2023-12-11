@@ -17,6 +17,7 @@ function processElement($leTab, $path, $arg = "")
         }
     }
 }
+
 function parcourElement($unTab, $path){
     $tableauRacine = array();
     foreach ($unTab as $key => $value) {
@@ -146,10 +147,11 @@ function parcoursElementSpe($unTab, $path)
                 $listeElements = parcourElement($obj, " ");
                 echo "<ul>";
                 foreach($listeElements as $elem){
-                    echo "<li onclick='afficherValues(this)'>".$elem."</li>";
+                    echo "<li onclick='afficherValues(this)' data-tab='".$fileEN."'>".$elem."</li>";
                 }
                 echo "</ul>";
             }
+            // processElement($objFR,"");  
     } ?>
         </div>
 </body>
