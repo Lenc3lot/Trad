@@ -59,21 +59,27 @@ function base64url_decode($data, $strict = false)
 // }
 
 // $tokenData =[];
+
 $sel = '|%82Ad*Oµ9!/?PoX7r';
 $login = $_POST["login"];
 $mdp = hash("sha256", $_POST["password"] . $sel);
 $test = false;
+
 foreach ($dataUser as $elem) {
     if ($login == $elem["username"] && $mdp == $elem["password"]){
         $test = true;
     }
 }
+
 if ($test) {
     // $data = [
     //     "user" => $login,
     //     "dateValid" => time()
     // ];
     // $tokenValid =  encodeToken($data,$tokenData);
+    session_start();
+    $_SESSION["utlisateur"] = $login;
+    header("Location: ../reader.php");
 }else{
     echo "login incrorect";
 }

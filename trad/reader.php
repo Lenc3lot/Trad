@@ -1,4 +1,5 @@
 <?php require __DIR__ . "/vendor/autoload.php";
+session_start();
 
 use HJSON\HJSONParser;
 
@@ -58,6 +59,9 @@ function parcoursElementSpe($unTab, $path)
     }
     return $tableauRacine;
 }
+if(!isset($_SESSION["utlisateur"])){
+    header("Location: ./connexion.php");
+}
 ?>
 
 <!DOCTYPE html>
@@ -75,7 +79,7 @@ function parcoursElementSpe($unTab, $path)
     <header>
         <ul>
         <h1> Calamity traducteur </h1>
-        <li id="connexion" value="connexion">Se connecter</li>
+        <li><?php echo"Modifie les fichiers en temps que : ".$_SESSION["utlisateur"] ?></li>
         </ul>
     </header>
     

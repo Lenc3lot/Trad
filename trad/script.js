@@ -22,7 +22,3 @@ function sendData(monInput){
 
     })
 } 
-
-boutonConnexion.addEventListener("click",function(){
-    window  .location.href = "./connexion.php";
-})
