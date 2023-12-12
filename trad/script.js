@@ -25,7 +25,7 @@ function afficherValues(monInput) {
     //On récupère le path du fichier et le nom de la propriété à modifier 
     let filePath = monInput.getAttribute("data-tab");
     let currentObj = monInput.innerHTML;
-    // console.log(currentObj);
+    let monUl = document.createElement("ul");
     $.ajax({
         url: "http://localhost/Trad/trad/test.php",
         type: "post",
@@ -43,6 +43,7 @@ function afficherValues(monInput) {
                         if(keyCfg == currentObj && typeof(valueCfg) != "object"){
                             //Afficher l'élément si le ValueCfg est pas un objet tiré du fichier config de MERDE
                             console.log("Key :"+keyCfg + "\nValue : "+valueCfg);
+                            
                         }else if(keyCfg == currentObj && typeof(valueCfg) == "object"){
                             //Reparcoure toutes les données de l'objet sousjascent tiré du fichier config de MERDE
                             for (const [keyCfg2,valueCfg2] of Object.entries(valueCfg)){
@@ -54,16 +55,23 @@ function afficherValues(monInput) {
                 } else if (key == currentObj && key != "CalamityConfig") {
                     if (typeof (value) != "object") {
                         //Afficher l'élément si le value est pas un objet
-                        console.log(key + " : " + value);
+                        let monLILvl0 = document.createElement("LI");
+                        monLILvl0.innerHTML = key + " : " + value;
+                        console.log("lvl0 "+key + " : " + value);
+                        monUl.appendChild(monLILvl0);
                     } else {
                         for (const [key, value2] of Object.entries(value)) {
                             //Reparcoure toutes les données de l'objet sousjascent 
                             //Afficher l'élément si le value est pas un objet  
+                            let monLILvl = document.createElement("LI");
+                            monLILvl.innerHTML = key + " : " + value2;
                             console.log(key + " : " + value2);
+                            monUl.appendChild(monLILvl);
                         }
                     }
                 }
             }
+            monInput.appendChild(monUl);
         },
         error: function (data, result, statut) {
             console.log(result);
