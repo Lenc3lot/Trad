@@ -116,10 +116,7 @@ function parcoursElementSpe($unTab, $path) {
         $fileEN = "./base1311/".$_POST["nomFichier"];
         $fileFR = "./outputFR/fr-FR_".$_POST["nomFichier"];
     }
-    ?>
-    <!-- <button><a href="<?php //echo $fileFR; ?>" download>Télécharger</a></button> -->
 
-    <?php
     if(isset($fileEN) && isset($fileFR) && isset($_POST["nomFichier"])) {
         //Préparation des options + parser pour HJSON
         $option = ['keepWsc' => false, 'assoc' => true];

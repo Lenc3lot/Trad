@@ -34,22 +34,31 @@ function afficherValues(monInput) {
         success: function (data, statut) {
             let recup = data
             let entries = Object.entries(recup);
+            //Blagounette, ca renvoie un objet le parser HJSON de merde
             for (const [key, value] of entries) {
+                //Spécifique au fichier config de MERDE
                 if (key == "CalamityConfig") {              
                     for (const [keyCfg,valueCfg] of Object.entries(value)){
+                        //Parcoure toutes les données de l'objet renvoyé du fichier config de MERDE
                         if(keyCfg == currentObj && typeof(valueCfg) != "object"){
+                            //Afficher l'élément si le ValueCfg est pas un objet tiré du fichier config de MERDE
                             console.log("Key :"+keyCfg + "\nValue : "+valueCfg);
                         }else if(keyCfg == currentObj && typeof(valueCfg) == "object"){
+                            //Reparcoure toutes les données de l'objet sousjascent tiré du fichier config de MERDE
                             for (const [keyCfg2,valueCfg2] of Object.entries(valueCfg)){
+                            //Afficher l'élément si le valueCfg2 est pas un objet tiré du fichier config de MERDE
                                 console.log("Key : "+keyCfg2+"\nValue : "+valueCfg2);
                             }
                         }
                     }
                 } else if (key == currentObj && key != "CalamityConfig") {
                     if (typeof (value) != "object") {
+                        //Afficher l'élément si le value est pas un objet
                         console.log(key + " : " + value);
                     } else {
                         for (const [key, value2] of Object.entries(value)) {
+                            //Reparcoure toutes les données de l'objet sousjascent 
+                            //Afficher l'élément si le value est pas un objet  
                             console.log(key + " : " + value2);
                         }
                     }
