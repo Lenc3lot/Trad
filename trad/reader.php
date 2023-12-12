@@ -141,7 +141,7 @@ function parcoursElementSpe($unTab, $path) {
                 $listeElements = parcoursElementSpe($obj, " ");
                 echo "<ul>";
                 foreach($listeElements as $elem) {
-                    echo "<li>".$elem."</li>";
+                    echo "<li onclick='afficherValues(this)' data-tab='".$fileEN."'>".$elem."</li>";
                 }
                 echo "</ul>";
             } else {
@@ -152,7 +152,6 @@ function parcoursElementSpe($unTab, $path) {
                 }
                 echo "</ul>";
             }
-        // processElement($objFR,"");  
     } ?>
     </div>
 </body>
