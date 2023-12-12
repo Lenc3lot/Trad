@@ -4,8 +4,7 @@ session_start();
 use HJSON\HJSONParser;
 
 //FONCTIONS AFFICHAGE ELEMENT
-function processElement($leTab, $path, $arg = "")
-{
+function processElement($leTab, $path, $arg = ""){
     foreach ($leTab as $key => $element) {
         if (gettype($element) != "array") {
             echo "<tr><td data-id='" . $path . "." . $key . "'>$key</td><td><textarea data-id='" . $path . "." . $key . "' onchange='sendData(this)' style='width:500px; height:125px' $arg>$element</textarea></td>";

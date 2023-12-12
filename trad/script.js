@@ -1,5 +1,3 @@
-const boutonConnexion = document.getElementById("connexion");
-
 function MaFonction(monOption){
     let monPath = monOption.getAttribute('data-path');
 }
