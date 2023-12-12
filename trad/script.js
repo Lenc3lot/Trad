@@ -41,14 +41,17 @@ function afficherValues(monInput) {
                     for (const [keyCfg,valueCfg] of Object.entries(value)){
                         //Parcoure toutes les données de l'objet renvoyé du fichier config de MERDE
                         if(keyCfg == currentObj && typeof(valueCfg) != "object"){
+                            let monLICfg = document.createElement("LI");
+                            monLICfg.innerHTML = keyCfg + " : " + valueCfg;
+                            monUl.appendChild(monLICfg);
                             //Afficher l'élément si le ValueCfg est pas un objet tiré du fichier config de MERDE
-                            console.log("Key :"+keyCfg + "\nValue : "+valueCfg);
-                            
                         }else if(keyCfg == currentObj && typeof(valueCfg) == "object"){
                             //Reparcoure toutes les données de l'objet sousjascent tiré du fichier config de MERDE
                             for (const [keyCfg2,valueCfg2] of Object.entries(valueCfg)){
-                            //Afficher l'élément si le valueCfg2 est pas un objet tiré du fichier config de MERDE
-                                console.log("Key : "+keyCfg2+"\nValue : "+valueCfg2);
+                                //Afficher l'élément si le valueCfg2 est pas un objet tiré du fichier config de MERDE
+                                let monLICfg2 = document.createElement("LI");
+                                monLICfg2.innerHTML = keyCfg2 + " : " + valueCfg2;
+                                monUl.appendChild(monLICfg2);
                             }
                         }
                     }
@@ -56,17 +59,20 @@ function afficherValues(monInput) {
                     if (typeof (value) != "object") {
                         //Afficher l'élément si le value est pas un objet
                         let monLILvl0 = document.createElement("LI");
-                        monLILvl0.innerHTML = key + " : " + value;
-                        console.log("lvl0 "+key + " : " + value);
+                        let monLITextAreaLvl0 = document.createElement("textarea");
+                        monLITextAreaLvl0.innerHTML = value;
+                        monLILvl0.appendChild(monLITextAreaLvl0);
                         monUl.appendChild(monLILvl0);
                     } else {
                         for (const [key, value2] of Object.entries(value)) {
                             //Reparcoure toutes les données de l'objet sousjascent 
                             //Afficher l'élément si le value est pas un objet  
-                            let monLILvl = document.createElement("LI");
-                            monLILvl.innerHTML = key + " : " + value2;
-                            console.log(key + " : " + value2);
-                            monUl.appendChild(monLILvl);
+                            let monLILvl1 = document.createElement("LI");
+                            let monLITextAreaLvl1 = document.createElement("textarea");
+                            monLITextAreaLvl1.innerHTML = value2;
+                            monLILvl1.innerHTML = key + " : ";
+                            monUl.appendChild(monLILvl1);
+                            monUl.appendChild(monLITextAreaLvl1);
                         }
                     }
                 }

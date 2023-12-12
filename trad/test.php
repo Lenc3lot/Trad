@@ -1,7 +1,6 @@
 <?php require __DIR__."/vendor/autoload.php";
 use HJSON\HJSONParser;
 header('content-type:application/json');
-// $_POST["monFichier"] = "./base1311/Mods.CalamityMod.Configs.hjson";
 if(isset($_POST["monFichier"])) {
     $fileEN = $_POST["monFichier"];
 }
