@@ -82,7 +82,7 @@ function parcoursElementSpe($unTab, $path)
         <ul>
             <h1> Calamity traducteur </h1>
             <li>
-                <?php echo "Modifie les fichiers en temps que : " . $_SESSION["utlisateur"] ?>
+                <?php echo "Modifie les fichiers en temps que : " . $_SESSION["utlisateur"] ."   "?>
             </li>
             <?php if (!isset($_SESSION["utlisateur"])) {
                 header("Location: ./connexion.php");

@@ -1,6 +1,6 @@
 let btnDeco = document.getElementById("btndeco");
 
-btnDeco.addEventListener("click",function(e){
+btnDeco.addEventListener("click", function (e) {
     $.ajax({
         url: "http://localhost/Trad/trad/scripts/deconnexionUser.php",
         type: "post",
@@ -54,17 +54,17 @@ function afficherValues(monInput) {
             //Blagounette, ca renvoie un objet le parser HJSON de merde
             for (const [key, value] of entries) {
                 //Spécifique au fichier config de MERDE
-                if (key == "CalamityConfig") {              
-                    for (const [keyCfg,valueCfg] of Object.entries(value)){
+                if (key == "CalamityConfig") {
+                    for (const [keyCfg, valueCfg] of Object.entries(value)) {
                         //Parcoure toutes les données de l'objet renvoyé du fichier config de MERDE
-                        if(keyCfg == currentObj && typeof(valueCfg) != "object"){
+                        if (keyCfg == currentObj && typeof (valueCfg) != "object") {
                             let monLICfg = document.createElement("LI");
                             monLICfg.innerHTML = keyCfg + " : " + valueCfg;
                             monUl.appendChild(monLICfg);
                             //Afficher l'élément si le ValueCfg est pas un objet tiré du fichier config de MERDE
-                        }else if(keyCfg == currentObj && typeof(valueCfg) == "object"){
+                        } else if (keyCfg == currentObj && typeof (valueCfg) == "object") {
                             //Reparcoure toutes les données de l'objet sousjascent tiré du fichier config de MERDE
-                            for (const [keyCfg2,valueCfg2] of Object.entries(valueCfg)){
+                            for (const [keyCfg2, valueCfg2] of Object.entries(valueCfg)) {
                                 //Afficher l'élément si le valueCfg2 est pas un objet tiré du fichier config de MERDE
                                 let monLICfg2 = document.createElement("LI");
                                 monLICfg2.innerHTML = keyCfg2 + " : " + valueCfg2;
@@ -77,13 +77,13 @@ function afficherValues(monInput) {
                         //Afficher l'élément si le value est pas un objet
                         let monLILvl0 = document.createElement("LI");
                         let monLITextAreaLvl0 = document.createElement("textarea");
-                        monLITextAreaLvl0.setAttribute("data-elem",key);
-                        monLITextAreaLvl0.addEventListener("change",function(e){
-                            
+                        monLITextAreaLvl0.setAttribute("data-elem", key);
+                        monLITextAreaLvl0.addEventListener("change", function (e) {
+
                         });
                         monLITextAreaLvl0.innerHTML = value;
                         let limitsize = value.length;
-                        monLITextAreaLvl0.setAttribute("maxlength",limitsize*2); 
+                        monLITextAreaLvl0.setAttribute("maxlength", limitsize * 2);
                         monLILvl0.appendChild(monLITextAreaLvl0);
                         monUl.appendChild(monLILvl0);
                     } else {
@@ -92,14 +92,14 @@ function afficherValues(monInput) {
                             //Afficher l'élément si le value est pas un objet  
                             let monLILvl1 = document.createElement("LI");
                             let monLITextAreaLvl1 = document.createElement("textarea");
-                            monLITextAreaLvl1.setAttribute("data-elem",key2);
-                            monLITextAreaLvl1.setAttribute("data-key",key);
-                            monLITextAreaLvl1.addEventListener("change",function(e){
-                                gloobibigler(filePath,monLITextAreaLvl1);
+                            monLITextAreaLvl1.setAttribute("data-elem", key2);
+                            monLITextAreaLvl1.setAttribute("data-key", key);
+                            monLITextAreaLvl1.addEventListener("change", function (e) {
+                                gloobibigler(filePath, monLITextAreaLvl1);
                             });
                             monLITextAreaLvl1.innerHTML = value2;
                             let limitsize = value2.length;
-                            monLITextAreaLvl1.setAttribute("maxlength",limitsize*2);
+                            monLITextAreaLvl1.setAttribute("maxlength", limitsize * 2);
                             monLILvl1.innerHTML = key2 + " : ";
                             monUl.appendChild(monLILvl1);
                             monUl.appendChild(monLITextAreaLvl1);
@@ -117,6 +117,14 @@ function afficherValues(monInput) {
     })
 }
 
-function gloobibigler(dataTab,Elem){
-    console.log("elem : "+Elem.getAttribute("data-elem")+" key : "+Elem.getAttribute("data-key"));
+function gloobibigler(dataTab, Elem) {
+    console.log("tab : "+dataTab);
+    console.log("elem : "+Elem.getAttribute("data-elem"));
+    console.log("key : "+Elem.getAttribute("data-key"));
+    console.log("value : "+Elem.innerHTML)
+    $.ajax({
+        url : "http://localhost/Trad/trad/scripts/logModifsUser.php",
+        type: "post",
+        data: "tabElem="+dataTab+"&elem="+Elem.getAttribute("data-elem")+"&keyElem="+Elem.getAttribute("data-key")+"&valueElem="+Elem.innerHTML,
+    })
 }
