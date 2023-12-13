@@ -1,3 +1,19 @@
+let btnDeco = document.getElementById("btndeco");
+
+btnDeco.addEventListener("click",function(e){
+    $.ajax({
+        url: "http://localhost/Trad/trad/scripts/deconnexionUser.php",
+        type: "post",
+        success: function (data, statut) {
+            location.reload();
+        },
+        error: function (data, result, statut) {
+        },
+        complete: function (data, statut) {
+        }
+    })
+})
+
 function MaFonction(monOption) {
     let monPath = monOption.getAttribute('data-path');
 }
@@ -20,6 +36,7 @@ function sendData(monInput) {
 
     })
 }
+
 
 function afficherValues(monInput) {
     //On récupère le path du fichier et le nom de la propriété à modifier 
@@ -60,17 +77,30 @@ function afficherValues(monInput) {
                         //Afficher l'élément si le value est pas un objet
                         let monLILvl0 = document.createElement("LI");
                         let monLITextAreaLvl0 = document.createElement("textarea");
+                        monLITextAreaLvl0.setAttribute("data-elem",key);
+                        monLITextAreaLvl0.addEventListener("change",function(e){
+                            
+                        });
                         monLITextAreaLvl0.innerHTML = value;
+                        let limitsize = value.length;
+                        monLITextAreaLvl0.setAttribute("maxlength",limitsize*2); 
                         monLILvl0.appendChild(monLITextAreaLvl0);
                         monUl.appendChild(monLILvl0);
                     } else {
-                        for (const [key, value2] of Object.entries(value)) {
+                        for (const [key2, value2] of Object.entries(value)) {
                             //Reparcoure toutes les données de l'objet sousjascent 
                             //Afficher l'élément si le value est pas un objet  
                             let monLILvl1 = document.createElement("LI");
                             let monLITextAreaLvl1 = document.createElement("textarea");
+                            monLITextAreaLvl1.setAttribute("data-elem",key2);
+                            monLITextAreaLvl1.setAttribute("data-key",key);
+                            monLITextAreaLvl1.addEventListener("change",function(e){
+                                gloobibigler(filePath,monLITextAreaLvl1);
+                            });
                             monLITextAreaLvl1.innerHTML = value2;
-                            monLILvl1.innerHTML = key + " : ";
+                            let limitsize = value2.length;
+                            monLITextAreaLvl1.setAttribute("maxlength",limitsize*2);
+                            monLILvl1.innerHTML = key2 + " : ";
                             monUl.appendChild(monLILvl1);
                             monUl.appendChild(monLITextAreaLvl1);
                         }
@@ -85,4 +115,8 @@ function afficherValues(monInput) {
         complete: function (data, statut) {
         }
     })
+}
+
+function gloobibigler(dataTab,Elem){
+    console.log("elem : "+Elem.getAttribute("data-elem")+" key : "+Elem.getAttribute("data-key"));
 }
