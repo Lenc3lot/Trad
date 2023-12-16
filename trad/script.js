@@ -139,14 +139,14 @@ function gloobibigler(Elem) {
     console.log("elem : "+Elem.getAttribute("data-elem"));
     console.log("key : "+Elem.getAttribute("data-key"));
     console.log("value : "+Elem.value)
-    $.ajax({
-        url : "http://localhost/Trad/trad/scripts/logModifsUser.php",
-        type: "post",
-        data: "tabElem="+Elem.getAttribute("data-tab")+"&elem="+Elem.getAttribute("data-elem")+"&keyElem="+Elem.getAttribute("data-key")+"&valueElem="+Elem.value+"&oldValueElem="+Elem.innerHTML,
-    });
-    $.ajax({
-        
-    })
+    // $.ajax({
+    //     url : "https://localhost/Trad/trad/scripts/logModifsUser.php",
+    //     type: "post",
+    //     data: "tabElem="+Elem.getAttribute("data-tab")+"&elem="+Elem.getAttribute("data-elem")+"&keyElem="+Elem.getAttribute("data-key")+"&valueElem="+Elem.value+"&oldValueElem="+Elem.innerHTML,
+    // });
+    // $.ajax({
+    //     url:"https://localhost/Trad/trad/scripts/modifierTab.php"
+    // })
 
 }
 

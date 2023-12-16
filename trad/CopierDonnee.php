@@ -11,13 +11,13 @@
     $parser = new HJSONParser();
     $stringifierHJSON = new HJSONStringifier;
     $obj = $parser->parse($data, $option);
-    $monAttribut = $_POST["monAttribut"];
-    $contenu = $_POST["contenu"];
+    // $monAttribut = $_POST["monAttribut"];
+    // $contenu = $_POST["contenu"];
 
     // echo $monAttribut[0];
 
-    // $monAttribut = "DefaultAttunement.Name";
-    // $contenu = "Bonjour Test 2 !";
+    $monAttribut = "DefaultAttunement.Name";
+    $contenu = "Bonjour Test 2 !";
 
     $tabModif = explode(".",$monAttribut);
 
@@ -36,6 +36,6 @@
 
     $text = $stringifierHJSON->stringify($monTabCourant);
 
-    //$retourtest = "./doc.hjson";
-    file_put_contents($fichier,$text);
+    $retourtest = "./doc.hjson";
+    file_put_contents($retourtest,$text);
 ?>
