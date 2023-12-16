@@ -1,12 +1,11 @@
 <?php require __DIR__."/vendor/autoload.php";
 use HJSON\HJSONParser;
 header('content-type:application/json');
+
 if(isset($_POST["monFichier"])) {
     $fileEN = $_POST["monFichier"];
 }
-?>
 
-<?php
 if(isset($fileEN) && isset($_POST["monFichier"])) {
     //Préparation des options + parser pour HJSON
     $option = ['keepWsc' => false, 'assoc' => "true"];
@@ -17,6 +16,4 @@ if(isset($fileEN) && isset($_POST["monFichier"])) {
     $obj = $parser->parse($data, $option);
     echo json_encode($obj);
 }
-
-
 ?>

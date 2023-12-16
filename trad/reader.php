@@ -97,13 +97,14 @@ function parcoursElementSpe($unTab, $path)
         <select name='nomFichier'>
             <?php
             $dir = scandir("./outputFR");
-            unset($files[0]);
-            unset($files[1]);
+            unset($dir[0]);
+            unset($dir[1]);
             if (isset($_POST["nomFichier"])) {
                 echo "<option data-path='" . $_POST["nomFichier"] . "'  value='" . $_POST["nomFichier"] . "' selected> FICHIER ACTUEL : " . $_POST["nomFichier"] . " </option>";
             } else {
                 echo "<option selected> Selectionnez un fichier ... </option>";
             }
+
             foreach ($dir as $fileinfo) {
                 $nomfichier = explode("_", $fileinfo);
                 if ($nomfichier[1] != "") {

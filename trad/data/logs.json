@@ -1,10 +1,11 @@
 [
     {
         "user": "Rox4",
-        "date": "2023-12-13 20:22:22",
+        "date": "2023-12-16 10:32:36",
         "tabElem": ".\/base1311\/Mods.CalamityMod.Attunement.hjson",
         "keyElem": "DefaultAttunement",
         "elem": "Name",
-        "valueElem": "Pure Clarity"
+        "oldValueElem": "Pure Clarity",
+        "newValueElem": "Cookie clicker"
     }
 ]
