@@ -37,7 +37,8 @@ function afficherDATA(data, monInput, typeFREN) {
     let recup = data
     let entries = Object.entries(recup);
     let filePath = monInput.getAttribute(typeFREN);
-    let currentObj = monInput.innerHTML;
+    let currentObj = monInput.getAttribute("value");
+    
     console.log(currentObj);
 
     let monUl = document.createElement("ul");
@@ -80,9 +81,6 @@ function afficherDATA(data, monInput, typeFREN) {
                 let monLILvl0 = document.createElement("LI");
                 let monLITextAreaLvl0 = document.createElement("textarea");
                 monLITextAreaLvl0.setAttribute("data-elem", key);
-                monLITextAreaLvl0.addEventListener("change", function (e) {
-                    console.log()
-                });
                 monLITextAreaLvl0.innerHTML = value;
                 let limitsize = value.length;
                 monLITextAreaLvl0.setAttribute("maxlength", limitsize * 2);
@@ -134,6 +132,8 @@ function afficherDATA(data, monInput, typeFREN) {
 }
 
 function afficherValues(Input) {
+    let doc = document.getElementById(Input.getAttribute("id"));
+    doc.innerHTML = "<li>"+Input.getAttribute("id")+"</li>";
     let filePath = Input.getAttribute("data-tabFR");
     let ENfilePath = Input.getAttribute("data-tab");
     //On récupère le path du fichier et le nom de la propriété à modifier 
@@ -151,33 +151,7 @@ function afficherValues(Input) {
                 data: "monFichier=" + ENfilePath,
                 dataType: "json",
                 success: function (data, statut) {
-                    // console.log(data)
-                    let recup = data
-                    let entries = Object.entries(recup);
-                    let filePath = Input.getAttribute("data-tab");
-                    let currentObj = Input.getAttribute("value");
-                    console.log(currentObj);
-                    let monUlT = document.createElement("ul");
-                    for (const [key, value] of entries) {
-                        if (key == currentObj && key != "CalamityConfig") {
-                            if (typeof (value) != "object") {
-                                //Afficher l'élément si le value est pas un objet
-                                let monLILvl0 = document.createElement("LI");
-
-                                let monLITextAreaLvl0 = document.createElement("textarea");
-
-                                monLITextAreaLvl0.setAttribute("data-elem", key);
-
-                                monLITextAreaLvl0.innerHTML = "tets ";
-
-                                monLILvl0.appendChild(monLITextAreaLvl0);
-                                console.log(monLILvl0);
-
-                                monUlT.appendChild(monLILvl0);
-                            }
-                        }
-                    }
-                    Input.appendChild(monUlT);
+                    afficherDATA(data, Input, "data-tab");
                 }
             });
         },

@@ -145,14 +145,14 @@ function parcoursElementSpe($unTab)
                 $listeElements = parcoursElementSpe($obj, " ");
                 echo "<ul>";
                 foreach ($listeElements as $elem) {
-                    echo "<li onclick='afficherValues(this)' data-tab='". $fileEN . "' data-tabFR='".$fileFR."' value='". $elem."' >" . $elem . "</li>";
+                    echo "<li onclick='afficherValues(this)' data-tab='". $fileEN . "' data-tabFR='".$fileFR."' value='". $elem."' id='". $elem ."'>" . $elem . "</li>";
                 }
                 echo "</ul>";
             } else {
                 $listeElements = parcourElement($obj, " ");
                 echo "<ul>";
                 foreach ($listeElements as $elem) {
-                    echo "<li onclick='afficherValues(this)' data-tab='".$fileEN ."' data-tabFR='".$fileFR."' value='". $elem."' >" . $elem . "</li>";
+                    echo "<li onclick='afficherValues(this)' data-tab='".$fileEN ."' data-tabFR='".$fileFR."' value='". $elem."' id='". $elem ."' >" . $elem . "</li>";
                 }
                 echo "</ul>";
             }
