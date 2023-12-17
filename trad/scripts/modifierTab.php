@@ -5,29 +5,12 @@ use HJSON\HJSONStringifier;
 
 $option = ['keepWsc' => false, 'assoc' => true];
 
-// function processElement($leTab, $path, $arg = "")
-// {
-//     foreach ($leTab as $key => $element) {
-//         if (gettype($element) != "array") {
-//         } else {
-//             $newPath = empty($path) ? $key : $path . "." . $key;
-//             processElement($element, $newPath, $arg);
-//         }
-//     }
-// }
-
-// $fileEN = "."+$_POST["tabElem"];
-// $modifiedElem = $_POST["elem"];
-// $keyElem = $_POST["keyElem"];
-// $valueElem = $_POST["valueElem"];
-
 $parser = new HJSONParser();
 $stringifierHJSON = new HJSONStringifier;
 
-
-$fileEN = "../testfiles/Mods.CalamityMod.Attunement.hjson";
+$fileEN = "../doc.hjson";
 $modifiedElem = "Function";
-$keyElem = "DefaultAttunement";
+$keyElem = "HotAttunement";
 $valueElem = "CA MARCHE";
 
 $monAttribut = $keyElem.".".$modifiedElem;

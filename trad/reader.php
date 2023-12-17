@@ -46,7 +46,7 @@ function parcourElement($unTab, $path)
     return $tableauRacine;
 }
 
-function parcoursElementSpe($unTab, $path)
+function parcoursElementSpe($unTab)
 {
     $tableauRacine = array();
     foreach ($unTab as $key => $value) {
@@ -145,14 +145,14 @@ function parcoursElementSpe($unTab, $path)
                 $listeElements = parcoursElementSpe($obj, " ");
                 echo "<ul>";
                 foreach ($listeElements as $elem) {
-                    echo "<li onclick='afficherValues(this)' data-tab='" . $fileEN . "'>" . $elem . "</li>";
+                    echo "<li onclick='afficherValues(this)' data-tab='". $fileEN . "' data-tabFR='".$fileFR."' >" . $elem . "</li>";
                 }
                 echo "</ul>";
             } else {
                 $listeElements = parcourElement($obj, " ");
                 echo "<ul>";
                 foreach ($listeElements as $elem) {
-                    echo "<li onclick='afficherValues(this)' data-tab='" . $fileEN . "'>" . $elem . "</li>";
+                    echo "<li onclick='afficherValues(this)' data-tab='".$fileEN ."' data-tabFR='".$fileFR."' >" . $elem . "</li>";
                 }
                 echo "</ul>";
             }

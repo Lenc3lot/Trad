@@ -7,11 +7,7 @@
   HotAttunement:
   {
     Name: Arid Grandeur
-    Function:
-      '''
-      Hold <left> to conjure searing blades in front of you that get larger and stronger the more you hit enemies
-      The blades can also be used to bounce off tiles when in the air
-      '''
+    Function: CA MARCHE
   }
   ColdAttunement:
   {
