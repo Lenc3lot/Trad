@@ -1,5 +1,6 @@
 *{
     font-family: "Gill Sans", sans-serif;
+    background-color: gray;
 }
 
 body > header:nth-child(1) > ul:nth-child(1) {
@@ -7,7 +8,7 @@ body > header:nth-child(1) > ul:nth-child(1) {
     align-items: center;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: bisque;
+    /* background-color: bisque; */
     padding: 0px;
     padding-right: 20px;
 }
