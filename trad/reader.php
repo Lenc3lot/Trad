@@ -132,14 +132,19 @@ $parser = new HJSONParser();
         <input type="submit" value="Choisir le fichier">
     </form>
     
-
-
-    <?php
+    <?php 
     if (isset($_POST["nomFichier"])) {
         $fileEN = "./base1311/" . $_POST["nomFichier"];
         $fileFR = "./outputFR/fr-FR_" . $_POST["nomFichier"];
     }
+    ?>
 
+    <button><a href="<?php echo $fileFR; ?>" download>Télécharger</a></button>
+
+
+    <?php
+    
+    
     if (isset($fileEN) && isset($fileFR) && isset($_POST["nomFichier"])) {
         //Préparation des options + parser pour HJSON
         

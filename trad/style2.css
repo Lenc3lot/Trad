@@ -1,6 +1,9 @@
 *{
     font-family: "Gill Sans", sans-serif;
 }
+body{
+    background-color: lightgray;
+}
 
 body > header:nth-child(1) > ul:nth-child(1) {
     display: flex;
