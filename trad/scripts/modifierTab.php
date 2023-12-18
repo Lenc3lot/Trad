@@ -10,9 +10,13 @@ $stringifierHJSON = new HJSONStringifier;
 
 // $fileEN = ".".$_POST["file"];
 $fileEN = "../doc.hjson";
-$modifiedElem = $_POST["modifiedElement"];
-$keyElem = $_POST["keyElem"];
-$valueElem = $_POST["valueElem"];
+// $modifiedElem = $_POST["modifiedElement"];
+// $keyElem = $_POST["keyElem"];
+// $valueElem = $_POST["valueElem"];
+
+$modifiedElem = "Name";
+$keyElem = "DefaultAttunement";
+$valueElem = "CA MARCHE";
 
 $monAttribut = $keyElem.".".$modifiedElem;
 // echo $monAttribut;
@@ -27,10 +31,19 @@ $monTabCourant = $obj;
 
 $monAdr = &$monTabCourant;
 
+// echo $keyElem;
 
+// foreach($monAdr as $key => $elem){
+//     echo $key."<br>";
+//     if($key == $keyElem){
+//         if(gettype($elem) != "array"){
+//             $monAdr[$elem] = $modifiedElem;
+//         }
+//     }
+// }
 
 for($i = 0;$i<count($tabModif);$i++){
-    if($i == count($tabModif)-1){
+    if($i == count($tabModif)-2){
         $monAdr[$tabModif[$i]] = $valueElem;
     }
     else{
