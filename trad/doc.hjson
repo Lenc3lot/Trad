@@ -1,224 +1,79 @@
 {
-  DefaultAttunement:
+  Abyss: Abysse Test
+  AstralInfection: Infection Astrale
+  AstralDesert: Désert Astral
+  AstralSnow: Toundra Astrale
+  BrimstoneCrags: Vestiges Soufrés
+  SulphurousSea: Mer Sulfureuse
+  SunkenSea: Mer Coulée
+  AbovegroundAstralBiome:
   {
-    Name: Clarté Pure
-    Function: Tire un faible projectile qui écrase les défenses ennemies
+    DisplayName: Infection Astrale
+    TownNPCDialogueName: Infection Astrale
   }
-  HotAttunement:
+  AbovegroundAstralBiomeSurface:
   {
-    Name: Grandeur Aride
-    Function:
-      '''
-      Maintenez <left> pour invoquer des lames brûlantes devant vous qui deviennent plus grandes et plus puissantes à mesure que vous touchez des ennemis
-      Les lames peuvent également vous faire rebondir sur les tuiles lorsque vous êtes en l'air
-      '''
+    DisplayName: Surface Astrale
+    TownNPCDialogueName: Infection Astrale
   }
-  ColdAttunement:
+  AbovegroundAstralDesertBiome:
   {
-    Name: Étreinte Mordante
-    Function: Effectuez une combinaison de 3 frappes avec une lame glaciale. La frappe finale gèle les ennemis pendant un bref instant
+    DisplayName: Désert Astral (Surface)
+    TownNPCDialogueName: Désert Astral
   }
-  TropicalAttunement:
+  AbovegroundAstralSnowBiome:
   {
-    Name: Toucher du Gardien de Bosquet
-    Function:
-      '''
-      Lancez la lame en utilisant un fouet de vigne
-      Frapper les ennemis avec le bout du fouet au moment où il se fend garantit un coup critique
-      Le fouet vous propulsera également vers les tuiles touchées
-      '''
+    DisplayName: Toundra Astrale (Surface)
+    TownNPCDialogueName: Toundra Astrale
   }
-  EvilAttunement:
+  AbyssLayer1Biome:
   {
-    Name: Réplique de Décadence
-    Function:
-      '''
-      Vous lance en avant en utilisant une projection de rapière fantomatique qui absorbe la vie lors des coups portés aux ennemis
-      Vous rebondirez sur les cibles touchées
-      '''
+    DisplayName: Profondeurs Sulfuriques
+    TownNPCDialogueName: Profondeurs Sulfuriques
   }
-  TrueDefaultAttunement:
+  AbyssLayer2Biome:
   {
-    Name: Clarté Pure
-    Function:
-      '''
-      Tire un faible projectile qui écrase les défenses ennemies
-      Lorsque vous portez des coups en vraie mêlée, un sigle de pureté est placé sur l'ennemi. Vos projectiles se dirigent vers les ennemis marqués
-      '''
+    DisplayName: Eaux Obscures
+    TownNPCDialogueName: Eaux Obscures
   }
-  TrueHotAttunement:
+  AbyssLayer3Biome:
   {
-    Name: Grandeur Aride
-    Function:
-      '''
-      Maintenez <left> pour invoquer des lames brûlantes devant vous qui deviennent plus grandes et plus puissantes à mesure que vous touchez des ennemis
-      Les lames peuvent également vous faire rebondir sur les tuiles lorsque vous êtes en l'air
-      Relâchez après que les lames soient complètement chargées pour les propulser en avant et déchiquetez vos ennemis
-      '''
+    DisplayName: Évents Thermiques
+    TownNPCDialogueName: Évents Thermiques
   }
-  TrueColdAttunement:
+  AbyssLayer4Biome:
   {
-    Name: Étreinte Mordante
-    Function:
-      '''
-      Effectuez une combinaison de 3 frappes avec une lame glaciale. La frappe finale gèle les ennemis pendant un bref instant
-      Une brume glaciale persistante est libérée à chaque coup, infligeant des dégâts aux ennemis qui s'y aventurent
-      '''
+    DisplayName: Le Vide
+    TownNPCDialogueName: Vide
   }
-  TrueTropicalAttunement:
+  AcidRainBiome:
   {
-    Name: Toucher du Gardien de Bosquet
-    Function:
-      '''
-      Lancez la lame en utilisant un fouet de vigne
-      Frapper les ennemis avec le bout du fouet au moment où il se fend garantit un coup critique
-      Le fouet vous propulsera également vers les tuiles touchées
-      Des vignes se propagent à partir des coups critiques. Ces vignes peuvent toucher jusqu'à trois cibles.
-      '''
+    DisplayName: Pluie Acide
+    TownNPCDialogueName: Pluie Acide
   }
-  TrueEvilAttunement:
+  ArsenalLabBiome:
   {
-    Name: Réplique de Décadence
-    Function:
-      '''
-      Vous lance en avant en utilisant une projection de rapière fantomatique qui absorbe la vie lors des coups portés aux ennemis
-      Vous rebondirez sur les cibles touchées
-      Effectuer trois frappes sans toucher le sol transforme votre prochaine attaque en une charge renforcée
-      '''
+    DisplayName: Labos d'Arsenal
+    TownNPCDialogueName: Labo d'Arsenal
   }
-  HolyAttunement:
+  BrimstoneCragsBiome:
   {
-    Name: Puissance Céleste
-    Function:
-      '''
-      Maintenez <left> pour faire tournoyer l'épée autour de vous de plus en plus vite
-      Relâchez pour projeter l'épée vers votre curseur. L'épée revient ensuite rapidement dans votre main
-      '''
+    DisplayName: Vestiges Soufrés
+    TownNPCDialogueName: Vestiges Soufrés
   }
-  AstralAttunement:
+  SulphurousSeaBiome:
   {
-    Name: Horreur Existancielle
-    Function:
-      '''
-      Maintenez <left> pour préparer une ruée transperçant les étoiles, relâchez pour déchaîner le coup dévastateur.
-      Frapper la terre avec la ruée provoquera un impact massif qui élèvera des monolithes surnaturels.
-      '''
+    DisplayName: Mer Sulfureuse
+    TownNPCDialogueName: Mer Sulfureuse
   }
-  MarineAttunement:
+  SunkenSeaBiome:
   {
-    Name: Geste aux Noyés
-    Function:
-      '''
-      Tire deux boules d'eau sur vos côtés. Au contact du sol, les boules d'eau se transformeront en petites vagues qui glisseront le long du sol
-      Les vagues tirées sous l'eau ou qui touchent l'eau deviendront beaucoup plus grandes et plus rapides
-      '''
+    DisplayName: Mer Coulée
+    TownNPCDialogueName: Mer Coulée
   }
-  WhirlwindAttunement:
+  UndergroundAstralBiome:
   {
-    Name: Fierté du Forgeron
-    Function:
-      '''
-      Maintenez <left> pour faire tournoyer l'épée autour de vous de plus en plus vite. Des rayons d'épée sont tirés de manière incontrôlée pendant la rotation. 
-      Relâchez pour projeter l'épée vers votre curseur. Les rayons d'épée se dirigent vers les ennemis touchés par l'épée lancée
-      '''
-    PassiveDesc: Toutes les attaques ont une chance de tirer des rayons d'épée
-  }
-  FlailBladeAttunement:
-  {
-    Name: Lamentations des Enchaînés
-    Function:
-      '''
-      Frappez avec une rafale de lames enchaînées. Frapper les ennemis avec la pointe des lames garantit un coup critique
-      Les coups critiques envoient des chaînes spectrales supplémentaires qui s'accrochent à plusieurs cibles.
-      '''
-    PassiveDesc: Un crochet enchanté flotte près de vous. Frapper les ennemis fait tourbillonner le crochet autour de vous, gelant les ennemis
-  }
-  SuperPogoAttunement:
-  {
-    Name: Fureur Sanguine
-    Function:
-      '''
-      Maintenez <left> pour invoquer des lames en fusion devant vous qui deviennent plus grandes et plus puissantes à mesure que vous touchez des ennemis
-      Les lames peuvent également vous faire rebondir sur les tuiles lorsque vous êtes en l'air
-      Relâchez pour envoyer les lames chargées en avant comme une roue
-      Attaquer immédiatement après effectue une ruée dans la même direction, déchiquetant tout sur son passage.
-      '''
-    PassiveDesc: Frapper les ennemis vole rarement une petite quantité de vie
-  }
-  ShockwaveAttunement:
-  {
-    Name: Marées Mercurielles
-    Function:
-      '''
-      Maintenez <left> pour charger une ruée déchirant le ciel, relâchez pour déchaîner le coup dévastateur
-       Des ondes de choc sont émises pendant que l'épée se charge
-      Frapper la terre avec la ruée provoquera une onde de choc massive à l'impact, qui élèvera un flot de monolithes
-      '''
-    PassiveDesc: Émet périodiquement des ondes de choc en attaquant
-  }
-  PhoenixAttunement:
-  {
-    Name: Fierté du Phénix
-    Function:
-      '''
-      <left> pour faire tournoyer Galaxia autour de vous de plus en plus vite
-      La nébuleuse tourbillonnante émet constamment des décharges cosmiques traqueuses
-      Relâchez pour lancer Galaxia vers le curseur en même temps que 6 énormes décharges cosmiques
-      '''
-    PassiveName: Bénédiction du Capricorne
-    PassiveDesc:
-      '''
-      Libère périodiquement un anneau d'étoiles affaiblissantes autour de vous lorsque vous attaquez
-      L'anneau est d'abord attiré vers vous, avant de ralentir avec le temps
-      '''
-  }
-  AriesAttunement:
-  {
-    Name: Colère du Bélier
-    Function:
-      '''
-      Lancez Galaxia vers votre curseur, qui se maintient en place avec des constellations
-      Galaxia suit votre curseur, tournant rapidement pour déchiqueter les ennemis
-      Frapper les ennemis provoque des explosions nébuleuses qui font apparaître des décharges cosmiques traqueuses
-      '''
-    PassiveName: Bénédiction du Capricorne
-    PassiveDesc:
-      '''
-      Libère périodiquement un anneau d'étoiles affaiblissantes autour de vous lorsque vous attaquez
-      L'anneau est d'abord attiré vers vous, avant de ralentir avec le temps
-      '''
-  }
-  PolarisAttunement:
-  {
-    Name: Regard de Polaris
-    Function:
-      '''
-      Maintenez <left> pour canaliser le pouvoir de Galaxia dans un vortex serré d'énergies galactiques
-      Le vortex se renforce avec le temps et en frappant les ennemis
-      Relâchez pour lancer l'étoile chargée en ligne droite
-      Appuyez immédiatement à nouveau sur <left> pour foncer vers l'étoile et libérer des décharges cosmiques
-      '''
-    PassiveName: Bénédiction du Cancer
-    PassiveDesc:
-      '''
-      Libère périodiquement un anneau d'étoiles vampiriques autour de vous lorsque vous attaquez
-      L'anneau est d'abord attiré vers vous, avant de ralentir avec le temps
-      '''
-  }
-  AndromedaAttunement:
-  {
-    Name: Foulée d'Andromède
-    Function:
-      '''
-      Maintenez <left> pour charger une ruée déicide, relâchez pour déchaîner le coup dévastateur.
-      Galaxia émet des décharges cosmiques pendant la charge.
-      Frapper le sol avec la ruée provoquera une onde de choc qui invoque une tempête d'énergies cosmiques.
-      '''
-    PassiveName: Bénédiction du Cancer
-    PassiveDesc:
-      '''
-      Libère périodiquement un anneau d'étoiles vampiriques autour de vous lorsque vous attaquez
-      L'anneau est d'abord attiré vers vous, avant de ralentir avec le temps
-      '''
+    DisplayName: Souterrain Astral
+    TownNPCDialogueName: Souterrain Astral
   }
 }

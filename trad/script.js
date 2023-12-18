@@ -87,7 +87,7 @@ function afficherDATA(data, monInput, typeFREN,param = " ") {
                 monLITextAreaLvl0.innerHTML = value;
                 monLITextAreaLvl0.style.width = "500px";
                 monLITextAreaLvl0.style.height = "5em";
-                monLITextAreaLvl0.setAttribute("onchange", "gloobibigler(this)");
+                monLITextAreaLvl0.setAttribute("onchange", "sendModifAndLogs(this)");
 
                 let limitsize = value.length;
                 monLITextAreaLvl0.setAttribute("maxlength", limitsize * 2);
@@ -116,7 +116,7 @@ function afficherDATA(data, monInput, typeFREN,param = " ") {
                     monLITextAreaLvl1.style.height = "5em";
 
                     //Ajout fonction onchange pour récupérer la modification de l'élément
-                    monLITextAreaLvl1.setAttribute("onchange", "gloobibigler(this)");
+                    monLITextAreaLvl1.setAttribute("onchange", "sendModifAndLogs(this)");
 
                     //Description chargée depuis le fichier dans la textarea
                     monLITextAreaLvl1.innerHTML = value2;
@@ -196,7 +196,7 @@ function afficherValues(Input) {
 
 }
 
-function gloobibigler(Elem) {
+function sendModifAndLogs(Elem) {
     console.log("tab : " + Elem.getAttribute("data-tab"));
     console.log("elem : " + Elem.getAttribute("data-elem"));
     console.log("key : " + Elem.getAttribute("data-key"));

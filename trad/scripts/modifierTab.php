@@ -8,18 +8,12 @@ $option = ['keepWsc' => false, 'assoc' => true];
 $parser = new HJSONParser();
 $stringifierHJSON = new HJSONStringifier;
 
-// $fileEN = ".".$_POST["file"];
-$fileEN = "../doc.hjson";
-// $modifiedElem = $_POST["modifiedElement"];
-// $keyElem = $_POST["keyElem"];
-// $valueElem = $_POST["valueElem"];
-
-$modifiedElem = "Name";
-$keyElem = "DefaultAttunement";
-$valueElem = "CA MARCHE";
+$fileEN = ".".$_POST["file"];
+$modifiedElem = $_POST["modifiedElement"];
+$keyElem = $_POST["keyElem"];
+$valueElem = $_POST["valueElem"];
 
 $monAttribut = $keyElem.".".$modifiedElem;
-// echo $monAttribut;
 
 //recup fichier EN + parse
 $data = file_get_contents($fileEN);
@@ -31,27 +25,27 @@ $monTabCourant = $obj;
 
 $monAdr = &$monTabCourant;
 
-// echo $keyElem;
-
-// foreach($monAdr as $key => $elem){
-//     echo $key."<br>";
-//     if($key == $keyElem){
-//         if(gettype($elem) != "array"){
-//             $monAdr[$elem] = $modifiedElem;
-//         }
-//     }
-// }
-
-for($i = 0;$i<count($tabModif);$i++){
-    if($i == count($tabModif)-2){
-        $monAdr[$tabModif[$i]] = $valueElem;
+foreach ($monAdr as $key => $value) {
+    if($key == "CalamityConfig"){
+        foreach($value as $keyConfig => $valueCfg){
+            echo($valueCfg);
+        }
     }
-    else{
-        $monAdr = &$monAdr[$tabModif[$i]];
+    if($key == $keyElem){
+        if(gettype($value)=="array"){
+            foreach ($value as $key2 => $value2) {
+                if($key2 == $tabModif[1]){
+                    echo $monAdr[$key][$tabModif[1]];
+                    $monAdr[$key][$tabModif[1]] = $valueElem;
+                }
+            }
+        }else{
+            $monAdr[$tabModif[1]] = $valueElem;
+        }
     }
 }
 
 $text = $stringifierHJSON->stringify($monTabCourant);
 
-$retourtest = "../doc.hjson";
-file_put_contents($retourtest,$text);
+// $retourtest = "../doc.hjson";
+file_put_contents($fileEN,$text);
