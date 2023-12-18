@@ -33,7 +33,7 @@ btnDeco.addEventListener("click", function (e) {
 //     })
 // }
 
-function afficherDATA(data, monInput, typeFREN) {
+function afficherDATA(data, monInput, typeFREN,param = " ") {
     let recup = data
     let entries = Object.entries(recup);
     let filePath = monInput.getAttribute(typeFREN);
@@ -79,7 +79,10 @@ function afficherDATA(data, monInput, typeFREN) {
                 let monLILvl0 = document.createElement("LI");
                 let monLITextAreaLvl0 = document.createElement("textarea");
                 monLITextAreaLvl0.setAttribute("data-elem", key);
+                monLITextAreaLvl0.setAttribute(param,true);
                 monLITextAreaLvl0.innerHTML = value;
+                monLITextAreaLvl0.style.width = "500px";
+                monLITextAreaLvl0.style.height = "5em";
                 let limitsize = value.length;
                 monLITextAreaLvl0.setAttribute("maxlength", limitsize * 2);
                 monLILvl0.appendChild(monLITextAreaLvl0);
@@ -102,6 +105,9 @@ function afficherDATA(data, monInput, typeFREN) {
                     monLITextAreaLvl1.setAttribute("data-elem", key2);
                     monLITextAreaLvl1.setAttribute("data-key", key);
                     monLITextAreaLvl1.setAttribute("data-tab", filePath)
+                    monLITextAreaLvl1.setAttribute(param,true);
+                    monLITextAreaLvl1.style.width = "500px";
+                    monLITextAreaLvl1.style.height = "5em";
 
                     //Ajout fonction onchange pour récupérer la modification de l'élément
                     monLITextAreaLvl1.setAttribute("onchange", "gloobibigler(this)");
@@ -136,6 +142,10 @@ function afficherValues(Input) {
     Input.setAttribute("onclick","");
     let filePath = Input.getAttribute("data-tabFR");
     let ENfilePath = Input.getAttribute("data-tab");
+
+    let monTableau = document.createElement("table");
+    
+
     //On récupère le path du fichier et le nom de la propriété à modifier 
     $.ajax({
         url: "http://localhost/Trad/trad/recupTab.php",
@@ -143,17 +153,31 @@ function afficherValues(Input) {
         data: "monFichier=" + filePath,
         dataType: "json",
         success: function (data, statut) {
+            let titreFR = document.createElement("h2");
+            titreFR.innerHTML = "Elem FR";
+            doc.appendChild(titreFR);
 
-            afficherDATA(data, Input, "data-tabFR");
+            // let monTR = document.createElement("tr");
+            // let monTDFR = document.createElement("td"); 
+            afficherDATA(data, Input, "data-tabFR", "none");
+            // console.log(monTDFR);
+            // monTR.appendChild(monTDFR);
+            
             $.ajax({
                 url: "http://localhost/Trad/trad/recupTab.php",
                 type: "post",
                 data: "monFichier=" + ENfilePath,
                 dataType: "json",
                 success: function (data, statut) {
-                    afficherDATA(data, Input, "data-tab");
+                    let titreEN = document.createElement("h2");
+                    titreEN.innerHTML = "Elem EN";
+                    doc.appendChild(titreEN);
+                    // let monTDEN = document.createElement("td"); 
+                    afficherDATA(data, Input, "data-tab","readonly");
+                    // monTR.appendChild(monTDEN);
                 }
             });
+            // monTableau.appendChild(monTR);
         },
         error: function (data, result, statut) {
             console.log(result);
@@ -162,6 +186,7 @@ function afficherValues(Input) {
         }
     })
 
+    // doc.appendChild(monTableau);
 
 }
 
