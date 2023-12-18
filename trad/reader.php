@@ -62,6 +62,8 @@ function parcoursElementSpe($unTab)
     return $tableauRacine;
 }
 
+$option = ['keepWsc' => false, 'assoc' => true];
+$parser = new HJSONParser();
 // $nbElem = parcourElement($obj, " ");
 ?>
 
@@ -107,8 +109,21 @@ function parcoursElementSpe($unTab)
 
             foreach ($dir as $fileinfo) {
                 $nomfichier = explode("_", $fileinfo);
+                $pathFichier = "./outputFR/".$fileinfo;
+
+                $contenuFichier = file_get_contents($pathFichier);
+                $obj = $parser->parse($contenuFichier, $option);
+                $nbItems = 0;
+
+                if($pathFichier != "./outputFR/fr-FR_Mods.CalamityMod.Configs.hjson"){
+                    $nbItems = parcoursElementSpe($obj);
+                }else{
+                    $nbItems = parcourElement($obj,"");
+                }
+
+
                 if ($nomfichier[1] != "") {
-                    echo "<option data-path='" . $nomfichier[1] . "'  value='" . $nomfichier[1] . "'>" . $nomfichier[1] ." </option>";
+                    echo "<option data-path='" . $nomfichier[1] . "'  value='" . $nomfichier[1] . "'>" . $nomfichier[1] . " 0 / " . count($nbItems) ." </option>";
                 }
             }
             ?>
@@ -126,8 +141,7 @@ function parcoursElementSpe($unTab)
 
     if (isset($fileEN) && isset($fileFR) && isset($_POST["nomFichier"])) {
         //Préparation des options + parser pour HJSON
-        $option = ['keepWsc' => false, 'assoc' => true];
-        $parser = new HJSONParser();
+        
 
         //recup fichier EN + parse
         $data = file_get_contents($fileEN);
@@ -142,7 +156,7 @@ function parcoursElementSpe($unTab)
             <?php
             // AFFICHAGE DES ELEMENTS 
             if ($fileEN == "./base1311/Mods.CalamityMod.Configs.hjson") {
-                $listeElements = parcoursElementSpe($obj, " ");
+                $listeElements = parcoursElementSpe($obj);
                 echo "<ul>";
                 foreach ($listeElements as $elem) {
                     echo "<li onclick='afficherValues(this)' data-tab='". $fileEN . "' data-tabFR='".$fileFR."' value='". $elem."' id='". $elem ."'>" . $elem . "</li>";
