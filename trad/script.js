@@ -38,8 +38,6 @@ function afficherDATA(data, monInput, typeFREN) {
     let entries = Object.entries(recup);
     let filePath = monInput.getAttribute(typeFREN);
     let currentObj = monInput.getAttribute("value");
-    
-    console.log(currentObj);
 
     let monUl = document.createElement("ul");
     //Blagounette, ca renvoie un objet le parser HJSON
@@ -133,7 +131,9 @@ function afficherDATA(data, monInput, typeFREN) {
 
 function afficherValues(Input) {
     let doc = document.getElementById(Input.getAttribute("id"));
+    console.log(doc.innerHTML); 
     doc.innerHTML = "<li>"+Input.getAttribute("id")+"</li>";
+    Input.setAttribute("onclick","");
     let filePath = Input.getAttribute("data-tabFR");
     let ENfilePath = Input.getAttribute("data-tab");
     //On récupère le path du fichier et le nom de la propriété à modifier 

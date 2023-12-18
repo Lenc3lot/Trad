@@ -62,7 +62,7 @@ function parcoursElementSpe($unTab)
     return $tableauRacine;
 }
 
-
+// $nbElem = parcourElement($obj, " ");
 ?>
 
 <!DOCTYPE html>
@@ -108,7 +108,7 @@ function parcoursElementSpe($unTab)
             foreach ($dir as $fileinfo) {
                 $nomfichier = explode("_", $fileinfo);
                 if ($nomfichier[1] != "") {
-                    echo "<option data-path='" . $nomfichier[1] . "'  value='" . $nomfichier[1] . "'>" . $nomfichier[1] . " </option>";
+                    echo "<option data-path='" . $nomfichier[1] . "'  value='" . $nomfichier[1] . "'>" . $nomfichier[1] ." </option>";
                 }
             }
             ?>
