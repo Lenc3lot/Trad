@@ -1,11 +1,1 @@
-[
-    {
-        "user": "Rox4",
-        "date": "2023-12-16 10:32:36",
-        "tabElem": ".\/base1311\/Mods.CalamityMod.Attunement.hjson",
-        "keyElem": "DefaultAttunement",
-        "elem": "Name",
-        "oldValueElem": "Pure Clarity",
-        "newValueElem": "Cookie clicker"
-    }
-]
+[{"user":"Rox4","date":"2023-12-18 10:29:43","tabElem":".\/outputFR\/fr-FR_Mods.CalamityMod.Biomes.hjson","keyElem":"Abyss","elem":"Abyss","oldValueElem":"Abysse","newValueElem":"Abysse Abbys"}]

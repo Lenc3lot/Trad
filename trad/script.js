@@ -79,10 +79,16 @@ function afficherDATA(data, monInput, typeFREN,param = " ") {
                 let monLILvl0 = document.createElement("LI");
                 let monLITextAreaLvl0 = document.createElement("textarea");
                 monLITextAreaLvl0.setAttribute("data-elem", key);
+                monLITextAreaLvl0.setAttribute("data-tab", filePath);
+                monLITextAreaLvl0.setAttribute("data-key", key);
+
+
                 monLITextAreaLvl0.setAttribute(param,true);
                 monLITextAreaLvl0.innerHTML = value;
                 monLITextAreaLvl0.style.width = "500px";
                 monLITextAreaLvl0.style.height = "5em";
+                monLITextAreaLvl0.setAttribute("onchange", "gloobibigler(this)");
+
                 let limitsize = value.length;
                 monLITextAreaLvl0.setAttribute("maxlength", limitsize * 2);
                 monLILvl0.appendChild(monLITextAreaLvl0);
@@ -195,13 +201,20 @@ function gloobibigler(Elem) {
     console.log("elem : " + Elem.getAttribute("data-elem"));
     console.log("key : " + Elem.getAttribute("data-key"));
     console.log("value : " + Elem.value)
-    // $.ajax({
-    //     url : "https://localhost/Trad/trad/scripts/logModifsUser.php",
-    //     type: "post",
-    //     data: "tabElem="+Elem.getAttribute("data-tab")+"&elem="+Elem.getAttribute("data-elem")+"&keyElem="+Elem.getAttribute("data-key")+"&valueElem="+Elem.value+"&oldValueElem="+Elem.innerHTML,
-    // });
-    // $.ajax({
-    //     url:"https://localhost/Trad/trad/scripts/modifierTab.php"
-    // })
-
+    $.ajax({
+        url : "http://localhost/Trad/trad/scripts/logModifsUser.php",
+        type: "post",
+        data: "tabElem="+Elem.getAttribute("data-tab")+"&elem="+Elem.getAttribute("data-elem")+"&keyElem="+Elem.getAttribute("data-key")+"&valueElem="+Elem.value+"&oldValueElem="+Elem.innerHTML,
+    });
+    $.ajax({
+        url:"http://localhost/Trad/trad/scripts/modifierTab.php",
+        type:"post",
+        data:"file="+Elem.getAttribute("data-tab")+"&keyElem="+Elem.getAttribute("data-key")+"&modifiedElement="+Elem.getAttribute("data-elem")+"&valueElem="+Elem.value,
+        success :function(data,statut){
+            console.log("DONE! ")
+        },
+        error: function(data,statut){
+            console.log(data)
+        }
+    })
 }

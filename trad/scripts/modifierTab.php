@@ -8,10 +8,11 @@ $option = ['keepWsc' => false, 'assoc' => true];
 $parser = new HJSONParser();
 $stringifierHJSON = new HJSONStringifier;
 
+// $fileEN = ".".$_POST["file"];
 $fileEN = "../doc.hjson";
-$modifiedElem = "Function";
-$keyElem = "HotAttunement";
-$valueElem = "CA MARCHE";
+$modifiedElem = $_POST["modifiedElement"];
+$keyElem = $_POST["keyElem"];
+$valueElem = $_POST["valueElem"];
 
 $monAttribut = $keyElem.".".$modifiedElem;
 // echo $monAttribut;
@@ -22,18 +23,20 @@ $obj = $parser->parse($data, $option);
 
 $tabModif = explode(".",$monAttribut);
 
-    $monTabCourant = $obj;
+$monTabCourant = $obj;
 
-    $monAdr = &$monTabCourant;
+$monAdr = &$monTabCourant;
 
-    for($i = 0;$i<count($tabModif);$i++){
-        if($i == count($tabModif)-1){
-            $monAdr[$tabModif[$i]] = $valueElem;
-        }
-        else{
-            $monAdr = &$monAdr[$tabModif[$i]];
-        }
+
+
+for($i = 0;$i<count($tabModif);$i++){
+    if($i == count($tabModif)-1){
+        $monAdr[$tabModif[$i]] = $valueElem;
     }
+    else{
+        $monAdr = &$monAdr[$tabModif[$i]];
+    }
+}
 
 $text = $stringifierHJSON->stringify($monTabCourant);
 
