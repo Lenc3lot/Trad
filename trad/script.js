@@ -14,25 +14,6 @@ btnDeco.addEventListener("click", function (e) {
     })
 })
 
-// function sendData(monInput) {
-//     let monAttribut = monInput.getAttribute('data-id');
-//     let contenu = monInput.value;
-//     $.ajax({
-//         url: "http://localhost/Trad/trad/CopierDonnee.php",
-//         type: "post",
-//         data: "monAttribut=" + monAttribut + "&contenu=" + contenu,
-//         success: function (data, statut) {
-
-//         },
-//         error: function (data, result, statut) {
-
-//         },
-//         complete: function (data, statut) {
-//         }
-
-//     })
-// }
-
 function afficherDATA(data, monInput, typeFREN,param = " ") {
     let recup = data
     let entries = Object.entries(recup);
@@ -81,7 +62,6 @@ function afficherDATA(data, monInput, typeFREN,param = " ") {
                 monLITextAreaLvl0.setAttribute("data-elem", key);
                 monLITextAreaLvl0.setAttribute("data-tab", filePath);
                 monLITextAreaLvl0.setAttribute("data-key", key);
-
 
                 monLITextAreaLvl0.setAttribute(param,true);
                 monLITextAreaLvl0.innerHTML = value;
@@ -147,10 +127,7 @@ function afficherValues(Input) {
     doc.innerHTML = "<li>"+Input.getAttribute("id")+"</li>";
     Input.setAttribute("onclick","");
     let filePath = Input.getAttribute("data-tabFR");
-    let ENfilePath = Input.getAttribute("data-tab");
-
-    let monTableau = document.createElement("table");
-    
+    let ENfilePath = Input.getAttribute("data-tab");    
 
     //On récupère le path du fichier et le nom de la propriété à modifier 
     $.ajax({
@@ -162,13 +139,7 @@ function afficherValues(Input) {
             let titreFR = document.createElement("h2");
             titreFR.innerHTML = "Elem FR";
             doc.appendChild(titreFR);
-
-            // let monTR = document.createElement("tr");
-            // let monTDFR = document.createElement("td"); 
             afficherDATA(data, Input, "data-tabFR", "none");
-            // console.log(monTDFR);
-            // monTR.appendChild(monTDFR);
-            
             $.ajax({
                 url: "http://localhost/Trad/trad/recupTab.php",
                 type: "post",
@@ -177,13 +148,10 @@ function afficherValues(Input) {
                 success: function (data, statut) {
                     let titreEN = document.createElement("h2");
                     titreEN.innerHTML = "Elem EN";
-                    doc.appendChild(titreEN);
-                    // let monTDEN = document.createElement("td"); 
+                    doc.appendChild(titreEN); 
                     afficherDATA(data, Input, "data-tab","readonly");
-                    // monTR.appendChild(monTDEN);
                 }
             });
-            // monTableau.appendChild(monTR);
         },
         error: function (data, result, statut) {
             console.log(result);
@@ -191,21 +159,22 @@ function afficherValues(Input) {
         complete: function (data, statut) {
         }
     })
-
-    // doc.appendChild(monTableau);
-
 }
 
 function sendModifAndLogs(Elem) {
+    //Elem = élément courant qu'on modifie
     console.log("tab : " + Elem.getAttribute("data-tab"));
     console.log("elem : " + Elem.getAttribute("data-elem"));
     console.log("key : " + Elem.getAttribute("data-key"));
     console.log("value : " + Elem.value)
+    // MaJ des logs 
     $.ajax({
+    
         url : "http://localhost/Trad/trad/scripts/logModifsUser.php",
         type: "post",
         data: "tabElem="+Elem.getAttribute("data-tab")+"&elem="+Elem.getAttribute("data-elem")+"&keyElem="+Elem.getAttribute("data-key")+"&valueElem="+Elem.value+"&oldValueElem="+Elem.innerHTML,
     });
+    // MaJ du fichier qui a été modifié
     $.ajax({
         url:"http://localhost/Trad/trad/scripts/modifierTab.php",
         type:"post",
